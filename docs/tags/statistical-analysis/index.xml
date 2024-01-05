@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>statistical analysis on KonFound-It!</title>
+    <link>https://konfound-project.github.io/tags/statistical-analysis/</link>
+    <description>Recent content in statistical analysis on KonFound-It!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://konfound-project.github.io/tags/statistical-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome!</title>
+      <link>https://konfound-project.github.io/post/2020-05-14-welcome/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/post/2020-05-14-welcome/</guid>
+      <description>Welcome to our space about sensitivity analysis. All of the assumptions of statistical analysis rarely hold. So the challenge for the pragmatist is to understand when evidence is strong enough to support action. That&amp;rsquo;s where sensitivity analysis comes in—so we can understand how robust our inferences are to challenges to our assumptions. One example is a statement such as:&#xA;XX% of the estimated effect would have to be due to bias to change your inference about the effect.</description>
+    </item>
+    <item>
+      <title>Why is robustness important for emerging COVID-19 studies?</title>
+      <link>https://konfound-project.github.io/post/2020-05-12-why-robustness/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/post/2020-05-12-why-robustness/</guid>
+      <description>As those who work in public policy and health, we seek to help a broad range of people, with a broad range of statistical backgrounds, interpret uncertainty about public health findings regarding COVID-19. We observe that currently, there is little common language for expressing uncertainty. Consider Anthony Fauci&amp;rsquo;s quote (as in Healio on April 29):&#xA;The trial, which began Feb. 21 this year, compared remdesivir with placebo in more than 1,000 patients.</description>
+    </item>
+    <item>
+      <title>A 15-minute talk</title>
+      <link>https://konfound-project.github.io/post/2020-05-01-presentation/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/post/2020-05-01-presentation/</guid>
+      <description>I summarized our current thinking on how robustness analysis can be applied to emerging COVID research in a brief presentation at an online conference entitled &amp;ldquo;COVID-19 and Public Policy and Management.&amp;rdquo; The conference was hosted by the Center on Technology, Data, and Society at Arizona State University, and a recording of the 15-minute talk, entitled &amp;ldquo;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates&amp;rdquo;, is available here.&#xA;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates </description>
+    </item>
+  </channel>
+</rss>

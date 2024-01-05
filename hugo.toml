@@ -2,6 +2,7 @@ baseurl = "https://konfound-project.github.io"
 DefaultContentLanguage = "en"
 title = "KonFound-It!"
 theme = "beautifulhugo"
+publishDir = "docs"
 
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
@@ -51,7 +52,7 @@ pygmentsCodefencesGuessSyntax = true
 #  Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
 #  name = "Some Person"
   website = "konfound-it.org"
-  email = "youremail@domain.com"
+#  email = "youremail@domain.com"
   github = "konfound-project"
   r-shiny = "konfound-it"
   r-package = "konfound"

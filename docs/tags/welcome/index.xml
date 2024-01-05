@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>welcome on KonFound-It!</title>
+    <link>https://konfound-project.github.io/tags/welcome/</link>
+    <description>Recent content in welcome on KonFound-It!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://konfound-project.github.io/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome!</title>
+      <link>https://konfound-project.github.io/post/2020-05-14-welcome/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/post/2020-05-14-welcome/</guid>
+      <description>Welcome to our space about sensitivity analysis. All of the assumptions of statistical analysis rarely hold. So the challenge for the pragmatist is to understand when evidence is strong enough to support action. That&amp;rsquo;s where sensitivity analysis comes in—so we can understand how robust our inferences are to challenges to our assumptions. One example is a statement such as:&#xA;XX% of the estimated effect would have to be due to bias to change your inference about the effect.</description>
+    </item>
+  </channel>
+</rss>

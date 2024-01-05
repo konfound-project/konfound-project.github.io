@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on KonFound-It!</title>
+    <link>https://konfound-project.github.io/page/</link>
+    <description>Recent content in Pages on KonFound-It!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://konfound-project.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FAQs</title>
+      <link>https://konfound-project.github.io/page/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/faq/</guid>
+      <description>by Kenneth A. Frank, Qinyun Lin, Ran Xu, Spiro Maroulis, Guan Saw, Josh Rosenberg&#xA;Last updated: 8/13/2023&#xA;Introduction This document addresses some frequently asked questions regarding the KonFound. See the appendices for background readings and software. For quick reference, see:&#xA;Overview of all KonFound commands Main introductory slides for combined frameworks Background There are two basic frameworks for sensitivity analysis employed within KonFound. First is the Impact Threshold for a Confounding Variable (ITCV) – Frank (2000).</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>https://konfound-project.github.io/page/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/publications/</guid>
+      <description>Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. Sociological Methods and Research, 29(2), 147-194. PDF | Web&#xA;Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., &amp;amp; Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. Journal of Clinical Epidemiology, 134, 150-159.</description>
+    </item>
+    <item>
+      <title>Resource Overview</title>
+      <link>https://konfound-project.github.io/page/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/resources/</guid>
+      <description>Explanatory Resources FAQ Overview of pkonfound commands Quick examples Powerpoint quantifying the robustness of causal inferences combined frameworks Powerpoint for comparison of frameworks Additional Resources for Publication Published empirical examples Spreadsheet for calculating indices (KonFound-it!) Publications: Impact Threshold for a Confounding Variable Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. Sociological Methods and Research, 29(2), 147-194. PDF | Web Frank, K. A., Sykes, G.</description>
+    </item>
+    <item>
+      <title>Workshops</title>
+      <link>https://konfound-project.github.io/page/workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/workshops/</guid>
+      <description>Upcoming Workshops More to be announced soon.&#xA;Past Workshops ASA Workshop Title February 18, 2021, American Statistical Association Conference on Statistical Practice (CSP2021)&#xA;[Video Here]&#xA;ASA Workshop Title August 10, 2020, American Sociological Association&#xA;[Video Here]&#xA;Communicating the Robustness of COVID-19 Studies May 1, 2020, AERA Virtual Research Learning Series</description>
+    </item>
+  </channel>
+</rss>

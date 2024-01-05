@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+      <title>FAQs - KonFound-It!</title>
+
+  <meta name="description" content="Frequently Asked Questions About the Application of KonFound-It for Sensitivity Analysis"><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "KonFound-It!",
+    
+    "url": "https:\/\/konfound-project.github.io"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/konfound-project.github.io"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/konfound-project.github.io",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/konfound-project.github.io\/page\/faq\/",
+          "name": "Faqs"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : ""
+  },
+  "headline": "FAQs",
+  "description" : "by Kenneth A. Frank, Qinyun Lin, Ran Xu, Spiro Maroulis, Guan Saw, Josh Rosenberg\nLast updated: 8\/13\/2023\nIntroduction This document addresses some frequently asked questions regarding the KonFound. See the appendices for background readings and software. For quick reference, see:\nOverview of all KonFound commands Main introductory slides for combined frameworks Background There are two basic frameworks for sensitivity analysis employed within KonFound. First is the Impact Threshold for a Confounding Variable (ITCV) – Frank (2000).",
+  "inLanguage" : "en",
+  "wordCount":  2974 ,
+  "datePublished" : "0001-01-01T00:00:00",
+  "dateModified" : "0001-01-01T00:00:00",
+  "image" : "https:\/\/konfound-project.github.io\/img\/konfound-logo.png",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "https:\/\/konfound-project.github.io\/page\/faq\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/konfound-project.github.io",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/konfound-project.github.io\/img\/konfound-logo.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="FAQs" />
+<meta property="og:description" content="Frequently Asked Questions About the Application of KonFound-It for Sensitivity Analysis">
+<meta property="og:image" content="https://konfound-project.github.io/img/konfound-logo.png" />
+<meta property="og:url" content="https://konfound-project.github.io/page/faq/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="KonFound-It!" />
+
+  <meta name="twitter:title" content="FAQs" />
+  <meta name="twitter:description" content="Frequently Asked Questions About the Application of KonFound-It for Sensitivity Analysis">
+  <meta name="twitter:image" content="https://konfound-project.github.io/img/konfound-logo.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='https://konfound-project.github.io/img/konfound-logo.png' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.121.1">
+  <link rel="alternate" href="https://konfound-project.github.io/index.xml" type="application/rss+xml" title="KonFound-It!"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="https://konfound-project.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://konfound-project.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://konfound-project.github.io/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://konfound-project.github.io">KonFound-It!</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Home" href="/">Home</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Tools</a>
+              <div class="navlinks-children">
+                
+                  <a href="https://konfound-project.shinyapps.io/konfound-it/">Shiny App</a>
+                
+                  <a href="https://CRAN.R-project.org/package=konfound">R Package</a>
+                
+                  <a href="https://doi.org/10.1177/1536867X19874223">Stata Package</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Support</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/faq">FAQ</a>
+                
+                  <a href="/page/resources">Resource Overview</a>
+                
+                  <a href="/page/publications">Publications</a>
+                
+                  <a href="/page/workshops">Workshops</a>
+                
+                  <a href="/">Blog</a>
+                
+                  <a href="/page/">User Guide</a>
+                
+                  <a href="/page/">Forum</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/about/">About</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="KonFound-It!" href="https://konfound-project.github.io">
+            <img class="avatar-img" src="https://konfound-project.github.io/img/konfound-logo.png" alt="KonFound-It!" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              
+                <h1>FAQs</h1>
+              
+              
+                <hr class="small">
+              
+              
+                
+                  <span class="page-subheading">Frequently Asked Questions About the Application of KonFound-It for Sensitivity Analysis</span>
+                
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>by Kenneth A. Frank, Qinyun Lin, Ran Xu, Spiro Maroulis, Guan Saw, Josh Rosenberg</p>
+<p><em>Last updated: 8/13/2023</em></p>
+<hr>
+<h2 id="introduction">Introduction</h2>
+<p>This document addresses some frequently asked questions regarding the KonFound. See the appendices for background readings and software. For quick reference, see:</p>
+<ul>
+<li><a href="https://www.dropbox.com/s/33zkk861g04hocf/Overview%20of%20KonFound%20commands%20with%20inputs%20and%20outputs.docx?dl=0">Overview of all KonFound commands</a></li>
+<li><a href="https://www.dropbox.com/scl/fi/jfhwfuim4d001usup81c8/quantifying-the-robustness-of-causal-inferences-combined-frameworks-for-stat-horizons-July-23.pptx?rlkey=32srefdir2q6r9pq5998i1q1b&amp;dl=0">Main introductory slides for combined frameworks</a></li>
+</ul>
+<hr>
+<h2 id="background">Background</h2>
+<p>There are two basic frameworks for sensitivity analysis employed within KonFound.  First is the Impact Threshold for a Confounding Variable (ITCV) – Frank (2000).  This generates statements such as “To invalidate an inference an omitted variable would have to be correlated at __ with the predictor of interest and with the outcome.” The second is the Robustness of Inference to Replacement (RIR) – Frank et al., 2013, 2021).  The RIR generates statements such as “To invalidate the inference __% of the estimated effect would have to be due to bias.  That is, to invalidate the inference one would expect to have to replace __% of the cases with cases for which the predictor of interest had no effect on the outcome.” Overviews of the techniques can be found in Frank et al., (2023) or Xu et al (2019). The ITCV is intended for linear models, expressing sensitivity in terms of correlations.  The RIR is essentially non-parametric and can generally be adapted to a broader range of models.</p>
+<h3 id="different-modelsestimation-methods">Different Models/Estimation Methods</h3>
+<p>Both the ITCV and RIR have been presented with fairly conventional and simple linear models. Therefore, we consider how the techniques might be adapted to other types of models.</p>
+<h3 id="weighted-least-squares">Weighted Least Squares</h3>
+<p><a href="https://www.dropbox.com/scl/fi/uzliqbhkg77btv09yomt1/robustness-of-inference-to-replacement-for-weighted-data.pptx?rlkey=09x0if4wifo3oluumfpem7rx7&amp;dl=0">
+  <i class="fas fa-images "></i>
+
+ Slides</a></p>
+<p>There are several models that can be estimated using weighted least squares.  These include proportional weighting (weights inversely proportional to the propensity for treatment), multilevel models (weighted inversely proportional to the sampling variability) and meta-analysis.</p>
+<p><strong>Recommendation:</strong> RIR</p>
+<p><strong>Conceptualization:</strong> Replacing each weighted case with a case of comparable weight for which there is no effect of the predictor on the outcome.  For example, one conceptualizes replacing a school with a weight of three with a school also with weight three but for which there is no effect of the school level factor on the outcome (for multilevel models one can also conceptualize replacing only some of the level 1 data to make the estimated effect in a particular unit equal to zero – Nicole Ellefson).</p>
+<p><strong>Assumptions:</strong> the weights assigned to each case do not change as a result of the replacement process.</p>
+<p><strong>Interpretation:</strong> The RIR essentially indicates the total weight of cases that must be replaced to invalidate an inference.  One might consider normalizing the weights by dividing by the mean weight:</p>
+<p>.  As a result,  and the sample size is preserved.  For example, the weights in a multilevel model are defined by   where τ is the level 2 random effect and vj is the sampling variability for a particular unit. Then one could construct w* to preserve the overall number of level two units. Note the assumption is that τand vj would not change with other changes in the data or model (e.g., if omitted variables were added to the model).
+For a ITCV-like approach, see: Hong, G., Yang, F., &amp; Qin, X. (2021). Did you conduct a sensitivity analysis? A new weighting‐based approach for evaluations of the average treatment effect for the treated. Journal of the Royal Statistical Society: Series A (Statistics in Society).</p>
+<h3 id="multinomial-models">Multinomial Models</h3>
+<p>There is currently no module specifically designated for multinomial outcomes.  But a multinomial model can be relativeley efficiently estimated through a series of independent logistic regressions (Begg and Gray, 1984).  For example, if the outcome takes values 1,2,3 then one can model 1 vs 2&amp;3.  Or one can model 3 vs 1&amp;2.  One could also have a series of nested models.  For example, one could model 1 vs 2&amp;3 and then 2 vs 3 (omitting those in the 1 category in the second model).  KonFound for logistic can then be applied via the app or via the KonFound command.</p>
+<p>pKonFound(-0.2, 0.103, 20888, 3, n_treat = 17888, model_type = &ldquo;logistic&rdquo;)</p>
+<p>Begg, Colin B. and Robert Gray. 1984. ‘‘Calculation of Polychotomous Logistic Regression Parameters Using Individualized Regressions.’’ Biometrika 71:11-8.
+*Frank, K. A., *Lin, Q., *Maroulis, S., *Mueller, A. S., Xu, R., Rosenberg, J. M., &hellip; &amp; Zhang, L. 2021. Hypothetical case replacement can be used to quantify the robustness of trial results. Journal of Clinical Epidemiology, 134, 150-159. *authors listed alphabetically.</p>
+<h3 id="probit-models">Probit Models</h3>
+<p>We do not have a direct solution for Probit models because it is difficult to translate them into 2x2 tables (which we can do for logistic regression).</p>
+<p>We recommend either estimating a linear probability model and using RIR or ITCV, or estimating a logistic regression and applying the RIR. See Wooldridge’s comment on probit and linear probability model.</p>
+<h3 id="survival-analysis">Survival Analysis</h3>
+<p><a href="">
+  <i class="fas fa-images "></i>
+
+ Slides</a></p>
+<p>Discrete time models can be estimated via logistic regression.
+Continuous time Cox regression can be conceptualized in terms of changes to the rank order of the timing of events.</p>
+<h3 id="mediation-effects">Mediation Effects</h3>
+<p>Many social sciences now investigate the mechanisms through which treatments have their effects through mediation models. See Lin et al (forthcoming)</p>
+<p><strong>Recommendation:</strong> ITCV or RIR (work in progress, please email for more details).</p>
+<p><strong>Conceptualization:</strong> ITCV if one uses the product method to estimate the indirect effect and relies on the joint significance test for statistical inference. Specifically, one conceptualizes the ITCV necessary to invalidate either component/pathway (A or B) of the mediating path, with the overall ITCV defined by the least robust path. For example, if path A has a smaller ITCV, then we use the ITCV for path A to evaluate the robustness of mediation effect. If the researcher considers a confounder only impacts a particular pathway (either A or B), then one could also use the ITCV specific to that pathway.</p>
+<p><strong>Assumptions:</strong> For ITCV: linear relationships among the predictor of interest, the mediator and the outcome.</p>
+<p><strong>Interpretation:</strong> For ITCV: The minimum impact an unobserved confounder could have to break the mediation path from X (predictor of interest) to Y (outcome) via M (mediator).</p>
+<p>Lin, Q., Nuttall, A., Zhang, Q., Frank, K.A. (2023) “How Do Unobserved Confounding Mediators and Measurement Error Impact Estimated Mediation Effects and Corresponding Statistical Inferences? Introducing R Package ConMed for Sensitivity Analysis.”  Psychological Methods.</p>
+<h3 id="software">Software</h3>
+<p>For ConMed, install the development version from GitHub with:
+install.packages(“devtools”)
+devtools::install_github(“linqinyu/ConMed”)
+Use conmed_ind for evaluating the robustness of inference regarding the indirect effect via mediator M. This is especially useful for those concerned about an omitted confounder potentially impacting the inference regarding both the a pathway (X  M) and the b pathway (M  Y) at the same time.
+devtools::install_github(&ldquo;qinyun-lin/ConMed&rdquo;)
+library(ConMed)
+conmed_ind(est_eff_a, std_err_a, est_eff_b, std_err_b, n_obs, n_covariates_a, n_covariates_b, alpha, tails)</p>
+<h3 id="ordinary-least-squares-ols-used-at-second-stage">Ordinary Least Squares (OLS) Used at Second Stage</h3>
+<p>Several estimation approaches use OLS at the second stage of analysis.  These include instrumental variables and some doubly robust propensity approaches.</p>
+<p><strong>Recommendation:</strong> ITCV or RIR.</p>
+<p><strong>Conceptualization:</strong> For ITCV the omitted variable is conceptualized as entering the second stage of the model. For RIR, cases are replaced in the second stage of the model.  If weights are applied, then the ITCV applies to weighted correlations and the RIR applies to weighted cases.</p>
+<p><strong>Assumptions:</strong> For ITCV: linear relationships are assumed in the final stage.</p>
+<p><strong>Interpretation:</strong> Focus is on the final stage, and the characteristics of an omitted variable or replaced data necessary to change an inference.</p>
+<h3 id="predictive-models-use-of-machine-learning">Predictive Models (Use of Machine Learning)</h3>
+<p><strong>Under development</strong></p>
+<p>But related:https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3607967
+published version:
+*Frank, K. A., *Lin, Q., *Maroulis, S., *Mueller, A. S., Xu, R., Rosenberg, J. M., &hellip; &amp; Zhang, L. 2021. Hypothetical case replacement can be used to quantify the robustness of trial results. Journal of Clinical Epidemiology, 134, 150-159. *authors listed alphabetically.
+This could be applied to an accuracy or recall score or maybe even an overall F score.</p>
+<h3 id="fixed-effects">Fixed Effects</h3>
+<p><strong>Under development.</strong></p>
+<p>If fixed effects are control variables, account for them in df, even if only through mean centering the variables.</p>
+<p>If fixed effects as a set are predictors of interest, use R for variance explained, can do ITCV in terms of R.  For individual fixed effects, see Qinyun’s dissertation for RIR.</p>
+<h3 id="categorical-factor-predictor">Categorical (Factor) Predictor</h3>
+<pre><code>1) calculate change in R2 as a result of adding the factor
+2) take square root.  This is the estimated effect
+3) Standard error =sqrt((1-r^2)/(n-2)).  
+4) use pKonFound command with estimate=r as in (2), standard error as in (3), n and # of covariates
+</code></pre>
+<p>**Moderation Effects</p>
+<p>There are several models that focus on moderating effects.  These include models with interaction terms, and Diff in Diff.</p>
+<p><strong>Under development.</strong></p>
+<p>Recommendation: RIR.<br>
+Conceptualization:
+Assumptions:
+Interpretation:</p>
+<h3 id="what-is-a-good-cut-off-for-rir-or-itcv">What is a good cut-off for RIR or ITCV?</h3>
+<p>Many people ask what is a good cut-off for RIR or ITCV?  Our first response is that the point of the indices is to quantify the language for informing causal inferences.  Instead of saying qualitatively “there might be an omitted variable” we quantify the characteristics of the omitted variable necessary to change the inference.  In these quantitative terms people can meaningfully debate the robustness of the inference. Therefore, to define a threshold at which point there is or is not concern about an omitted variable is not in the spirit of the indices. In fact, providing a threshold leads to infinite recursion.  If we stated that an RIR above a threshold ZZ was robust,  then what if the RIR is just above ZZ?  One could then ask for a threshold defining how much above or below ZZ constitutes a robust decision.  And then there could be an index for that new threshold, etc.  That said:</p>
+<h3 id="benchmark">Benchmark</h3>
+<p>We can benchmark either the RIR or ITCV using observed covariates.  For example, if the observed covariates reduce an estimate effect by .2, and the unobserved covariates would have to reduce the estimated effect by .1 to be below the threshold for inference, then unobserved covariates would have to be 50% as strong as the observed covariates to change the inference.  Similarly, the ITCV can be compared to the impact of any observed covariate Z defined by rX∙Z rY∙Z. For example, if the ITCV is .2 and the observed covariate with the strongest impact has correlations of rX∙Z =.6 and rY∙Z=.17 with rX∙ZrY∙Z=.6x.17=.1 then the impact of an unobserved covariate would have to be twice as strong as the impact of the observed covariate to change the inference.</p>
+<p>###Normative</p>
+<p>In Frank et al (2013) we quantified the RIR for studies published in Education, Evaluation and Policy Analysis  July 24-Nov 15 2012.  The median value for observational studies and randomized experiments was about 35%.  RIR values in a new study higher than about 33% would imply a more robust inference than as published in EEPA in the interval given. Several notes apply:</p>
+<ul>
+<li>Comparisons across studies are best done using RIR (in terms of a correlation metric – see Frank et al., 2013).  The ITCV does not compare as directly because different standard errors are used for inference in different studies.</li>
+<li>We are currently updating this analysis.</li>
+<li>Distributions may vary by discipline and journal.</li>
+</ul>
+<h3 id="absolute">Absolute</h3>
+<p>In terms of a debate between a researcher and a skeptic, and RIR of 50% would allow the researcher to retain one observed case for each case that must be replaced with the skeptic’s hypothetical case for which the treatment has no effect.</p>
+<h3 id="probability">Probability</h3>
+<p>The ITCV can be converted into a probability of observing an impact of a given size from within the reference distribution of observed impacts.  This is described in:
+Frank, K. A. 2000. “Impact of a Confounding Variable on a Regression Coefficient.”  Sociological Methods and Research, 29(2), 147-194.
+Pan, W., and Frank, K.A. 2004. &ldquo;An Approximation to the Distribution of the Product of Two Dependent Correlation Coefficients.&rdquo; Journal of Statistical Computation and Simulation, 74, 419-443
+Pan, W., and Frank, K.A., 2004. &ldquo;A probability index of the robustness of a causal inference,&rdquo; Journal of Educational and Behavioral Statistics, 28, 315-337.
+Pan, W. (2009). A SAS/IML macro for computing percentage points of Pearson distributions. Journal of Statistical Software, 31(Code Snippet 2), 1-6.</p>
+<p>The RIR can be expressed as a probability from a Bayesian perspective
+*Frank, K. A. and *Min, K. 2007. Indices of Robustness for Sample Representation. Sociological Methodology.  Vol 37, 349-392. * co first authors.
+Li, Tenglong, Frank, K.A., (forthcoming). The probability of a robust inference for internal validity. Sociological Methods and Research. <a href="https://doi.org/10.1177/0049124120914922">https://doi.org/10.1177/0049124120914922</a></p>
+<p>Other techniques for Sensitivity Analysis
+For a review of techniques for sensitivity analysis, see Frank et al., 2023.</p>
+<h3 id="osters-coefficient-of-proportionality">Oster’s Coefficient of Proportionality</h3>
+<p>The conceptualization is that coefficient stability when observed covariates are added to a model anticipates stability if unobserved covariates were added to the model.  This is in the context of a fixed R2 that can be achieved even when unobserved covariates are added. The intuition is valuable, but Oster’s calculation is somewhat inaccurate and relies on assumptions about a baseline model.  For an exact calculation that makes fewer assumptions see Quantifying Sensitivity to Selection on Unobservables: Refining Oster’s Coefficient of Proportionality.</p>
+<p>R code for coefficient of proportionality
+install.packages(&ldquo;devtools&rdquo;)
+devtools::install_github(&ldquo;jrosen48/KonFound&rdquo;)
+library(KonFound)
+pKonFound(est_eff = .125, std_err = .050, n_obs = 6265, sdx = .217, sdy = .991, R2 = .251, eff_thr = 0, FR2max = .61, index = &ldquo;COP&rdquo;, to_return = &ldquo;raw_output&rdquo;)
+Oster, E. (2019). Unobservable selection and coefficient stability: Theory and evidence. Journal of Business &amp; Economic Statistics, 37(2), 187-204.</p>
+<h3 id="cinelli-and-hazletts-robustness-value">Cinelli and Hazlett’s Robustness Value</h3>
+<p>Cinelli and Hazlett conceptualize robustness in terms of variance explained in X and Y by omitted variables Z.  The calculations are exact and appeal to intuition based on partial R2.  They can be applied to a threshold defined by inference (accounting for standard error) or an effect size. Cinelli and Hazlett (2020) critique ITCV because it does not directly adapt to thresholds other than statistical significance. We responded in Frank et al., 2023 by noting that sensitivity analyses that focus on an effect size threshold implicitly assume the standard error does not change when omitted variables are included in a model.  We make this explicit for both the ITCV and RIR perspective in Frankl et al., 2023.  Frank (2000) shows that this assumption maximizes the impact (favoring the challenger) for inferences based on statistical significance.
+We also note that under the assumption that  (as in Cinelli and Haslett, page 51)
+.
+That is, under the assumption  , the partial correlation that is the basis of the ITCV translates directly to a regression coefficient through  .
+R code for sensitivity while preserving the standard error at:
+install.packages(&ldquo;devtools&rdquo;)
+devtools::install_github(&ldquo;jrosen48/KonFound&rdquo;)
+library(KonFound)
+pKonFound(est_eff = .125, std_err = .050, n_obs = 6300, sdx = .217, sdy = .991, R2 = .251, eff_thr = 0, FR2max = .61, index = &ldquo;PSE&rdquo;, to_return = &ldquo;raw_output&rdquo;)</p>
+<p>Frank, K.A., Lin, Q., Xu, R., Maroulis, S.J., Mueller, A. (2023). Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science.  Social Science Research.
+Cinelli, C., &amp; Hazlett, C. (2020). Making sense of sensitivity: Extending omitted variable bias. Journal of the Royal Statistical Society: Series B (Statistical Methodology), 82(1), 39-67</p>
+<h3 id="vanderweel-e-value">Vanderweel E-Value</h3>
+<p>The E-value quantifies the conditions necessary to reduce an estimated effect on a dichotomous outcome to 0.  The conceptualization is elegant and the technique exact.  Frank et al (2021) evaluates the case switches (from treatment success to treatment failure) necessary to reduce an estimated effect below any threshold, including statistical significance by drawing on the Fragility Index.  Frank et al., (2021) then shows that Fragility can be interpreted in terms of RIR, linking to the application of RIR in other contexts through the potential outcomes framework. See also Baer et al. (2021a, 2021b) for a Bayesian interpretation. Calculations can be done for logistic regression or 2x2 table at: <a href="http://KonFound-it.com">http://KonFound-it.com</a></p>
+<ul>
+<li>Baer, B. R., Gaudino, M., Charlson, M., Fremes, S. E., &amp; Wells, M. T. (2021a). Fragility indices for only sufficiently likely modifications. Proceedings of the National Academy of Sciences, 118(49).</li>
+<li>Baer, B. R., Fremes, S. E., Gaudino, M., Charlson, M., &amp; Wells, M. T. (2021b). On clinical trial fragility due to patients lost to follow up. BMC medical research methodology, 21(1), 1-11.</li>
+<li>Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., &hellip; &amp; Zhang, L. 2021. Hypothetical case replacement can be used to quantify the robustness of trial results. Journal of Clinical Epidemiology, 134, 150-159. (authors listed alphabetically.)</li>
+<li>VanderWeele, T. J., and Arah, O. A. (2011). Bias formulas for sensitivity analysis of unmeasured confounding for general outcomes, treatments, and confounders. Epidemiology (Cambridge, Mass.), 22(1), 42-52.</li>
+<li>VanderWeele, T. J., and Ding, P. (2017). Sensitivity analysis in observational research: introducing the E-value. Annals of internal medicine, 167(4), 268-274.</li>
+</ul>
+<hr>
+<h2 id="appendix-a-background-readings">Appendix A: Background Readings</h2>
+<ul>
+<li>Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. <em>Sociological Methods and Research, 29</em>(2), 147-194. <a href="/page/publications/frank-2000.pdf">
+  <i class="fas fa-file-pdf "></i>
+
+ PDF</a> | <a href="https://doi.org/10.1177/0049124100029002001">
+  <i class="fas fa-globe "></i>
+
+ Web</a></li>
+<li>Frank, K.A., Lin, Q., Xu, R., Maroulis, S.J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. <em>Social Science Research, 110</em>, 102815. <a href="/page/publications/frank-lin-xu-maroulis-mueller-2023.pdf">
+  <i class="fas fa-file-pdf "></i>
+
+ PDF</a> | <a href="https://doi.org/10.1016/j.ssresearch.2022.102815">
+  <i class="fas fa-globe "></i>
+
+ Web</a></li>
+<li>Frank, K. A., Maroulis, S. J., Duong, M. Q., &amp; Kelcey, B. M. (2013). What would it take to change an inference? Using Rubin’s causal model to interpret the robustness of causal inferences. <em>Educational Evaluation and Policy Analysis, 35</em>(4), 437-460. <a href="/page/publications/frank-maroulis-duong-kelcey-2013.pdf">
+  <i class="fas fa-file-pdf "></i>
+
+ PDF</a> | <a href="https://doi.org/10.3102/0162373713493129">
+  <i class="fas fa-globe "></i>
+
+ Web</a></li>
+<li>Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., &amp; Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. <em>Journal of Clinical Epidemiology, 134</em>, 150-159. (authors listed alphabetically.) <a href="/page/publications/frank-et-al-2021.pdf">
+  <i class="fas fa-file-pdf "></i>
+
+ PDF</a> | <a href="https://doi.org/10.1016/j.jclinepi.2021.01.025">
+  <i class="fas fa-globe "></i>
+
+ Web</a></li>
+<li>Xu, R., Frank, K. A., Maroulis, S. J., &amp; Rosenberg, J. M. (2019). konfound: Command to quantify robustness of causal inferences. <em>The Stata Journal, 19</em>(3), 523–550. <a href="/page/publications/xu-frank-maroulis-rosenberg-2019.pdf">
+  <i class="fas fa-file-pdf "></i>
+
+ PDF</a> | <a href="https://doi.org/10.1177/1536867X19874223">
+  <i class="fas fa-globe "></i>
+
+ Web</a></li>
+<li><a href="https://www.dropbox.com/scl/fi/jfhwfuim4d001usup81c8/quantifying-the-robustness-of-causal-inferences-combined-frameworks-for-stat-horizons-July-23.pptx?rlkey=32srefdir2q6r9pq5998i1q1b&amp;dl=0">Main introductory slides for combined frameworks</a></li>
+</ul>
+<hr>
+<h2 id="appendix-b-software">Appendix B: Software</h2>
+<h3 id="r">R</h3>
+
+  <i class="fas fa-code "></i>
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="s2">&#34;KonFound&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">library</span><span class="p">(</span><span class="n">KonFound</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">pkonfound</span><span class="p">(</span><span class="n">est_eff</span> <span class="o">=</span> <span class="o">-</span><span class="mf">9.01</span><span class="p">,</span> <span class="n">std_err</span> <span class="o">=</span> <span class="o">.</span><span class="mi">68</span><span class="p">,</span> <span class="n">n_obs</span> <span class="o">=</span> <span class="mi">7639</span><span class="p">,</span> <span class="n">n_covariates</span> <span class="o">=</span> <span class="mi">221</span><span class="p">)</span>
+</span></span></code></pre></div><h3 id="stata">Stata</h3>
+
+  <i class="fas fa-code "></i>
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssc install konfound
+</span></span><span class="line"><span class="cl">ssc install indeplist
+</span></span><span class="line"><span class="cl">ssc install moss
+</span></span><span class="line"><span class="cl">ssc install matsort
+</span></span><span class="line"><span class="cl">pkonfound -9.01 .68 7639 221
+</span></span></code></pre></div><h3 id="konfound-it-shiny-app">KonFound-It Shiny App</h3>
+
+  <i class="fas fa-globe "></i>
+
+
+<ul>
+<li><a href="https://konfound-project.shinyapps.io/konfound-it/">https://konfound-project.shinyapps.io/konfound-it/</a></li>
+</ul>
+<h3 id="spreadsheets">Spreadsheets</h3>
+
+  <i class="fas fa-table "></i>
+
+
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/1AELZ9mA0wrhMZNJYTTudeztVAJjHncl4/edit?usp=sharing&amp;ouid=116345913183792066499&amp;rtpof=true&amp;sd=true">KonFound-It! spreadsheet for calculating indices</a></li>
+<li><a href="https://drive.google.com/file/d/19eJ0C6P0XwaG6FDsO6FVAxP-evg-HUPz/view?usp=sharing">KonFound-It! spreadsheet for nonlinear replacement (beta)</a></li>
+</ul>
+
+
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fkonfound-project.github.io%2fpage%2ffaq%2f&amp;text=FAQs&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkonfound-project.github.io%2fpage%2ffaq%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fkonfound-project.github.io%2fpage%2ffaq%2f&amp;title=FAQs" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fkonfound-project.github.io%2fpage%2ffaq%2f&amp;title=FAQs" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fkonfound-project.github.io%2fpage%2ffaq%2f&amp;title=FAQs" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkonfound-project.github.io%2fpage%2ffaq%2f&amp;description=FAQs" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+
+          
+        
+      </article>
+
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+      
+    <div class="page-meta">
+  
+  
+  
+</div>
+
+
+  
+<footer>
+  <div class="container">
+    
+
+
+
+  <div class="container">
+        <p class="credits copyright text-muted">
+          <h4><div style="text-align: center;">KonFound is supported by:</div></h4>
+          <br>
+
+          <div class="" style="text-align: center;">
+
+            <img src="/img/ies-logo.jpg" alt="IES logo" style="height:80px;">
+            <br>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/msu-seal.png" alt="Michigan State University seal" style="height:80px;">
+            </div>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/asu-seal.png" alt="Arizona State University seal" style="height:80px;">
+            </div>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/gothenburg-seal.png" alt="University of Gothenburg seal" style="height:80px;">
+            </div>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/uconn-seal.jpg" alt="University of Connecticut seal" style="height:80px;">
+            </div>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/utk-seal.jpg" alt="University of Tennessee, Knoxville seal" style="height:80px;">
+            </div>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/cgu-seal.png" alt="Claremont Graduate University seal" style="height:80px;">
+            </div>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/fsu-seal.png" alt="Florida State University seal" style="height:80px;">
+            </div>
+
+         </div>
+        </p>
+  </div>
+
+
+<br><hr><br>
+
+
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="https://github.com/konfound-project" title="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://konfound-project.shinyapps.io/konfound-it" title="R Shiny App">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-chart-line fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://cran.r-project.org/package=konfound" title="R Package">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-r-project fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://doi.org/10.1177/1536867X19874223" title="Stata Package">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-stripe-s fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+
+<br>
+
+        <p class="credits copyright text-muted">
+          
+
+          &nbsp;&copy;
+          <script type="text/javascript">document.write( new Date().getFullYear() );</script>
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://konfound-project.github.io">KonFound-It!</a>
+          
+        </p>
+
+<br>
+
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.121.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="https://konfound-project.github.io/js/main.js"></script>
+<script src="https://konfound-project.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://konfound-project.github.io/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

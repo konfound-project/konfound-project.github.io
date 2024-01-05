@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KonFound-It!</title>
+    <link>https://konfound-project.github.io/</link>
+    <description>Recent content on KonFound-It!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://konfound-project.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome!</title>
+      <link>https://konfound-project.github.io/post/2020-05-14-welcome/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/post/2020-05-14-welcome/</guid>
+      <description>Welcome to our space about sensitivity analysis. All of the assumptions of statistical analysis rarely hold. So the challenge for the pragmatist is to understand when evidence is strong enough to support action. That&amp;rsquo;s where sensitivity analysis comes in—so we can understand how robust our inferences are to challenges to our assumptions. One example is a statement such as:&#xA;XX% of the estimated effect would have to be due to bias to change your inference about the effect.</description>
+    </item>
+    <item>
+      <title>Why is robustness important for emerging COVID-19 studies?</title>
+      <link>https://konfound-project.github.io/post/2020-05-12-why-robustness/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/post/2020-05-12-why-robustness/</guid>
+      <description>As those who work in public policy and health, we seek to help a broad range of people, with a broad range of statistical backgrounds, interpret uncertainty about public health findings regarding COVID-19. We observe that currently, there is little common language for expressing uncertainty. Consider Anthony Fauci&amp;rsquo;s quote (as in Healio on April 29):&#xA;The trial, which began Feb. 21 this year, compared remdesivir with placebo in more than 1,000 patients.</description>
+    </item>
+    <item>
+      <title>A 15-minute talk</title>
+      <link>https://konfound-project.github.io/post/2020-05-01-presentation/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/post/2020-05-01-presentation/</guid>
+      <description>I summarized our current thinking on how robustness analysis can be applied to emerging COVID research in a brief presentation at an online conference entitled &amp;ldquo;COVID-19 and Public Policy and Management.&amp;rdquo; The conference was hosted by the Center on Technology, Data, and Society at Arizona State University, and a recording of the 15-minute talk, entitled &amp;ldquo;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates&amp;rdquo;, is available here.&#xA;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates </description>
+    </item>
+    <item>
+      <title>About KonFound-It!</title>
+      <link>https://konfound-project.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/about/</guid>
+      <description>We are a group of researchers spanning numerous institutions who would like to contribute to better communications of research inferences and findings.&#xA;People Our group includes:&#xA;Ken Frank (Michigan State University) Spiro Maroulis (Arizona State University) Qinyun Lin (University of Gothenburg) Ran Xu (University of Connecticut) Joshua Rosenberg (University of Tennessee, Knoxville) Guan Saw (Claremont Graduate University) Bret Staudt Willet (Florida State University) Additional contributors include:&#xA;Tenglong Li (Xi&amp;rsquo;an Jiaotong-Liverpool University) Yuqing Liu (Michigan State University) Zixi Chen (NYU Shanghai) Tingqiao Chen (Michigan State University) Wei Pan (Duke University) Tools KonFound-It!</description>
+    </item>
+    <item>
+      <title>FAQs</title>
+      <link>https://konfound-project.github.io/page/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/faq/</guid>
+      <description>by Kenneth A. Frank, Qinyun Lin, Ran Xu, Spiro Maroulis, Guan Saw, Josh Rosenberg&#xA;Last updated: 8/13/2023&#xA;Introduction This document addresses some frequently asked questions regarding the KonFound. See the appendices for background readings and software. For quick reference, see:&#xA;Overview of all KonFound commands Main introductory slides for combined frameworks Background There are two basic frameworks for sensitivity analysis employed within KonFound. First is the Impact Threshold for a Confounding Variable (ITCV) – Frank (2000).</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>https://konfound-project.github.io/page/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/publications/</guid>
+      <description>Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. Sociological Methods and Research, 29(2), 147-194. PDF | Web&#xA;Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., &amp;amp; Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. Journal of Clinical Epidemiology, 134, 150-159.</description>
+    </item>
+    <item>
+      <title>Resource Overview</title>
+      <link>https://konfound-project.github.io/page/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/resources/</guid>
+      <description>Explanatory Resources FAQ Overview of pkonfound commands Quick examples Powerpoint quantifying the robustness of causal inferences combined frameworks Powerpoint for comparison of frameworks Additional Resources for Publication Published empirical examples Spreadsheet for calculating indices (KonFound-it!) Publications: Impact Threshold for a Confounding Variable Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. Sociological Methods and Research, 29(2), 147-194. PDF | Web Frank, K. A., Sykes, G.</description>
+    </item>
+    <item>
+      <title>Workshops</title>
+      <link>https://konfound-project.github.io/page/workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/workshops/</guid>
+      <description>Upcoming Workshops More to be announced soon.&#xA;Past Workshops ASA Workshop Title February 18, 2021, American Statistical Association Conference on Statistical Practice (CSP2021)&#xA;[Video Here]&#xA;ASA Workshop Title August 10, 2020, American Sociological Association&#xA;[Video Here]&#xA;Communicating the Robustness of COVID-19 Studies May 1, 2020, AERA Virtual Research Learning Series</description>
+    </item>
+  </channel>
+</rss>
