@@ -123,6 +123,10 @@
   </div>
 </footer>
 
+
+{{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
+
+
 {{- if .Site.Params.selfHosted -}}
 <script defer src="{{ "js/katex.min.js" | absURL }}"></script>
 <script defer src="{{ "js/auto-render.min.js" | absURL }}" onload="renderMathInElement(document.body);"></script>
