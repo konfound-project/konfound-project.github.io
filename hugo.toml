@@ -16,7 +16,7 @@ pygmentsCodefencesGuessSyntax = true
 [Params]
   homeTitle = "KonFound-It!" # Set a different text for the header on the home page
   subtitle = "Quantify the Robustness of Causal Inferences"
-  mainSections = ["post","posts"]
+  mainSections = []
   logo = "img/konfound-logo.png" # Expecting square dimensions
   favicon = "img/konfound-logo.png"
   dateFormat = "January 2, 2006"
