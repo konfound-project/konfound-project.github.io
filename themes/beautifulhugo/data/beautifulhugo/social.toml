@@ -5,6 +5,12 @@ title = "Email me"
 icon = "fas fa-envelope"
 
 [[social_icons]]
+id = "group"
+url = "https://groups.google.com/forum/#!forum/%s"
+title = "Google Group Forum"
+icon = "fas fa-paper-plane"
+
+[[social_icons]]
 id = "github"
 url = "https://github.com/%s"
 title = "GitHub"

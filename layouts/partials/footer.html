@@ -15,7 +15,7 @@
 
   <div class="container">
         <p class="credits copyright text-muted">
-          <h4><div style="text-align: center;">KonFound is supported by:</div></h4>
+          <h4><div style="text-align: center;">KonFound-It is supported by:</div></h4>
           <br>
 
           <div class="" style="text-align: center;">
@@ -116,7 +116,7 @@
         <!-- Please don't remove this, keep my open source work credited :) -->
         <p class="credits theme-by text-muted">
           {{ i18n "poweredBy" . | safeHTML }}
-          {{ if $.GitInfo }}&nbsp;&bull;&nbsp;[<a href="{{ .Site.Params.commit }}{{ .GitInfo.Hash }}">{{ substr .GitInfo.Hash 0 8 }}</a>]{{ end }}
+          {{ if $.GitInfo }}&nbsp;&bull;&nbsp;[<a href="{{ .Site.Params.commit }}{{ .GitInfo.Hash }}">{{ substr .GitInfo.Hash 0 8 }}</a>]{{ end }}, customized by <a href="https://bretsw.com">bretsw</a>
         </p>
       </div>
     </div>

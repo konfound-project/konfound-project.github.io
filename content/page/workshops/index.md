@@ -7,7 +7,19 @@ comments: false
 
 ## Upcoming Workshops
 
-More to be announced soon.
+Feb 29-March 2 (3 day mini course). Statistical Horizons. Virtual.
+
+Week of March 4, specific dates not determined (4 hour workshop). Association for Education Finance and Policy. Virtual.
+
+April 12 (7:45 am – 11:45 am): Philadelphia. American Educational Research Association. In Person.
+
+April 17 (9am-noon, central time).  Society for research on Adolescent Development. In person
+
+May 24 (TBD). University of Gothenburg, Sweden. School of Public Health. In person.
+
+July 24 (11am-1:30 pm): Austin, Texas. Society for Epidemiological Research. In Person
+
+Stay tuned for details of ICPSR mini course in Ann Arbor. Hybrid.
 
 ---
 
@@ -15,25 +27,5 @@ More to be announced soon.
 
 ---
 
-### ASA Workshop Title
-
-**February 18, 2021**, American Statistical Association Conference on Statistical Practice (CSP2021)
-
-[Video Here]
-
----
-
-### ASA Workshop Title
-
-**August 10, 2020**, American Sociological Association
-
-[Video Here]
-
----
-
-### Communicating the Robustness of COVID-19 Studies
-
-**May 1, 2020**, AERA Virtual Research Learning Series
-
-{{< youtube id="3Djd0EmvL8Q" autoplay="false" color="white" >}}
+### Workshop Title
 

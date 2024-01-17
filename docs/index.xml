@@ -65,11 +65,25 @@
       <description>Explanatory Resources FAQ Overview of pkonfound commands Quick examples Powerpoint quantifying the robustness of causal inferences combined frameworks Powerpoint for comparison of frameworks Additional Resources for Publication Published empirical examples Spreadsheet for calculating indices (KonFound-it!) Publications: Impact Threshold for a Confounding Variable Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. Sociological Methods and Research, 29(2), 147-194. PDF | Web Frank, K. A., Sykes, G.</description>
     </item>
     <item>
+      <title>Talks</title>
+      <link>https://konfound-project.github.io/page/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/talks/</guid>
+      <description>Upcoming Talks Quantifying Sensitivity to Selection on Unobservables: Refining Oster’s Coefficient of Proportionality Association for Education Finance and Policy&#xA;March 15, 2024 (8:00am–9:45am, Baltimore Marriott Waterfront, Room 12 — Falkland)&#xA;Paper&#xA;Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science Emory University: Workshop on Advanced Research Methods&#xA;March 21, 2024 (8:30pm, Virtual)&#xA;Paper&#xA;Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions Michigan State University Biostats</description>
+    </item>
+    <item>
+      <title>User Guide</title>
+      <link>https://konfound-project.github.io/page/guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/guide/</guid>
+      <description> Under construction, but coming soon </description>
+    </item>
+    <item>
       <title>Workshops</title>
       <link>https://konfound-project.github.io/page/workshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/workshops/</guid>
-      <description>Upcoming Workshops More to be announced soon.&#xA;Past Workshops ASA Workshop Title February 18, 2021, American Statistical Association Conference on Statistical Practice (CSP2021)&#xA;[Video Here]&#xA;ASA Workshop Title August 10, 2020, American Sociological Association&#xA;[Video Here]&#xA;Communicating the Robustness of COVID-19 Studies May 1, 2020, AERA Virtual Research Learning Series</description>
+      <description>Upcoming Workshops Feb 29-March 2 (3 day mini course). Statistical Horizons. Virtual.&#xA;Week of March 4, specific dates not determined (4 hour workshop). Association for Education Finance and Policy. Virtual.&#xA;April 12 (7:45 am – 11:45 am): Philadelphia. American Educational Research Association. In Person.&#xA;April 17 (9am-noon, central time). Society for research on Adolescent Development. In person&#xA;May 24 (TBD). University of Gothenburg, Sweden. School of Public Health. In person.</description>
     </item>
   </channel>
 </rss>

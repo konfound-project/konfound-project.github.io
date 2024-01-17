@@ -16,7 +16,7 @@ pygmentsCodefencesGuessSyntax = true
 [Params]
   homeTitle = "KonFound-It!" # Set a different text for the header on the home page
   subtitle = "Quantify the Robustness of Causal Inferences"
-  mainSections = []
+  mainSections = [] # Define a page to show up below landing page (e.g., "post", "posts")
   logo = "img/konfound-logo.png" # Expecting square dimensions
   favicon = "img/konfound-logo.png"
   dateFormat = "January 2, 2006"
@@ -49,9 +49,11 @@ pygmentsCodefencesGuessSyntax = true
 
 
 [Author]
+#  Customize social icons in >> themes >> beautifulhugo >> data >> beautifulhugo >> social.toml
 #  Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
 #  name = "Some Person"
   website = "konfound-it.org"
+  group = "konfound-it"
 #  email = "youremail@domain.com"
   github = "konfound-project"
   r-shiny = "konfound-it"
@@ -106,14 +108,20 @@ pygmentsCodefencesGuessSyntax = true
 [[menu.main]]
     parent = "tools"
     name = "R Package"
-    url = "https://CRAN.R-project.org/package=konfound"
+    url = "https://konfound-project.github.io/konfound/"
     weight = 2
 
 [[menu.main]]
     parent = "tools"
-    name = "Stata Package"
-    url = "https://doi.org/10.1177/1536867X19874223"
+    name = "R Paper"
+    url = "https://konfound-project.github.io/konfound/"
     weight = 3
+
+[[menu.main]]
+    parent = "tools"
+    name = "Stata Paper"
+    url = "https://doi.org/10.1177/1536867X19874223"
+    weight = 4
 
 [[menu.main]]
     identifier = "support"
@@ -140,26 +148,26 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     parent = "support"
-    name = "Workshops"
-    url = "page/workshops"
+    name = "Talks"
+    url = "page/talks"
     weight = 4
 
 [[menu.main]]
     parent = "support"
-    name = "Blog"
-    url = ""
+    name = "Workshops"
+    url = "page/workshops"
     weight = 5
 
 [[menu.main]]
     parent = "support"
     name = "User Guide"
-    url = "page/"
+    url = "page/guide"
     weight = 6
 
 [[menu.main]]
     parent = "support"
     name = "Forum"
-    url = "page/"
+    url = "https://groups.google.com/forum/#!forum/konfound-it"
     weight = 7
 
 [[menu.main]]
