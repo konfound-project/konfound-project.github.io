@@ -33,11 +33,16 @@ We are a group of researchers spanning numerous institutions who would like to c
 
 **Additional contributors include:**
 
+- Tingqiao Chen (Michigan State University)
+- [Zixi Chen](https://caser.shanghai.nyu.edu/people/zixi-chen/) (NYU Shanghai)
+- Xuesen Cheng
+- [Jihoon Choi](https://www.linkedin.com/in/jihoon-choi-60a918223/)
 - [Tenglong Li](https://www.xjtlu.edu.cn/en/staff-details/staff/tenglong-li) (Xi'an Jiaotong-Liverpool University)
 - [Yuqing Liu](https://www.linkedin.com/in/yuqing-liu-b6372889/) (Michigan State University)
-- [Zixi Chen](https://caser.shanghai.nyu.edu/people/zixi-chen/) (NYU Shanghai)
-- Tingqiao Chen (Michigan State University)
+- Dallin Overstreet
 - [Wei Pan](https://sites.duke.edu/panwei/) (Duke University)
+- Wei Wang
+- Gaofei Zhang
 
 ---
 
