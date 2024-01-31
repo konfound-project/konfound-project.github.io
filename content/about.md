@@ -35,14 +35,14 @@ We are a group of researchers spanning numerous institutions who would like to c
 
 - Tingqiao Chen (Michigan State University)
 - [Zixi Chen](https://caser.shanghai.nyu.edu/people/zixi-chen/) (NYU Shanghai)
-- Xuesen Cheng
-- [Jihoon Choi](https://www.linkedin.com/in/jihoon-choi-60a918223/)
+- Xuesen Cheng (Michigan State University)
+- [Jihoon Choi](https://www.linkedin.com/in/jihoon-choi-60a918223/) (Michigan State University)
 - [Tenglong Li](https://www.xjtlu.edu.cn/en/staff-details/staff/tenglong-li) (Xi'an Jiaotong-Liverpool University)
 - [Yuqing Liu](https://www.linkedin.com/in/yuqing-liu-b6372889/) (Michigan State University)
-- Dallin Overstreet
+- Dallin Overstreet (Arizona State University)
 - [Wei Pan](https://sites.duke.edu/panwei/) (Duke University)
-- Wei Wang
-- Gaofei Zhang
+- Wei Wang (Michigan State University)
+- [Gaofei Zhang](https://www.linkedin.com/in/gaofei-zhang-450013107/) (University of Connecticut)
 
 ---
 
