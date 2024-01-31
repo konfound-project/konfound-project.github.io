@@ -35,7 +35,7 @@ We are a group of researchers spanning numerous institutions who would like to c
 
 - Tingqiao Chen (Michigan State University)
 - [Zixi Chen](https://caser.shanghai.nyu.edu/people/zixi-chen/) (NYU Shanghai)
-- Xuesen Cheng (Michigan State University)
+- [Xuesen Cheng](https://www.linkedin.com/in/xuesen-cheng-452272190/) (Michigan State University)
 - [Jihoon Choi](https://www.linkedin.com/in/jihoon-choi-60a918223/) (Michigan State University)
 - [Tenglong Li](https://www.xjtlu.edu.cn/en/staff-details/staff/tenglong-li) (Xi'an Jiaotong-Liverpool University)
 - [Yuqing Liu](https://www.linkedin.com/in/yuqing-liu-b6372889/) (Michigan State University)
