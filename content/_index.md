@@ -1,5 +1,7 @@
 **Sensitivity analyses that quantify the robustness of inferences to concerns about omitted variables and other sources of bias.**
 
+{{< awesome fas fa-paper-plane >}} Questions? Issues? Suggestions? Reach out through the [KounFound-It! Google Group](https://groups.google.com/g/konfound-it).
+
 ---
 
 {{< columns >}}
