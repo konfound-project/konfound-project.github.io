@@ -19,19 +19,25 @@ comments: false
 
 ### Statistical Horizons
 
-**February 29&#8211;March 2, 2024** (3-day mini-course). Virtual.
+[Two Key Techniques for Quantifying the Robustness of Causal Inferences](https://statisticalhorizons.com/seminars/two-key-techniques-for-quantifying-the-robustness-of-causal-inferences/)
+
+**February 29&#8211;March 1, 2024** (2-day mini-course). Virtual.
 
 ---
 
 
 ### Association for Education Finance and Policy
 
-**Week of March 4, 2024** (Specific dates TBD; 4-hour workshop). Virtual.
+[What would it take to Change your Inference? Informing Discourse about Causal Inferences in the Educational Ecosystem](https://aefpweb.org/ev_calendar_day.asp?date=3%2F5%2F24&eventid=68)
+
+**March 5, 2024** (12:00pm&#8211;3:00pm Eastern time). Virtual.
 
 ---
 
 
 ### American Educational Research Association
+
+[What Would It Take to Change Your Inference? Opening the Discourse about Causal Inferences to a Range of Stakeholders](https://www.aera.net/Events-Meetings/2024-Annual-Meeting/Program-Information/Professional-Development#What%20Would%20It%20Take%20to%20Change%20your%20Inference?%20Opening%20the%20Discourse%20about%20Causal%20Inferences%20to%20a%20Range%20of%20Stakeholders)
 
 **April 12, 2024** (7:45am&#8211;11:45am Eastern time). In-person: Philadelphia, PA.
 
@@ -40,7 +46,9 @@ comments: false
 
 ### Society for Research on Adolescent Development
 
-**April 17, 2024** (9:00am&#8211;12:00pm Central time). In-person: Chicago, IL.
+[What Would it take to Change an Inference? Quantifying the Robustness of Causal Inferences in Adolescent Research](https://www.s-r-a.org/annual-meeting-2024---what-would-it-take-to-change-an-inference--quantifying-the-robustness-of-causal-inferences-in-adolescent-research)
+
+**April 17, 2024** (10:00am&#8211;2:30pm Central time). In-person: Chicago, IL.
 
 ---
 
@@ -56,16 +64,18 @@ comments: false
 
 ### Society for Epidemiological Research
 
-**July 24, 2024** (11:00am&#8211;1:30pm). In-person: Austin, TX.
+[What would it take to change your inference? Quantifying the Discourse about Causal Inferences in Epidemiology](https://epiresearch.org/annual-meeting/2024-meeting/2023-workshops/)
 
+**June 18, 2024** (8:30am&#8211;12:30pm Central time). In-person: Austin, TX.
 
 ---
 
 
 ### Inter-university Consortium for Political and Social Research (ICPSR)
 
-**Stay tuned for details** (mini-course). Hybrid: Ann Arbor, MI.
+[Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data](https://www.icpsr.umich.edu/web/pages/sumprog/courses/short-workshops.html)
 
+**July 8&#8211;12** (mini-course). Hybrid: Ann Arbor, MI.
 
 
 ---
