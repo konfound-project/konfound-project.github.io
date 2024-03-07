@@ -71,7 +71,7 @@ h1 {
 h2 {
   font-family: 'Raleway', serif;
   font-style: normal;
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
   color: #7f9f3d;
 }
@@ -247,7 +247,7 @@ figure:not(.dark) img, img.white {
 
 
 
-/* --- Navbar --- */
+/* --- Navbar (Top Menu) --- */
 
 .navbar-custom {
   background: #F5F5F5;
@@ -255,22 +255,18 @@ figure:not(.dark) img, img.white {
   font-family: 'Roboto', sans-serif;
 }
 
+.navbar-custom .navbar-brand,
+.navbar-custom .nav li a {
+  font-size: 18px;
+  font-weight: 800;
+  color: #7f9f3d;
+}
+
 @media (prefers-color-scheme: dark) {
   .navbar-custom {
     background: #6060601;
     border-bottom: 1px solid #AAA;
   }
-}
-
-.navbar-custom .nav li a {
-  font-size: 14px;
-}
-
-.navbar-custom .navbar-brand,
-.navbar-custom .nav li a {
-  font-size: 16px;
-  font-weight: 800;
-  color: #7f9f3d;
 }
 
 @media (prefers-color-scheme: dark) {

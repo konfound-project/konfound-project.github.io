@@ -64,7 +64,7 @@ We are a group of researchers spanning numerous institutions who would like to c
 Rosenberg, J. M., Narvaiz, S., Xu, R., Lin, Q., Maroulis, S., Frank, K. A., Saw, G. & Staudt Willet, K. B. (2023). *KonFound-it!: Quantify the robustness of causal inferences* (v. 2.0.0). https://konfound-project.shinyapps.io/konfound-it/
 
 
-### {{< awesome fas fa-code >}} KonFound R Package
+### {{< awesome fab fa-r-project >}} KonFound R Package
 
 Rosenberg, J. M., Xu, R., Lin, Q., Maroulis, S., & Frank, K. A. (2023). *konfound: Quantify the robustness of causal inferences* (v. 0.4.0). https://CRAN.R-project.org/package=konfound 
 
@@ -73,12 +73,12 @@ Rosenberg, J. M., Xu, R., Lin, Q., Maroulis, S., & Frank, K. A. (2023). *konfoun
 | ![](https://cranlogs.r-pkg.org/badges/konfound?color=9bbb59) | ![](https://cranlogs.r-pkg.org/badges/grand-total/konfound?color=9bbb59) |
 
 
-### {{< awesome fas fa-code >}} KonFound Stata Package
+### {{< awesome fab fa-stripe-s >}} KonFound Stata Package
 
 Xu, R., Frank, K. A., Maroulis, S. J., & Rosenberg, J. M. (2019). konfound: Command to quantify robustness of causal inferences. *The Stata Journal, 19*(3), 523-550. https://doi.org/10.1177/1536867X19874223
 
 
-### Benchmarks: What Works Clearinghouse
+### {{< awesome fas fa-warehouse >}} Benchmarks: What Works Clearinghouse
 
 COMING SOON
 

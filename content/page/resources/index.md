@@ -18,7 +18,7 @@ comments: false
 ## Additional Resources for Publication
 
 - [Published empirical examples](https://www.dropbox.com/s/bc4ert79kgbsac4/Examples%20of%20applications%20of%20indices%20for%20quantifying%20the%20robustness%20of%20causal%20inferences.docx?dl=0)
-- [Spreadsheet for calculating indices (KonFound-it!)](https://www.dropbox.com/s/accoz5xu82vy27v/KonFound-it%21%20enhanced.xlsx?dl=0)
+- [{{< awesome fas fa-table >}} KonFound-It! spreadsheet for calculating indices](/page/resources/konfound-it-indice-spreadsheet.xlsx)
 
 ---
 

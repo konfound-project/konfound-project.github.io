@@ -275,9 +275,7 @@ The E-value quantifies the conditions necessary to reduce an estimated effect on
 
 ## Appendix B: Software
 
-### R
-
-{{< awesome fas fa-code >}}
+### {{< awesome fab fa-r-project >}} KonFound R Package
 
 ```
 install.packages("konfound")
@@ -285,9 +283,7 @@ library(konfound)
 pkonfound(est_eff = -9.01, std_err = .68, n_obs = 7639, n_covariates = 221)
 ```
 
-### Stata
-
-{{< awesome fas fa-code >}}
+### {{< awesome fab fa-stripe-s >}} KonFound Stata Package
 
 ```
 ssc install konfound
@@ -297,15 +293,12 @@ ssc install matsort
 pkonfound -9.01 .68 7639 221
 ```
 
-### KonFound-It Shiny App
-
-{{< awesome fas fa-globe >}} 
+### {{< awesome fas fa-calculator >}} KonFound-It! Shiny App
 
 - https://konfound-project.shinyapps.io/konfound-it/
 
-### Spreadsheets
+### {{< awesome fas fa-table >}} Spreadsheets
 
-{{< awesome fas fa-table >}}
-
-- [KonFound-It! spreadsheet for calculating indices](https://docs.google.com/spreadsheets/d/1AELZ9mA0wrhMZNJYTTudeztVAJjHncl4/edit?usp=sharing&ouid=116345913183792066499&rtpof=true&sd=true)
+- [{{< awesome fas fa-table >}} KonFound-It! spreadsheet for calculating indices](/page/resources/konfound-it-indice-spreadsheet.xlsx)
+- [KonFound-It! spreadsheet for calculating indices (beta)](https://docs.google.com/spreadsheets/d/1AELZ9mA0wrhMZNJYTTudeztVAJjHncl4/edit?usp=sharing&ouid=116345913183792066499&rtpof=true&sd=true)
 - [KonFound-It! spreadsheet for nonlinear replacement (beta)](https://drive.google.com/file/d/19eJ0C6P0XwaG6FDsO6FVAxP-evg-HUPz/view?usp=sharing)

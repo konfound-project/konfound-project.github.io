@@ -20,7 +20,7 @@ icon = "fab fa-github"
 id = "r-shiny"
 url = "https://konfound-project.shinyapps.io/%s"
 title = "R Shiny App"
-icon = "fas fa-chart-line"
+icon = "fas fa-calculator"
 
 [[social_icons]]
 id = "r-package"
