@@ -255,18 +255,22 @@ figure:not(.dark) img, img.white {
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar-custom .navbar-brand,
-.navbar-custom .nav li a {
-  font-size: 18px;
-  font-weight: 800;
-  color: #7f9f3d;
-}
-
 @media (prefers-color-scheme: dark) {
   .navbar-custom {
     background: #6060601;
     border-bottom: 1px solid #AAA;
   }
+}
+
+.navbar-custom .nav li a {
+  font-size: 14px;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav li a {
+  font-size: 20px;
+  font-weight: 800;
+  color: #7f9f3d;
 }
 
 @media (prefers-color-scheme: dark) {
