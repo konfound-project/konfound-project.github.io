@@ -94,11 +94,12 @@ h4,h5,h6 {
 
 
 /* --------------------------------------------- */
-
+git
 /* --- Code blocks --- */
 
 code, pre code, .highlight code, .highlight pre code {
-  background-color: #000;
+  background-color: #999;
+  color: #333;
 }
 
 
