@@ -91,6 +91,21 @@ h4,h5,h6 {
   color: #639dad;
 }
 
+
+
+/* --------------------------------------------- */
+
+/* --- Code blocks --- */
+
+code, pre code, .highlight code, .highlight pre code {
+  background-color: #000;
+}
+
+
+/* --------------------------------------------- */
+
+
+
 a {
   color: #0645ad; /* standard blue hyperlink color */
   font-weight: 400;

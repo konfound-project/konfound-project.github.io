@@ -21,16 +21,6 @@ comments: false
 ---
 
 
-### Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science
-
-Emory University: [Workshop on Advanced Research Methods](https://www.starflame.org/warm)
-
-**March 21, 2024** (8:30pm&#8211;9:30pm Eastern time, Virtual) 
-
-[{{< awesome fas fa-file-alt >}} Paper](https://www.dropbox.com/s/4vvpvgqhpe2h1rv/Quantifying%20the%20robustness%20of%20causal%20inferences%20as%20published%20sensitivity%20analysis%20for%20pragmatic%20social%20science.pdf)
-
----
-
 
 ### Robustness of Inference to Replacement & Fragility for Logistic Regression and Hazard Functions
 
@@ -70,6 +60,17 @@ University of Gothenburg, Sweden. [School of Public Health](https://www.gu.se/en
 ## Past Talks
 
 ---
+
+### Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science
+
+Emory University: [Workshop on Advanced Research Methods](https://www.starflame.org/warm)
+
+**March 21, 2024** (8:30pm&#8211;9:30pm Eastern time, Virtual) 
+
+[{{< awesome fas fa-file-alt >}} Paper](https://www.dropbox.com/s/4vvpvgqhpe2h1rv/Quantifying%20the%20robustness%20of%20causal%20inferences%20as%20published%20sensitivity%20analysis%20for%20pragmatic%20social%20science.pdf)
+
+---
+
 
 ### Communicating the Robustness of COVID-19 Studies
 

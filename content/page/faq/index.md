@@ -9,6 +9,8 @@ by Kenneth A. Frank, Qinyun Lin, Ran Xu, Spiro Maroulis, Guan Saw, & Josh Rosenb
 
 *Last updated: 8/13/2023*
 
+[**FAQ Dev Version**](https://www.dropbox.com/s/9eymdekym5g50o7/frequently%20asked%20questions%20for%20application%20of%20konfound-it.docx?dl=0)
+
 ---
 
 ## Introduction
@@ -65,7 +67,9 @@ pKonFound(-0.2, 0.103, 20888, 3, n_treat = 17888, model_type = "logistic")
 ```
 
 - Begg, C. B., & Gray, R. (1984). Calculation of polychotomous logistic regression parameters using individualized regressions. *Biometrika, 71*(11-8).
-- Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., & Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. *Journal of Clinical Epidemiology, 134*, 150-159. (authors listed alphabetically.) [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/frank-et-al-2021.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.jclinepi.2021.01.025)
+- Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., & Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. *Journal of Clinical Epidemiology, 134*, 150-159. (authors listed alphabetically.) [{{< awesome fas fa-file-pdf >}} PDF](https://www.dropbox.com/s/2dzkvalwmgr5v5z/Hypothetical%20case%20replacement%20can%20be%20used%20to%20quantify%20the%20robustness%20of%20trial%20results%20submit.docx?dl=0) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.jclinepi.2021.01.025)
+
+
 
 ### Probit Models
 
@@ -130,7 +134,7 @@ Several estimation approaches use OLS at the second stage of analysis. These inc
 
 But, Frank et al. (2021) is related.
 
-- Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., & Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. *Journal of Clinical Epidemiology, 134*, 150-159. (authors listed alphabetically.) [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/frank-et-al-2021.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.jclinepi.2021.01.025)
+- Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., & Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. *Journal of Clinical Epidemiology, 134*, 150-159. (authors listed alphabetically.) [{{< awesome fas fa-file-pdf >}} PDF](https://www.dropbox.com/s/2dzkvalwmgr5v5z/Hypothetical%20case%20replacement%20can%20be%20used%20to%20quantify%20the%20robustness%20of%20trial%20results%20submit.docx?dl=0) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.jclinepi.2021.01.025)
 
 This could be applied to an accuracy or recall score or maybe even an overall $F$ score.
 
@@ -180,7 +184,7 @@ Similarly, the ITCV can be compared to the impact of any observed covariate $Z$ 
 In Frank et al. (2013), we quantified the RIR for studies published in *Education, Evaluation and Policy Analysis*, July 24-November 15, 2012. The median value for observational studies and randomized experiments was about 35%. RIR values in a new study higher than about 33% would imply a more robust inference than as published in EEPA in the interval given. Several notes apply:
 
 - Comparisons across studies are best done using RIR (in terms of a correlation metric&#8212;see Frank et al., 2013). The ITCV does not compare as directly because different standard errors are used for inference in different studies.
-  - Frank, K. A., Maroulis, S. J., Duong, M. Q., & Kelcey, B. M. (2013). What would it take to change an inference? Using Rubin’s causal model to interpret the robustness of causal inferences. *Educational Evaluation and Policy Analysis, 35*(4), 437-460. [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/frank-maroulis-duong-kelcey-2013.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.3102/0162373713493129)
+  - Frank, K. A., Maroulis, S. J., Duong, M. Q., & Kelcey, B. M. (2013). What would it take to change an inference? Using Rubin’s causal model to interpret the robustness of causal inferences. *Educational Evaluation and Policy Analysis, 35*(4), 437-460. [{{< awesome fas fa-file-pdf >}} PDF](https://drive.google.com/file/d/1aGhxGjvMvEPVAgOA8rrxvA97uUO5TTMe/view) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.3102/0162373713493129)
 - We are currently updating this analysis. 
 - Distributions may vary by discipline and journal.
 
@@ -194,21 +198,25 @@ In terms of a debate between a researcher and a skeptic, an RIR of 50% would all
 
 The ITCV can be converted into a probability of observing an impact of a given size from within the reference distribution of observed impacts. This is described in:
 
-- Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. *Sociological Methods and Research, 29*(2), 147-194. [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/frank-2000.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1177/0049124100029002001)
-- Pan, W. (2009). A SAS/IML macro for computing percentage points of Pearson distributions. *Journal of Statistical Software, 31*(Code Snippet 2), 1-6. [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/pan-2009.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.18637/jss.v031.c02)
-- Pan, W., & Frank, K.A. (2003). A probability index of the robustness of a causal inference. *Journal of Educational and Behavioral Statistics, 28*(4), 315-337. [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/pan-frank-2003.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.3102/10769986028004315)
-- Pan, W., & Frank, K.A. (2004). An approximation to the distribution of the product of two dependent correlation coefficients. *Journal of Statistical Computation and Simulation, 74*(6), 419-443. [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/pan-frank-2004.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1080/00949650310001596822)
+- Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. *Sociological Methods and Research, 29*(2), 147-194. [{{< awesome fas fa-file-pdf >}} PDF](https://drive.google.com/file/d/1F7oGYZ8SS8hnZxSI3Dch_w65Qz6KIRdI/view) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1177/0049124100029002001)
+- Pan, W. (2009). A SAS/IML macro for computing percentage points of Pearson distributions. *Journal of Statistical Software, 31*(Code Snippet 2), 1-6. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.18637/jss.v031.c02)
+- Pan, W., & Frank, K. A. (2003). A probability index of the robustness of a causal inference. *Journal of Educational and Behavioral Statistics, 28*(4), 315-337. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.3102/10769986028004315)
+- Pan, W., & Frank, K. A. (2004). An approximation to the distribution of the product of two dependent correlation coefficients. *Journal of Statistical Computation and Simulation, 74*(6), 419-443. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1080/00949650310001596822)
 
 The RIR can be expressed as a probability from a Bayesian perspective:
 
-- Frank, K. A., & Min, K. (2007). Indices of robustness for sample representation. *Sociological Methodology. 37*(1). 349-392. (equal first authors.) [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/frank-min-2007.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1111/j.1467-9531.2007.00186.x)
-- Li, T., & Frank, K. A. (2022). The probability of a robust inference for internal validity. *Sociological Methods and Research, 51*(4). [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/li-frank-2022.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1177/0049124120914922)
+- Frank, K. A., & Min, K. (2007). Indices of robustness for sample representation. *Sociological Methodology. 37*(1). 349-392. (equal first authors.) [{{< awesome fas fa-file-pdf >}} PDF](https://www.dropbox.com/s/o0rmduhe8pj3khd/INDICES%20OF%20ROBUSTNESS%20FOR%20SAMPLE%20REPRESENTATION.pdf?dl=0) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1111/j.1467-9531.2007.00186.x)
+- Li, T., & Frank, K. (2022). The probability of a robust inference for internal validity. *Sociological Methods & Research, 51*(4), 1947-1968. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1177/0049124120914922)
+
+
 
 ### Other Techniques for Sensitivity Analysis
 
 For a review of techniques for sensitivity analysis, see Frank et al. (2023).
 
-- Frank, K.A., Lin, Q., Xu, R., Maroulis, S.J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. *Social Science Research, 110*, 102815. [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/frank-lin-xu-maroulis-mueller-2023.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.ssresearch.2022.102815)
+- Frank, K. A., Lin, Q., Xu, R., Maroulis, S. J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. *Social Science Research, 110*, 102815. [{{< awesome fas fa-file-pdf >}} PDF](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.ssresearch.2022.102815)
+
+
 
 ### Oster’s Coefficient of Proportionality
 
@@ -218,6 +226,8 @@ For an exact calculation that makes fewer assumptions see Frank, Lin, and Maroul
 
 - Frank, K. A., Lin, Q., & Maroulis, S. (2023). *Quantifying sensitivity to selection on unobservables: Refining Oster’s coefficient of proportionality*. White paper. [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/frank-lin-maroulis-2023.pdf)
 - Oster, E. (2019). Unobservable selection and coefficient stability: Theory and evidence. *Journal of Business & Economic Statistics, 37*(2), 187-204. https://doi.org/10.1080/07350015.2016.1227711
+
+
 
 **R Code for Coefficient of Proportionality:**
 
@@ -248,7 +258,9 @@ pKonFound(est_eff = .125, std_err = .050, n_obs = 6300, sdx = .217, sdy = .991, 
 ```
 
 - Cinelli, C., & Hazlett, C. (2020). Making sense of sensitivity: Extending omitted variable bias. *Journal of the Royal Statistical Society: Series B (Statistical Methodology), 82*(1), 39-67. https://doi.org/10.1111/rssb.12348
-- Frank, K.A., Lin, Q., Xu, R., Maroulis, S.J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. *Social Science Research, 110*, 102815. [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/frank-lin-xu-maroulis-mueller-2023.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.ssresearch.2022.102815)
+- Frank, K. A., Lin, Q., Xu, R., Maroulis, S. J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. *Social Science Research, 110*, 102815. [{{< awesome fas fa-file-pdf >}} PDF](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.ssresearch.2022.102815)
+
+
 
 ### Vanderweel E-Value
 
@@ -256,7 +268,7 @@ The E-value quantifies the conditions necessary to reduce an estimated effect on
 
 - Baer, B. R., Gaudino, M., Charlson, M., Fremes, S. E., & Wells, M. T. (2021a). Fragility indices for only sufficiently likely modifications. *Proceedings of the National Academy of Sciences, 118*(49).	https://doi.org/10.1073/pnas.2105254118
 - Baer, B. R., Fremes, S. E., Gaudino, M., Charlson, M., & Wells, M. T. (2021b). On clinical trial fragility due to patients lost to follow up. *BMC Medical Research Methodology, 21*(1), 1-11. https://doi.org/10.1186/s12874-021-01446-z
-- Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., & Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. *Journal of Clinical Epidemiology, 134*, 150-159. (authors listed alphabetically.) [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/frank-et-al-2021.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.jclinepi.2021.01.025)
+- Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., & Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. *Journal of Clinical Epidemiology, 134*, 150-159. (authors listed alphabetically.) [{{< awesome fas fa-file-pdf >}} PDF](https://www.dropbox.com/s/2dzkvalwmgr5v5z/Hypothetical%20case%20replacement%20can%20be%20used%20to%20quantify%20the%20robustness%20of%20trial%20results%20submit.docx?dl=0) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.jclinepi.2021.01.025)
 - Vanderweele, T. J., and Arah, O. A. (2011). Bias formulas for sensitivity analysis of unmeasured confounding for general outcomes, treatments, and confounders. *Epidemiology, 22*(1), 42-52. https://doi.org/10.1097/ede.0b013e3181f74493
 - Vanderweele, T. J., and Ding, P. (2017). Sensitivity analysis in observational research: introducing the E-value. *Annals of Internal Medicine, 167*(4), 268-274. https://doi.org/10.7326/M16-2607
 
@@ -264,12 +276,25 @@ The E-value quantifies the conditions necessary to reduce an estimated effect on
 
 ## Appendix A: Background Readings
 
-- Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. *Sociological Methods and Research, 29*(2), 147-194. [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/frank-2000.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1177/0049124100029002001)
-- Frank, K.A., Lin, Q., Xu, R., Maroulis, S.J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. *Social Science Research, 110*, 102815. [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/frank-lin-xu-maroulis-mueller-2023.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.ssresearch.2022.102815)
-- Frank, K. A., Maroulis, S. J., Duong, M. Q., & Kelcey, B. M. (2013). What would it take to change an inference? Using Rubin’s causal model to interpret the robustness of causal inferences. *Educational Evaluation and Policy Analysis, 35*(4), 437-460. [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/frank-maroulis-duong-kelcey-2013.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.3102/0162373713493129)
-- Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., & Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. *Journal of Clinical Epidemiology, 134*, 150-159. (authors listed alphabetically.) [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/frank-et-al-2021.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.jclinepi.2021.01.025)
-- Xu, R., Frank, K. A., Maroulis, S. J., & Rosenberg, J. M. (2019). konfound: Command to quantify robustness of causal inferences. *The Stata Journal, 19*(3), 523–550. [{{< awesome fas fa-file-pdf >}} PDF](/page/publications/xu-frank-maroulis-rosenberg-2019.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1177/1536867X19874223)
+*For the most current list, please visit the [Publications](/page/publications) webpage.*
+
 - [{{< awesome fas fa-images >}} Main introductory slides for combined frameworks](https://www.dropbox.com/scl/fi/jfhwfuim4d001usup81c8/quantifying-the-robustness-of-causal-inferences-combined-frameworks-for-stat-horizons-July-23.pptx?rlkey=32srefdir2q6r9pq5998i1q1b&dl=0)
+- Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. *Sociological Methods and Research, 29*(2), 147-194. [{{< awesome fas fa-file-pdf >}} PDF](https://drive.google.com/file/d/1F7oGYZ8SS8hnZxSI3Dch_w65Qz6KIRdI/view) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1177/0049124100029002001)
+- Frank, K. A., Lin, Q., & Maroulis, S. (2023). *Quantifying sensitivity to selection on unobservables: Refining Oster’s coefficient of proportionality*. White paper. [{{< awesome fas fa-file-pdf >}} PDF](frank-lin-maroulis-2023.pdf)
+- Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., & Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. *Journal of Clinical Epidemiology, 134*, 150-159. (authors listed alphabetically.) [{{< awesome fas fa-file-pdf >}} PDF](https://www.dropbox.com/s/2dzkvalwmgr5v5z/Hypothetical%20case%20replacement%20can%20be%20used%20to%20quantify%20the%20robustness%20of%20trial%20results%20submit.docx?dl=0) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.jclinepi.2021.01.025)
+- Frank, K. A., Lin, Q., Xu, R., Maroulis, S. J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. *Social Science Research, 110*, 102815. [{{< awesome fas fa-file-pdf >}} PDF](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.ssresearch.2022.102815)
+- Frank, K. A., Maroulis, S. J., Duong, M. Q., & Kelcey, B. M. (2013). What would it take to change an inference? Using Rubin’s causal model to interpret the robustness of causal inferences. *Educational Evaluation and Policy Analysis, 35*(4), 437-460. [{{< awesome fas fa-file-pdf >}} PDF](https://drive.google.com/file/d/1aGhxGjvMvEPVAgOA8rrxvA97uUO5TTMe/view) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.3102/0162373713493129)
+- Frank, K. A., & Min, K. (2007). Indices of robustness for sample representation. *Sociological Methodology. 37*(1). 349-392. (equal first authors.) [{{< awesome fas fa-file-pdf >}} PDF](https://www.dropbox.com/s/o0rmduhe8pj3khd/INDICES%20OF%20ROBUSTNESS%20FOR%20SAMPLE%20REPRESENTATION.pdf?dl=0) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1111/j.1467-9531.2007.00186.x)
+- Frank, K. A., Sykes, G., Anagnostopoulos, D., Cannata, M., Chard, L., Krause, A., & McCrory, R. (2008). Does NBPTS certification affect the number of colleagues a teacher helps with instructional matters?. *Educational Evaluation and Policy Analysis, 30*(1), 3-30. [{{< awesome fas fa-file-pdf >}} PDF](https://drive.google.com/file/d/1aOvAXEVnQCe9-dbWkgTqtq56Y3Z1tpkg/view) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.3102/0162373707313781)
+- Li, T., & Frank, K. (2022). The probability of a robust inference for internal validity. *Sociological Methods & Research, 51*(4), 1947-1968. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1177/0049124120914922)
+- Lin, Q., Nuttall, A., Zhang, Q., Frank, K.A. (2023) How do unobserved confounding mediators and measurement error impact estimated mediation effects and corresponding statistical inferences? Introducing R Package ConMed for sensitivity analysis. *Psychological Methods, 28*(2), 339-358. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1037/met0000567)
+- Narvaiz, S., Lin, Q., Rosenberg, J. M., Frank, K. A., Maroulis, S. J., Wang, W., & Xu, R. (2024). konfound: An R sensitivity analysis package to quantify the robustness of causal inferences. *Journal of Open Source Software, 9*(95), 5779. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.21105/joss.05779)
+- Pan, W. (2009). A SAS/IML macro for computing percentage points of Pearson distributions. *Journal of Statistical Software, 31*(Code Snippet 2), 1-6. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.18637/jss.v031.c02)
+- Pan, W., & Frank, K. A. (2003). A probability index of the robustness of a causal inference. *Journal of Educational and Behavioral Statistics, 28*(4), 315-337. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.3102/10769986028004315)
+- Pan, W., & Frank, K. A. (2004). An approximation to the distribution of the product of two dependent correlation coefficients. *Journal of Statistical Computation and Simulation, 74*(6), 419-443. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1080/00949650310001596822)
+- Xu, R., Frank, K. A., Maroulis, S. J., & Rosenberg, J. M. (2019). konfound: Command to quantify robustness of causal inferences. *The Stata Journal, 19*(3), 523–550. [{{< awesome fas fa-file-pdf >}} PDF](https://www.researchgate.net/profile/Ran-Xu-6/publication/335956720_konfound_Command_to_quantify_robustness_of_causal_inferences/links/5e49a3d2a6fdccd965ac3564/konfound-Command-to-quantify-robustness-of-causal-inferences.pdf) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1177/1536867X19874223)
+
+
 
 ---
 
@@ -277,11 +302,21 @@ The E-value quantifies the conditions necessary to reduce an estimated effect on
 
 ### {{< awesome fab fa-r-project >}} KonFound R Package
 
+| Monthly Downloads | Total Downloads |
+| :---------------- | :-------------- |
+| ![](https://cranlogs.r-pkg.org/badges/konfound?color=9bbb59) | ![](https://cranlogs.r-pkg.org/badges/grand-total/konfound?color=9bbb59) |
+
 ```
 install.packages("konfound")
 library(konfound)
 pkonfound(est_eff = -9.01, std_err = .68, n_obs = 7639, n_covariates = 221)
 ```
+
+- CRAN version of the R package: Rosenberg, J. M., Xu, R., Lin, Q., Maroulis, S., & Frank, K. A. (2023). *konfound: Quantify the robustness of causal inferences* (v. 0.4.0). https://CRAN.R-project.org/package=konfound
+- Narvaiz, S., Lin, Q., Rosenberg, J. M., Frank, K. A., Maroulis, S. J., Wang, W., & Xu, R. (2024). konfound: An R sensitivity analysis package to quantify the robustness of causal inferences. *Journal of Open Source Software, 9*(95), 5779. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.21105/joss.05779)
+- Development version of the R package: [KonFound Project on GitHub](https://github.com/konfound-project/konfound)
+
+
 
 ### {{< awesome fab fa-stripe-s >}} KonFound Stata Package
 
@@ -293,9 +328,15 @@ ssc install matsort
 pkonfound -9.01 .68 7639 221
 ```
 
+- Xu, R., Frank, K. A., Maroulis, S. J., & Rosenberg, J. M. (2019). konfound: Command to quantify robustness of causal inferences. *The Stata Journal, 19*(3), 523-550. https://doi.org/10.1177/1536867X19874223
+
+
+
 ### {{< awesome fas fa-calculator >}} KonFound-It! Shiny App
 
-- https://konfound-project.shinyapps.io/konfound-it/
+- Rosenberg, J. M., Narvaiz, S., Xu, R., Lin, Q., Maroulis, S., Frank, K. A., Saw, G. & Staudt Willet, K. B. (2023). *KonFound-it!: Quantify the robustness of causal inferences* (v. 2.0.0). https://konfound-project.shinyapps.io/konfound-it/
+
+
 
 ### {{< awesome fas fa-table >}} Spreadsheets
 

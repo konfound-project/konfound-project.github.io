@@ -62,7 +62,7 @@
   "headline": "About KonFound-It!",
   "description" : "Welcome to our space about sensitivity analysis.\nQuestions? Issues? Suggestions? Reach out through the KounFound-It! Google Group.\nPurpose All of the assumptions of statistical analysis rarely hold. So the challenge for the pragmatist is to understand when evidence is strong enough to support action. That\u0026rsquo;s where sensitivity analysis comes in—so we can understand how robust our inferences are to challenges to our assumptions. One example is a statement such as:",
   "inLanguage" : "en",
-  "wordCount":  458 ,
+  "wordCount":  580 ,
   "datePublished" : "0001-01-01T00:00:00",
   "dateModified" : "0001-01-01T00:00:00",
   "image" : "https:\/\/konfound-project.github.io\/img\/konfound-logo.png",
@@ -137,7 +137,7 @@
                 
                   <a href="/konfound/">R Package</a>
                 
-                  <a href="/konfound/">R Paper</a>
+                  <a href="https://doi.org/10.21105/joss.05779">R Paper</a>
                 
                   <a href="https://doi.org/10.1177/1536867X19874223">Stata Paper</a>
                 
@@ -162,7 +162,7 @@
                 
                   <a href="/page/guide">User Guide</a>
                 
-                  <a href="https://groups.google.com/forum/#!forum/konfound-it">Forum</a>
+                  <a href="https://groups.google.com/g/konfound-it">Forum</a>
                 
               </div>
             </li>
@@ -356,12 +356,27 @@
 </tr>
 </tbody>
 </table>
-<h3 id="hahahugoshortcode4s3hbhb-konfound-stata-package">
+<ul>
+<li>Development version of the R package: <a href="https://github.com/konfound-project/konfound">KonFound Project on GitHub</a></li>
+<li>Narvaiz, S., Lin, Q., Rosenberg, J. M., Frank, K. A., Maroulis, S. J., Wang, W., &amp; Xu, R. (2024). konfound: An R sensitivity analysis package to quantify the robustness of causal inferences. <em>Journal of Open Source Software, 9</em>(95), 5779. <a href="https://doi.org/10.21105/joss.05779">
+  <i class="fas fa-globe "></i>
+
+ Web</a></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="s2">&#34;konfound&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">library</span><span class="p">(</span><span class="n">konfound</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">pkonfound</span><span class="p">(</span><span class="n">est_eff</span> <span class="o">=</span> <span class="o">-</span><span class="mf">9.01</span><span class="p">,</span> <span class="n">std_err</span> <span class="o">=</span> <span class="o">.</span><span class="mi">68</span><span class="p">,</span> <span class="n">n_obs</span> <span class="o">=</span> <span class="mi">7639</span><span class="p">,</span> <span class="n">n_covariates</span> <span class="o">=</span> <span class="mi">221</span><span class="p">)</span>
+</span></span></code></pre></div><h3 id="hahahugoshortcode4s4hbhb-konfound-stata-package">
   <i class="fab fa-stripe-s "></i>
 
  KonFound Stata Package</h3>
 <p>Xu, R., Frank, K. A., Maroulis, S. J., &amp; Rosenberg, J. M. (2019). konfound: Command to quantify robustness of causal inferences. <em>The Stata Journal, 19</em>(3), 523-550. <a href="https://doi.org/10.1177/1536867X19874223">https://doi.org/10.1177/1536867X19874223</a></p>
-<h3 id="hahahugoshortcode4s4hbhb-benchmarks-what-works-clearinghouse">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssc install konfound
+</span></span><span class="line"><span class="cl">ssc install indeplist
+</span></span><span class="line"><span class="cl">ssc install moss
+</span></span><span class="line"><span class="cl">ssc install matsort
+</span></span><span class="line"><span class="cl">pkonfound -9.01 .68 7639 221
+</span></span></code></pre></div><h3 id="hahahugoshortcode4s5hbhb-benchmarks-what-works-clearinghouse">
   <i class="fas fa-warehouse "></i>
 
  Benchmarks: What Works Clearinghouse</h3>
@@ -370,14 +385,14 @@
 <h2 id="internal-resources">Internal Resources</h2>
 <p>Be sure to look through the variety of supports for KonFound:</p>
 <ul>
-<li><a href="/page/faq">FAQ</a></li>
+<li><a href="https://groups.google.com/g/konfound-it">Forum (Google Group)</a></li>
+<li><a href="/page/faq">FAQ</a> | <a href="https://www.dropbox.com/s/9eymdekym5g50o7/frequently%20asked%20questions%20for%20application%20of%20konfound-it.docx?dl=0">FAQ Dev Version</a></li>
 <li><a href="/page/resources">Resource Overview</a></li>
 <li><a href="/page/publications">Publications</a></li>
 <li><a href="/page/talks">Talks</a></li>
-<li><a href="/page/workshop">Workshops</a></li>
+<li><a href="/page/workshops">Workshops</a></li>
 <li><a href="">User Guide</a> - COMING SOON</li>
-<li><a href="">Blog</a> - COMING SOON</li>
-<li><a href="https://groups.google.com/g/konfound-it">Forum (Google Group)</a></li>
+<li><a href="">Benchmarks: What Works Clearinghouse</a> - COMING SOON</li>
 </ul>
 <hr>
 <h2 id="external-resources">External Resources</h2>
@@ -389,22 +404,17 @@
 <hr>
 <h2 id="connect">Connect</h2>
 <ul>
-<li><a href="https://groups.google.com/forum/#!forum/konfound-it">
-  <i class="fas fa-paper-plane "></i>
-
- Join our Google Group mailing list</a> for updates on KonFound workshops, publications, progress in related research!</li>
-<li><a href="https://msu.edu/~kenfrank/research.htm#causal">
-  <i class="fas fa-globe "></i>
-
- Visit Dr. Ken Frank&rsquo;s website</a> for even more relevant and related resources.</li>
-<li><a href="mailto:kenfrank@msu.edu">
-  <i class="fas fa-envelope "></i>
-
- Email Dr. Ken Frank</a> with any questions or suggestions.</li>
-<li><a href="https://github.com/konfound-project/konfound/issues">
-  <i class="fab fa-github "></i>
-
- Open an issue in the KonFound GitHub.</a></li>
+<li>Project Overview and Details: Peruse the <a href="https://konfound-it.org/">KonFound-It! Website</a></li>
+<li>Frequently Asked Questions: Check the <a href="/page/faq">FAQ page</a> | <a href="https://www.dropbox.com/s/9eymdekym5g50o7/frequently%20asked%20questions%20for%20application%20of%20konfound-it.docx?dl=0">FAQ dev version</a></li>
+<li>Specific Questions: Ask in the <a href="https://groups.google.com/g/konfound-it">KounFound-It! Google Group</a></li>
+<li>Issues with the konfound R Package: Post to <a href="(https://github.com/konfound-project/konfound/issues)">konfound GitHub Issues</a></li>
+<li>Overall KonFound-It! Project Inquiries: Contact <a href="https://msu.edu/~kenfrank/">Ken Frank</a></li>
+<li>Benchmarks: What Works Clearinghouse: Contact <a href="http://www.public.asu.edu/~smarouli/Spiro_Maroulis/Home.html">Spiro Maroulis</a></li>
+<li>R Package: Contact <a href="https://www.linkedin.com/in/qinyun-lin-b72763112/">Qinyun Lin</a></li>
+<li>R Shiny App: Contact <a href="https://joshuamrosenberg.com/">Joshua Rosenberg</a></li>
+<li>Stata Package: Contact <a href="https://sites.google.com/site/ranxupersonalweb/">Ran Xu</a></li>
+<li>User Guide: Contact <a href="https://www.cgu.edu/people/guan-saw/">Guan Saw</a></li>
+<li>Website: Contact <a href="https://bretsw.com">Bret Staudt Willet</a></li>
 </ul>
 <h3 id="thanks-for-visiting-happy-konfounding">Thanks for visiting! Happy KonFounding!</h3>
 
@@ -501,11 +511,13 @@
 
   <div class="container">
         <p class="credits copyright text-muted">
-          <h4><div style="text-align: center;">KonFound-It is supported by:</div></h4>
-          <br>
+          <img src="/img/konfound-logo-rectangle.png" alt="KonFound-It logo" style="height:80px;">
+        <h4><div style="text-align: center;">
+          KonFound-It is supported by:
+          </div></h4>
+        <br>
 
-          <div class="" style="text-align: center;">
-
+        <div class="" style="text-align: center;">
             <img src="/img/ies-logo.jpg" alt="IES logo" style="height:80px;">
             <a href="https://ies.ed.gov/funding/grantsearch/details.asp?ID=5723">IES Grant #R305D220022</a>&#8212;"Quantifying the Robustness of Causal Inferences: Extensions and Application to Existing Databases"
             <br><br>

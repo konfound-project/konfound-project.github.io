@@ -23,7 +23,7 @@ comments: false
 
 [What Would it take to Change an Inference? Quantifying the Robustness of Causal Inferences in Adolescent Research](https://www.s-r-a.org/annual-meeting-2024---what-would-it-take-to-change-an-inference--quantifying-the-robustness-of-causal-inferences-in-adolescent-research)
 
-**April 17, 2024** (10:00am&#8211;2:30pm Central time). In-person: Chicago, IL.
+**April 17, 2024** (9:00am&#8211;12:00pm Central time). In-person: Chicago, IL.
 
 ---
 

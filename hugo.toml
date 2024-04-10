@@ -114,7 +114,7 @@ pygmentsCodefencesGuessSyntax = true
 [[menu.main]]
     parent = "tools"
     name = "R Paper"
-    url = "https://konfound-project.github.io/konfound/"
+    url = "https://doi.org/10.21105/joss.05779"
     weight = 3
 
 [[menu.main]]
@@ -167,7 +167,7 @@ pygmentsCodefencesGuessSyntax = true
 [[menu.main]]
     parent = "support"
     name = "Forum"
-    url = "https://groups.google.com/forum/#!forum/konfound-it"
+    url = "https://groups.google.com/g/konfound-it"
     weight = 7
 
 [[menu.main]]
