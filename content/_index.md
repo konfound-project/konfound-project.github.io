@@ -24,15 +24,15 @@ Go here to [register](https://web.cvent.com/event/6a962cf4-05e7-45fb-8f6f-eafe8
 
 {{< button href="https://konfound-project.shinyapps.io/konfound-it/" >}}Start KonFounding{{< /button >}}
 
-Try out **KonFound-It!** through an interactive web app.
+Try out **KonFound-It!** to calculate sensitivity analyses through an interactive web app.
 
 {{< column >}}
 
 ![Book Shelves](img/bench.png)
 
-{{< button href="https://ies.ed.gov/ncee/wwc/" >}}Benchmarks{{< /button >}}
+{{< button href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/" >}}Benchmarks{{< /button >}}
 
-Sensitivity analyses calculated for the [What Works Clearinghouse](https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/).
+Explore sensitivity analyses calculated for the [What Works Clearinghouse](https://ies.ed.gov/ncee/wwc/) through an interactive web app.
 
 {{< endcolumns >}}
 
