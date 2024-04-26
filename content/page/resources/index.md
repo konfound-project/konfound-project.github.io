@@ -11,7 +11,7 @@ comments: false
 - [R package (development version)](https://github.com/konfound-project/konfound)
 - [R Shiny app](https://konfound-project.shinyapps.io/konfound-it/)
 - [Stata package](https://doi.org/10.1177/1536867X19874223)
-- [Benchmarks: What Works Clearinghouse]() [COMING SOON]
+- [Benchmarks: What Works Clearinghouse](https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/) [BETA]
 
 ---
 

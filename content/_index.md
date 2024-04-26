@@ -32,7 +32,7 @@ Try out **KonFound-It!** through an interactive web app.
 
 {{< button href="https://ies.ed.gov/ncee/wwc/" >}}Benchmarks{{< /button >}}
 
-Sensitivity analyses calculated for the [What Works Clearinghouse](https://ies.ed.gov/ncee/wwc/).
+Sensitivity analyses calculated for the [What Works Clearinghouse](https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/).
 
 {{< endcolumns >}}
 

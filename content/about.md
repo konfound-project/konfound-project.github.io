@@ -64,6 +64,13 @@ We are a group of researchers spanning numerous institutions who would like to c
 Rosenberg, J. M., Narvaiz, S., Xu, R., Lin, Q., Maroulis, S., Frank, K. A., Saw, G. & Staudt Willet, K. B. (2023). *KonFound-it!: Quantify the robustness of causal inferences* (v. 2.0.0). https://konfound-project.shinyapps.io/konfound-it/
 
 
+
+### {{< awesome fas fa-warehouse >}} Benchmarks: What Works Clearinghouse (BETA)
+
+Maroulis, S., Overstreet, D., Frank, K. A., & Staudt Willet, K. B. (2024). *What works clearinghouse Sensitivity analysis benchmarks*. https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/
+
+
+
 ### {{< awesome fab fa-r-project >}} KonFound R Package
 
 Rosenberg, J. M., Xu, R., Lin, Q., Maroulis, S., & Frank, K. A. (2023). *konfound: Quantify the robustness of causal inferences* (v. 0.4.0). https://CRAN.R-project.org/package=konfound 
@@ -96,12 +103,6 @@ pkonfound -9.01 .68 7639 221
 ```
 
 
-
-### {{< awesome fas fa-warehouse >}} Benchmarks: What Works Clearinghouse
-
-COMING SOON
-
-
 ---
 
 
@@ -115,9 +116,8 @@ Be sure to look through the variety of supports for KonFound:
 - [Publications](/page/publications)
 - [Talks](/page/talks)
 - [Workshops](/page/workshops)
+- [Benchmarks: What Works Clearinghouse](https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/) [BETA]
 - [User Guide]() - COMING SOON
-- [Benchmarks: What Works Clearinghouse]() - COMING SOON
-
 
 ---
 

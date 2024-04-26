@@ -26,14 +26,14 @@
       <link>https://konfound-project.github.io/page/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/resources/</guid>
-      <description>Tools R package (CRAN version) R package (development version) R Shiny app Stata package Benchmarks: What Works Clearinghouse [COMING SOON] Explanatory Resources FAQ Overview of pkonfound commands Quick examples Powerpoint quantifying the robustness of causal inferences combined frameworks Powerpoint for comparison of frameworks Resources for Publication Published empirical examples KonFound-It! spreadsheet for calculating indices Publications: Impact Threshold for a Confounding Variable Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient.</description>
+      <description>Tools R package (CRAN version) R package (development version) R Shiny app Stata package Benchmarks: What Works Clearinghouse [BETA] Explanatory Resources FAQ Overview of pkonfound commands Quick examples Powerpoint quantifying the robustness of causal inferences combined frameworks Powerpoint for comparison of frameworks Resources for Publication Published empirical examples KonFound-It! spreadsheet for calculating indices Publications: Impact Threshold for a Confounding Variable Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient.</description>
     </item>
     <item>
       <title>Talks</title>
       <link>https://konfound-project.github.io/page/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/talks/</guid>
-      <description>Upcoming Talks Quantifying Sensitivity to Selection on Unobservables: Refining Oster’s Coefficient of Proportionality Association for Education Finance and Policy&#xA;March 15, 2024 (8:00am–9:45am Eastern time, Baltimore Marriott Waterfront, Room 12 — Falkland)&#xA;Paper&#xA;Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions Michigan State University Biostats&#xA;April 11, 2024 (3:30pm–4:30pm Eastern time, E111 Fee hall)&#xA;Paper&#xA;Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions University of Gothenburg, Sweden.</description>
+      <description>Upcoming Talks Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions University of Gothenburg, Sweden. School of Public Health&#xA;May 23, 2024 (1:00pm–2:45pm Sweden time).&#xA;Paper&#xA;Quantifying Sensitivity to Selection on Unobservables: Refining Oster’s Coefficient of Proportionality Joint Statistcal Meetings&#xA;August 4, 2024 (8:30pm–9:30pm Pacific time).&#xA;Paper&#xA;Past Talks Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions Michigan State University Biostats</description>
     </item>
     <item>
       <title>User Guide</title>
@@ -47,7 +47,7 @@
       <link>https://konfound-project.github.io/page/workshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/workshops/</guid>
-      <description>Upcoming Workshops American Educational Research Association What Would It Take to Change Your Inference? Opening the Discourse about Causal Inferences to a Range of Stakeholders&#xA;April 12, 2024 (7:45am–11:45am Eastern time). In-person: Philadelphia, PA.&#xA;Society for Research on Adolescent Development What Would it take to Change an Inference? Quantifying the Robustness of Causal Inferences in Adolescent Research&#xA;April 17, 2024 (9:00am–12:00pm Central time). In-person: Chicago, IL.&#xA;Lund University Workshop and Presentation on Sensitivity Analysis</description>
+      <description>Upcoming Workshops Lund University Workshop and Presentation on Sensitivity Analysis&#xA;May 20–21, 2024 (Starting 1:00pm Central European time). In-person: Lund, Sweden.&#xA;University of Gothenburg School of Public Health and Community Medicine&#xA;May 24, 2024 (TBD). In-person: Gothenburg, Sweden.&#xA;Inter-university Consortium for Political and Social Research (ICPSR) Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data&#xA;July 8–12 (mini-course). Hybrid: Ann Arbor, MI.&#xA;Society for Epidemiological Research What would it take to change your inference?</description>
     </item>
   </channel>
 </rss>
