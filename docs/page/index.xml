@@ -4,7 +4,7 @@
     <title>Pages on KonFound-It!</title>
     <link>https://konfound-project.github.io/page/</link>
     <description>Recent content in Pages on KonFound-It!</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="https://konfound-project.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,7 @@
       <link>https://konfound-project.github.io/page/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/faq/</guid>
-      <description>by Kenneth A. Frank, Qinyun Lin, Ran Xu, Spiro Maroulis, Guan Saw, &amp;amp; Josh Rosenberg&#xA;Last updated: 8/13/2023&#xA;FAQ Dev Version&#xA;Introduction This document addresses some frequently asked questions regarding KonFound. See the appendices for background readings and software. For quick reference, see:&#xA;Overview of all KonFound commands Main introductory slides for combined frameworks Background There are two basic frameworks for sensitivity analysis employed within KonFound. First is the Impact Threshold for a Confounding Variable (ITCV)—Frank (2000).</description>
+      <description>by Kenneth A. Frank, Qinyun Lin, Ran Xu, Spiro Maroulis, Guan Saw, &amp;amp; Josh Rosenberg&#xA;Last updated: 7/5/2024&#xA;FAQ Dev Version&#xA;Introduction This document addresses some frequently asked questions regarding KonFound. See the appendices for background readings and software. For quick reference, see:&#xA;Overview of all KonFound commands Main introductory slides for combined frameworks Background There are two basic frameworks for sensitivity analysis employed within KonFound. First is the Impact Threshold for a Confounding Variable (ITCV)—Frank (2000).</description>
     </item>
     <item>
       <title>Publications</title>

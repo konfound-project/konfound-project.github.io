@@ -7,7 +7,7 @@ math: true
 
 by Kenneth A. Frank, Qinyun Lin, Ran Xu, Spiro Maroulis, Guan Saw, & Josh Rosenberg
 
-*Last updated: 8/13/2023*
+*Last updated: 7/5/2024*
 
 [**FAQ Dev Version**](https://www.dropbox.com/s/9eymdekym5g50o7/frequently%20asked%20questions%20for%20application%20of%20konfound-it.docx?dl=0)
 
@@ -36,9 +36,9 @@ Both the ITCV and RIR have been presented with fairly conventional and simple li
 
 ### Weighted Least Squares
 
-[{{< awesome fas fa-images >}} Slides](https://www.dropbox.com/scl/fi/uzliqbhkg77btv09yomt1/robustness-of-inference-to-replacement-for-weighted-data.pptx?rlkey=09x0if4wifo3oluumfpem7rx7&dl=0)
+[{{< awesome fas fa-images >}} Slides](https://www.dropbox.com/scl/fi/uzliqbhkg77btv09yomt1/robustness-of-inference-to-replacement-for-weighted-data.pptx?rlkey=09x0if4wifo3oluumfpem7rx7&e=1&dl=0)
 
-There are several models that can be estimated using weighted least squares. These include proportional weighting (weights inversely proportional to the propensity for treatment), multilevel models (weighted inversely proportional to the sampling variability) and meta-analysis.
+There are several models that can be estimated using weighted least squares. These include proportional weighting (weights inversely proportional to the propensity for treatment), multilevel models (weighted inversely proportional to the sampling variability) and meta-analysis (which weights the studies by sample size or as in a multilevel model which may account for multiple estimates per study).
 
 **Recommendation:** RIR
 
@@ -46,7 +46,9 @@ There are several models that can be estimated using weighted least squares. The
 
 **Assumptions:** The weights assigned to each case do not change as a result of the replacement process.
 
-**Interpretation:** The RIR essentially indicates the total weight of cases that must be replaced to invalidate an inference. One might consider normalizing the weights by dividing by the mean weight: $ w^*_i = \frac{w_i}{\bar{w}} $. 
+**Interpretation:** The RIR essentially indicates the sum of the total weight of cases that must be replaced to invalidate an inference. For example, if the RIR is 30% and the sum of the total weights is 100 then one would have to replace a total weight of 30 with cases for which there was no effect to nullify the inference. This could be accomplished by replacing one school of weight 30; two schools of weight 15; or 30 schools each of weight 1.
+
+**Extension:** One might consider normalizing the weights by dividing by the mean weight: $ w^*_i = \frac{w_i}{\bar{w}} $. 
 
 As a result, $ \bar{w}^* = 1 $, and the sample size is preserved. 
 
