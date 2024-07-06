@@ -5,6 +5,18 @@ comments: false
 math: true
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P0EMSX02Q0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P0EMSX02Q0');
+</script>
+
+
+
 by Kenneth A. Frank, Qinyun Lin, Ran Xu, Spiro Maroulis, Guan Saw, & Josh Rosenberg
 
 *Last updated: 7/5/2024*

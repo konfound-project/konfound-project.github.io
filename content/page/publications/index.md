@@ -3,6 +3,17 @@ title: Publications
 comments: false
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P0EMSX02Q0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P0EMSX02Q0');
+</script>
+
+
 
 Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. *Sociological Methods and Research, 29*(2), 147-194. [{{< awesome fas fa-file-pdf >}} PDF](https://drive.google.com/file/d/1F7oGYZ8SS8hnZxSI3Dch_w65Qz6KIRdI/view) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1177/0049124100029002001)
 

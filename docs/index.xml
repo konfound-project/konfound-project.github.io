@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>KonFound-It!</title>
+    <title>KonFound-It! Home on KonFound-It!</title>
     <link>https://konfound-project.github.io/</link>
-    <description>Recent content on KonFound-It!</description>
+    <description>Recent content in KonFound-It! Home on KonFound-It!</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 13 Aug 2023 00:00:00 +0000</lastBuildDate>
@@ -34,7 +34,7 @@
       <link>https://konfound-project.github.io/post/2020-05-01-presentation/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/post/2020-05-01-presentation/</guid>
-      <description>I summarized our current thinking on how robustness analysis can be applied to emerging COVID research in a brief presentation at an online conference entitled &amp;ldquo;COVID-19 and Public Policy and Management.&amp;rdquo; The conference was hosted by the Center on Technology, Data, and Society at Arizona State University, and a recording of the 15-minute talk, entitled &amp;ldquo;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates&amp;rdquo;, is available here.&#xA;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates </description>
+      <description> I summarized our current thinking on how robustness analysis can be applied to emerging COVID research in a brief presentation at an online conference entitled &amp;ldquo;COVID-19 and Public Policy and Management.&amp;rdquo; The conference was hosted by the Center on Technology, Data, and Society at Arizona State University, and a recording of the 15-minute talk, entitled &amp;ldquo;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates&amp;rdquo;, is available here.&#xA;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates </description>
     </item>
     <item>
       <title>About KonFound-It!</title>
@@ -55,7 +55,7 @@
       <link>https://konfound-project.github.io/page/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/publications/</guid>
-      <description>Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. Sociological Methods and Research, 29(2), 147-194. PDF | Web&#xA;Frank, K. A., Lin, Q., &amp;amp; Maroulis, S. (2023). Quantifying sensitivity to selection on unobservables: Refining Oster’s coefficient of proportionality. White paper. PDF&#xA;Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T.</description>
+      <description>Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. Sociological Methods and Research, 29(2), 147-194. PDF | Web&#xA;Frank, K. A., Lin, Q., &amp;amp; Maroulis, S. (2023). Quantifying sensitivity to selection on unobservables: Refining Oster’s coefficient of proportionality. White paper. PDF&#xA;Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M.</description>
     </item>
     <item>
       <title>Resource Overview</title>

@@ -4,6 +4,17 @@ subtitle: Learn about the project and meet the team
 comments: false
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P0EMSX02Q0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P0EMSX02Q0');
+</script>
+
+
 
 ---
 

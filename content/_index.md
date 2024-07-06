@@ -1,3 +1,20 @@
+---
+title: KonFound-It! Home
+comments: false
+---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P0EMSX02Q0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P0EMSX02Q0');
+</script>
+
+
+
 **Sensitivity analyses that quantify the robustness of inferences to concerns about omitted variables and other sources of bias.**
 
 {{< awesome fas fa-paper-plane >}} Questions? Issues? Suggestions? Reach out through the [KounFound-It! Google Group](https://groups.google.com/g/konfound-it).
