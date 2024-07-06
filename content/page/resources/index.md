@@ -15,6 +15,7 @@ comments: false
 
 ---
 
+
 ## Explanatory Resources
 
 - [{{< awesome fas fa-globe >}} FAQ](/page/faq)
@@ -26,12 +27,14 @@ comments: false
 
 ---
 
+
 ## Resources for Publication
 
 - [{{< awesome fas fa-file-pdf >}} Published empirical examples](https://www.dropbox.com/s/bc4ert79kgbsac4/Examples%20of%20applications%20of%20indices%20for%20quantifying%20the%20robustness%20of%20causal%20inferences.docx?dl=0)
 - [{{< awesome fas fa-table >}} KonFound-It! spreadsheet for calculating indices](https://www.dropbox.com/s/accoz5xu82vy27v/KonFound-it%21%20enhanced.xlsx?dl=0)
 
 ---
+
 
 ## Publications: Impact Threshold for a Confounding Variable
 
@@ -40,6 +43,7 @@ comments: false
 
 ---
 
+
 ## Publications: Robustness of Inference to Replacement 
 
 - Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., & Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. *Journal of Clinical Epidemiology, 134*, 150-159. (authors listed alphabetically.) [{{< awesome fas fa-file-pdf >}} PDF](https://www.dropbox.com/s/2dzkvalwmgr5v5z/Hypothetical%20case%20replacement%20can%20be%20used%20to%20quantify%20the%20robustness%20of%20trial%20results%20submit.docx?dl=0) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.jclinepi.2021.01.025)
@@ -47,6 +51,7 @@ comments: false
 - Frank, K. A., & Min, K. (2007). Indices of robustness for sample representation. *Sociological Methodology. 37*(1). 349-392. (equal first authors.) [{{< awesome fas fa-file-pdf >}} PDF](https://www.dropbox.com/s/o0rmduhe8pj3khd/INDICES%20OF%20ROBUSTNESS%20FOR%20SAMPLE%20REPRESENTATION.pdf?dl=0) | [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1111/j.1467-9531.2007.00186.x)
 
 ---
+
 
 ## Publications for Both Frameworks
 
