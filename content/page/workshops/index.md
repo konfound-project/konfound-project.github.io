@@ -21,7 +21,7 @@ comments: false
 
 ### Society for Epidemiological Research
 
-[What would it take to change your inference? Quantifying the Discourse about Causal Inferences in Epidemiology](https://epiresearch.org/annual-meeting/2024-meeting/2023-workshops/)
+[What would it take to change your inference? Quantifying the Discourse about Causal Inferences in Epidemiology](https://epiresearch.org/annual-meeting/2024-meeting/2024-workshops/)
 
 **July 24, 2024** (8:30am&#8211;12:30pm Central time). Virtual.
 
