@@ -17,12 +17,6 @@ title = "GitHub"
 icon = "fab fa-github"
 
 [[social_icons]]
-id = "r-shiny"
-url = "https://konfound-project.shinyapps.io/%s"
-title = "R Shiny App"
-icon = "fas fa-calculator"
-
-[[social_icons]]
 id = "r-package"
 url = "https://cran.r-project.org/package=%s"
 title = "R Package"
@@ -33,6 +27,18 @@ id = "stata-package"
 url = "https://doi.org/10.1177/%s"
 title = "Stata Package"
 icon = "fab fa-stripe-s"
+
+[[social_icons]]
+id = "r-shiny"
+url = "https://konfound-project.shinyapps.io/%s"
+title = "R Shiny App"
+icon = "fas fa-calculator"
+
+[[social_icons]]
+id = "benchmark"
+url = "https://konfound-project.shinyapps.io/wwc-sensitivity-%s"
+title = "Benchmarks - What Works Clearinghouse"
+icon = "fas fa-warehouse"
 
 [[social_icons]]
 id = "facebook"

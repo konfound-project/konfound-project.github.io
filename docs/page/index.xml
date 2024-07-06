@@ -26,14 +26,14 @@
       <link>https://konfound-project.github.io/page/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/resources/</guid>
-      <description>Tools R package (CRAN version) R package (development version) R Shiny app Stata package Benchmarks: What Works Clearinghouse [BETA] Explanatory Resources FAQ Overview of pkonfound commands Quick examples Powerpoint quantifying the robustness of causal inferences combined frameworks Powerpoint for comparison of frameworks Resources for Publication Published empirical examples KonFound-It! spreadsheet for calculating indices Publications: Impact Threshold for a Confounding Variable Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient.</description>
+      <description>Tools R package (CRAN version) R package (development version) R Shiny app Stata package Benchmarks: What Works Clearinghouse [BETA] Explanatory Resources FAQ Overview of KonFound techniques Overview of KonFound commands Quick examples Slides quantifying the robustness of causal inferences combined frameworks Slides for comparison of frameworks Resources for Publication Published empirical examples KonFound-It! spreadsheet for calculating indices Publications: Impact Threshold for a Confounding Variable Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient.</description>
     </item>
     <item>
       <title>Talks</title>
       <link>https://konfound-project.github.io/page/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/talks/</guid>
-      <description>Upcoming Talks Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions University of Gothenburg, Sweden. School of Public Health&#xA;May 23, 2024 (1:00pm–2:45pm Sweden time).&#xA;Paper&#xA;Quantifying Sensitivity to Selection on Unobservables: Refining Oster’s Coefficient of Proportionality Joint Statistcal Meetings&#xA;August 4, 2024 (8:30pm–9:30pm Pacific time).&#xA;Paper&#xA;Past Talks Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions Michigan State University Biostats</description>
+      <description>Upcoming Talks Quantifying Sensitivity to Selection on Unobservables: Refining Oster’s Coefficient of Proportionality Joint Statistcal Meetings&#xA;August 4, 2024 (8:30pm–9:30pm Pacific time).&#xA;Paper&#xA;Past Talks Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions University of Gothenburg, Sweden. School of Public Health&#xA;May 23, 2024 (1:00pm–2:45pm Sweden time).&#xA;Paper&#xA;Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions Michigan State University Biostats</description>
     </item>
     <item>
       <title>User Guide</title>
@@ -47,7 +47,7 @@
       <link>https://konfound-project.github.io/page/workshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/workshops/</guid>
-      <description>Upcoming Workshops Lund University Workshop and Presentation on Sensitivity Analysis&#xA;May 20–21, 2024 (Starting 1:00pm Central European time). In-person: Lund, Sweden.&#xA;University of Gothenburg School of Public Health and Community Medicine&#xA;May 24, 2024 (TBD). In-person: Gothenburg, Sweden.&#xA;Inter-university Consortium for Political and Social Research (ICPSR) Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data&#xA;July 8–12 (mini-course). Hybrid: Ann Arbor, MI.&#xA;Society for Epidemiological Research What would it take to change your inference?</description>
+      <description>Upcoming Workshops Inter-university Consortium for Political and Social Research (ICPSR) Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data&#xA;July 8–12 (mini-course). Hybrid: Ann Arbor, MI.&#xA;Society for Epidemiological Research What would it take to change your inference? Quantifying the Discourse about Causal Inferences in Epidemiology&#xA;July 24, 2024 (8:30am–12:30pm Central time). Virtual.&#xA;Past Workshops University of Gothenburg School of Public Health and Community Medicine&#xA;May 24, 2024.</description>
     </item>
   </channel>
 </rss>

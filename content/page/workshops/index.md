@@ -10,24 +10,6 @@ comments: false
 ---
 
 
-### Lund University
-
-[Workshop and Presentation on Sensitivity Analysis](https://www.sam.lu.se/en/calendar/workshop-and-presentation-sensitivity-analysis)
-
-**May 20&#8211;21, 2024** (Starting 1:00pm Central European time). In-person: Lund, Sweden.
-
----
-
-
-### University of Gothenburg
-
-[School of Public Health and Community Medicine](https://www.gu.se/en/medicine/about-us/school-of-public-health-and-community-medicine)
-
-**May 24, 2024** (TBD). In-person: Gothenburg, Sweden.
-
----
-
-
 ### Inter-university Consortium for Political and Social Research (ICPSR)
 
 [Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data](https://www.icpsr.umich.edu/web/pages/sumprog/courses/short-workshops.html)
@@ -35,6 +17,7 @@ comments: false
 **July 8&#8211;12** (mini-course). Hybrid: Ann Arbor, MI.
 
 ---
+
 
 ### Society for Epidemiological Research
 
@@ -46,9 +29,29 @@ comments: false
 
 
 
+
+
 ---
 
 ## Past Workshops
+
+---
+
+
+### University of Gothenburg
+
+[School of Public Health and Community Medicine](https://www.gu.se/en/medicine/about-us/school-of-public-health-and-community-medicine)
+
+**May 24, 2024**. In-person: Gothenburg, Sweden.
+
+---
+
+
+### Lund University
+
+[Workshop and Presentation on Sensitivity Analysis](https://www.sam.lu.se/en/calendar/workshop-and-presentation-sensitivity-analysis)
+
+**May 20&#8211;21, 2024** (Starting 1:00pm Central European time). In-person: Lund, Sweden.
 
 ---
 

@@ -11,17 +11,6 @@ comments: false
 ---
 
 
-### Robustness of Inference to Replacement & Fragility for Logistic Regression and Hazard Functions
-
-University of Gothenburg, Sweden. [School of Public Health](https://www.gu.se/en/about/find-organisation/school-of-public-health-and-community-medicine)
-
-**May 23, 2024** (1:00pm&#8211;2:45pm Sweden time).
-
-[{{< awesome fas fa-file-alt >}} Paper](https://www.dropbox.com/scl/fi/010knhanm8pfaomuacw0b/modifying-data-for-cox-regression.pptx)
-
----
-
-
 ### Quantifying Sensitivity to Selection on Unobservables: Refining Oster’s Coefficient of Proportionality
 
 [Joint Statistcal Meetings](https://ww2.amstat.org/meetings/jsm/2024/conferenceinfo.cfm)
@@ -36,6 +25,17 @@ University of Gothenburg, Sweden. [School of Public Health](https://www.gu.se/en
 
 
 ## Past Talks
+
+---
+
+
+### Robustness of Inference to Replacement & Fragility for Logistic Regression and Hazard Functions
+
+University of Gothenburg, Sweden. [School of Public Health](https://www.gu.se/en/about/find-organisation/school-of-public-health-and-community-medicine)
+
+**May 23, 2024** (1:00pm&#8211;2:45pm Sweden time).
+
+[{{< awesome fas fa-file-alt >}} Paper](https://www.dropbox.com/scl/fi/010knhanm8pfaomuacw0b/modifying-data-for-cox-regression.pptx)
 
 ---
 

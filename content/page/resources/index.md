@@ -7,27 +7,28 @@ comments: false
 
 ## Tools
 
-- [R package (CRAN version)](https://CRAN.R-project.org/package=konfound)
-- [R package (development version)](https://github.com/konfound-project/konfound)
-- [R Shiny app](https://konfound-project.shinyapps.io/konfound-it/)
-- [Stata package](https://doi.org/10.1177/1536867X19874223)
-- [Benchmarks: What Works Clearinghouse](https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/) [BETA]
+- [{{< awesome fab fa-r-project >}} R package (CRAN version)](https://CRAN.R-project.org/package=konfound)
+- [{{< awesome fab fa-r-project >}} R package (development version)](https://github.com/konfound-project/konfound)
+- [{{< awesome fas fa-calculator >}} R Shiny app](https://konfound-project.shinyapps.io/konfound-it/)
+- [{{< awesome fab fa-stripe-s >}} Stata package](https://doi.org/10.1177/1536867X19874223)
+- [{{< awesome fas fa-warehouse >}} Benchmarks: What Works Clearinghouse](https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/) [BETA]
 
 ---
 
 ## Explanatory Resources
 
-- [FAQ](/page/faq)
-- [Overview of pkonfound commands](https://www.dropbox.com/s/33zkk861g04hocf/Overview%20of%20Konfound%20commands%20with%20inputs%20and%20outputs.docx?dl=0)    
-- [Quick examples](https://drive.google.com/file/d/1qbRx2penqzb7kEJkxJD3ARf26CjXMhzg/view)    
-- [Powerpoint quantifying the robustness of causal inferences combined frameworks](https://www.dropbox.com/s/o67e7w2sm8uww18/quantifying%20the%20robustness%20of%20causal%20inferences%20combined%20frameworks%20for%20stat%20horizons%20distribute.pptx?dl=0)    
-- [Powerpoint for comparison of frameworks](https://www.dropbox.com/s/8t6x00mokkljksh/quantifying%20the%20robustness%20of%20causal%20inferences%20%20comparison%20of%20frameworks.pptx?dl=0)    
+- [{{< awesome fas fa-globe >}} FAQ](/page/faq)
+- [{{< awesome fas fa-images >}} Overview of KonFound techniques](overview-of-techniques.pptx)
+- [{{< awesome fas fa-file-pdf >}} Overview of KonFound commands](https://www.dropbox.com/s/33zkk861g04hocf/Overview%20of%20Konfound%20commands%20with%20inputs%20and%20outputs.docx?dl=0)    
+- [{{< awesome fas fa-file-pdf >}} Quick examples](https://drive.google.com/file/d/1qbRx2penqzb7kEJkxJD3ARf26CjXMhzg/view)    
+- [{{< awesome fas fa-images >}} Slides quantifying the robustness of causal inferences combined frameworks](https://www.dropbox.com/s/o67e7w2sm8uww18/quantifying%20the%20robustness%20of%20causal%20inferences%20combined%20frameworks%20for%20stat%20horizons%20distribute.pptx?dl=0)    
+- [{{< awesome fas fa-images >}} Slides for comparison of frameworks](https://www.dropbox.com/s/8t6x00mokkljksh/quantifying%20the%20robustness%20of%20causal%20inferences%20%20comparison%20of%20frameworks.pptx?dl=0)    
 
 ---
 
 ## Resources for Publication
 
-- [Published empirical examples](https://www.dropbox.com/s/bc4ert79kgbsac4/Examples%20of%20applications%20of%20indices%20for%20quantifying%20the%20robustness%20of%20causal%20inferences.docx?dl=0)
+- [{{< awesome fas fa-file-pdf >}} Published empirical examples](https://www.dropbox.com/s/bc4ert79kgbsac4/Examples%20of%20applications%20of%20indices%20for%20quantifying%20the%20robustness%20of%20causal%20inferences.docx?dl=0)
 - [{{< awesome fas fa-table >}} KonFound-It! spreadsheet for calculating indices](https://www.dropbox.com/s/accoz5xu82vy27v/KonFound-it%21%20enhanced.xlsx?dl=0)
 
 ---
