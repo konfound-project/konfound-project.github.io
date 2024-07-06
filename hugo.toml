@@ -4,6 +4,8 @@ title = "KonFound-It!"
 theme = "beautifulhugo"
 publishDir = "docs"
 
+googleAnalytics = "G-P0EMSX02Q0"
+
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
@@ -11,7 +13,8 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+
+
 
 [Params]
   homeTitle = "KonFound-It!" # Set a different text for the header on the home page
