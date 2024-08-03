@@ -12,11 +12,19 @@ comments: false
 ---
 
 
-### Inter-university Consortium for Political and Social Research (ICPSR)
+### Academy of Management
 
-[Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data](https://www.icpsr.umich.edu/web/pages/sumprog/courses/short-workshops.html)
+[What Would it Take to Change an Inference? Sensitivity Analysis to Inform Innovation in the Future](https://aom2024.eventscribe.net/agenda.asp?pfp=days&day=8/9/2024&theday=Friday&h=Friday%20August%209&BCFO=P%7CG) 
 
-**July 8&#8211;12** (mini-course). Hybrid: Ann Arbor, MI.
+**August 9, 2024** (8:00am&#8211;11:00am Central time). In-person: Chicago, IL.
+
+
+
+
+
+---
+
+## Past Workshops
 
 ---
 
@@ -27,15 +35,14 @@ comments: false
 
 **July 24, 2024** (8:30am&#8211;12:30pm Central time). Virtual.
 
-
-
-
-
-
-
 ---
 
-## Past Workshops
+
+### Inter-university Consortium for Political and Social Research (ICPSR)
+
+[Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data](https://www.icpsr.umich.edu/web/pages/sumprog/courses/short-workshops.html)
+
+**July 8&#8211;12** (mini-course). Hybrid: Ann Arbor, MI.
 
 ---
 
