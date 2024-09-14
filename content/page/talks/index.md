@@ -12,6 +12,18 @@ comments: false
 ---
 
 
+{{< awesome fas fa-business-time >}} Check back again soon!
+
+
+
+
+---
+
+## Past Talks
+
+---
+
+
 ### Quantifying Sensitivity to Selection on Unobservables: Refining Oster’s Coefficient of Proportionality
 
 [Joint Statistcal Meetings](https://ww2.amstat.org/meetings/jsm/2024/conferenceinfo.cfm)
@@ -22,12 +34,6 @@ comments: false
 
 ---
 
-
-
-
-## Past Talks
-
----
 
 
 ### Robustness of Inference to Replacement & Fragility for Logistic Regression and Hazard Functions
@@ -41,6 +47,7 @@ University of Gothenburg, Sweden. [School of Public Health](https://www.gu.se/en
 ---
 
 
+
 ### Robustness of Inference to Replacement & Fragility for Logistic Regression and Hazard Functions
 
 [Michigan State University Biostats](https://epibio.msu.edu/)
@@ -50,6 +57,7 @@ University of Gothenburg, Sweden. [School of Public Health](https://www.gu.se/en
 [{{< awesome fas fa-file-alt >}} Paper](https://www.dropbox.com/scl/fi/010knhanm8pfaomuacw0b/modifying-data-for-cox-regression.pptx)
 
 ---
+
 
 
 ### Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science
@@ -63,6 +71,7 @@ Emory University: [Workshop on Advanced Research Methods](https://www.starflame.
 ---
 
 
+
 ### Quantifying Sensitivity to Selection on Unobservables: Refining Oster’s Coefficient of Proportionality
 
 [Association for Education Finance and Policy](https://aefpweb.org/conference)
@@ -72,6 +81,7 @@ Emory University: [Workshop on Advanced Research Methods](https://www.starflame.
 [{{< awesome fas fa-file-alt >}} Paper](https://www.dropbox.com/scl/fi/nvo6p5y1o98e1kguc03dj/Quantifying-Sensitivity-to-Selection-on-Unobservables_Refining-Oster-s-Coefficient-of-Proportionality-distribute.pdf)
 
 ---
+
 
 
 ### Communicating the Robustness of COVID-19 Studies

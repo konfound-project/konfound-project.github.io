@@ -80,6 +80,8 @@ Rosenberg, J. M., Xu, R., Lin, Q., Maroulis, S., & Frank, K. A. (2023). *konfoun
 | :---------------- | :-------------- |
 | ![](https://cranlogs.r-pkg.org/badges/konfound?color=9bbb59) | ![](https://cranlogs.r-pkg.org/badges/grand-total/konfound?color=9bbb59) |
 
+![Line plot of konfound package downloads over time](/img/konfound-downloads.png)
+
 - Development version of the R package: [KonFound Project on GitHub](https://github.com/konfound-project/konfound)
 - Narvaiz, S., Lin, Q., Rosenberg, J. M., Frank, K. A., Maroulis, S. J., Wang, W., & Xu, R. (2024). konfound: An R sensitivity analysis package to quantify the robustness of causal inferences. *Journal of Open Source Software, 9*(95), 5779. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.21105/joss.05779)
 

@@ -12,11 +12,7 @@ comments: false
 ---
 
 
-### Academy of Management
-
-[What Would it Take to Change an Inference? Sensitivity Analysis to Inform Innovation in the Future](https://aom2024.eventscribe.net/agenda.asp?pfp=days&day=8/9/2024&theday=Friday&h=Friday%20August%209&BCFO=P%7CG) 
-
-**August 9, 2024** (8:00am&#8211;11:00am Central time). In-person: Chicago, IL.
+{{< awesome fas fa-business-time >}} Check back again soon!
 
 
 
@@ -29,6 +25,21 @@ comments: false
 ---
 
 
+
+### Academy of Management
+
+[What Would it Take to Change an Inference? Sensitivity Analysis to Inform Innovation in the Future](https://aom2024.eventscribe.net/agenda.asp?pfp=days&day=8/9/2024&theday=Friday&h=Friday%20August%209&BCFO=P%7CG) 
+
+**August 9, 2024** (8:00am&#8211;11:00am Central time). In-person: Chicago, IL.
+
+**Description:**
+
+Participants in this PDW will learn several approaches for quantifying the robustness of a causal inference. These provide a more precise language for producers and consumers to talk about potential concerns to inferences (e.g., omitted variables). The Impact Threshold for a Confounding Variable (ITCV) will be introduced to show participants how they can quantify how strong the correlations associated with an omitted variable must be to overturn an inference. The Robustness of Inference to Replacement (RIR) will be introduced to show participants how they can quantify what percentage of cases would have to be replaced with cases for which there was no effect of the predictor of interest to change the inference. Participants will learn to use the on-line application, spreadsheet, and the konfound macros in Stata and R. We will discuss guidelines for the application of sensitivity analysis in management research including how to create and interpret benchmarks based on observed covariates. These approaches allow researchers across a broad range of topic areas to debate the strength of evidence in intuitive and concrete terms necessary to inform innovations in the future.
+
+---
+
+
+
 ### Society for Epidemiological Research
 
 [What would it take to change your inference? Quantifying the Discourse about Causal Inferences in Epidemiology](https://epiresearch.org/annual-meeting/2024-meeting/2024-workshops/)
@@ -36,6 +47,7 @@ comments: false
 **July 24, 2024** (8:30am&#8211;12:30pm Central time). Virtual.
 
 ---
+
 
 
 ### Inter-university Consortium for Political and Social Research (ICPSR)
@@ -47,6 +59,7 @@ comments: false
 ---
 
 
+
 ### University of Gothenburg
 
 [School of Public Health and Community Medicine](https://www.gu.se/en/medicine/about-us/school-of-public-health-and-community-medicine)
@@ -54,6 +67,7 @@ comments: false
 **May 24, 2024**. In-person: Gothenburg, Sweden.
 
 ---
+
 
 
 ### Lund University
@@ -65,6 +79,7 @@ comments: false
 ---
 
 
+
 ### Society for Research on Adolescent Development
 
 [What Would it take to Change an Inference? Quantifying the Robustness of Causal Inferences in Adolescent Research](https://www.s-r-a.org/annual-meeting-2024---what-would-it-take-to-change-an-inference--quantifying-the-robustness-of-causal-inferences-in-adolescent-research)
@@ -72,6 +87,7 @@ comments: false
 **April 17, 2024** (9:00am&#8211;12:00pm Central time). In-person: Chicago, IL.
 
 ---
+
 
 
 ### American Educational Research Association
@@ -83,6 +99,7 @@ comments: false
 ---
 
 
+
 ### Association for Education Finance and Policy
 
 [What would it take to Change your Inference? Informing Discourse about Causal Inferences in the Educational Ecosystem](https://aefpweb.org/ev_calendar_day.asp?date=3%2F5%2F24&eventid=68)
@@ -92,6 +109,7 @@ comments: false
 ---
 
 
+
 ### Statistical Horizons
 
 [Two Key Techniques for Quantifying the Robustness of Causal Inferences](https://statisticalhorizons.com/seminars/two-key-techniques-for-quantifying-the-robustness-of-causal-inferences/)
@@ -99,6 +117,7 @@ comments: false
 **February 29&#8211;March 1, 2024** (2-day mini-course). Virtual.
 
 ---
+
 
 
 ### University of Arizona
