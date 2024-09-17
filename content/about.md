@@ -72,15 +72,22 @@ Maroulis, S., Overstreet, D., Frank, K. A., & Staudt Willet, K. B. (2024). *What
 
 
 
+---
+
 ### {{< awesome fab fa-r-project >}} KonFound R Package
 
 Rosenberg, J. M., Xu, R., Lin, Q., Maroulis, S., & Frank, K. A. (2023). *konfound: Quantify the robustness of causal inferences* (v. 0.4.0). https://CRAN.R-project.org/package=konfound 
+
+
 
 | Monthly Downloads | Total Downloads |
 | :---------------- | :-------------- |
 | ![](https://cranlogs.r-pkg.org/badges/konfound?color=9bbb59) | ![](https://cranlogs.r-pkg.org/badges/grand-total/konfound?color=9bbb59) |
 
 ![Line plot of konfound package downloads over time](/img/konfound-downloads.png)
+
+
+**To install:**
 
 - Development version of the R package: [KonFound Project on GitHub](https://github.com/konfound-project/konfound)
 - Narvaiz, S., Lin, Q., Rosenberg, J. M., Frank, K. A., Maroulis, S. J., Wang, W., & Xu, R. (2024). konfound: An R sensitivity analysis package to quantify the robustness of causal inferences. *Journal of Open Source Software, 9*(95), 5779. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.21105/joss.05779)
@@ -92,10 +99,19 @@ pkonfound(est_eff = -9.01, std_err = .68, n_obs = 7639, n_covariates = 221)
 ```
 
 
+---
 
 ### {{< awesome fab fa-stripe-s >}} KonFound Stata Package
 
 Xu, R., Frank, K. A., Maroulis, S. J., & Rosenberg, J. M. (2019). konfound: Command to quantify robustness of causal inferences. *The Stata Journal, 19*(3), 523-550. https://doi.org/10.1177/1536867X19874223
+
+
+| Total Downloads (Dec. 2023) |
+| :-------------------------- |
+| 9,969 |
+
+
+**To install:**
 
 ```
 ssc install konfound

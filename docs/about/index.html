@@ -62,7 +62,7 @@
   "headline": "About KonFound-It!",
   "description" : "Welcome to our space about sensitivity analysis.\nQuestions? Issues? Suggestions? Reach out through the KounFound-It! Google Group.\nPurpose All of the assumptions of statistical analysis rarely hold. So the challenge for the pragmatist is to understand when evidence is strong enough to support action. That\u0026rsquo;s where sensitivity analysis comes in—so we can understand how robust our inferences are to challenges to our assumptions. One example is a statement such as:",
   "inLanguage" : "en",
-  "wordCount":  597 ,
+  "wordCount":  606 ,
   "datePublished" : "0001-01-01T00:00:00",
   "dateModified" : "0001-01-01T00:00:00",
   "image" : "https:\/\/konfound-project.github.io\/img\/konfound-logo.png",
@@ -364,6 +364,7 @@
 
  Benchmarks: What Works Clearinghouse (BETA)</h3>
 <p>Maroulis, S., Overstreet, D., Frank, K. A., &amp; Staudt Willet, K. B. (2024). <em>What works clearinghouse Sensitivity analysis benchmarks</em>. <a href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/">https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/</a></p>
+<hr>
 <h3 id="hahahugoshortcode2s3hbhb-konfound-r-package">
   <i class="fab fa-r-project "></i>
 
@@ -384,6 +385,7 @@
 </tbody>
 </table>
 <p><img src="/img/konfound-downloads.png" alt="Line plot of konfound package downloads over time"></p>
+<p><strong>To install:</strong></p>
 <ul>
 <li>Development version of the R package: <a href="https://github.com/konfound-project/konfound">KonFound Project on GitHub</a></li>
 <li>Narvaiz, S., Lin, Q., Rosenberg, J. M., Frank, K. A., Maroulis, S. J., Wang, W., &amp; Xu, R. (2024). konfound: An R sensitivity analysis package to quantify the robustness of causal inferences. <em>Journal of Open Source Software, 9</em>(95), 5779. <a href="https://doi.org/10.21105/joss.05779">
@@ -394,11 +396,25 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="s2">&#34;konfound&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">library</span><span class="p">(</span><span class="n">konfound</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">pkonfound</span><span class="p">(</span><span class="n">est_eff</span> <span class="o">=</span> <span class="o">-</span><span class="mf">9.01</span><span class="p">,</span> <span class="n">std_err</span> <span class="o">=</span> <span class="o">.</span><span class="mi">68</span><span class="p">,</span> <span class="n">n_obs</span> <span class="o">=</span> <span class="mi">7639</span><span class="p">,</span> <span class="n">n_covariates</span> <span class="o">=</span> <span class="mi">221</span><span class="p">)</span>
-</span></span></code></pre></div><h3 id="hahahugoshortcode2s5hbhb-konfound-stata-package">
+</span></span></code></pre></div><hr>
+<h3 id="hahahugoshortcode2s5hbhb-konfound-stata-package">
   <i class="fab fa-stripe-s "></i>
 
  KonFound Stata Package</h3>
 <p>Xu, R., Frank, K. A., Maroulis, S. J., &amp; Rosenberg, J. M. (2019). konfound: Command to quantify robustness of causal inferences. <em>The Stata Journal, 19</em>(3), 523-550. <a href="https://doi.org/10.1177/1536867X19874223">https://doi.org/10.1177/1536867X19874223</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Total Downloads (Dec. 2023)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">9,969</td>
+</tr>
+</tbody>
+</table>
+<p><strong>To install:</strong></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssc install konfound
 </span></span><span class="line"><span class="cl">ssc install indeplist
 </span></span><span class="line"><span class="cl">ssc install moss
