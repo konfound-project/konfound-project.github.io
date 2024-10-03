@@ -15,7 +15,10 @@ comments: false
 
 ![Newspapers on a News Stand](img/news.png)
 
-{{< awesome fas fa-business-time >}} Check back again soon!
+{{< awesome fas fa-podcast >}} Check out an AI-generated podcast, created by Google's [NotebookLM](https://notebooklm.google.com/), discussing the KonFound-It! team's article "Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science" in *Social Science Research* ([Frank, Lin, Xu, Maroulis, & Mueller, 2023](https://doi.org/10.1016/j.ssresearch.2022.102815)): 
+
+ {{< audio src="audio/frank-et-al-2023-podcast.wav" >}}
+
 
 
 
