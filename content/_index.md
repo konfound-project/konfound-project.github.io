@@ -9,13 +9,17 @@ comments: false
 
 {{< awesome fas fa-paper-plane >}} Questions? Issues? Suggestions? Reach out through the [KounFound-It! Google Group](https://groups.google.com/g/konfound-it).
 
+
+
 ---
 
 ## Latest News
 
 ![Newspapers on a News Stand](img/news.png)
 
-{{< awesome fas fa-podcast >}} Check out an AI-generated podcast, created by Google's [NotebookLM](https://notebooklm.google.com/), discussing the KonFound-It! team's article "Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science" in *Social Science Research* ([Frank, Lin, Xu, Maroulis, & Mueller, 2023](https://doi.org/10.1016/j.ssresearch.2022.102815)): 
+{{< awesome fas fa-box-open >}} The R **konfound** package has had a major update, with version 1.0.1 [now available on CRAN](https://CRAN.R-project.org/package=konfound). Simply use the command `install.packages("konfound")` in R to install and `library(konfound)` to load.
+
+{{< awesome fas fa-podcast >}} Also, be sure to check out an AI-generated podcast, created by Google's [NotebookLM](https://notebooklm.google.com/), discussing the KonFound-It! team's article "Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science" in *Social Science Research* ([Frank, Lin, Xu, Maroulis, & Mueller, 2023](https://doi.org/10.1016/j.ssresearch.2022.102815)): 
 
  {{< audio src="audio/frank-et-al-2023-podcast.wav" >}}
 
