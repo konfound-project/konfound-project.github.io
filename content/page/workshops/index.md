@@ -12,15 +12,50 @@ comments: false
 ---
 
 
+### Statistical Horizons
+
+[Sensitivity Analysis for Causal Inference](https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/) 
+
+**March 5&#8211;6, 2025** (10:30am&#8211;12:30pm and 1:00pm&#8211;3:00pm Eastern time both days). Virtual.
+
+**Description:**
+
+In this seminar, you will:
+
+- Apply and understand techniques for quantifying the robustness of causal inferences.
+  - Comparing evidence to a threshold for inference.
+  - Understanding internal and external validity.
+- Conduct sensitivity analyses in R or the on-line app http://konfound-it.com (Stata and Excel also available).
+- Develop a deeper understanding of regression and the counterfactual as well as how threats to internal and external validity compare against the strength of evidence.
+- Apply sensitivity analysis to a specific problem of interest that may require extensions or adaptations.
+
+---
+
+
+
 {{< awesome fas fa-business-time >}} Check back again soon!
-
-
 
 
 
 ---
 
 ## Past Workshops
+
+---
+
+
+
+### Association for Education Finance & Policy (AEFP)
+
+[What Would It Take to Change Your Inference? Informing Discourse About Causal Inferences In the Educational Ecosystem](https://aefpweb.org/ev_calendar_day.asp?date=10%2F11%2F24&eventid=82)
+
+**October 11, 2024** (1:00&#8211;4:30pm Eastern time). Virtual.
+
+**Description:**
+
+Statistical inferences are often challenged because of uncontrolled bias.  There may be bias due to uncontrolled confounding variables or non-random selection into a sample.  We will turn concerns about potential bias into questions about how much bias there must be to invalidate an inference. For example, challenges such as “But the inference of a treatment effect might not be valid because of pre-existing differences between the treatment groups” are transformed to questions such as “How much bias must there have been due to uncontrolled pre-existing differences to make the inference invalid?”
+
+By reframing challenges about bias in terms of specific quantities, this course will contribute to scientific discourse about uncertainty of causal inferences.  Critically, while there are other approaches to quantifying the sensitivity of inferences(e.g., Robins and Rotnitzky, 1995; Rosenbaum and Rubin 1983, Rosenbaum, 2000), the approaches presented in this workshop based on correlations of omitted variables (Frank, 2000) and the replacement of cases (Frank and Min, 2007; Frank et al, 2013) have greater intuitive appeal.  In this sense the techniques inform a conversation among a broad set of stakeholders in the educational ecosystem, helping the educational community apply evidence to practice.
 
 ---
 

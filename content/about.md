@@ -27,6 +27,14 @@ Our work in the KonFound-It project is to develop&#8212;and make easy to use&#82
 
 ---
 
+## Learn More About Sensitivity Analysis
+
+{{< awesome fas fa-podcast >}} Listen to an AI-generated podcast, created by Google's [NotebookLM](https://notebooklm.google.com/), discussing the KonFound-It! team's article "Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science" in *Social Science Research* ([Frank, Lin, Xu, Maroulis, & Mueller, 2023](https://doi.org/10.1016/j.ssresearch.2022.102815)): 
+
+{{< audio src="audio/frank-et-al-2023-podcast.wav" >}}
+
+---
+
 
 ## People
 
@@ -66,7 +74,7 @@ Rosenberg, J. M., Narvaiz, S., Xu, R., Lin, Q., Maroulis, S., Frank, K. A., Saw,
 
 
 
-### {{< awesome fas fa-warehouse >}} Benchmarks: What Works Clearinghouse (BETA)
+### {{< awesome fas fa-warehouse >}} Benchmarks: What Works Clearinghouse
 
 Maroulis, S., Overstreet, D., Frank, K. A., & Staudt Willet, K. B. (2024). *What works clearinghouse Sensitivity analysis benchmarks*. https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/
 
@@ -135,7 +143,7 @@ Be sure to look through the variety of supports for KonFound:
 - [Publications](/page/publications)
 - [Talks](/page/talks)
 - [Workshops](/page/workshops)
-- [Benchmarks: What Works Clearinghouse](https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/) [BETA]
+- [Benchmarks: What Works Clearinghouse](https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/)
 - [User Guide]() - COMING SOON
 
 ---
