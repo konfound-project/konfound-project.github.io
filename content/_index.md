@@ -19,6 +19,10 @@ comments: false
 
 {{< awesome fas fa-box-open >}} The R **konfound** package has had a major update, with version 1.0.2 [now available on CRAN](https://CRAN.R-project.org/package=konfound). Simply use the command `install.packages("konfound")` in R to install and `library(konfound)` to load.
 
+Read an overview of the package at https://konfound-it.org/konfound/, and read through the [Introduction to konfound](https://konfound-it.org/konfound/articles/introduction-to-konfound.html) vignette.
+
+
+
 ---
 
 {{< awesome fas fa-podcast >}} Also, be sure to check out an AI-generated podcast, 
@@ -28,6 +32,8 @@ Sensitivity analysis for pragmatic social science" in *Social Science Research*
 ([Frank, Lin, Xu, Maroulis, & Mueller, 2023](https://doi.org/10.1016/j.ssresearch.2022.102815)): 
 
 {{< audio src="audio/frank-et-al-2023-podcast.wav" >}}
+
+
 
 ---
 
