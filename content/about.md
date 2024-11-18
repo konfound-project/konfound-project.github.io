@@ -70,7 +70,8 @@ We are a group of researchers spanning numerous institutions who would like to c
 
 ### {{< awesome fas fa-calculator >}} KonFound-It! Shiny App
 
-Rosenberg, J. M., Narvaiz, S., Xu, R., Lin, Q., Maroulis, S., Frank, K. A., Saw, G. & Staudt Willet, K. B. (2023). *KonFound-it!: Quantify the robustness of causal inferences* (v. 2.0.0). https://konfound-project.shinyapps.io/konfound-it/
+Rosenberg, J. M., Narvaiz, S., Xu, R., Lin, Q., Maroulis, S., Frank, K. A., Saw, G., & Staudt Willet, K. B. (2024). *Konfound-It!: Quantify the robustness of causal inferences* [R Shiny app built on konfound R package version 1.0.2]. https://konfound-project.shinyapps.io/konfound-it/
+
 
 
 
