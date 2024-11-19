@@ -31,7 +31,7 @@ Our work in the KonFound-It project is to develop&#8212;and make easy to use&#82
 
 {{< awesome fas fa-podcast >}} Listen to an AI-generated podcast, created by Google's [NotebookLM](https://notebooklm.google.com/), discussing the KonFound-It! team's article "Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science" in *Social Science Research* ([Frank, Lin, Xu, Maroulis, & Mueller, 2023](https://doi.org/10.1016/j.ssresearch.2022.102815)): 
 
-{{< audio src="audio/frank-et-al-2023-podcast.wav" >}}
+{{< audio src="../audio/frank-et-al-2023-podcast.wav" >}}
 
 ---
 
