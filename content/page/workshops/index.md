@@ -12,6 +12,7 @@ comments: false
 ---
 
 
+
 ### Statistical Horizons
 
 [Sensitivity Analysis for Causal Inference](https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/) 
@@ -33,7 +34,41 @@ In this seminar, you will:
 
 
 
-{{< awesome fas fa-business-time >}} Check back again soon!
+### MSU Course Drop-In
+
+[Zoom Room](https://msu.zoom.us/j/783760435) 
+
+**April 1, 2025 (possibly April 8)** (12:40&#8211;3:30pm Eastern time). Virtual.
+
+**April 7 & 9, 2025** (10:10&#8211;11:20am Eastern time). Virtual.
+
+---
+
+
+
+### Inter-University Consortium for Political and Social Research (ICPSR)
+
+{{< awesome fas fa-business-time >}} Check back later for more details and a Zoom link.
+
+**June 18&#8211;20, 2025**
+
+---
+
+
+
+### Society for Epidemiological Research
+
+{{< awesome fas fa-business-time >}} Check back later for a Zoom link. 
+
+**August 5, 2025** (12:00&#8211;4:00pm Eastern time). Virtual.
+
+
+
+---
+
+
+
+{{< awesome fas fa-business-time >}} Check back again soon for news about more workshops!
 
 
 
@@ -85,7 +120,7 @@ Participants in this PDW will learn several approaches for quantifying the robus
 
 
 
-### Inter-university Consortium for Political and Social Research (ICPSR)
+### Inter-University Consortium for Political and Social Research (ICPSR)
 
 [Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data](https://www.icpsr.umich.edu/web/pages/sumprog/courses/short-workshops.html)
 

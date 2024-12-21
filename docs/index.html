@@ -14,8 +14,10 @@
   
   <meta name="description" content="Sensitivity analyses that quantify the robustness of inferences to concerns about omitted variables and other sources of bias.
 Questions? Issues? Suggestions? Reach out through the KounFound-It! Google Group.
-Latest News The R konfound package has had a major update, with version 1.0.2 now available on CRAN. Simply use the command install.packages(&quot;konfound&quot;) in R to install and library(konfound) to load.
-Read an overview of the package at https://konfound-it.org/konfound/, and read through the Introduction to konfound vignette."><script type="application/ld+json">
+Latest News Announcing the NEW AND IMPROVED KonFound-it app and upcoming workshops 12/19/2024
+Happy holidays to you!
+We have released new versions of the konfound package in R (1.0.2) and in Stata. New and updated features include:
+Conditional Robustness of Inference for Replacement (CRIR) in which there is no relationship between predictor and outcome in the replacement data conditional on other terms in the model (e."><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -39,8 +41,10 @@ Read an overview of the package at https://konfound-it.org/konfound/, and read t
 <meta property="og:title" content="KonFound-It! Home" />
 <meta property="og:description" content="Sensitivity analyses that quantify the robustness of inferences to concerns about omitted variables and other sources of bias.
 Questions? Issues? Suggestions? Reach out through the KounFound-It! Google Group.
-Latest News The R konfound package has had a major update, with version 1.0.2 now available on CRAN. Simply use the command install.packages(&quot;konfound&quot;) in R to install and library(konfound) to load.
-Read an overview of the package at https://konfound-it.org/konfound/, and read through the Introduction to konfound vignette.">
+Latest News Announcing the NEW AND IMPROVED KonFound-it app and upcoming workshops 12/19/2024
+Happy holidays to you!
+We have released new versions of the konfound package in R (1.0.2) and in Stata. New and updated features include:
+Conditional Robustness of Inference for Replacement (CRIR) in which there is no relationship between predictor and outcome in the replacement data conditional on other terms in the model (e.">
 <meta property="og:image" content="https://konfound-project.github.io/img/konfound-logo.png" />
 <meta property="og:url" content="https://konfound-project.github.io/" />
 <meta property="og:type" content="website" />
@@ -280,11 +284,36 @@ Questions? Issues? Suggestions? Reach out through the KounFound-It! …">
 <hr>
 <h2 id="latest-news">Latest News</h2>
 <p><img src="img/news.png" alt="Newspapers on a News Stand"></p>
-<p>
+<hr>
+<h3 id="announcing-the-new-and-improved-konfound-it-app-and-upcoming-workshops">Announcing the NEW AND IMPROVED KonFound-it app and upcoming workshops</h3>
+<p><strong>12/19/2024</strong></p>
+<p>Happy holidays to you!</p>
+<p>We have released new versions of the 
   <i class="fas fa-box-open "></i>
 
- The R <strong>konfound</strong> package has had a major update, with version 1.0.2 <a href="https://CRAN.R-project.org/package=konfound">now available on CRAN</a>. Simply use the command <code>install.packages(&quot;konfound&quot;)</code> in R to install and <code>library(konfound)</code> to load.</p>
-<p>Read an overview of the package at <a href="https://konfound-it.org/konfound/">https://konfound-it.org/konfound/</a>, and read through the <a href="https://konfound-it.org/konfound/articles/introduction-to-konfound.html">Introduction to konfound</a> vignette.</p>
+ <strong>konfound package</strong> in R (1.0.2) and in Stata. New and updated features include:</p>
+<ul>
+<li><strong>Conditional Robustness of Inference for Replacement (CRIR)</strong> in which there is no relationship between predictor and outcome in the replacement data conditional on other terms in the model (e.g., for use with interaction effects when models include main effects as applied in diff in diff).</li>
+<li><strong>2x2 and logistic regression added to Stata</strong> (already in R).
+<ul>
+<li>More options for Fragility index (e.g., <code>switch_trm</code>)</li>
+</ul>
+</li>
+<li><strong>Unconditional Impact Threshold for a Confounding Variable</strong> is provided when possible.
+<ul>
+<li>See Lonati, S., &amp; Wulff, J. N. (2024). <a href="https://journals.sagepub.com/doi/pdf/10.1177/01492063241293126">Hic Sunt Dracones: On the risks of comparing the ITCV with control variable correlations</a>. <em>Journal of Management</em>. DOI: 10.1177/01492063241293126</li>
+</ul>
+</li>
+<li><a href="https://www.dropbox.com/scl/fi/s63onxsg6yoga5of9nd42/Quantifying-Sensitivity-to-Selection-on-Unobserved-Covariates-2024-distribute.pdf?rlkey=4yyxd9p3ej605n77vrbqq6pq3&amp;e=1&amp;dl=0"><strong>Coefficient of Proportionality</strong></a> – how strong would selection on unobserved covariates have to be relative to observed covariates to nullify an estimated effect. <code>index = &quot;COP&quot;</code></li>
+<li><strong>Directly specify a threshold for inference</strong> (other than statistical significance) via <code>eff_thr</code></li>
+<li><strong>Specify a non-zero null hypothesis</strong> for significance testing via nu</li>
+<li><strong>Application to What Works Clearinghouse</strong> <a href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/"><strong>Benchmarks</strong></a> for educational research</li>
+<li>All raw results provided (in R, <code>to_return = &quot;raw&quot;</code>, in Stata use <code>&quot;return list&quot;</code> after command)</li>
+<li>Improved statements in print out</li>
+<li>Improved <a href="https://konfound-project.shinyapps.io/konfound-it/"><strong>KonFound-It app</strong></a> interface: <a href="https://konfound-project.shinyapps.io/konfound-it/">https://konfound-project.shinyapps.io/konfound-it/</a></li>
+</ul>
+<hr>
+<p>Read an overview of the package at <a href="https://konfound-it.org/konfound/">https://konfound-it.org/konfound/</a> and read through the <a href="https://konfound-it.org/konfound/articles/introduction-to-konfound.html">Introduction to konfound</a> vignette.</p>
 <hr>
 <p>
   <i class="fas fa-podcast "></i>
