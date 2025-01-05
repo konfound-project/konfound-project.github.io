@@ -65,5 +65,5 @@ discussing the KonFound-It! team's article "Quantifying the robustness of causal
 Sensitivity analysis for pragmatic social science" in *Social Science Research* 
 ([Frank, Lin, Xu, Maroulis, & Mueller, 2023](https://doi.org/10.1016/j.ssresearch.2022.102815)): 
 
-{{< audio src="audio/frank-et-al-2023-podcast.wav" >}}
+{{< audio src="/audio/frank-et-al-2023-podcast.wav" >}}
 

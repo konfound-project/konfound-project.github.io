@@ -5,7 +5,9 @@ comments: false
 
 
 
-**Sensitivity analyses that quantify the robustness of inferences to concerns about omitted variables and other sources of bias.**
+The assumptions underlying statistical analysis are rarely fully met. Pragmatists face the challenge of knowing when evidence is strong enough to justify action, and that’s where **sensitivity analysis** helps by testing the robustness of inferences against potential biases. For instance, sensitivity indices can quantify how much of the observed effect would need to be bias-driven to alter conclusions. We are building on these ideas by developing the methods and associated resources listed on this page.
+
+---
 
 {{< awesome fas fa-paper-plane >}} Questions? Issues? Suggestions? Reach out through the [KounFound-It! Google Group](https://groups.google.com/g/konfound-it).
 
