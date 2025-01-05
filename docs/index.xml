@@ -51,6 +51,13 @@
       <description>by Kenneth A. Frank, Qinyun Lin, Ran Xu, Spiro Maroulis, Guan Saw, &amp;amp; Josh Rosenberg&#xA;Last updated: 7/5/2024&#xA;FAQ Dev Version&#xA;Introduction This document addresses some frequently asked questions regarding KonFound. See the appendices for background readings and software. For quick reference, see:&#xA;Overview of all KonFound commands Main introductory slides for combined frameworks Background There are two basic frameworks for sensitivity analysis employed within KonFound. First is the Impact Threshold for a Confounding Variable (ITCV)—Frank (2000).</description>
     </item>
     <item>
+      <title>News</title>
+      <link>https://konfound-project.github.io/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/news/</guid>
+      <description>Latest News Announcing the NEW AND IMPROVED KonFound-it app and upcoming workshops 12/19/2024&#xA;Happy holidays to you!&#xA;We have released new versions of the konfound package in R (1.0.2) and in Stata. New and updated features include:&#xA;Conditional Robustness of Inference for Replacement (CRIR) in which there is no relationship between predictor and outcome in the replacement data conditional on other terms in the model (e.g., for use with interaction effects when models include main effects as applied in diff in diff).</description>
+    </item>
+    <item>
       <title>Publications</title>
       <link>https://konfound-project.github.io/page/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

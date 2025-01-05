@@ -10,8 +10,9 @@
  
 
 
-      <title>Welcome - KonFound-It!</title>
-<script type="application/ld+json">
+      <title>News - KonFound-It!</title>
+
+  <meta name="description" content="Latest Updates from the KonFound-It! Team"><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -31,14 +32,64 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/konfound-project.github.io\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/konfound-project.github.io\/news\/",
+          "name": "News"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : ""
+  },
+  "headline": "News",
+  "description" : "Latest News Announcing the NEW AND IMPROVED KonFound-it app and upcoming workshops 12\/19\/2024\nHappy holidays to you!\nWe have released new versions of the konfound package in R (1.0.2) and in Stata. New and updated features include:\nConditional Robustness of Inference for Replacement (CRIR) in which there is no relationship between predictor and outcome in the replacement data conditional on other terms in the model (e.g., for use with interaction effects when models include main effects as applied in diff in diff).",
+  "inLanguage" : "en",
+  "wordCount":  319 ,
+  "datePublished" : "0001-01-01T00:00:00",
+  "dateModified" : "0001-01-01T00:00:00",
+  "image" : "https:\/\/konfound-project.github.io\/img\/konfound-logo.png",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "https:\/\/konfound-project.github.io\/news\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/konfound-project.github.io\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/konfound-project.github.io\/img\/konfound-logo.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="Welcome" />
+<meta property="og:title" content="News" />
+<meta property="og:description" content="Latest Updates from the KonFound-It! Team">
 <meta property="og:image" content="https://konfound-project.github.io/img/konfound-logo.png" />
-<meta property="og:url" content="https://konfound-project.github.io/tags/welcome/" />
+<meta property="og:url" content="https://konfound-project.github.io/news/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="KonFound-It!" />
 
-  <meta name="twitter:title" content="Welcome" />
+  <meta name="twitter:title" content="News" />
+  <meta name="twitter:description" content="Latest Updates from the KonFound-It! Team">
   <meta name="twitter:image" content="https://konfound-project.github.io/img/konfound-logo.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <link href='https://konfound-project.github.io/img/konfound-logo.png' rel='icon' type='image/x-icon'/>
@@ -240,13 +291,17 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="tags-heading">
+            <div class="page-heading">
               
-                <h1>Welcome</h1>
+                <h1>News</h1>
               
               
                 <hr class="small">
               
+              
+                
+                  <span class="page-subheading">Latest Updates from the KonFound-It! Team</span>
+                
               
               
             </div>
@@ -259,75 +314,149 @@
 
 
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-        <div class="posts-list">
-          
-            <article class="post-preview">
-    <a href="https://konfound-project.github.io/post/2020-05-14-welcome/">
-        <h2 class="post-title">Welcome!</h2>
-        
-        
-        
-    </a>
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <h2 id="latest-news">Latest News</h2>
+<p><img src="/img/news-wide.png" alt="Newspapers on a News Stand"></p>
+<hr>
+<h3 id="announcing-the-new-and-improved-konfound-it-app-and-upcoming-workshops">Announcing the NEW AND IMPROVED KonFound-it app and upcoming workshops</h3>
+<p><strong>12/19/2024</strong></p>
+<p>Happy holidays to you!</p>
+<p>We have released new versions of the 
+  <i class="fas fa-box-open "></i>
 
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on May 14, 2020
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;148&nbsp;words
-  
-  
-    
+ <strong>konfound package</strong> in R (1.0.2) and in Stata. New and updated features include:</p>
+<ul>
+<li><strong>Conditional Robustness of Inference for Replacement (CRIR)</strong> in which there is no relationship between predictor and outcome in the replacement data conditional on other terms in the model (e.g., for use with interaction effects when models include main effects as applied in diff in diff).</li>
+<li><strong>2x2 and logistic regression added to Stata</strong> (already in R).
+<ul>
+<li>More options for Fragility index (e.g., <code>switch_trm</code>)</li>
+</ul>
+</li>
+<li><strong>Unconditional Impact Threshold for a Confounding Variable</strong> is provided when possible.
+<ul>
+<li>See Lonati, S., &amp; Wulff, J. N. (2024). <a href="https://journals.sagepub.com/doi/pdf/10.1177/01492063241293126">Hic Sunt Dracones: On the risks of comparing the ITCV with control variable correlations</a>. <em>Journal of Management</em>. DOI: 10.1177/01492063241293126</li>
+</ul>
+</li>
+<li><a href="https://www.dropbox.com/scl/fi/s63onxsg6yoga5of9nd42/Quantifying-Sensitivity-to-Selection-on-Unobserved-Covariates-2024-distribute.pdf?rlkey=4yyxd9p3ej605n77vrbqq6pq3&amp;e=1&amp;dl=0"><strong>Coefficient of Proportionality</strong></a> – how strong would selection on unobserved covariates have to be relative to observed covariates to nullify an estimated effect. <code>index = &quot;COP&quot;</code></li>
+<li><strong>Directly specify a threshold for inference</strong> (other than statistical significance) via <code>eff_thr</code></li>
+<li><strong>Specify a non-zero null hypothesis</strong> for significance testing via nu</li>
+<li><strong>Application to What Works Clearinghouse</strong> <a href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/"><strong>Benchmarks</strong></a> for educational research</li>
+<li>All raw results provided (in R, <code>to_return = &quot;raw&quot;</code>, in Stata use <code>&quot;return list&quot;</code> after command)</li>
+<li>Improved statements in print out</li>
+<li>Improved <a href="https://konfound-project.shinyapps.io/konfound-it/"><strong>KonFound-It app</strong></a> interface: <a href="https://konfound-project.shinyapps.io/konfound-it/">https://konfound-project.shinyapps.io/konfound-it/</a></li>
+</ul>
+<p>Read an overview of the package at <a href="https://konfound-it.org/konfound/">https://konfound-it.org/konfound/</a> and read through the <a href="https://konfound-it.org/konfound/articles/introduction-to-konfound.html">Introduction to konfound</a> vignette.</p>
+<hr>
+<h3 id="next-workshop">Next Workshop</h3>
+<p>
+  <i class="fas fa-business-time "></i>
+
+ Sign up today for the next KonFound-It project workshop
+facilitated by Dr. Ken Frank: <a href="https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/">Sensitivity Analysis for Causal Inference</a>.
+The workshop will take place fully online March 5–6, 2025 (10:30am–12:30pm and 1:00pm–3:00pm Eastern time both days).</p>
+<hr>
+<h3 id="podcast-on-sensitivity-analysis">Podcast on Sensitivity Analysis</h3>
+<p>
+  <i class="fas fa-podcast "></i>
+
+ Also, be sure to check out an AI-generated podcast,
+created by Google&rsquo;s <a href="https://notebooklm.google.com/">NotebookLM</a>,
+discussing the KonFound-It! team&rsquo;s article &ldquo;Quantifying the robustness of causal inferences:
+Sensitivity analysis for pragmatic social science&rdquo; in <em>Social Science Research</em>
+(<a href="https://doi.org/10.1016/j.ssresearch.2022.102815">Frank, Lin, Xu, Maroulis, &amp; Mueller, 2023</a>):</p>
+<audio controls preload="auto">
+    <source src="audio/frank-et-al-2023-podcast.wav">
+</audio>
+
+
+
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
       
-        &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Ken Frank
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fkonfound-project.github.io%2fnews%2f&amp;text=News&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
       
-    
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkonfound-project.github.io%2fnews%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
   
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fkonfound-project.github.io%2fnews%2f&amp;title=News" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
   
-</span>
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fkonfound-project.github.io%2fnews%2f&amp;title=News" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fkonfound-project.github.io%2fnews%2f&amp;title=News" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fkonfound-project.github.io%2fnews%2f&amp;description=News" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
 
+              </div>
+            </section>
+        
 
-    </p>
-    <div class="post-entry">
         
-        Welcome to our space about sensitivity analysis. All of the assumptions of statistical analysis rarely hold. So the challenge for the pragmatist is to understand when evidence is strong enough to support action. That&rsquo;s where sensitivity analysis comes in—so we can understand how robust our inferences are to challenges to our assumptions. One example is a statement such as:
-XX% of the estimated effect would have to be due to bias to change your inference about the effect.
-        <a href="https://konfound-project.github.io/post/2020-05-14-welcome/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="https://konfound-project.github.io//tags/welcome/">welcome</a>&nbsp;
-        
-        <a href="https://konfound-project.github.io//tags/statistical-analysis/">statistical analysis</a>&nbsp;
-        
-        <a href="https://konfound-project.github.io//tags/sensitivity-analysis/">sensitivity analysis</a>&nbsp;
-        
-        <a href="https://konfound-project.github.io//tags/covid/">covid</a>&nbsp;
-        
-    </div>
-    
-
-</article>
           
-        </div>
+
+          
         
-      </div>
+      </article>
+
+      
+
+
+      
+
     </div>
   </div>
+</div>
 
       
+    <div class="page-meta">
+  
+  
+  
+</div>
+
+
+  
 <footer>
   <div class="container">
     
@@ -458,7 +587,7 @@ XX% of the estimated effect would have to be due to bias to change your inferenc
               </li>
           
           <li>
-            <a href="/tags/welcome/index.xml" title="RSS">
+            <a href="" title="RSS">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
