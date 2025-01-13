@@ -390,20 +390,26 @@ figure:not(.dark) img, img.white {
   width: 50px;
   margin-top: -25px;
 }
+
 .navbar-custom .avatar-container  .avatar-img-border {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 50%; /* Rounds the corners of the element to make it circular */
   margin-left: -50%;
   display: inline-block;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  border: 1px solid rgba(0, 0, 0, .8); /* Adds a broder all the way around the element */
+  box-shadow: 4 4 12px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 4 4 12px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 4 4 12px rgba(0, 0, 0, .8);
 }
+
+
+/* --- Masks the top-center logo to be a circle --- */
 .navbar-custom .avatar-container  .avatar-img {
   width: 100%;
   border-radius: 50%;
   display: block;
 }
+
 
 .navbar-custom.top-nav-short .avatar-container{
   opacity: 0;
@@ -420,6 +426,7 @@ figure:not(.dark) img, img.white {
     margin-top: -50px;
   }
 
+/* Adds the spread of the shadow */
   .navbar-custom .avatar-container  .avatar-img-border {
     width: 100%;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
