@@ -2,60 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/covid/</loc>
+    <loc>https://konfound-project.github.io/tags/covid/</loc>
     <lastmod>2023-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/2023-08-13-faq/</loc>
+    <loc>https://konfound-project.github.io/post/2023-08-13-faq/</loc>
     <lastmod>2023-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://konfound-project.github.io/</loc>
     <lastmod>2023-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/nonlinear/</loc>
+    <loc>https://konfound-project.github.io/tags/nonlinear/</loc>
     <lastmod>2023-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://konfound-project.github.io/post/</loc>
     <lastmod>2023-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sensitivity-analysis/</loc>
+    <loc>https://konfound-project.github.io/tags/sensitivity-analysis/</loc>
     <lastmod>2023-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/statistical-analysis/</loc>
+    <loc>https://konfound-project.github.io/tags/statistical-analysis/</loc>
     <lastmod>2023-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://konfound-project.github.io/tags/</loc>
     <lastmod>2023-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/welcome/</loc>
+    <loc>https://konfound-project.github.io/tags/welcome/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/2020-05-14-welcome/</loc>
+    <loc>https://konfound-project.github.io/post/2020-05-14-welcome/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/2020-05-12-why-robustness/</loc>
+    <loc>https://konfound-project.github.io/post/2020-05-12-why-robustness/</loc>
     <lastmod>2020-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/2020-05-01-presentation/</loc>
+    <loc>https://konfound-project.github.io/post/2020-05-01-presentation/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://konfound-project.github.io/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://konfound-project.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/page/faq/</loc>
+    <loc>https://konfound-project.github.io/page/faq/</loc>
   </url><url>
-    <loc>http://localhost:1313/news/</loc>
+    <loc>https://konfound-project.github.io/news/</loc>
   </url><url>
-    <loc>http://localhost:1313/page/</loc>
+    <loc>https://konfound-project.github.io/page/</loc>
   </url><url>
-    <loc>http://localhost:1313/page/publications/</loc>
+    <loc>https://konfound-project.github.io/page/publications/</loc>
   </url><url>
-    <loc>http://localhost:1313/page/resources/</loc>
+    <loc>https://konfound-project.github.io/page/resources/</loc>
   </url><url>
-    <loc>http://localhost:1313/page/talks/</loc>
+    <loc>https://konfound-project.github.io/page/talks/</loc>
   </url><url>
-    <loc>http://localhost:1313/page/guide/</loc>
+    <loc>https://konfound-project.github.io/page/guide/</loc>
   </url><url>
-    <loc>http://localhost:1313/page/workshops/</loc>
+    <loc>https://konfound-project.github.io/page/workshops/</loc>
   </url>
 </urlset>
