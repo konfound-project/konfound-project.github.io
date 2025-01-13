@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on KonFound-It!</title>
-    <link>https://konfound-project.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on KonFound-It!</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 13 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://konfound-project.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Covid</title>
-      <link>https://konfound-project.github.io/tags/covid/</link>
+      <link>http://localhost:1313/tags/covid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/tags/covid/</guid>
+      <guid>http://localhost:1313/tags/covid/</guid>
       <description></description>
     </item>
     <item>
       <title>Nonlinear</title>
-      <link>https://konfound-project.github.io/tags/nonlinear/</link>
+      <link>http://localhost:1313/tags/nonlinear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/tags/nonlinear/</guid>
+      <guid>http://localhost:1313/tags/nonlinear/</guid>
       <description></description>
     </item>
     <item>
       <title>Sensitivity Analysis</title>
-      <link>https://konfound-project.github.io/tags/sensitivity-analysis/</link>
+      <link>http://localhost:1313/tags/sensitivity-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/tags/sensitivity-analysis/</guid>
+      <guid>http://localhost:1313/tags/sensitivity-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Statistical Analysis</title>
-      <link>https://konfound-project.github.io/tags/statistical-analysis/</link>
+      <link>http://localhost:1313/tags/statistical-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/tags/statistical-analysis/</guid>
+      <guid>http://localhost:1313/tags/statistical-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Welcome</title>
-      <link>https://konfound-project.github.io/tags/welcome/</link>
+      <link>http://localhost:1313/tags/welcome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/tags/welcome/</guid>
+      <guid>http://localhost:1313/tags/welcome/</guid>
       <description></description>
     </item>
   </channel>
