@@ -2,4 +2,4 @@
 
 Repository for the KonFound-It! project website
 
-![Konfound-It! logo](static/img/konfound-logo.png)
+![Konfound-It! logo](static/img/KonFoundit!.png)

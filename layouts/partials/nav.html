@@ -8,6 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+      </a>
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
@@ -62,11 +63,11 @@
       </ul>
     </div>
 
-    {{ if isset .Site.Params "logo" }}
+    {{ if isset .Site.Params "mark" }}
       <div class="avatar-container">
         <div class="avatar-img-border">
           <a title="{{ .Site.Title }}" href="{{ "" | absLangURL }}">
-            <img class="avatar-img" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" />
+            <img class="avatar-img" src="{{ .Site.Params.mark | absURL }}" alt="{{ .Site.Title }}" />
           </a>
         </div>
       </div>
