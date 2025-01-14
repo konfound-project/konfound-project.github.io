@@ -2,28 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://konfound-project.github.io/tags/causal-inference/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://konfound-project.github.io/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://konfound-project.github.io/post/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://konfound-project.github.io/post/2024-12-20-statistical-horizons-workshop/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://konfound-project.github.io/tags/rstats/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://konfound-project.github.io/tags/sensitivity-analysis/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://konfound-project.github.io/tags/statistical-analysis/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://konfound-project.github.io/tags/statistical-horizons/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://konfound-project.github.io/tags/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://konfound-project.github.io/tags/covid/</loc>
     <lastmod>2023-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://konfound-project.github.io/post/2023-08-13-faq/</loc>
     <lastmod>2023-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://konfound-project.github.io/</loc>
-    <lastmod>2023-08-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://konfound-project.github.io/tags/nonlinear/</loc>
-    <lastmod>2023-08-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://konfound-project.github.io/post/</loc>
-    <lastmod>2023-08-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://konfound-project.github.io/tags/sensitivity-analysis/</loc>
-    <lastmod>2023-08-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://konfound-project.github.io/tags/statistical-analysis/</loc>
-    <lastmod>2023-08-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://konfound-project.github.io/tags/</loc>
     <lastmod>2023-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://konfound-project.github.io/tags/welcome/</loc>

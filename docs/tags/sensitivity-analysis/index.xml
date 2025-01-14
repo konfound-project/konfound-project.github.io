@@ -6,8 +6,15 @@
     <description>Recent content in Sensitivity Analysis on KonFound-It!</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://konfound-project.github.io/tags/sensitivity-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantifying Sensitivity in Causal Inference with Kenneth Frank</title>
+      <link>https://konfound-project.github.io/post/2024-12-20-statistical-horizons-workshop/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/post/2024-12-20-statistical-horizons-workshop/</guid>
+      <description>Learn more and register: https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/&#xA;Explore the first hour of Kenneth Frank&amp;rsquo;s seminar on &amp;ldquo;Sensitivity Analysis for Causal Inference,&amp;rdquo; where he introduces key concepts and sets the foundation for exploring robust causal inference techniques.&#xA;About this Seminar This seminar provides hands-on experience with two techniques for quantifying the sensitivity of causal inferences: Robustness of Inference to Replacement (RIR) and Impact Threshold for a Confounding Variable (ITCV). These techniques can be adapted to a range of analyses, including logistic regression, propensity-based approaches, and multilevel models.</description>
+    </item>
     <item>
       <title>Frequently Asked Questions About the Application of KonFound-It for Sensitivity</title>
       <link>https://konfound-project.github.io/post/2023-08-13-faq/</link>

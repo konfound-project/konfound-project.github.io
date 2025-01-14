@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RStats on KonFound-It!</title>
+    <link>https://konfound-project.github.io/tags/rstats/</link>
+    <description>Recent content in RStats on KonFound-It!</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://konfound-project.github.io/tags/rstats/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantifying Sensitivity in Causal Inference with Kenneth Frank</title>
+      <link>https://konfound-project.github.io/post/2024-12-20-statistical-horizons-workshop/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/post/2024-12-20-statistical-horizons-workshop/</guid>
+      <description>Learn more and register: https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/&#xA;Explore the first hour of Kenneth Frank&amp;rsquo;s seminar on &amp;ldquo;Sensitivity Analysis for Causal Inference,&amp;rdquo; where he introduces key concepts and sets the foundation for exploring robust causal inference techniques.&#xA;About this Seminar This seminar provides hands-on experience with two techniques for quantifying the sensitivity of causal inferences: Robustness of Inference to Replacement (RIR) and Impact Threshold for a Confounding Variable (ITCV). These techniques can be adapted to a range of analyses, including logistic regression, propensity-based approaches, and multilevel models.</description>
+    </item>
+  </channel>
+</rss>
