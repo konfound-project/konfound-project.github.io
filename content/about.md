@@ -93,7 +93,7 @@ Rosenberg, J. M., Xu, R., Lin, Q., Maroulis, S., & Frank, K. A. (2023). *konfoun
 | :---------------- | :-------------- |
 | ![](https://cranlogs.r-pkg.org/badges/konfound?color=9bbb59) | ![](https://cranlogs.r-pkg.org/badges/grand-total/konfound?color=9bbb59) |
 
-![Line plot of konfound package downloads over time](/img/konfound-downloads.png)
+![Line plot of konfound R package downloads over time](/img/konfound-downloads-r.png)
 
 
 **To install:**
@@ -115,9 +115,11 @@ pkonfound(est_eff = -9.01, std_err = .68, n_obs = 7639, n_covariates = 221)
 Xu, R., Frank, K. A., Maroulis, S. J., & Rosenberg, J. M. (2019). konfound: Command to quantify robustness of causal inferences. *The Stata Journal, 19*(3), 523-550. https://doi.org/10.1177/1536867X19874223
 
 
-| Total Downloads (Dec. 2023) |
+| Total Downloads (Jan. 2025) |
 | :-------------------------- |
-| 9,969 |
+| 12,840 |
+
+![Line plot of konfound Stata package downloads over time](/img/konfound-downloads-stata.png)
 
 
 **To install:**

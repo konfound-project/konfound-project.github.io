@@ -9,7 +9,7 @@ The assumptions underlying statistical analysis are rarely fully met. Pragmatist
 
 ---
 
-{{< awesome fas fa-paper-plane >}} Questions? Issues? Suggestions? Reach out through the [KounFound-It! Google Group](https://groups.google.com/g/konfound-it).
+{{< awesome fas fa-paper-plane >}} Questions? Issues? Suggestions? Reach out through the [KonFound-It! Google Group](https://groups.google.com/g/konfound-it).
 
 
 
