@@ -43,13 +43,14 @@ We are a group of researchers spanning numerous institutions who would like to c
 <!---See https://github.com/liwenyip/hugo-easy-gallery-->
 {{< load-photoswipe >}}
 {{< gallery >}} 
-  {{< figure src="img/team/Ken-Frank.jpg" caption="Ken Frank" caption-effect="none" >}}
-  {{< figure src="img/team/Spiro-Maroulis.jpg" caption="Spiro Maroulis" caption-effect="none" >}}
-  {{< figure src="img/team/Joshua-Rosenberg.jpg" caption="Joshua Rosenberg" caption-effect="none" >}}
-  {{< figure src="img/team/Guan-Saw.jpg" caption="Guan Saw" caption-effect="none" >}}
-  {{< figure src="img/team/Bret-StaudtWillet.jpg" caption="Bret Staudt Willet" caption-effect="none" >}}
-  {{< figure src="img/team/Yunhe-Cui.jpg" caption="Yunhe Cui" caption-effect="none" >}}
-  {{< figure src="img/team/Wei-Wang.jpg" caption="Wei Wang" caption-effect="none" >}}
+  {{< figure src="img/team/Ken-Frank.jpg" caption="Ken Frank" >}}
+  {{< figure src="img/team/Spiro-Maroulis.jpg" caption="Spiro Maroulis" >}}
+  {{< figure src="img/team/Joshua-Rosenberg.jpg" caption="Joshua Rosenberg" >}}
+  {{< figure src="img/team/Guan-Saw.jpg" caption="Guan Saw" >}}
+  {{< figure src="img/team/Bret-StaudtWillet.jpg" caption="Bret Staudt Willet" >}}
+  {{< figure src="img/team/Jihoon-Choi.jpg" caption="Jihoon Choi" >}}
+  {{< figure src="img/team/Yunhe-Cui.jpg" caption="Yunhe Cui" >}}
+  {{< figure src="img/team/Wei-Wang.jpg" caption="Wei Wang" >}}
 {{< /gallery >}}
 
 
