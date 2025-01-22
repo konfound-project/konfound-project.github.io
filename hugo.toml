@@ -112,12 +112,6 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     parent = "tools"
-    name = "Benchmarks"
-    url = "https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/"
-    weight = 1
-
-[[menu.main]]
-    parent = "tools"
     name = "R Package"
     url = "https://konfound-project.github.io/konfound/"
     weight = 2
@@ -133,6 +127,12 @@ pygmentsCodefencesGuessSyntax = true
     name = "Stata Paper"
     url = "https://doi.org/10.1177/1536867X19874223"
     weight = 4
+
+[[menu.main]]
+    parent = "tools"
+    name = "WWC Benchmarks"
+    url = "https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/"
+    weight = 5
 
 [[menu.main]]
     identifier = "support"

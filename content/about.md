@@ -36,11 +36,23 @@ Our work in the KonFound-It project is to develop&#8212;and make easy to use&#82
 ---
 
 
-## People
+## Meet the Team
 
 We are a group of researchers spanning numerous institutions who would like to contribute to better communications of research inferences and findings.
 
-**Our group includes:**
+<!---See https://github.com/liwenyip/hugo-easy-gallery-->
+{{< load-photoswipe >}}
+{{< gallery >}} 
+  {{< figure src="img/team/Ken-Frank.jpg" caption="Ken Frank" caption-effect="none" >}}
+  {{< figure src="img/team/Spiro-Maroulis.jpg" caption="Spiro Maroulis" caption-effect="none" >}}
+  {{< figure src="img/team/Joshua-Rosenberg.jpg" caption="Joshua Rosenberg" caption-effect="none" >}}
+  {{< figure src="img/team/Bret-StaudtWillet.jpg" caption="Bret Staudt Willet" caption-effect="none" >}}
+  {{< figure src="img/team/Yunhe-Cui.jpg" caption="Yunhe Cui" caption-effect="none" >}}
+  {{< figure src="img/team/Wei-Wang.jpg" caption="Wei Wang" caption-effect="none" >}}
+{{< /gallery >}}
+
+
+### Current team members include:
 
 - [Ken Frank](https://msu.edu/~kenfrank/) (Michigan State University)
 - [Spiro Maroulis](http://www.public.asu.edu/~smarouli/Spiro_Maroulis/Home.html) (Arizona State University)
@@ -49,19 +61,21 @@ We are a group of researchers spanning numerous institutions who would like to c
 - [Joshua Rosenberg](https://joshuamrosenberg.com/) (University of Tennessee, Knoxville)
 - [Guan Saw](https://www.cgu.edu/people/guan-saw/) (Claremont Graduate University)
 - [Bret Staudt Willet](https://bretsw.com) (Florida State University)
+- [Xuesen Cheng](https://www.linkedin.com/in/xuesen-cheng-452272190/) (Michigan State University)
+- [Jihoon Choi](https://www.linkedin.com/in/jihoon-choi-60a918223/) (Michigan State University)
+- [Gaofei Zhang](https://www.linkedin.com/in/gaofei-zhang-450013107/) (University of Connecticut)
 
-**Additional contributors include:**
+
+### Additional contributors include:
 
 - Tingqiao Chen (Michigan State University)
 - [Zixi Chen](https://caser.shanghai.nyu.edu/people/zixi-chen/) (NYU Shanghai)
-- [Xuesen Cheng](https://www.linkedin.com/in/xuesen-cheng-452272190/) (Michigan State University)
-- [Jihoon Choi](https://www.linkedin.com/in/jihoon-choi-60a918223/) (Michigan State University)
+- Yunhe Cui (University of Connecticut)
 - [Tenglong Li](https://www.xjtlu.edu.cn/en/staff-details/staff/tenglong-li) (Xi'an Jiaotong-Liverpool University)
 - [Yuqing Liu](https://www.linkedin.com/in/yuqing-liu-b6372889/) (Michigan State University)
 - Dallin Overstreet (Arizona State University)
 - [Wei Pan](https://sites.duke.edu/panwei/) (Duke University)
-- Wei Wang (Michigan State University)
-- [Gaofei Zhang](https://www.linkedin.com/in/gaofei-zhang-450013107/) (University of Connecticut)
+- Wei Wang (University of Tennessee, Knoxville)
 
 ---
 
@@ -75,7 +89,7 @@ Rosenberg, J. M., Narvaiz, S., Xu, R., Lin, Q., Maroulis, S., Frank, K. A., Saw,
 
 
 
-### {{< awesome fas fa-warehouse >}} Benchmarks: What Works Clearinghouse
+### {{< awesome fas fa-warehouse >}} WWC Benchmarks: What Works Clearinghouse
 
 Maroulis, S., Overstreet, D., Frank, K. A., & Staudt Willet, K. B. (2024). *What works clearinghouse Sensitivity analysis benchmarks*. https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/
 

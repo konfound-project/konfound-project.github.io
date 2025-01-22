@@ -27,11 +27,11 @@ Try out **KonFound-It!** to calculate sensitivity analyses through an interactiv
 
 {{< column >}}
 
-![Book Shelves](img/bench.png)
+![Newspapers on a News Stand](img/news-rectangle.png)
 
-{{< button href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/" >}}Benchmarks{{< /button >}}
+{{< button href="/news" >}}KonFound-It! News{{< /button >}}
 
-Explore sensitivity analyses calculated for the [What Works Clearinghouse](https://ies.ed.gov/ncee/wwc/) through an interactive web app.
+Read the latest updates from the KonFound-It! team.
 
 {{< endcolumns >}}
 
@@ -41,11 +41,11 @@ Explore sensitivity analyses calculated for the [What Works Clearinghouse](https
 
 {{< columns >}}
 
-![Newspapers on a News Stand](img/news-rectangle.png)
+![Bench in a Park](img/bench.png)
 
-{{< button href="/news" >}}KonFound-It! News{{< /button >}}
+{{< button href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/" >}}WWC Benchmarks{{< /button >}}
 
-Read the latest updates from the KonFound-It! team.
+Explore sensitivity analyses calculated for the [What Works Clearinghouse](https://ies.ed.gov/ncee/wwc/) through an interactive web app.
 
 
 
