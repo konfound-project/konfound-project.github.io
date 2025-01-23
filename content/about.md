@@ -45,10 +45,12 @@ We are a group of researchers spanning numerous institutions who would like to c
 {{< gallery >}} 
   {{< figure src="img/team/Ken-Frank.jpg" caption="Ken Frank" >}}
   {{< figure src="img/team/Spiro-Maroulis.jpg" caption="Spiro Maroulis" >}}
+  {{< figure src="img/team/Qinyun-Lin.jpg" caption="Qinyun Lin" >}}
   {{< figure src="img/team/Ran-Xu.jpg" caption="Ran Xu" >}}
   {{< figure src="img/team/Joshua-Rosenberg.jpg" caption="Joshua Rosenberg" >}}
   {{< figure src="img/team/Guan-Saw.jpg" caption="Guan Saw" >}}
   {{< figure src="img/team/Bret-StaudtWillet.jpg" caption="Bret Staudt Willet" >}}
+  {{< figure src="img/team/Xuesen-Cheng.jpg" caption="Xuesen Cheng" >}}
   {{< figure src="img/team/Jihoon-Choi.jpg" caption="Jihoon Choi" >}}
   {{< figure src="img/team/Gaofei-Zhang.jpg" caption="Gaofei Zhang" >}}
   {{< figure src="img/team/Yunhe-Cui.jpg" caption="Yunhe Cui" >}}
