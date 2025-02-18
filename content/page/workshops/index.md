@@ -56,19 +56,41 @@ In this seminar, you will:
 
 
 
+### Inter-University Consortium for Political and Social Research (ICPSR)
+
+[Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data](https://web.cvent.com/event/ab4981a1-0309-42dc-aa29-4ea347e1f24b/websitePage:17e8f24b-550c-4a09-a091-06ccd6f667d5?session=0b9d63fd-a4d6-4707-bbfb-bbb32b41edff&shareLink=true) 
+
+**July 28&#8211;August 1, 2025** (10:00am&#8211;3:00pm Eastern time). Virtual.
+
+**Goals:**
+
+- Help participants understand two basic frameworks for sensitivity analysis based on omitted variables and the potential outcomes framework
+- Support students to conduct and interpret a sensitivity analysis from published output
+- Support students to conduct and interpret a sensitivity analysis in their own studies.
+    
+---
+
+
+
 ### Society for Epidemiological Research
 
-{{< awesome fas fa-business-time >}} Check back later for a Zoom link. 
+[What Would it Take to Change Your Inference? Quantifying the Discourse about Causal Inferences in Epidemiology](https://epiresearch.org/annual-meeting/2025-meeting/2025-workshops/) 
 
 **August 5, 2025** (12:00&#8211;4:00pm Eastern time). Virtual.
 
+**Description:**
 
+Causal inferences are often challenged because of uncontrolled bias. We will turn concerns about potential bias into questions about how much bias there must be to invalidate an inference. For example, challenges such as ‘But the inference of an exposure might not be valid because of pre-existing differences between the treatment groups’ are transformed to questions such as ‘How much bias must there have been due to uncontrolled pre-existing differences to make the inference invalid?’ By reframing challenges about bias in terms of specific quantities, this workshop will contribute to scientific discourse about uncertainty of causal inferences. 
 
 ---
 
 
 
 {{< awesome fas fa-business-time >}} Check back again soon for news about more workshops!
+
+
+
+
 
 
 
