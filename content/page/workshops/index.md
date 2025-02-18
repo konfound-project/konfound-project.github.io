@@ -48,16 +48,6 @@ In this seminar, you will:
 
 ### Inter-University Consortium for Political and Social Research (ICPSR)
 
-{{< awesome fas fa-business-time >}} Check back later for more details and a Zoom link.
-
-**June 18&#8211;20, 2025**
-
----
-
-
-
-### Inter-University Consortium for Political and Social Research (ICPSR)
-
 [Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data](https://web.cvent.com/event/ab4981a1-0309-42dc-aa29-4ea347e1f24b/websitePage:17e8f24b-550c-4a09-a091-06ccd6f667d5?session=0b9d63fd-a4d6-4707-bbfb-bbb32b41edff&shareLink=true) 
 
 **July 28&#8211;August 1, 2025** (10:00am&#8211;3:00pm Eastern time). Virtual.
