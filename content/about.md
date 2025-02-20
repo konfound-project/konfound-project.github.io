@@ -188,7 +188,7 @@ We refer to a lot of open resources for building this site, including:
 - Specific Questions: Ask in the [KounFound-It! Google Group](https://groups.google.com/g/konfound-it)
 - Issues with the konfound R Package: Post to [konfound GitHub Issues]((https://github.com/konfound-project/konfound/issues))
 - Overall KonFound-It! Project Inquiries: Contact [Ken Frank](https://msu.edu/~kenfrank/)
-- Benchmarks: What Works Clearinghouse: Contact [Spiro Maroulis](http://www.public.asu.edu/~smarouli/Spiro_Maroulis/Home.html)
+- Sensitivity Analysis Benchmarks - What Works Clearinghouse: Contact [Spiro Maroulis](http://www.public.asu.edu/~smarouli/Spiro_Maroulis/Home.html)
 - R Package: Contact [Qinyun Lin](https://www.linkedin.com/in/qinyun-lin-b72763112/)
 - R Shiny App: Contact [Joshua Rosenberg](https://joshuamrosenberg.com/)
 - Stata Package: Contact [Ran Xu](https://sites.google.com/site/ranxupersonalweb/)

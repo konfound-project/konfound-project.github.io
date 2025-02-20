@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nonlinear on KonFound-It!</title>
-    <link>https://konfound-project.github.io/tags/nonlinear/</link>
+    <link>http://localhost:1313/tags/nonlinear/</link>
     <description>Recent content in Nonlinear on KonFound-It!</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 13 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://konfound-project.github.io/tags/nonlinear/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/nonlinear/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Frequently Asked Questions About the Application of KonFound-It for Sensitivity</title>
-      <link>https://konfound-project.github.io/post/2023-08-13-faq/</link>
+      <link>http://localhost:1313/post/2023-08-13-faq/</link>
       <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/post/2023-08-13-faq/</guid>
+      <guid>http://localhost:1313/post/2023-08-13-faq/</guid>
       <description>Introduction This document addresses some frequently asked questions regarding KonFound.&#xA;Questions? Issues? Suggestions? Reach out through the KounFound-It! Google Group.&#xA;See the appendices for background readings and software. For quick reference, visit:&#xA;[Development version of the FAQ](https://www.dropbox.com/s/9eymdekym5g50o7/frequently asked questions for application of konfound-it.docx) Overview of all KonFound commands Main introductory slides for combined frameworks Background There are two basic frameworks for sensitivity analysis employed within KonFound. First is the Impact Threshold for a Confounding Variable (ITCV)—Frank (2000).</description>
     </item>
     <item>
       <title>A 15-minute talk</title>
-      <link>https://konfound-project.github.io/post/2020-05-01-presentation/</link>
+      <link>http://localhost:1313/post/2020-05-01-presentation/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/post/2020-05-01-presentation/</guid>
+      <guid>http://localhost:1313/post/2020-05-01-presentation/</guid>
       <description>I summarized our current thinking on how robustness analysis can be applied to emerging COVID research in a brief presentation at an online conference entitled &amp;ldquo;COVID-19 and Public Policy and Management.&amp;rdquo; The conference was hosted by the Center on Technology, Data, and Society at Arizona State University, and a recording of the 15-minute talk, entitled &amp;ldquo;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates&amp;rdquo;, is available here.&#xA;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates </description>
     </item>
   </channel>

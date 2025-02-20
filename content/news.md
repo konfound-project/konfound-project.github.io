@@ -16,6 +16,18 @@ comments: false
 
 
 
+### Quantifying Sensitivity in Causal Inference with Kenneth Frank (posted 02/19/25)
+
+Watch Dr. Ken Frank give a one-hour introduction to sensitivity analysis as the opening of the upcoming "Sensitivity Analysis for Causal Inference" webinar for [Statistical Horizons](https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/) on March 5&#8211;6, 2025, . Dr. Frank introduces key concepts and sets the foundation for exploring robust causal inference techniques.
+
+{{< youtube id="cIEHaBQRUZk" autoplay="false" color="white" >}}
+
+
+
+---
+
+
+
 ### Next Workshop: Statistical Horizons (posted 01/13/25)
 
 [Sensitivity Analysis for Causal Inference: Two Key Techniques for Quantifying the Robustness of Causal Inferences](https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/) 

@@ -30,6 +30,8 @@ In this seminar, you will:
 - Develop a deeper understanding of regression and the counterfactual as well as how threats to internal and external validity compare against the strength of evidence.
 - Apply sensitivity analysis to a specific problem of interest that may require extensions or adaptations.
 
+{{< youtube id="cIEHaBQRUZk" autoplay="false" color="white" >}}
+
 ---
 
 

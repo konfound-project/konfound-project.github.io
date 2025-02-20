@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on KonFound-It!</title>
-    <link>https://konfound-project.github.io/page/</link>
+    <link>http://localhost:1313/page/</link>
     <description>Recent content in Pages on KonFound-It!</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://konfound-project.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FAQs</title>
-      <link>https://konfound-project.github.io/page/faq/</link>
+      <link>http://localhost:1313/page/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/page/faq/</guid>
+      <guid>http://localhost:1313/page/faq/</guid>
       <description>by Kenneth A. Frank, Qinyun Lin, Ran Xu, Spiro Maroulis, Guan Saw, &amp;amp; Josh Rosenberg&#xA;Last updated: 7/5/2024&#xA;FAQ Dev Version&#xA;Introduction This document addresses some frequently asked questions regarding KonFound. See the appendices for background readings and software. For quick reference, see:&#xA;Overview of all KonFound commands Main introductory slides for combined frameworks Background There are two basic frameworks for sensitivity analysis employed within KonFound. First is the Impact Threshold for a Confounding Variable (ITCV)—Frank (2000).</description>
     </item>
     <item>
       <title>Publications</title>
-      <link>https://konfound-project.github.io/page/publications/</link>
+      <link>http://localhost:1313/page/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/page/publications/</guid>
+      <guid>http://localhost:1313/page/publications/</guid>
       <description>Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. Sociological Methods and Research, 29(2), 147-194. PDF | Web&#xA;Frank, K. A., Lin, Q., &amp;amp; Maroulis, S. (2023). Quantifying sensitivity to selection on unobservables: Refining Oster’s coefficient of proportionality. White paper. PDF&#xA;Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M.</description>
     </item>
     <item>
       <title>Resource Overview</title>
-      <link>https://konfound-project.github.io/page/resources/</link>
+      <link>http://localhost:1313/page/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/page/resources/</guid>
+      <guid>http://localhost:1313/page/resources/</guid>
       <description>Tools R package (CRAN version) R package (development version) R Shiny app Stata package Benchmarks: What Works Clearinghouse [BETA] Explanatory Resources FAQ Overview of KonFound techniques Overview of KonFound commands Quick examples Slides quantifying the robustness of causal inferences combined frameworks Slides for comparison of frameworks Resources for Publication Published empirical examples KonFound-It! spreadsheet for calculating indices Publications: Impact Threshold for a Confounding Variable Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient.</description>
     </item>
     <item>
       <title>Talks</title>
-      <link>https://konfound-project.github.io/page/talks/</link>
+      <link>http://localhost:1313/page/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/page/talks/</guid>
+      <guid>http://localhost:1313/page/talks/</guid>
       <description>Upcoming Talks Check back again soon!&#xA;Past Talks Quantifying Sensitivity to Selection on Unobservables: Refining Oster’s Coefficient of Proportionality Joint Statistcal Meetings&#xA;August 4, 2024 (8:30pm–9:30pm Pacific time).&#xA;Paper&#xA;Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions University of Gothenburg, Sweden. School of Public Health&#xA;May 23, 2024 (1:00pm–2:45pm Sweden time).&#xA;Paper&#xA;Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions Michigan State University Biostats</description>
     </item>
     <item>
       <title>User Guide</title>
-      <link>https://konfound-project.github.io/page/guide/</link>
+      <link>http://localhost:1313/page/guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/page/guide/</guid>
+      <guid>http://localhost:1313/page/guide/</guid>
       <description> Under construction, but coming soon </description>
     </item>
     <item>
       <title>Workshops</title>
-      <link>https://konfound-project.github.io/page/workshops/</link>
+      <link>http://localhost:1313/page/workshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/page/workshops/</guid>
+      <guid>http://localhost:1313/page/workshops/</guid>
       <description>Upcoming Workshops Statistical Horizons Sensitivity Analysis for Causal Inference&#xA;March 5–6, 2025 (10:30am–12:30pm and 1:00pm–3:00pm Eastern time both days). Virtual.&#xA;Description:&#xA;In this seminar, you will:&#xA;Apply and understand techniques for quantifying the robustness of causal inferences. Comparing evidence to a threshold for inference. Understanding internal and external validity. Conduct sensitivity analyses in R or the on-line app http://konfound-it.com (Stata and Excel also available). Develop a deeper understanding of regression and the counterfactual as well as how threats to internal and external validity compare against the strength of evidence.</description>
     </item>
   </channel>
