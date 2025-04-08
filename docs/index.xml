@@ -62,7 +62,7 @@
       <link>https://konfound-project.github.io/news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/news/</guid>
-      <description>Latest News Quantifying Sensitivity in Causal Inference with Kenneth Frank (posted 02/19/25) Watch Dr. Ken Frank give a one-hour introduction to sensitivity analysis as the opening of the upcoming &amp;ldquo;Sensitivity Analysis for Causal Inference&amp;rdquo; webinar for Statistical Horizons on March 5–6, 2025, . Dr. Frank introduces key concepts and sets the foundation for exploring robust causal inference techniques.&#xA;Next Workshop: Statistical Horizons (posted 01/13/25) Sensitivity Analysis for Causal Inference: Two Key Techniques for Quantifying the Robustness of Causal Inferences</description>
+      <description>Latest News Announcing Summer 2025 Workshops and Conference Presentations (posted 04/07/25) Conference Presentation: Society for Causal Inference, Friday May 16, 10:15-11:45am ET in Detroit, Michigan — Multi-faceted Approaches to Sensitivity Analysis for Observational Studies&#xA;Topical Workshop: ICPSR Summer Program in Quantitative Methods, July 28-Aug 1 — Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data&#xA;Workshop: Society for Epidemiologic Research, Tuesday, Aug 5, 12-4pm ET — What Would it Take to Change Your Inference?</description>
     </item>
     <item>
       <title>Publications</title>
@@ -83,7 +83,7 @@
       <link>https://konfound-project.github.io/page/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/talks/</guid>
-      <description>Upcoming Talks Check back again soon!&#xA;Past Talks Quantifying Sensitivity to Selection on Unobservables: Refining Oster’s Coefficient of Proportionality Joint Statistcal Meetings&#xA;August 4, 2024 (8:30pm–9:30pm Pacific time).&#xA;Paper&#xA;Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions University of Gothenburg, Sweden. School of Public Health&#xA;May 23, 2024 (1:00pm–2:45pm Sweden time).&#xA;Paper&#xA;Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions Michigan State University Biostats</description>
+      <description>Upcoming Talks Multi-faceted Approaches to Sensitivity Analysis for Observational Studies Society for Causal Inference&#xA;May 16, 2025 (10:15am–11:45am Eastern time in Detroit, MI).&#xA;Quantifying Sensitivity to Selection on Unobserved Covariates: Recasting the Coefficient of Proportionality within a Correlational Framework 2025 Joint Statistical Meetings, Multi-faceted Approaches to Sensitivity Analysis for Observational Studies&#xA;August 6, 2025 (10:30am–12:30pm Central time in Nashville, TN).&#xA;Paper&#xA;Presenters: Kenneth A. Frank, Qinyun Lin, &amp;amp; Spiro Maroulis</description>
     </item>
     <item>
       <title>User Guide</title>
@@ -97,7 +97,7 @@
       <link>https://konfound-project.github.io/page/workshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/workshops/</guid>
-      <description>Upcoming Workshops Statistical Horizons Sensitivity Analysis for Causal Inference&#xA;March 5–6, 2025 (10:30am–12:30pm and 1:00pm–3:00pm Eastern time both days). Virtual.&#xA;Description:&#xA;In this seminar, you will:&#xA;Apply and understand techniques for quantifying the robustness of causal inferences. Comparing evidence to a threshold for inference. Understanding internal and external validity. Conduct sensitivity analyses in R or the on-line app http://konfound-it.com (Stata and Excel also available). Develop a deeper understanding of regression and the counterfactual as well as how threats to internal and external validity compare against the strength of evidence.</description>
+      <description>Upcoming Workshops MSU Course Drop-In Zoom Room&#xA;April 9 &amp;amp; 14, 2025 (10:10–11:20am Eastern time). Virtual.&#xA;Inter-University Consortium for Political and Social Research (ICPSR) Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data&#xA;July 28–August 1, 2025 (10:00am–3:00pm Eastern time). Virtual.&#xA;Goals:&#xA;Help participants understand two basic frameworks for sensitivity analysis based on omitted variables and the potential outcomes framework Support students to conduct and interpret a sensitivity analysis from published output Support students to conduct and interpret a sensitivity analysis in their own studies.</description>
     </item>
   </channel>
 </rss>

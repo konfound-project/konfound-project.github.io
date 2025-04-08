@@ -13,36 +13,12 @@ comments: false
 
 
 
-### Statistical Horizons
-
-[Sensitivity Analysis for Causal Inference](https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/) 
-
-**March 5&#8211;6, 2025** (10:30am&#8211;12:30pm and 1:00pm&#8211;3:00pm Eastern time both days). Virtual.
-
-**Description:**
-
-In this seminar, you will:
-
-- Apply and understand techniques for quantifying the robustness of causal inferences.
-  - Comparing evidence to a threshold for inference.
-  - Understanding internal and external validity.
-- Conduct sensitivity analyses in R or the on-line app http://konfound-it.com (Stata and Excel also available).
-- Develop a deeper understanding of regression and the counterfactual as well as how threats to internal and external validity compare against the strength of evidence.
-- Apply sensitivity analysis to a specific problem of interest that may require extensions or adaptations.
-
-{{< youtube id="cIEHaBQRUZk" autoplay="false" color="white" >}}
-
----
-
-
 
 ### MSU Course Drop-In
 
 [Zoom Room](https://msu.zoom.us/j/783760435) 
 
-**April 1, 2025 (possibly April 8)** (12:40&#8211;3:30pm Eastern time). Virtual.
-
-**April 7 & 9, 2025** (10:10&#8211;11:20am Eastern time). Virtual.
+**April 9 & 14, 2025** (10:10&#8211;11:20am Eastern time). Virtual.
 
 ---
 
@@ -89,6 +65,29 @@ Causal inferences are often challenged because of uncontrolled bias. We will tur
 ---
 
 ## Past Workshops
+
+---
+
+
+
+### Statistical Horizons
+
+[Sensitivity Analysis for Causal Inference](https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/) 
+
+**March 5&#8211;6, 2025** (10:30am&#8211;12:30pm and 1:00pm&#8211;3:00pm Eastern time both days). Virtual.
+
+**Description:**
+
+In this seminar, you will:
+
+- Apply and understand techniques for quantifying the robustness of causal inferences.
+  - Comparing evidence to a threshold for inference.
+  - Understanding internal and external validity.
+- Conduct sensitivity analyses in R or the on-line app http://konfound-it.com (Stata and Excel also available).
+- Develop a deeper understanding of regression and the counterfactual as well as how threats to internal and external validity compare against the strength of evidence.
+- Apply sensitivity analysis to a specific problem of interest that may require extensions or adaptations.
+
+{{< youtube id="cIEHaBQRUZk" autoplay="false" color="white" >}}
 
 ---
 

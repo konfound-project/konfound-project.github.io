@@ -16,9 +16,36 @@ comments: false
 
 
 
+### Announcing Summer 2025 Workshops and Conference Presentations (posted 04/07/25)
+
+
+**Conference Presentation: [Society for Causal Inference](https://sci-info.org/2025-meeting/)**, Friday May 16, 10:15-11:45am ET in Detroit, Michigan &#8212; *Multi-faceted Approaches to Sensitivity Analysis for Observational Studies*
+
+
+
+**Topical Workshop: [ICPSR Summer Program in Quantitative Methods](https://www.icpsr.umich.edu/web/pages/sumprog/)**, July 28-Aug 1 &#8212; *[Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data](https://web.cvent.com/event/ab4981a1-0309-42dc-aa29-4ea347e1f24b/websitePage:17e8f24b-550c-4a09-a091-06ccd6f667d5?session=0b9d63fd-a4d6-4707-bbfb-bbb32b41edff&shareLink=true)*
+ 
+
+
+**Workshop: Society for Epidemiologic Research**, Tuesday, Aug 5, 12-4pm ET &#8212; *[What Would it Take to Change Your Inference? Quantifying the Discourse about Causal Inferences in Epidemiology](https://epiresearch.org/annual-meeting/2025-meeting/2025-workshops/)*
+ 
+ 
+ 
+**Conference Presentation: [2025 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2025/), Multi-faceted Approaches to Sensitivity Analysis for Observational Studies**, Wednesday, Aug 6, 10:30am-12:30pm (CT) in Nashville, TN &#8212; *Quantifying Sensitivity to Selection on Unobserved Covariates: Recasting the Coefficient of Proportionality within a Correlational Framework* [[Link to paper](https://www.dropbox.com/scl/fi/s63onxsg6yoga5of9nd42/Quantifying-Sensitivity-to-Selection-on-Unobserved-Covariates-2024-distribute.pdf?rlkey=4yyxd9p3ej605n77vrbqq6pq3&e=1&st=3schtjqu&dl=0)]
+ 
+Presenters: Kenneth A. Frank, Qinyun Lin, & Spiro Maroulis
+ 
+Abstract: Sensitivity analyses can inform evidence-based education policy by quantifying the hypothetical conditions necessary to change an inference. Perhaps the most prevalent index used for sensitivity analyses is Oster’s (2019) Coefficient of Proportionality (COP). Oster’s COP leverages changes in estimated effects and R2 when observed covariates are added to a model to quantify how strong selection on unobserved covariates would have to be relative to on observed covariates to nullify an estimated effect.  In this paper, we reconceptualize the COP as a function of unobserved covariates’ correlations with the focal predictor (e.g., treatment) and with the outcome. Our correlation-based approach addresses recent critiques of Oster’s COP while preserving the comparison of selection on unobserved covariates to selection on observed covariates. As importantly, our expressions do not depend on an analyst’s subjective choice of covariates to include in a baseline model, are exact even in finite samples, and can be directly calculated from conventionally reported quantities (e.g., estimated effect, standard error) through the Konfound packages in R or Stata.  Thus, for most published studies in the social sciences our COP index can be easily applied and intuitively interpreted.
+
+
+
+---
+
+
+
 ### Quantifying Sensitivity in Causal Inference with Kenneth Frank (posted 02/19/25)
 
-Watch Dr. Ken Frank give a one-hour introduction to sensitivity analysis as the opening of the upcoming "Sensitivity Analysis for Causal Inference" webinar for [Statistical Horizons](https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/) on March 5&#8211;6, 2025, . Dr. Frank introduces key concepts and sets the foundation for exploring robust causal inference techniques.
+Watch Dr. Ken Frank give a one-hour introduction to sensitivity analysis as the opening of the upcoming "Sensitivity Analysis for Causal Inference" webinar for [Statistical Horizons](https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/) on March 5&#8211;6, 2025. Dr. Frank introduces key concepts and sets the foundation for exploring robust causal inference techniques.
 
 {{< youtube id="cIEHaBQRUZk" autoplay="false" color="white" >}}
 
