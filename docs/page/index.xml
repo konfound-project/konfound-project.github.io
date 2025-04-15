@@ -15,6 +15,13 @@
       <description>by Kenneth A. Frank, Qinyun Lin, Ran Xu, Spiro Maroulis, Guan Saw, &amp;amp; Josh Rosenberg&#xA;Last updated: 7/5/2024&#xA;FAQ Dev Version&#xA;Introduction This document addresses some frequently asked questions regarding KonFound. See the appendices for background readings and software. For quick reference, see:&#xA;Overview of all KonFound commands Main introductory slides for combined frameworks Background There are two basic frameworks for sensitivity analysis employed within KonFound. First is the Impact Threshold for a Confounding Variable (ITCV)—Frank (2000).</description>
     </item>
     <item>
+      <title>Practical Guide</title>
+      <link>https://konfound-project.github.io/page/guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/guide/</guid>
+      <description> April 2025 draft PDF&#xA;Previous Next &amp;nbsp; &amp;nbsp; / [pdf] View the PDF file here. </description>
+    </item>
+    <item>
       <title>Publications</title>
       <link>https://konfound-project.github.io/page/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -34,13 +41,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/talks/</guid>
       <description>Upcoming Talks Multi-faceted Approaches to Sensitivity Analysis for Observational Studies Society for Causal Inference&#xA;May 16, 2025 (10:15am–11:45am Eastern time in Detroit, MI).&#xA;Quantifying Sensitivity to Selection on Unobserved Covariates: Recasting the Coefficient of Proportionality within a Correlational Framework 2025 Joint Statistical Meetings, Multi-faceted Approaches to Sensitivity Analysis for Observational Studies&#xA;August 6, 2025 (10:30am–12:30pm Central time in Nashville, TN).&#xA;Paper&#xA;Presenters: Kenneth A. Frank, Qinyun Lin, &amp;amp; Spiro Maroulis</description>
-    </item>
-    <item>
-      <title>User Guide</title>
-      <link>https://konfound-project.github.io/page/guide/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/page/guide/</guid>
-      <description> Under construction, but coming soon </description>
     </item>
     <item>
       <title>Workshops</title>

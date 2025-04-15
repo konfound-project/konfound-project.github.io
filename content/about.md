@@ -167,7 +167,7 @@ Be sure to look through the variety of supports for KonFound:
 - [Talks](/page/talks)
 - [Workshops](/page/workshops)
 - [Benchmarks: What Works Clearinghouse](https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/)
-- [User Guide]() - COMING SOON
+- [Practical Guide]() (DRAFT)
 
 ---
 

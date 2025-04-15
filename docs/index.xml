@@ -65,6 +65,13 @@
       <description>Latest News Announcing Summer 2025 Workshops and Conference Presentations (posted 04/07/25) Conference Presentation: Society for Causal Inference, Friday May 16, 10:15-11:45am ET in Detroit, Michigan — Multi-faceted Approaches to Sensitivity Analysis for Observational Studies&#xA;Topical Workshop: ICPSR Summer Program in Quantitative Methods, July 28-Aug 1 — Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data&#xA;Workshop: Society for Epidemiologic Research, Tuesday, Aug 5, 12-4pm ET — What Would it Take to Change Your Inference?</description>
     </item>
     <item>
+      <title>Practical Guide</title>
+      <link>https://konfound-project.github.io/page/guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/guide/</guid>
+      <description> April 2025 draft PDF&#xA;Previous Next &amp;nbsp; &amp;nbsp; / [pdf] View the PDF file here. </description>
+    </item>
+    <item>
       <title>Publications</title>
       <link>https://konfound-project.github.io/page/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -84,13 +91,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/talks/</guid>
       <description>Upcoming Talks Multi-faceted Approaches to Sensitivity Analysis for Observational Studies Society for Causal Inference&#xA;May 16, 2025 (10:15am–11:45am Eastern time in Detroit, MI).&#xA;Quantifying Sensitivity to Selection on Unobserved Covariates: Recasting the Coefficient of Proportionality within a Correlational Framework 2025 Joint Statistical Meetings, Multi-faceted Approaches to Sensitivity Analysis for Observational Studies&#xA;August 6, 2025 (10:30am–12:30pm Central time in Nashville, TN).&#xA;Paper&#xA;Presenters: Kenneth A. Frank, Qinyun Lin, &amp;amp; Spiro Maroulis</description>
-    </item>
-    <item>
-      <title>User Guide</title>
-      <link>https://konfound-project.github.io/page/guide/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/page/guide/</guid>
-      <description> Under construction, but coming soon </description>
     </item>
     <item>
       <title>Workshops</title>

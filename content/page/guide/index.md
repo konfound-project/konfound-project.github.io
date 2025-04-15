@@ -1,10 +1,11 @@
 ---
-title: User Guide
+title: Practical Guide
 comments: false
 ---
 
+[{{< awesome fas fa-file-pdf >}} April 2025 draft PDF](ITCV_RIR_PracticalGuide_ApriL2025_DRAFT.pdf)
 
 
 ---
 
-## {{< awesome fas fa-house-damage >}} Under construction, but coming soon
+{{< embed-pdf url="ITCV_RIR_PracticalGuide_ApriL2025_DRAFT.pdf" >}}

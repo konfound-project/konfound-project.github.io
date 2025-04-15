@@ -133,7 +133,7 @@
                 
                   <a href="/page/workshops">Workshops</a>
                 
-                  <a href="/page/guide">User Guide</a>
+                  <a href="/page/guide">Practical Guide</a>
                 
                   <a href="https://groups.google.com/g/konfound-it">Forum</a>
                 
@@ -317,6 +317,299 @@ Overview of all KonFound commands Main introductory slides for combined framewor
 </article>
           
             <article class="post-preview">
+    <a href="https://konfound-project.github.io/page/guide/">
+        <h2 class="post-title">Practical Guide</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on January 1, 0001
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;15&nbsp;words
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <p><a href="ITCV_RIR_PracticalGuide_ApriL2025_DRAFT.pdf">
+  <i class="fas fa-file-pdf "></i>
+
+ April 2025 draft PDF</a></p>
+<hr>
+<script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
+
+<style>
+  #embed-pdf-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
+     
+  }
+
+  .pdf-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+
+  #the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+
+
+  .pdf-loadingWrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+  }
+
+  .pdf-loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #d2d0d0;;
+    border-radius: 50%;
+    border-top-color: #383838;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }
+
+  
+
+
+
+  #overlayText {
+    word-wrap: break-word;
+    display: grid;
+    justify-content: end;
+  }
+
+  #overlayText a {
+    position: relative;
+    top: 10px;
+    right: 4px;
+    color: #000;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 0.3em 1em;
+    border: solid 2px;
+    border-radius: 12px;
+    border-color: #00000030;
+    text-decoration: none;
+  }
+
+  #overlayText svg {
+    height: clamp(1em, 2vw, 1.4em);
+    width:  clamp(1em, 2vw, 1.4em);
+  }
+
+
+
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  </style><div class="embed-pdf-container" id="embed-pdf-container-7d64ba37">
+    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-7d64ba37">
+        <div class="pdf-loading" id="pdf-loading-7d64ba37"></div>
+    </div>
+    <div id="overlayText">
+      <a href="ITCV_RIR_PracticalGuide_ApriL2025_DRAFT.pdf" aria-label="Download" download>
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+            <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
+        </svg>
+      </a>
+    </div>
+    <canvas class="pdf-canvas" id="pdf-canvas-7d64ba37"></canvas>
+</div>
+
+<div class="pdf-paginator" id="pdf-paginator-7d64ba37">
+    <button id="pdf-prev-7d64ba37">Previous</button>
+    <button id="pdf-next-7d64ba37">Next</button> &nbsp; &nbsp;
+    <span>
+      <span class="pdf-pagenum" id="pdf-pagenum-7d64ba37"></span> / <span class="pdf-pagecount" id="pdf-pagecount-7d64ba37"></span>
+    </span>
+    <a class="pdf-source" id="pdf-source-7d64ba37" href="ITCV_RIR_PracticalGuide_ApriL2025_DRAFT.pdf">[pdf]</a>
+</div>
+
+<noscript>
+View the PDF file <a class="pdf-source" id="pdf-source-noscript-7d64ba37" href="ITCV_RIR_PracticalGuide_ApriL2025_DRAFT.pdf">here</a>.
+</noscript>
+
+<script type="text/javascript">
+    (function(){
+    var url = 'ITCV_RIR_PracticalGuide_ApriL2025_DRAFT.pdf';
+
+    var hidePaginator = "" === "true";
+    var hideLoader = "" === "true";
+    var selectedPageNum = parseInt("") || 1;
+
+    
+    var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/konfound-project.github.io\/" + 'js/pdf-js/build/pdf.worker.js';
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById('pdf-canvas-7d64ba37'),
+        ctx = canvas.getContext('2d'),
+        paginator = document.getElementById("pdf-paginator-7d64ba37"),
+        loadingWrapper = document.getElementById('pdf-loadingWrapper-7d64ba37');
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById('pdf-pagenum-7d64ba37').textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = 'none';
+      canvas.style.display = 'block';
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = 'flex';
+      canvas.style.display = 'none';
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = 'block';
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum <= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById('pdf-prev-7d64ba37').addEventListener('click', onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum >= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById('pdf-next-7d64ba37').addEventListener('click', onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById('pdf-pagecount-7d64ba37').textContent = numPages;
+
+      
+      if(pageNum > numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+</script>
+
+
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
     <a href="https://konfound-project.github.io/page/publications/">
         <h2 class="post-title">Publications</h2>
         
@@ -439,51 +732,6 @@ August 6, 2025 (10:30am–12:30pm Central time in Nashville, TN).
 Paper
 Presenters: Kenneth A. Frank, Qinyun Lin, &amp; Spiro Maroulis
         <a href="https://konfound-project.github.io/page/talks/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://konfound-project.github.io/page/guide/">
-        <h2 class="post-title">User Guide</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on January 1, 0001
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;5&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <hr>
-<h2 id="hahahugoshortcode5s0hbhb-under-construction-but-coming-soon">
-  <i class="fas fa-house-damage "></i>
-
- Under construction, but coming soon</h2>
-
         
     </div>
 
