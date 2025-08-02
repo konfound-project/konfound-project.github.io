@@ -11,14 +11,6 @@ comments: false
 
 ---
 
-### Multi-faceted Approaches to Sensitivity Analysis for Observational Studies
-
-[Society for Causal Inference](https://sci-info.org/2025-meeting/)
-
-**May 16, 2025** (10:15am&#8211;11:45am Eastern time in Detroit, MI).
-
----
-
 
 
 ### Quantifying Sensitivity to Selection on Unobserved Covariates: Recasting the Coefficient of Proportionality within a Correlational Framework 
@@ -37,7 +29,8 @@ comments: false
 
 
 
-{{< awesome fas fa-business-time >}} Check back again soon!
+{{< awesome fas fa-business-time >}} Check back again soon for news about more talks!
+
 
 
 
@@ -47,6 +40,17 @@ comments: false
 ## Past Talks
 
 ---
+
+
+
+### Multi-faceted Approaches to Sensitivity Analysis for Observational Studies
+
+[Society for Causal Inference](https://sci-info.org/2025-meeting/)
+
+**May 16, 2025** (10:15am&#8211;11:45am Eastern time in Detroit, MI).
+
+---
+
 
 
 ### Quantifying Sensitivity to Selection on Unobservables: Refining Oster’s Coefficient of Proportionality
