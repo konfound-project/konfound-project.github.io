@@ -13,12 +13,88 @@ comments: false
 
 
 
+### Society for Epidemiological Research
 
-### MSU Course Drop-In
+[What Would it Take to Change Your Inference? Quantifying the Discourse about Causal Inferences in Epidemiology](https://epiresearch.org/annual-meeting/2025-meeting/2025-workshops/) 
 
-[Zoom Room](https://msu.zoom.us/j/783760435) 
+**August 5, 2025** (12:00&#8211;4:00pm Eastern time). Virtual.
 
-**April 9 & 14, 2025** (10:10&#8211;11:20am Eastern time). Virtual.
+**Description:**
+
+Causal inferences are often challenged because of uncontrolled bias. We will turn concerns about potential bias into questions about how much bias there must be to invalidate an inference. For example, challenges such as ‘But the inference of an exposure might not be valid because of pre-existing differences between the treatment groups’ are transformed to questions such as ‘How much bias must there have been due to uncontrolled pre-existing differences to make the inference invalid?’ By reframing challenges about bias in terms of specific quantities, this workshop will contribute to scientific discourse about uncertainty of causal inferences. 
+
+---
+
+
+
+### Society for Research on Educational Effectiveness (SREE)
+
+[What Would It Take to Change Your Inference? Informing Broad Stakeholder Debate about Research across Systems](https://www.sree.org/2025-workshops) 
+
+**October 8, 2025** (9:00am&#8211;1:00pm Central time). Virtual.
+
+**Description:**
+
+Understanding how research can be generated and interpreted across
+systems requires stakeholders in different systems and levels to communicate clearly
+about the strength of evidence supporting an inference. Towards that end, this workshop
+informs discussion about the strength of evidence by imagining the conditions necessary
+to change the inference. In part I, we use the potential outcomes and counterfactual
+framework to interpret how much bias there must be to nullify an inference. This supports
+statements such as “To nullify the inference, __% of the data would have to be replaced
+with counterfactual cases for which there was no effect.” In part II, we quantify the
+robustness of causal inferences in terms of correlations associated with unobserved
+variables. This supports statements such as “To nullify the inference an omitted variable
+would have to be correlated at __ with both the focal predictor and outcome.”
+
+By leveraging intuition based on potential outcomes and correlations with omitted
+variables, these techniques inform broad stakeholder debate about use of evidence.
+Furthermore, because the techniques are functions of quantities commonly reported in
+published studies (e.g., estimated effect, standard error) they can be broadly applied and
+extended to a range of models (e.g., logistic regression, differences in differences, hazard models, propensity score based, mediation). Correspondingly, the techniques have
+already been widely employed in policy, education, sociology, epidemiology, and
+management, as well as in general science.
+
+Calculations for bivariate and multivariate analysis will be presented in the
+app: https://konfound-project.shinyapps.io/konfound-it/ as well as modules in Stata and
+R. The format will be a mixture of presentation and individual hands-on exploration
+including application to studies selected by the participants. Participants will also have an opportunity to compare with alternative techniques (e.g., Oster’s Coefficient of
+Proportionality; Cinelli & Hazlett’s Robustness Index). This workshop is intended for
+anyone familiar with general quantitative methods including regression and analysis of
+variance as well as more sophisticated techniques (e.g., propensity scores, multilevel
+models).
+
+---
+
+
+
+### Association for Public Policy Analysis and Management (APPAM)
+
+[What Would it take to Change your Inference? Informing Collaborative Evidence Generation and Evaluation](https://convention2.allacademic.com/one/appam/appam25/) 
+
+**November 14, 2025** (1:45&#8211;3:15pm Pacific time). In person: Seattle, WA.
+
+**Description:**
+
+The workshop informs discussion about the strength of evidence supporting a policy or practice by quantifying the conditions necessary to change an inference. In part I, we use the potential outcomes and counterfactual framework to interpret how much bias there must be to nullify an inference.  This supports statements such as “To nullify the inference, X% of the data would have to be replaced with counterfactual cases for which there was no effect.” In part II, we quantify the robustness of causal inferences in terms of correlations associated with unobserved variables. This supports statements such as “To nullify the inference an omitted variable would have to be correlated at __ with both the focal predictor and outcome.” By leveraging intuition based on potential outcomes and correlations with omitted variables, these techniques inform collaborative evidence generation and evaluation among a broad set of stakeholders. Furthermore, because the techniques are functions of quantities commonly reported in published studies (e.g., estimated effect, standard error) they can be broadly applied and extended (e.g., logistic regression, hazard, propensity score based). Specifically, the techniques have already been widely employed in policy, education, sociology, epidemiology, and management, as well as in general science (e.g., *Proceedings of the National Academy of Sciences*).
+
+We introduce participants to calculations using modules in Stata and R, as well as the app (https://konfound-project.shinyapps.io/konfound-it/). There will be a mixture of presentation and individual hands-on exploration.  Participants will also have an opportunity to compare with alternative techniques (e.g., Oster’s Coefficient of Proportionality; Cinelli & Hazlett’s Robustness Index). This workshop is intended for anyone familiar with the general linear model but also informs more sophisticated techniques (e.g., propensity scores, logistic regression, multilevel models).
+
+---
+
+
+
+{{< awesome fas fa-business-time >}} Check back again soon for news about more workshops!
+
+
+
+
+
+
+
+---
+
+## Past Workshops
 
 ---
 
@@ -40,31 +116,23 @@ comments: false
 
 
 
-### Society for Epidemiological Research
+### Academy of Management
 
-[What Would it Take to Change Your Inference? Quantifying the Discourse about Causal Inferences in Epidemiology](https://epiresearch.org/annual-meeting/2025-meeting/2025-workshops/) 
+[Testing the Impossible? Advanced Sensitivity Analyses for Management Research](https://aom2025.eventscribe.net/index.asp?presTarget=3111069) 
 
-**August 5, 2025** (12:00&#8211;4:00pm Eastern time). Virtual.
+**July 26, 2025** (8:30am&#8211;11:30am CEST [GMT+2]). In-person: Copenhagen, Denmark.
 
 **Description:**
 
-Causal inferences are often challenged because of uncontrolled bias. We will turn concerns about potential bias into questions about how much bias there must be to invalidate an inference. For example, challenges such as ‘But the inference of an exposure might not be valid because of pre-existing differences between the treatment groups’ are transformed to questions such as ‘How much bias must there have been due to uncontrolled pre-existing differences to make the inference invalid?’ By reframing challenges about bias in terms of specific quantities, this workshop will contribute to scientific discourse about uncertainty of causal inferences. 
-
+To make causal claims with observational data, researchers must invoke identification assumptions (e.g., no omitted variables, exclusion of the instrumental variable, parallel trends). Though these assumptions can be defended through theory, subject-matter expertise, and statistical modeling, they are fundamentally unverifiable. Recent methodological advancements in sensitivity analyses, however, allow researchers to quantify the fragility of their results to potential violations of these assumptions. In this Professional Development Workshop, we introduce participants to sensitivity analyses tailored to various statistical models and research designs, including linear regression, difference-in-differences, instrumental variable estimation, and mediation analysis. By presenting these techniques, we hope to encourage management researchers to critically evaluate the credibility of their identification assumptions and transparently report how violations of these assumptions could alter their findings. The final segment of this Professional Development Workshop will consist of parallel roundtables focused on software practice, where participants will gain hands-on experience with various sensitivity analysis techniques. To make the most of this portion, we recommend that attendees bring a laptop with Stata and/or R installed.
+    
 ---
 
 
 
-{{< awesome fas fa-business-time >}} Check back again soon for news about more workshops!
+### MSU Course Drop-In
 
-
-
-
-
-
-
----
-
-## Past Workshops
+**April 9 & 14, 2025** (10:10&#8211;11:20am Eastern time). Virtual.
 
 ---
 
