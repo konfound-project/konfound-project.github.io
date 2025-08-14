@@ -31,7 +31,7 @@ Causal inferences are often challenged because of uncontrolled bias. We will tur
 
 [What Would It Take to Change Your Inference? Informing Broad Stakeholder Debate about Research across Systems](https://www.sree.org/2025-workshops) 
 
-**October 8, 2025** (9:00am&#8211;1:00pm Central time). Virtual.
+**October 8, 2025** (9:00am&#8211;1:00pm Central time). In person: Chicago, IL.
 
 **Description:**
 
