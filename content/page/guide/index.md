@@ -6,7 +6,7 @@ comments: false
 
 ## PDF Download: 
 
-[{{< awesome fas fa-file-pdf >}} August 2025 Practical Guide draft](ITCV_RIR_PracticalGuide_August2025.pdf)
+[{{< awesome fas fa-file-pdf >}} Practical Guide (August 2025 version)](ITCV_RIR_PracticalGuide_August2025.pdf)
 
 
 ---
@@ -20,4 +20,3 @@ comments: false
 ---
 
 {{< embed-pdf url="ITCV_RIR_PracticalGuide_August2025.pdf" >}}
-
