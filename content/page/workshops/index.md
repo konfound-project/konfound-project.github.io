@@ -13,18 +13,6 @@ comments: false
 
 
 
-### Society for Epidemiological Research
-
-[What Would it Take to Change Your Inference? Quantifying the Discourse about Causal Inferences in Epidemiology](https://epiresearch.org/annual-meeting/2025-meeting/2025-workshops/) 
-
-**August 5, 2025** (12:00&#8211;4:00pm Eastern time). Virtual.
-
-**Description:**
-
-Causal inferences are often challenged because of uncontrolled bias. We will turn concerns about potential bias into questions about how much bias there must be to invalidate an inference. For example, challenges such as ‘But the inference of an exposure might not be valid because of pre-existing differences between the treatment groups’ are transformed to questions such as ‘How much bias must there have been due to uncontrolled pre-existing differences to make the inference invalid?’ By reframing challenges about bias in terms of specific quantities, this workshop will contribute to scientific discourse about uncertainty of causal inferences. 
-
----
-
 
 
 ### Society for Research on Educational Effectiveness (SREE)
@@ -95,6 +83,20 @@ We introduce participants to calculations using modules in Stata and R, as well 
 ---
 
 ## Past Workshops
+
+---
+
+
+
+### Society for Epidemiological Research
+
+[What Would it Take to Change Your Inference? Quantifying the Discourse about Causal Inferences in Epidemiology](https://epiresearch.org/annual-meeting/2025-meeting/2025-workshops/) 
+
+**August 5, 2025** (12:00&#8211;4:00pm Eastern time). Virtual.
+
+**Description:**
+
+Causal inferences are often challenged because of uncontrolled bias. We will turn concerns about potential bias into questions about how much bias there must be to invalidate an inference. For example, challenges such as ‘But the inference of an exposure might not be valid because of pre-existing differences between the treatment groups’ are transformed to questions such as ‘How much bias must there have been due to uncontrolled pre-existing differences to make the inference invalid?’ By reframing challenges about bias in terms of specific quantities, this workshop will contribute to scientific discourse about uncertainty of causal inferences. 
 
 ---
 

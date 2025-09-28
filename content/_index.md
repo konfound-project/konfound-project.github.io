@@ -17,7 +17,7 @@ The assumptions underlying statistical analysis are rarely fully met. Pragmatist
 
 {{< columns >}}
 
-![Working on a Computer](img/computer.png)
+![Working on a Computer](img/computer.jpg)
 
 {{< button href="https://konfound-project.shinyapps.io/konfound-it/" >}}Start KonFounding{{< /button >}}
 
@@ -27,7 +27,7 @@ Try out **KonFound-It!** to calculate sensitivity analyses through an interactiv
 
 {{< column >}}
 
-![Newspapers on a News Stand](img/news-rectangle.png)
+![Newspapers on a News Stand](img/news-rectangle.jpg)
 
 {{< button href="/news" >}}KonFound-It! News{{< /button >}}
 
@@ -41,9 +41,9 @@ Read the latest updates from the KonFound-It! team.
 
 {{< columns >}}
 
-![Bench in a Park](img/bench.png)
+![Bench in a Park](img/bench.jpg)
 
-{{< button href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/" >}}WWC Benchmarks{{< /button >}}
+{{< button href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/" >}}Explore Benchmarks{{< /button >}}
 
 Explore sensitivity analyses calculated for the [What Works Clearinghouse](https://ies.ed.gov/ncee/wwc/) through an interactive web app.
 
@@ -51,7 +51,7 @@ Explore sensitivity analyses calculated for the [What Works Clearinghouse](https
 
 {{< column >}}
 
-![Book Shelves](img/books.png)
+![Book Shelves](img/books.jpg)
 
 {{< button href="/page/faq" >}}Learn More{{< /button >}}
 

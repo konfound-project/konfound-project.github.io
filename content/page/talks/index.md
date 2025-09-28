@@ -13,6 +13,20 @@ comments: false
 
 
 
+{{< awesome fas fa-business-time >}} Check back again soon for news about more talks!
+
+
+
+
+
+---
+
+## Past Talks
+
+---
+
+
+
 ### Quantifying Sensitivity to Selection on Unobserved Covariates: Recasting the Coefficient of Proportionality within a Correlational Framework 
 
 [2025 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2025/), Multi-faceted Approaches to Sensitivity Analysis for Observational Studies
@@ -24,20 +38,6 @@ comments: false
 **Presenters:** Kenneth A. Frank, Qinyun Lin, & Spiro Maroulis
  
 **Abstract:** Sensitivity analyses can inform evidence-based education policy by quantifying the hypothetical conditions necessary to change an inference. Perhaps the most prevalent index used for sensitivity analyses is Oster’s (2019) Coefficient of Proportionality (COP). Oster’s COP leverages changes in estimated effects and R2 when observed covariates are added to a model to quantify how strong selection on unobserved covariates would have to be relative to on observed covariates to nullify an estimated effect.  In this paper, we reconceptualize the COP as a function of unobserved covariates’ correlations with the focal predictor (e.g., treatment) and with the outcome. Our correlation-based approach addresses recent critiques of Oster’s COP while preserving the comparison of selection on unobserved covariates to selection on observed covariates. As importantly, our expressions do not depend on an analyst’s subjective choice of covariates to include in a baseline model, are exact even in finite samples, and can be directly calculated from conventionally reported quantities (e.g., estimated effect, standard error) through the Konfound packages in R or Stata.  Thus, for most published studies in the social sciences our COP index can be easily applied and intuitively interpreted.
-
----
-
-
-
-{{< awesome fas fa-business-time >}} Check back again soon for news about more talks!
-
-
-
-
-
----
-
-## Past Talks
 
 ---
 
