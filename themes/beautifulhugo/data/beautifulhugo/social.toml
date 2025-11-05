@@ -2,31 +2,31 @@
 id = "email"
 url = "mailto:%s"
 title = "Email me"
-icon = "fas fa-envelope"
+icon = "fa-solid fa-envelope"
 
 [[social_icons]]
 id = "group"
 url = "https://groups.google.com/forum/#!forum/%s"
 title = "Google Group Forum"
-icon = "fas fa-paper-plane"
+icon = "fa-solid fa-paper-plane"
 
 [[social_icons]]
 id = "github"
 url = "https://github.com/%s"
 title = "GitHub"
-icon = "fab fa-github"
+icon = "fa-brands fa-github"
 
 [[social_icons]]
 id = "r-package"
 url = "https://cran.r-project.org/package=%s"
 title = "R Package"
-icon = "fab fa-r-project"
+icon = "fa-brands fa-r-project"
 
 [[social_icons]]
 id = "stata-package"
 url = "https://doi.org/10.1177/%s"
 title = "Stata Package"
-icon = "fab fa-stripe-s"
+icon = "fa-brands fa-stripe-s"
 
 [[social_icons]]
 id = "r-shiny"
@@ -80,7 +80,7 @@ icon = "fab fa-reddit-alien"
 id = "linkedin"
 url = "https://linkedin.com/in/%s"
 title = "LinkedIn"
-icon = "fab fa-linkedin"
+icon = "fa-brands fa-linkedin"
 
 [[social_icons]]
 id = "xing"

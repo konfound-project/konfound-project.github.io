@@ -1,0 +1,46 @@
+{{ if or .Params.socialShare (and .Site.Params.socialShare (ne .Params.socialShare false)) }}
+<!-- Social Share Button HTML -->
+
+<h5 class="share-title">Share this page:</h5>
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      <!-- Twitter -->
+      <li>
+        <a href="https://bsky.app/intent/compose?url={{ .Permalink }}&text={{ .Title | urlquery }}" target="_blank" title="Share on Bluesky">
+          <i class="fa-brands fa-bluesky"></i>
+        </a>
+      </li>
+
+      <!-- Facebook -->
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" title="Share on Facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </li>
+
+      <!-- LinkedIn -->
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url={{ .Permalink }}&amp;title={{ .Title }}" target="_blank" title="Share on LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+
+      <!-- Pinterest -->
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;description={{ .Title }}" target="_blank" title="Share on Pinterest">
+          <i class="fa-brands fa-pinterest"></i>
+        </a>
+      </li>
+
+      <!-- Reddit -->
+      <li>
+        <a href="//reddit.com/submit?url={{ .Permalink }}&amp;title={{ .Title }}" target="_blank" title="Share on Reddit">
+          <i class="fa-brands fa-reddit"></i>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+  {{ end }}

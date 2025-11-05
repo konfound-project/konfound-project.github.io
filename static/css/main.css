@@ -1070,13 +1070,21 @@ div.splitbox div.right {
   border: 1px solid #e04300;
 }
 
+
+
+
+
 /* Related posts */
 h4.see-also {
   margin-top: 20px;
 }
 
+
+
+
+
 /* Sharing */
- ul.share {
+ul.share {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1084,33 +1092,54 @@ h4.see-also {
   margin: 0;
   padding: 0;
 }
- ul.share li {
+
+ul.share li {
   display: inline-flex;
   margin-right: 5px;
 }
- ul.share li:last-of-type {
+
+ul.share li:last-of-type {
   margin-right: 0;
 }
- ul.share li .fab {
-  display: block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  font-size: 16px;
-  text-align: center;
-  transition: all 150ms ease-in-out;
-  color: #fff;
-}
- ul.share li a {
+
+ul.share li a {
   background-color: #b5c6ce;
   display: block;
   border-radius: 50%;
   text-decoration: none !important;
   margin: 0;
+  text-align: center; /* Center icon horizontally */
+  transition: all 150ms ease-in-out;
+
+  /* === ADJUST THESE VALUES === */
+  width: 35px;         /* Set width of circle */
+  height: 35px;        /* Set height of circle */
+  line-height: 35px;   /* MUST be same as height to center icon vertically */
 }
- ul.share li:hover .fab {
-  transform: scale(1.4)
+
+/*
+ * This is the icon (the <i> tag)
+ * We only set the icon's size and color.
+*/
+ul.share li a i {
+  color: #fff;
+  transition: all 150ms ease-in-out;
+
+  /* === ADJUST THIS VALUE === */
+  font-size: 18px;     /* Set size of icon inside the circle */
 }
+
+/*
+ * This is the hover effect.
+ * We target the icon so just it scales.
+*/
+ul.share li:hover i {
+  transform: scale(1.4);
+}
+
+
+
+
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
