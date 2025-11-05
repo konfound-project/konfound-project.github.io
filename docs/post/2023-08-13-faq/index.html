@@ -383,8 +383,10 @@ See the appendices for …">
         <h2 id="introduction">Introduction</h2>
 <p>This document addresses some frequently asked questions regarding KonFound.</p>
 <p>
-  <i class="fas fa-paper-plane "></i>
+  
+  
 
+  <i class="fas fa-paper-plane"></i>
  Questions? Issues? Suggestions? Reach out through the <a href="https://groups.google.com/g/konfound-it">KounFound-It! Google Group</a>.</p>
 <p>See the appendices for background readings and software. For quick reference, visit:</p>
 <ul>
@@ -401,8 +403,10 @@ See the appendices for …">
 <p>Both the ITCV and RIR have been presented with fairly conventional and simple linear models. Therefore, we consider how the techniques might be adapted to other types of models.</p>
 <h3 id="weighted-least-squares">Weighted Least Squares</h3>
 <p><a href="https://www.dropbox.com/scl/fi/uzliqbhkg77btv09yomt1/robustness-of-inference-to-replacement-for-weighted-data.pptx?rlkey=09x0if4wifo3oluumfpem7rx7&amp;dl=0">
-  <i class="fas fa-images "></i>
+  
+  
 
+  <i class="fas fa-images"></i>
  Slides</a></p>
 <p>There are several models that can be estimated using weighted least squares. These include proportional weighting (weights inversely proportional to the propensity for treatment), multilevel models (weighted inversely proportional to the sampling variability) and meta-analysis.</p>
 <p><strong>Recommendation:</strong> RIR</p>
@@ -422,11 +426,15 @@ See the appendices for …">
 </span></span></code></pre></div><ul>
 <li>Begg, C. B., &amp; Gray, R. (1984). Calculation of polychotomous logistic regression parameters using individualized regressions. <em>Biometrika, 71</em>(11-8).</li>
 <li>Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., &amp; Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. <em>Journal of Clinical Epidemiology, 134</em>, 150-159. (authors listed alphabetically.) <a href="/page/publications/frank-et-al-2021.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.1016/j.jclinepi.2021.01.025">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 </ul>
 <h3 id="probit-models">Probit Models</h3>
@@ -434,8 +442,10 @@ See the appendices for …">
 <p>We recommend either estimating a linear probability model and using RIR or ITCV, or estimating a logistic regression and applying the RIR. See <a href="https://twitter.com/jmwooldridge/status/1364942341656764433">Wooldridge’s comment on probit and linear probability model</a>.</p>
 <h3 id="survival-analysis">Survival Analysis</h3>
 <p><a href="">
-  <i class="fas fa-images "></i>
+  
+  
 
+  <i class="fas fa-images"></i>
  Slides</a></p>
 <p>Discrete time models can be estimated via logistic regression.</p>
 <p>Continuous time Cox regression can be conceptualized in terms of changes to the rank order of the timing of events.</p>
@@ -447,8 +457,10 @@ See the appendices for …">
 <p><strong>Interpretation:</strong> For ITCV: The minimum impact an unobserved confounder could have to break the mediation path from X (predictor of interest) to Y (outcome) via M (mediator).</p>
 <ul>
 <li>Lin, Q., Nuttall, A., Zhang, Q., Frank, K.A. (2023) How do unobserved confounding mediators and measurement error impact estimated mediation effects and corresponding statistical inferences? Introducing R Package ConMed for sensitivity analysis. <em>Psychological Methods, 28</em>(2), 339-358. <a href="https://doi.org/10.1037/met0000567">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 </ul>
 <h3 id="software">Software</h3>
@@ -470,11 +482,15 @@ See the appendices for …">
 <p>But, Frank et al. (2021) is related.</p>
 <ul>
 <li>Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., &amp; Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. <em>Journal of Clinical Epidemiology, 134</em>, 150-159. (authors listed alphabetically.) <a href="/page/publications/frank-et-al-2021.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.1016/j.jclinepi.2021.01.025">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 </ul>
 <p>This could be applied to an accuracy or recall score or maybe even an overall $F$ score.</p>
@@ -508,11 +524,15 @@ See the appendices for …">
 <li>Comparisons across studies are best done using RIR (in terms of a correlation metric—see Frank et al., 2013). The ITCV does not compare as directly because different standard errors are used for inference in different studies.
 <ul>
 <li>Frank, K. A., Maroulis, S. J., Duong, M. Q., &amp; Kelcey, B. M. (2013). What would it take to change an inference? Using Rubin’s causal model to interpret the robustness of causal inferences. <em>Educational Evaluation and Policy Analysis, 35</em>(4), 437-460. <a href="/page/publications/frank-maroulis-duong-kelcey-2013.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.3102/0162373713493129">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 </ul>
 </li>
@@ -525,60 +545,88 @@ See the appendices for …">
 <p>The ITCV can be converted into a probability of observing an impact of a given size from within the reference distribution of observed impacts. This is described in:</p>
 <ul>
 <li>Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. <em>Sociological Methods and Research, 29</em>(2), 147-194. <a href="/page/publications/frank-2000.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.1177/0049124100029002001">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 <li>Pan, W. (2009). A SAS/IML macro for computing percentage points of Pearson distributions. <em>Journal of Statistical Software, 31</em>(Code Snippet 2), 1-6. <a href="/page/publications/pan-2009.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.18637/jss.v031.c02">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 <li>Pan, W., &amp; Frank, K.A. (2003). A probability index of the robustness of a causal inference. <em>Journal of Educational and Behavioral Statistics, 28</em>(4), 315-337. <a href="/page/publications/pan-frank-2003.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.3102/10769986028004315">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 <li>Pan, W., &amp; Frank, K.A. (2004). An approximation to the distribution of the product of two dependent correlation coefficients. <em>Journal of Statistical Computation and Simulation, 74</em>(6), 419-443. <a href="/page/publications/pan-frank-2004.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.1080/00949650310001596822">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 </ul>
 <p>The RIR can be expressed as a probability from a Bayesian perspective:</p>
 <ul>
 <li>Frank, K. A., &amp; Min, K. (2007). Indices of robustness for sample representation. <em>Sociological Methodology. 37</em>(1). 349-392. (equal first authors.) <a href="/page/publications/frank-min-2007.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.1111/j.1467-9531.2007.00186.x">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 <li>Li, T., &amp; Frank, K. A. (2022). The probability of a robust inference for internal validity. <em>Sociological Methods and Research, 51</em>(4). <a href="/page/publications/li-frank-2022.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.1177/0049124120914922">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 </ul>
 <h3 id="other-techniques-for-sensitivity-analysis">Other Techniques for Sensitivity Analysis</h3>
 <p>For a review of techniques for sensitivity analysis, see Frank et al. (2023).</p>
 <ul>
 <li>Frank, K.A., Lin, Q., Xu, R., Maroulis, S.J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. <em>Social Science Research, 110</em>, 102815. <a href="/page/publications/frank-lin-xu-maroulis-mueller-2023.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.1016/j.ssresearch.2022.102815">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 </ul>
 <h3 id="osters-coefficient-of-proportionality">Oster’s Coefficient of Proportionality</h3>
@@ -586,8 +634,10 @@ See the appendices for …">
 <p>For an exact calculation that makes fewer assumptions see Frank, Lin, and Maroulis (2023).</p>
 <ul>
 <li>Frank, K. A., Lin, Q., &amp; Maroulis, S. (2023). <em>Quantifying sensitivity to selection on unobservables: Refining Oster’s coefficient of proportionality</em>. White paper. <a href="/page/publications/frank-lin-maroulis-2023.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a></li>
 <li>Oster, E. (2019). Unobservable selection and coefficient stability: Theory and evidence. <em>Journal of Business &amp; Economic Statistics, 37</em>(2), 187-204. <a href="https://doi.org/10.1080/07350015.2016.1227711">https://doi.org/10.1080/07350015.2016.1227711</a></li>
 </ul>
@@ -609,11 +659,15 @@ $$</p>
 </span></span></code></pre></div><ul>
 <li>Cinelli, C., &amp; Hazlett, C. (2020). Making sense of sensitivity: Extending omitted variable bias. <em>Journal of the Royal Statistical Society: Series B (Statistical Methodology), 82</em>(1), 39-67. <a href="https://doi.org/10.1111/rssb.12348">https://doi.org/10.1111/rssb.12348</a></li>
 <li>Frank, K.A., Lin, Q., Xu, R., Maroulis, S.J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. <em>Social Science Research, 110</em>, 102815. <a href="/page/publications/frank-lin-xu-maroulis-mueller-2023.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.1016/j.ssresearch.2022.102815">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 </ul>
 <h3 id="vanderweel-e-value">Vanderweel E-Value</h3>
@@ -622,11 +676,15 @@ $$</p>
 <li>Baer, B. R., Gaudino, M., Charlson, M., Fremes, S. E., &amp; Wells, M. T. (2021a). Fragility indices for only sufficiently likely modifications. <em>Proceedings of the National Academy of Sciences, 118</em>(49).	https://doi.org/10.1073/pnas.2105254118</li>
 <li>Baer, B. R., Fremes, S. E., Gaudino, M., Charlson, M., &amp; Wells, M. T. (2021b). On clinical trial fragility due to patients lost to follow up. <em>BMC Medical Research Methodology, 21</em>(1), 1-11. <a href="https://doi.org/10.1186/s12874-021-01446-z">https://doi.org/10.1186/s12874-021-01446-z</a></li>
 <li>Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., &amp; Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. <em>Journal of Clinical Epidemiology, 134</em>, 150-159. (authors listed alphabetically.) <a href="/page/publications/frank-et-al-2021.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.1016/j.jclinepi.2021.01.025">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 <li>Vanderweele, T. J., and Arah, O. A. (2011). Bias formulas for sensitivity analysis of unmeasured confounding for general outcomes, treatments, and confounders. <em>Epidemiology, 22</em>(1), 42-52. <a href="https://doi.org/10.1097/ede.0b013e3181f74493">https://doi.org/10.1097/ede.0b013e3181f74493</a></li>
 <li>Vanderweele, T. J., and Ding, P. (2017). Sensitivity analysis in observational research: introducing the E-value. <em>Annals of Internal Medicine, 167</em>(4), 268-274. <a href="https://doi.org/10.7326/M16-2607">https://doi.org/10.7326/M16-2607</a></li>
@@ -635,59 +693,85 @@ $$</p>
 <h2 id="appendix-a-background-readings">Appendix A: Background Readings</h2>
 <ul>
 <li>Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient. <em>Sociological Methods and Research, 29</em>(2), 147-194. <a href="/page/publications/frank-2000.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.1177/0049124100029002001">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 <li>Frank, K.A., Lin, Q., Xu, R., Maroulis, S.J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. <em>Social Science Research, 110</em>, 102815. <a href="/page/publications/frank-lin-xu-maroulis-mueller-2023.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.1016/j.ssresearch.2022.102815">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 <li>Frank, K. A., Maroulis, S. J., Duong, M. Q., &amp; Kelcey, B. M. (2013). What would it take to change an inference? Using Rubin’s causal model to interpret the robustness of causal inferences. <em>Educational Evaluation and Policy Analysis, 35</em>(4), 437-460. <a href="/page/publications/frank-maroulis-duong-kelcey-2013.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.3102/0162373713493129">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 <li>Frank, K. A., Lin, Q., Maroulis, S., Mueller, A. S., Xu, R., Rosenberg, J. M., Hayter, C. S., Mahmoud, R. A., Kolak, M., Dietz, T., &amp; Zhang, L. (2021). Hypothetical case replacement can be used to quantify the robustness of trial results. <em>Journal of Clinical Epidemiology, 134</em>, 150-159. (authors listed alphabetically.) <a href="/page/publications/frank-et-al-2021.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.1016/j.jclinepi.2021.01.025">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 <li>Xu, R., Frank, K. A., Maroulis, S. J., &amp; Rosenberg, J. M. (2019). konfound: Command to quantify robustness of causal inferences. <em>The Stata Journal, 19</em>(3), 523–550. <a href="/page/publications/xu-frank-maroulis-rosenberg-2019.pdf">
-  <i class="fas fa-file-pdf "></i>
+  
+  
 
+  <i class="fas fa-file-pdf"></i>
  PDF</a> | <a href="https://doi.org/10.1177/1536867X19874223">
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
  Web</a></li>
 <li><a href="https://www.dropbox.com/scl/fi/jfhwfuim4d001usup81c8/quantifying-the-robustness-of-causal-inferences-combined-frameworks-for-stat-horizons-July-23.pptx?rlkey=32srefdir2q6r9pq5998i1q1b&amp;dl=0">
-  <i class="fas fa-images "></i>
+  
+  
 
+  <i class="fas fa-images"></i>
  Main introductory slides for combined frameworks</a></li>
 </ul>
 <hr>
 <h2 id="appendix-b-software">Appendix B: Software</h2>
 <h3 id="r">R</h3>
 
-  <i class="fas fa-code "></i>
+  
+  
 
+  <i class="fas fa-code"></i>
 
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="s2">&#34;konfound&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">library</span><span class="p">(</span><span class="n">konfound</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">pkonfound</span><span class="p">(</span><span class="n">est_eff</span> <span class="o">=</span> <span class="o">-</span><span class="mf">9.01</span><span class="p">,</span> <span class="n">std_err</span> <span class="o">=</span> <span class="o">.</span><span class="mi">68</span><span class="p">,</span> <span class="n">n_obs</span> <span class="o">=</span> <span class="mi">7639</span><span class="p">,</span> <span class="n">n_covariates</span> <span class="o">=</span> <span class="mi">221</span><span class="p">)</span>
 </span></span></code></pre></div><h3 id="stata">Stata</h3>
 
-  <i class="fas fa-code "></i>
+  
+  
 
+  <i class="fas fa-code"></i>
 
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssc install konfound
 </span></span><span class="line"><span class="cl">ssc install indeplist
@@ -696,16 +780,20 @@ $$</p>
 </span></span><span class="line"><span class="cl">pkonfound -9.01 .68 7639 221
 </span></span></code></pre></div><h3 id="konfound-it-shiny-app">KonFound-It Shiny App</h3>
 
-  <i class="fas fa-globe "></i>
+  
+  
 
+  <i class="fas fa-globe"></i>
 
 <ul>
 <li><a href="https://konfound-project.shinyapps.io/konfound-it/">https://konfound-project.shinyapps.io/konfound-it/</a></li>
 </ul>
 <h3 id="spreadsheets">Spreadsheets</h3>
 
-  <i class="fas fa-table "></i>
+  
+  
 
+  <i class="fas fa-table"></i>
 
 <ul>
 <li><a href="https://docs.google.com/spreadsheets/d/1AELZ9mA0wrhMZNJYTTudeztVAJjHncl4/edit?usp=sharing&amp;ouid=116345913183792066499&amp;rtpof=true&amp;sd=true">KonFound-It! spreadsheet for calculating indices</a></li>

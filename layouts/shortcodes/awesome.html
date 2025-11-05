@@ -1,5 +1,12 @@
-{{ if .Get 0}}
-  <i class="{{ range .Params }}{{ . }} {{ end }}"></i>
+{{ if .Get 0 }}
+  {{/* This joins all parameters (e.g., "far", "fa-smile-wink")
+    with a single space, creating the perfect class string.
+  */}}
+  {{ $class := delimit .Params " " }}
+
+  {{/* Create the tag and mark as safeHTML */}}
+  {{- (printf "<i class=\"%s\"></i>" $class) | safeHTML -}}
+
 {{ else }}
   <span class="shortcode-error">Shortcode usage: &lbrace;&lbrace;&lt; awesome
   "far fa-smile-wink" &gt;&rbrace;&rbrace;</span>

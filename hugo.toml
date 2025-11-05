@@ -16,6 +16,10 @@ pygmentsCodefencesGuessSyntax = true
 
 
 
+[markup.goldmark.renderer]
+  unsafe = true
+
+
 [Params]
   homeTitle = "KonFound-It!" # Set a different text for the header on the home page
   subtitle = "Quantify the Robustness of Causal Inferences"
