@@ -45,7 +45,7 @@ Read the latest updates from the KonFound-It! team.
 
 {{< columns >}}
 
-![Bench in a Park](img/bench.jpg)
+![Marks on wood](img/benchmarks.jpg)
 
 {{< button href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/" >}}Explore Benchmarks{{< /button >}}
 

@@ -201,7 +201,6 @@ hr.small {
   /* Appearance */
   background-color: #639dad;  /* A very light grey background */
   border: 1px solid #e0e0e0;   /* A light border */
-  border-left: 5px solid #7f9f3d; /* A nice accent border (using one of your colors) */
   border-radius: 8px;
 
   /* A subtle shadow */
