@@ -16,19 +16,9 @@ Welcome to our space about **[sensitivity analysis](https://en.wikipedia.org/wik
 
 ---
 
-## Introduction to Sensitivity Analysis
-
-{{< youtube id="Yb3K5kJ2ftk" autoplay="false" color="white" >}}
-
----
-
-## Introduction to Two Frameworks for Sensitivity Analysis 
-
-{{< youtube id="Zj-9SDlAjEo" autoplay="false" color="white" >}}
 
 
-
----
+<br>
 
 ## Purpose
 
@@ -40,16 +30,39 @@ But that’s just one. In this website, we discuss lots of approaches, applicati
 
 Our work in the KonFound-It project is to develop&#8212;and make easy to use&#8212;sensitivity analyses that quantify the robustness of inferences to concerns about omitted variables and other sources of bias.
 
+
+
+
+
 ---
+
+
+
+<br>
+
 
 ## Learn More About Sensitivity Analysis
 
 {{< awesome fas fa-podcast >}} Listen to an AI-generated podcast, created by Google's [NotebookLM](https://notebooklm.google.com/), discussing the KonFound-It! team's article "Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science" in *Social Science Research* ([Frank, Lin, Xu, Maroulis, & Mueller, 2023](https://doi.org/10.1016/j.ssresearch.2022.102815)): 
 
+
 {{< audio src="../audio/frank-et-al-2023-podcast.wav" >}}
 
 ---
 
+{{< video-gallery "Yb3K5kJ2ftk|Introduction to Sensitivity Analysis * KonFound-It! * September 2025" 
+  "Zj-9SDlAjEo|Introduction to Two Frameworks for Sensitivity Analysis * KonFound-It! * October 2025" 
+>}}
+
+### Check out the [Introductory Videos page](/page/videos) for more resources.
+
+
+
+---
+
+
+
+<br>
 
 ## Meet the Team
 
@@ -100,6 +113,9 @@ We are a group of researchers spanning numerous institutions who would like to c
 
 ---
 
+
+
+<br>
 
 ## Tools
 
@@ -171,6 +187,9 @@ pkonfound -9.01 .68 7639 221
 ---
 
 
+
+<br>
+
 ## Internal Resources
 
 Be sure to look through the variety of supports for KonFound:
@@ -187,6 +206,9 @@ Be sure to look through the variety of supports for KonFound:
 ---
 
 
+
+<br>
+
 ## External Resources
 
 We refer to a lot of open resources for building this site, including:
@@ -195,6 +217,10 @@ We refer to a lot of open resources for building this site, including:
 - [Simply Statistics](https://simplystatistics.org/)
 
 ---
+
+
+
+<br>
 
 ## Connect
 
@@ -209,5 +235,9 @@ We refer to a lot of open resources for building this site, including:
 - Stata Package: Contact [Ran Xu](https://sites.google.com/site/ranxupersonalweb/)
 - User Guide: Contact [Guan Saw](https://www.cgu.edu/people/guan-saw/)
 - Website: Contact [Bret Staudt Willet](https://bretsw.com)
+
+
+
+<br>
 
 ### Thanks for visiting! Happy KonFounding!
