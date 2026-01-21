@@ -136,7 +136,7 @@ Maroulis, S., Overstreet, D., Frank, K. A., & Staudt Willet, K. B. (2024). *What
 
 ### {{< awesome fab fa-r-project >}} KonFound R Package
 
-Rosenberg, J. M., Xu, R., Lin, Q., Maroulis, S., & Frank, K. A. (2023). *konfound: Quantify the robustness of causal inferences* (v. 0.4.0). https://CRAN.R-project.org/package=konfound 
+Rosenberg, J. M., Xu, R., Lin, Q., Maroulis, S., & Frank, K. A. (2025). *konfound: Quantify the robustness of causal inferences* (v. 1.0.3). https://CRAN.R-project.org/package=konfound 
 
 
 
@@ -166,9 +166,9 @@ pkonfound(est_eff = -9.01, std_err = .68, n_obs = 7639, n_covariates = 221)
 Xu, R., Frank, K. A., Maroulis, S. J., & Rosenberg, J. M. (2019). konfound: Command to quantify robustness of causal inferences. *The Stata Journal, 19*(3), 523-550. https://doi.org/10.1177/1536867X19874223
 
 
-| Total Downloads (Jan. 2025) |
-| :-------------------------- |
-| 12,840 |
+| Monthly Downloads | Total Downloads (Jan. 2026) |
+| :---------------- | :-------------- |
+| 412/month | 18,023 |
 
 ![Line plot of konfound Stata package downloads over time](/img/konfound-downloads-stata.png)
 

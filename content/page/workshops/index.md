@@ -13,6 +13,79 @@ comments: false
 
 
 
+### Indiana University, Department of Sociology
+
+[Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science](https://sociology.indiana.edu/news-events/workshops/workshop-in-sociology.html) 
+
+**Friday, March 27, 2026** (12:00&#8211;1:30pm Eastern time). In person: Bloomington, IN.
+
+**Description:** The workshop will present the paper "Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science" in *Social Science Research* journal (Frank et al., 2023; [{{< awesome fas fa-file >}} Prepint](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0)).
+
+**Article Abstract:** Social scientists seeking to inform policy or public action must carefully consider how to identify effects and express inferences because actions based on invalid inferences may not yield the intended results. Recognizing the complexities and uncertainties of social science, we seek to inform inevitable debates about causal inferences by quantifying the conditions necessary to change an inference. Specifically, we review existing sensitivity analyses within the omitted variables and potential outcomes frameworks. We then present the Impact Threshold for a Confounding Variable (ITCV) based on omitted variables in the linear model and the Robustness of Inference to Replacement (RIR) based on the potential outcomes framework. We extend each approach to include benchmarks and to fully account for sampling variability represented by standard errors as well as bias. We exhort social scientists wishing to inform policy and practice to quantify the robustness of their inferences after utilizing the best available data and methods to draw an initial causal inference.
+
+**Citation:** Frank, K. A., Lin, Q., Xu, R., Maroulis, S. J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. *Social Science Research, 110*, 102815. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.ssresearch.2022.102815) | [{{< awesome fas fa-file >}} Prepint](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0)
+
+**Funding:** This work was supported by grant R305D220022 from the U.S. Institute for Education Sciences.
+
+
+
+---
+
+
+
+### University of Notre Dame, Center for Research on Educational Opportunity (CREO)
+
+[Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science](https://iei.nd.edu/initiatives/center-for-research-on-educational-opportunity/events/guest-speaker-ken-frank-phd) 
+
+**Monday, March 30, 2026** (3:30&#8211;5:00pm Eastern time). In person: Notre Dame, IN.
+
+**Description:** The workshop will present the paper "Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science" in *Social Science Research* journal (Frank et al., 2023; [{{< awesome fas fa-file >}} Prepint](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0)).
+
+**Article Abstract:** Social scientists seeking to inform policy or public action must carefully consider how to identify effects and express inferences because actions based on invalid inferences may not yield the intended results. Recognizing the complexities and uncertainties of social science, we seek to inform inevitable debates about causal inferences by quantifying the conditions necessary to change an inference. Specifically, we review existing sensitivity analyses within the omitted variables and potential outcomes frameworks. We then present the Impact Threshold for a Confounding Variable (ITCV) based on omitted variables in the linear model and the Robustness of Inference to Replacement (RIR) based on the potential outcomes framework. We extend each approach to include benchmarks and to fully account for sampling variability represented by standard errors as well as bias. We exhort social scientists wishing to inform policy and practice to quantify the robustness of their inferences after utilizing the best available data and methods to draw an initial causal inference.
+
+**Citation:** Frank, K. A., Lin, Q., Xu, R., Maroulis, S. J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. *Social Science Research, 110*, 102815. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.ssresearch.2022.102815) | [{{< awesome fas fa-file >}} Prepint](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0)
+
+**Funding:** This work was supported by grant R305D220022 from the U.S. Institute for Education Sciences.
+
+
+
+
+
+---
+
+<br>
+
+{{< awesome fas fa-business-time >}} Check back again soon for news about more workshops!
+
+<br>
+
+
+
+
+
+
+---
+
+## Past Workshops
+
+---
+
+
+
+### Association for Public Policy Analysis and Management (APPAM)
+
+[What Would it take to Change your Inference? Informing Collaborative Evidence Generation and Evaluation](https://convention2.allacademic.com/one/appam/appam25/) 
+
+**November 14, 2025** (1:45&#8211;3:15pm Pacific time). In person: Seattle, WA.
+
+**Description:**
+
+The workshop informs discussion about the strength of evidence supporting a policy or practice by quantifying the conditions necessary to change an inference. In part I, we use the potential outcomes and counterfactual framework to interpret how much bias there must be to nullify an inference.  This supports statements such as “To nullify the inference, X% of the data would have to be replaced with counterfactual cases for which there was no effect.” In part II, we quantify the robustness of causal inferences in terms of correlations associated with unobserved variables. This supports statements such as “To nullify the inference an omitted variable would have to be correlated at __ with both the focal predictor and outcome.” By leveraging intuition based on potential outcomes and correlations with omitted variables, these techniques inform collaborative evidence generation and evaluation among a broad set of stakeholders. Furthermore, because the techniques are functions of quantities commonly reported in published studies (e.g., estimated effect, standard error) they can be broadly applied and extended (e.g., logistic regression, hazard, propensity score based). Specifically, the techniques have already been widely employed in policy, education, sociology, epidemiology, and management, as well as in general science (e.g., *Proceedings of the National Academy of Sciences*).
+
+We introduce participants to calculations using modules in Stata and R, as well as the app (https://konfound-project.shinyapps.io/konfound-it/). There will be a mixture of presentation and individual hands-on exploration.  Participants will also have an opportunity to compare with alternative techniques (e.g., Oster’s Coefficient of Proportionality; Cinelli & Hazlett’s Robustness Index). This workshop is intended for anyone familiar with the general linear model but also informs more sophisticated techniques (e.g., propensity scores, logistic regression, multilevel models).
+
+---
+
 
 
 ### Society for Research on Educational Effectiveness (SREE)
@@ -51,38 +124,6 @@ Proportionality; Cinelli & Hazlett’s Robustness Index). This workshop is inten
 anyone familiar with general quantitative methods including regression and analysis of
 variance as well as more sophisticated techniques (e.g., propensity scores, multilevel
 models).
-
----
-
-
-
-### Association for Public Policy Analysis and Management (APPAM)
-
-[What Would it take to Change your Inference? Informing Collaborative Evidence Generation and Evaluation](https://convention2.allacademic.com/one/appam/appam25/) 
-
-**November 14, 2025** (1:45&#8211;3:15pm Pacific time). In person: Seattle, WA.
-
-**Description:**
-
-The workshop informs discussion about the strength of evidence supporting a policy or practice by quantifying the conditions necessary to change an inference. In part I, we use the potential outcomes and counterfactual framework to interpret how much bias there must be to nullify an inference.  This supports statements such as “To nullify the inference, X% of the data would have to be replaced with counterfactual cases for which there was no effect.” In part II, we quantify the robustness of causal inferences in terms of correlations associated with unobserved variables. This supports statements such as “To nullify the inference an omitted variable would have to be correlated at __ with both the focal predictor and outcome.” By leveraging intuition based on potential outcomes and correlations with omitted variables, these techniques inform collaborative evidence generation and evaluation among a broad set of stakeholders. Furthermore, because the techniques are functions of quantities commonly reported in published studies (e.g., estimated effect, standard error) they can be broadly applied and extended (e.g., logistic regression, hazard, propensity score based). Specifically, the techniques have already been widely employed in policy, education, sociology, epidemiology, and management, as well as in general science (e.g., *Proceedings of the National Academy of Sciences*).
-
-We introduce participants to calculations using modules in Stata and R, as well as the app (https://konfound-project.shinyapps.io/konfound-it/). There will be a mixture of presentation and individual hands-on exploration.  Participants will also have an opportunity to compare with alternative techniques (e.g., Oster’s Coefficient of Proportionality; Cinelli & Hazlett’s Robustness Index). This workshop is intended for anyone familiar with the general linear model but also informs more sophisticated techniques (e.g., propensity scores, logistic regression, multilevel models).
-
----
-
-
-
-{{< awesome fas fa-business-time >}} Check back again soon for news about more workshops!
-
-
-
-
-
-
-
----
-
-## Past Workshops
 
 ---
 
