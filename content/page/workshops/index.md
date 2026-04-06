@@ -13,39 +13,33 @@ comments: false
 
 
 
-### Indiana University, Department of Sociology
+### Inter-University Consortium for Political and Social Research (ICPSR)
 
-[Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science](https://sociology.indiana.edu/news-events/workshops/workshop-in-sociology.html) 
+[Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data](https://web.cvent.com/event/4ea180c8-1f25-4314-8da9-145297b14113/websitePage:17e8f24b-550c-4a09-a091-06ccd6f667d5?session=271f87c0-e192-4e2b-b873-c793487483b8&shareLink=true) 
 
-**Friday, March 27, 2026** (12:00&#8211;1:30pm Eastern time). In person: Bloomington, IN.
+**July 13&#8211;17, 2026** (10:00am&#8211;3:00pm Eastern time). Virtual.
 
-**Description:** The workshop will present the paper "Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science" in *Social Science Research* journal (Frank et al., 2023; [{{< awesome fas fa-file >}} Prepint](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0)).
+Most social scientists need to consider the unobserved conditions that could change an inference. This workshop is about the statistical tools (R, Stata, or the konfound-it app) to do just that, quantifying the strength of evidence to inform policy, practice, or general social science.
 
-**Article Abstract:** Social scientists seeking to inform policy or public action must carefully consider how to identify effects and express inferences because actions based on invalid inferences may not yield the intended results. Recognizing the complexities and uncertainties of social science, we seek to inform inevitable debates about causal inferences by quantifying the conditions necessary to change an inference. Specifically, we review existing sensitivity analyses within the omitted variables and potential outcomes frameworks. We then present the Impact Threshold for a Confounding Variable (ITCV) based on omitted variables in the linear model and the Robustness of Inference to Replacement (RIR) based on the potential outcomes framework. We extend each approach to include benchmarks and to fully account for sampling variability represented by standard errors as well as bias. We exhort social scientists wishing to inform policy and practice to quantify the robustness of their inferences after utilizing the best available data and methods to draw an initial causal inference.
+The course is 20 instruction hours&#8211;half a semester's worth of instruction in just 5 days. That gives us time to tailor to specific examples or approaches in your field.
+Register here. Group discounts available as well.
 
-**Citation:** Frank, K. A., Lin, Q., Xu, R., Maroulis, S. J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. *Social Science Research, 110*, 102815. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.ssresearch.2022.102815) | [{{< awesome fas fa-file >}} Prepint](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0)
+**Goals:**
 
-**Funding:** This work was supported by grant R305D220022 from the U.S. Institute for Education Sciences.
+- Help participants understand two basic frameworks for sensitivity analysis based on omitted variables and the potential outcomes framework
+- Support students to conduct and interpret a sensitivity analysis from published output
+- Support students to conduct and interpret a sensitivity analysis in their own studies.
+
+**Key Links:**
+
+- ICPSR Summer Program Home Page: https://myumi.ch/ICPSRSumProg
+- Topical Workshops registration portal: https://myumi.ch/QqqX8
+- Fees and Discounts page: https://myumi.ch/y2zJw
+- Spreadsheet (read only) that has short URLs that point directly to ICPSR Workshops' descriptions on the registration portal: [Link](https://docs.google.com/spreadsheets/d/1bsNSdzxgedyY8ILCWgcqUMu_WKURJXuD9VMeRcZF6vc/edit?gid=0#gid=0)
 
 
 
----
-
-
-
-### University of Notre Dame, Center for Research on Educational Opportunity (CREO)
-
-[Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science](https://iei.nd.edu/initiatives/center-for-research-on-educational-opportunity/events/guest-speaker-ken-frank-phd) 
-
-**Monday, March 30, 2026** (3:30&#8211;5:00pm Eastern time). In person: Notre Dame, IN.
-
-**Description:** The workshop will present the paper "Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science" in *Social Science Research* journal (Frank et al., 2023; [{{< awesome fas fa-file >}} Prepint](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0)).
-
-**Article Abstract:** Social scientists seeking to inform policy or public action must carefully consider how to identify effects and express inferences because actions based on invalid inferences may not yield the intended results. Recognizing the complexities and uncertainties of social science, we seek to inform inevitable debates about causal inferences by quantifying the conditions necessary to change an inference. Specifically, we review existing sensitivity analyses within the omitted variables and potential outcomes frameworks. We then present the Impact Threshold for a Confounding Variable (ITCV) based on omitted variables in the linear model and the Robustness of Inference to Replacement (RIR) based on the potential outcomes framework. We extend each approach to include benchmarks and to fully account for sampling variability represented by standard errors as well as bias. We exhort social scientists wishing to inform policy and practice to quantify the robustness of their inferences after utilizing the best available data and methods to draw an initial causal inference.
-
-**Citation:** Frank, K. A., Lin, Q., Xu, R., Maroulis, S. J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. *Social Science Research, 110*, 102815. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.ssresearch.2022.102815) | [{{< awesome fas fa-file >}} Prepint](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0)
-
-**Funding:** This work was supported by grant R305D220022 from the U.S. Institute for Education Sciences.
+    
 
 
 
@@ -67,6 +61,43 @@ comments: false
 ---
 
 ## Past Workshops
+
+---
+
+
+
+
+### University of Notre Dame, Center for Research on Educational Opportunity (CREO)
+
+[Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science](https://iei.nd.edu/initiatives/center-for-research-on-educational-opportunity/events/guest-speaker-ken-frank-phd) 
+
+**Monday, March 30, 2026** (3:30&#8211;5:00pm Eastern time). In person: Notre Dame, IN.
+
+**Description:** The workshop will present the paper "Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science" in *Social Science Research* journal (Frank et al., 2023; [{{< awesome fas fa-file >}} Prepint](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0)).
+
+**Article Abstract:** Social scientists seeking to inform policy or public action must carefully consider how to identify effects and express inferences because actions based on invalid inferences may not yield the intended results. Recognizing the complexities and uncertainties of social science, we seek to inform inevitable debates about causal inferences by quantifying the conditions necessary to change an inference. Specifically, we review existing sensitivity analyses within the omitted variables and potential outcomes frameworks. We then present the Impact Threshold for a Confounding Variable (ITCV) based on omitted variables in the linear model and the Robustness of Inference to Replacement (RIR) based on the potential outcomes framework. We extend each approach to include benchmarks and to fully account for sampling variability represented by standard errors as well as bias. We exhort social scientists wishing to inform policy and practice to quantify the robustness of their inferences after utilizing the best available data and methods to draw an initial causal inference.
+
+**Citation:** Frank, K. A., Lin, Q., Xu, R., Maroulis, S. J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. *Social Science Research, 110*, 102815. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.ssresearch.2022.102815) | [{{< awesome fas fa-file >}} Prepint](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0)
+
+**Funding:** This work was supported by grant R305D220022 from the U.S. Institute for Education Sciences.
+
+---
+
+
+
+### Indiana University, Department of Sociology
+
+[Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science](https://sociology.indiana.edu/news-events/workshops/workshop-in-sociology.html) 
+
+**Friday, March 27, 2026** (12:00&#8211;1:30pm Eastern time). In person: Bloomington, IN.
+
+**Description:** The workshop will present the paper "Quantifying the Robustness of Causal Inferences: Sensitivity Analysis for Pragmatic Social Science" in *Social Science Research* journal (Frank et al., 2023; [{{< awesome fas fa-file >}} Prepint](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0)).
+
+**Article Abstract:** Social scientists seeking to inform policy or public action must carefully consider how to identify effects and express inferences because actions based on invalid inferences may not yield the intended results. Recognizing the complexities and uncertainties of social science, we seek to inform inevitable debates about causal inferences by quantifying the conditions necessary to change an inference. Specifically, we review existing sensitivity analyses within the omitted variables and potential outcomes frameworks. We then present the Impact Threshold for a Confounding Variable (ITCV) based on omitted variables in the linear model and the Robustness of Inference to Replacement (RIR) based on the potential outcomes framework. We extend each approach to include benchmarks and to fully account for sampling variability represented by standard errors as well as bias. We exhort social scientists wishing to inform policy and practice to quantify the robustness of their inferences after utilizing the best available data and methods to draw an initial causal inference.
+
+**Citation:** Frank, K. A., Lin, Q., Xu, R., Maroulis, S. J., Mueller, A. (2023). Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science. *Social Science Research, 110*, 102815. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.1016/j.ssresearch.2022.102815) | [{{< awesome fas fa-file >}} Prepint](https://www.dropbox.com/s/rn8a4jbxtiynefh/Quantifying%20the%20Robustness%20of%20Causal%20Inferences%20Frank%20SSR%20final.pdf?dl=0)
+
+**Funding:** This work was supported by grant R305D220022 from the U.S. Institute for Education Sciences.
 
 ---
 

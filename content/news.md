@@ -16,6 +16,16 @@ comments: false
 
 
 
+### Announcing Summer 2026 Workshop (posted 04/06/26)
+
+**Topical Workshop: [ICPSR Summer Program in Quantitative Methods](https://www.icpsr.umich.edu/web/pages/sumprog/)**, July 13&#8211;17, 2026, *[Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data](https://web.cvent.com/event/4ea180c8-1f25-4314-8da9-145297b14113/websitePage:17e8f24b-550c-4a09-a091-06ccd6f667d5?session=271f87c0-e192-4e2b-b873-c793487483b8&shareLink=true)*. Read more at https://konfound-it.org/page/workshops/
+ 
+
+
+---
+
+
+
 ### Announcing Summer 2025 Workshops and Conference Presentations (posted 04/07/25)
 
 
