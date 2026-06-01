@@ -86,7 +86,7 @@ We are a group of researchers spanning numerous institutions who would like to c
 ### Current team members include:
 
 - [Ken Frank](https://msu.edu/~kenfrank/) (Michigan State University)
-- [Spiro Maroulis](http://www.public.asu.edu/~smarouli/Spiro_Maroulis/Home.html) (Arizona State University)
+- [Spiro Maroulis](https://martin.uky.edu/people/spiro-maroulis) (University of Kentucky)
 - [Qinyun Lin](https://www.linkedin.com/in/qinyun-lin-b72763112/) (University of Gothenburg)
 - [Ran Xu](https://sites.google.com/site/ranxupersonalweb/) (University of Connecticut)
 - [Joshua Rosenberg](https://joshuamrosenberg.com/) (University of Tennessee, Knoxville)
@@ -171,7 +171,7 @@ pkonfound(est_eff = -9.01, std_err = .68, n_obs = 7639, n_covariates = 221)
 
 Xu, R., Frank, K. A., Maroulis, S. J., & Rosenberg, J. M. (2019). konfound: Command to quantify robustness of causal inferences. *The Stata Journal, 19*(3), 523-550. https://doi.org/10.1177/1536867X19874223
 
-- **Key Publication Metrics:** (May 2026)
+- **Publication Metrics:** (May 2026)
   - Total Views & Downloads: {{< stata_journal_stats "views" >}}
   - Web of Science Citations: {{< stata_journal_stats "wos" >}}
   - Crossref Citations: {{< stata_journal_stats "crossref" >}}
