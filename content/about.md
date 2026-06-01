@@ -14,11 +14,11 @@ Welcome to our space about **[sensitivity analysis](https://en.wikipedia.org/wik
 
 
 
+<br>
+
 ---
 
 
-
-<br>
 
 ## Purpose
 
@@ -32,13 +32,10 @@ Our work in the KonFound-It project is to develop&#8212;and make easy to use&#82
 
 
 
-
+<br>
 
 ---
 
-
-
-<br>
 
 
 ## Learn More About Sensitivity Analysis
@@ -58,11 +55,11 @@ Our work in the KonFound-It project is to develop&#8212;and make easy to use&#82
 
 
 
+<br>
+
 ---
 
 
-
-<br>
 
 ## Meet the Team
 
@@ -111,11 +108,13 @@ We are a group of researchers spanning numerous institutions who would like to c
 - [Wei Pan](https://sites.duke.edu/panwei/) (Duke University)
 - Wei Wang (University of Tennessee, Knoxville)
 
----
-
 
 
 <br>
+
+---
+
+
 
 ## Tools
 
@@ -132,13 +131,15 @@ Maroulis, S., Overstreet, D., Frank, K. A., & Staudt Willet, K. B. (2024). *What
 
 
 
+<br>
+
 ---
 
 ### {{< awesome fab fa-r-project >}} KonFound R Package
 
 Rosenberg, J. M., Xu, R., Lin, Q., Maroulis, S., & Frank, K. A. (2025). *konfound: Quantify the robustness of causal inferences* (v. 1.0.3). https://CRAN.R-project.org/package=konfound 
 
-
+<br>
 
 | Monthly Downloads | Total Downloads |
 | :---------------- | :-------------- |
@@ -159,16 +160,27 @@ pkonfound(est_eff = -9.01, std_err = .68, n_obs = 7639, n_covariates = 221)
 ```
 
 
+
+<br>
+
 ---
+
+
 
 ### {{< awesome fab fa-stripe-s >}} KonFound Stata Package
 
 Xu, R., Frank, K. A., Maroulis, S. J., & Rosenberg, J. M. (2019). konfound: Command to quantify robustness of causal inferences. *The Stata Journal, 19*(3), 523-550. https://doi.org/10.1177/1536867X19874223
 
+- **Key Publication Metrics:** (May 2026)
+  - Total Views & Downloads: {{< stata_journal_stats "views" >}}
+  - Web of Science Citations: {{< stata_journal_stats "wos" >}}
+  - Crossref Citations: {{< stata_journal_stats "crossref" >}}
+
+<br>
 
 | Monthly Downloads | Total Downloads (Jan. 2026) |
 | :---------------- | :-------------- |
-| 412/month | 18,023 |
+| {{< stata_package_downloads "monthly_downloads" >}} | {{< stata_package_downloads "total_downloads" >}} |
 
 ![Line plot of konfound Stata package downloads over time](/img/konfound-downloads-stata.png)
 
@@ -184,11 +196,12 @@ pkonfound -9.01 .68 7639 221
 ```
 
 
+
+<br>
+
 ---
 
 
-
-<br>
 
 ## Internal Resources
 
@@ -203,11 +216,13 @@ Be sure to look through the variety of supports for KonFound:
 - [Benchmarks: What Works Clearinghouse](https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/)
 - [Practical Guide](/page/guide)
 
----
-
 
 
 <br>
+
+---
+
+
 
 ## External Resources
 
@@ -216,11 +231,13 @@ We refer to a lot of open resources for building this site, including:
 - [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/)
 - [Simply Statistics](https://simplystatistics.org/)
 
----
-
 
 
 <br>
+
+---
+
+
 
 ## Connect
 
@@ -239,5 +256,7 @@ We refer to a lot of open resources for building this site, including:
 
 
 <br>
+
+---
 
 ### Thanks for visiting! Happy KonFounding!
