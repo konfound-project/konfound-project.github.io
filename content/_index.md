@@ -71,7 +71,7 @@ Browse through a variety of resources and guides.
 
 {{< content-box >}}
 
-**Get the latest version of the *konfound* package:**
+**Get the latest development version of the *konfound* package:**
 
 
 
@@ -79,7 +79,7 @@ Browse through a variety of resources and guides.
 
 {{< button href="https://github.com/konfound-project/konfound/" >}}Download for R{{< /button >}}
 
-{{< awesome fab fa-r-project >}} Code to run:
+{{< awesome fab fa-r-project >}} Code to run for R development version:
 
 ```
 install.packages("devtools")
