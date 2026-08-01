@@ -305,6 +305,7 @@ figure:not(.dark) img, img.white {
   border-bottom: 1px solid #7f9f3d; /* Line below the nav bar */
   font-family: 'Roboto', sans-serif;
   min-height: 100px; /* Ensure this is at least the logo's max-height */
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1186,3 +1187,72 @@ ul.share li:hover i {
     overflow-y: hidden;
   }
 
+
+
+
+
+/* Background Animation on Home Page */
+
+/* Anchored to the top-left of the page with 50px left margin */
+.v-motion-bg-container {
+  position: absolute;
+  top: 0px;
+  left: 25%;
+  width: 120px;
+  height: 120px;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.v-motion-symbol {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Exact mathematical length of the line (141px) eliminates drawing delays */
+.v-arrows path {
+  stroke-dasharray: 141;
+  stroke-dashoffset: 141;
+  opacity: 0;
+}
+
+.v-arrows polygon {
+  opacity: 0;
+}
+
+/* Assign the 4-second alternating sequence */
+.flow-path-1 { animation: traceUpRight 4s linear infinite; }
+.flow-head-1 { animation: showHeadRight 4s linear infinite; }
+
+.flow-path-2 { animation: traceUpLeft 4s linear infinite; }
+.flow-head-2 { animation: showHeadLeft 4s linear infinite; }
+
+/* --- Stage 1: Up-Right (0% to 50%) --- */
+@keyframes traceUpRight {
+  0%       { stroke-dashoffset: 141; opacity: 1; } /* Starts instantly on green line */
+  49.99%   { stroke-dashoffset: 0;   opacity: 1; } /* Reaches top-right exactly on time */
+  50%      { stroke-dashoffset: 0;   opacity: 0; } /* Instantly hides as Stage 2 begins */
+  100%     { stroke-dashoffset: 141; opacity: 0; }
+}
+
+@keyframes showHeadRight {
+  0%, 42%      { opacity: 0; }
+  46%, 49.99%  { opacity: 1; } /* Arrowhead appears at top-right */
+  50%, 100%    { opacity: 0; }
+}
+
+/* --- Stage 2: Up-Left (50% to 100%) --- */
+@keyframes traceUpLeft {
+  0%, 49.99% { stroke-dashoffset: 141; opacity: 0; } /* Hidden while Stage 1 runs */
+  50%        { stroke-dashoffset: 141; opacity: 1; } /* Starts instantly as Stage 1 ends */
+  99.99%     { stroke-dashoffset: 0;   opacity: 1; } /* Reaches top-left exactly on time */
+  100%       { stroke-dashoffset: 0;   opacity: 0; } /* Seamless instant loop back to 0% */
+}
+
+@keyframes showHeadLeft {
+  0%, 92%    { opacity: 0; }
+  96%, 99.99%{ opacity: 1; } /* Arrowhead appears at top-left */
+  100%       { opacity: 0; }
+}
