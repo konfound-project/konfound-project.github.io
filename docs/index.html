@@ -314,10 +314,11 @@
         
           <div class="well">
             <div class="hero-box-container">
-  <div class="hero-box-content"><h3>How strong must bias be to invalidate your research conclusions?</h3>
+  <div class="hero-box-content"><h2>How strong must bias be to invalidate your research conclusions?</h2>
 KonFound-It! provides interactive sensitivity analyses to help researchers, policy makers, and pragmatists evaluate the robustness of statistical inferences.
 
 <div class="splitbox"><div class="left">
+
 
 
 
@@ -327,12 +328,7 @@ KonFound-It! provides interactive sensitivity analyses to help researchers, poli
 
 
 <a href="https://konfound-project.shinyapps.io/konfound-it/"  target="_blank" rel="noreferrer" class="markdown-btn">
-  
-    
-    
-  
-    <i class="fas fa-calculator"></i>
- Launch R Shiny App
+  <i class="fas fa-calculator" aria-hidden="true"></i> Explore with R Shiny App
 </a>
 
 
@@ -347,13 +343,9 @@ KonFound-It! provides interactive sensitivity analyses to help researchers, poli
 
 
 <a href="/page/videos"  target="_blank" rel="noreferrer" class="markdown-btn">
-  
-    
-    
-  
-    <i class="fas fa-play-circle"></i>
- Learn Sensitivity Analysis
+  <i class="fas fa-play-circle" aria-hidden="true"></i> Learn Sensitivity Analysis
 </a>
+
 
 </div><div style="clear:both"></div></div>
 
@@ -361,95 +353,81 @@ KonFound-It! provides interactive sensitivity analyses to help researchers, poli
   </div>
 </div>
 
-<p>The assumptions underlying statistical analysis are rarely fully met. Pragmatists face the challenge of knowing when evidence is strong enough to justify action, and that’s where <strong>sensitivity analysis</strong> helps by expressing the robustness of inferences relative to potential biases. For instance, sensitivity indices can quantify how much of the observed effect would need to be bias-driven to alter conclusions. We are building on these ideas by developing the methods and associated resources listed on this page.</p>
 <hr>
-<p>
-  
-  
+<div class="feature-card"><h2 id="why-sensitivity-analysis">Why Sensitivity Analysis?</h2>
+<blockquote>
+<p>The assumptions underlying statistical analysis are rarely fully met. Pragmatists face the challenge of knowing when evidence is strong enough to justify action—and that is where <strong>sensitivity analysis</strong> helps by expressing the robustness of inferences relative to potential biases.</p>
+</blockquote>
+<p>KonFound-It! quantifies how much of an observed effect would need to be bias-driven to invalidate your research conclusions, bridging the gap between rigorous statistical theory and actionable real-world policy.</p>
+<h3 id="i-classfas-fa-lightbulb-aria-hiddentruei--examples"><i class="fas fa-lightbulb" aria-hidden="true"></i>  Examples:</h3>
+<p><strong>Robustness of Inference to Replacement (RIR):</strong> What proportion of our observed cases would we need to replace with &ldquo;null effect&rdquo; cases to change our minds?</p>
+<p><strong>Impact Threshold for a Confounding Variable (ITCV):</strong> How strongly must an omitted variable be correlated with the focal predictor (e.g., retention) and the outcome (e.g., reading achievement) to nullify an inference of an effect of the focal predictor on the outcome (e.g., retention on achievement)?</p>
+</div>
 
-  <i class="fas fa-paper-plane"></i>
- Questions? Issues? Suggestions? Reach out through the <a href="https://groups.google.com/g/konfound-it">KonFound-It! Google Group</a>.</p>
 <hr>
+<h2 id="explore-the-konfound-it-ecosystem">Explore the KonFound-It! Ecosystem</h2>
 <div class="splitbox"><div class="left">
 
-<p><img src="img/computer.jpg" alt="Working on a Computer"></p>
+<div class="feature-card"><h3 id="i-classfas-fa-newspaper-aria-hiddentruei-project-news"><i class="fas fa-newspaper" aria-hidden="true"></i> Project News</h3>
+<p>Read the latest release notes, upcoming workshop announcements, and research updates from the KonFound-It! team.</p>
+<a href="/news"  target="_blank" rel="noreferrer" class="markdown-btn">
+  Read Latest News →
+</a></div>
 
-
-
-  
-
-
-
-<a href="https://konfound-project.shinyapps.io/konfound-it/"  target="_blank" rel="noreferrer" class="markdown-btn">Start KonFounding</a>
-
-<p>Try out <strong>KonFound-It!</strong> to calculate sensitivity analyses through an interactive web app.</p>
 </div><div class="right">
 
-<p><img src="img/news-rectangle.jpg" alt="Newspapers on a News Stand"></p>
+<div class="feature-card"><h3 id="i-classfas-fa-book-reader-aria-hiddentruei-guides--faq"><i class="fas fa-book-reader" aria-hidden="true"></i> Guides &amp; FAQ</h3>
+<p>New to sensitivity analysis? Browse through our introductory tutorials, frequently asked questions, and practical research guides.</p>
+<a href="/page/faq"  target="_blank" rel="noreferrer" class="markdown-btn">
+  Read the Guide →
+</a></div>
 
+</div><div style="clear:both"></div></div>
 
+<div class="splitbox"><div class="left">
 
-  
+<div class="feature-card"><h3 id="i-classfas-fa-users-aria-hiddentruei-community-forum"><i class="fas fa-users" aria-hidden="true"></i> Community Forum</h3>
+<p>Have questions about running a model or interpreting sensitivity indices? Connect with researchers and maintainers.</p>
+<a href="https://groups.google.com/g/konfound-it"  target="_blank" rel="noreferrer" class="markdown-btn">
+  Join Google Group →
+</a></div>
 
+</div><div class="right">
 
+<div class="feature-card"><h3 id="i-classfas-fa-chart-line-aria-hiddentruei-wwc-benchmarks"><i class="fas fa-chart-line" aria-hidden="true"></i> WWC Benchmarks</h3>
+<p>Explore sensitivity analyses calculated for the <strong>What Works Clearinghouse (WWC)</strong> through our dedicated interactive benchmark tool.</p>
+<a href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/"  target="_blank" rel="noreferrer" class="markdown-btn">
+  Explore Benchmarks →
+</a></div>
 
-<a href="/news"  target="_blank" rel="noreferrer" class="markdown-btn">KonFound-It! News</a>
-
-<p>Read the latest updates from the KonFound-It! team.</p>
 </div><div style="clear:both"></div></div>
 
 <hr>
+<h2 id="install-packages-for-r--stata">Install Packages for R &amp; Stata</h2>
+<p>Prefer working directly in your statistical script? Get the latest development versions of the <strong>konfound</strong> package for your workflow:</p>
 <div class="splitbox"><div class="left">
 
-<p><img src="img/benchmarks.jpg" alt="Marks on wood"></p>
+<div class="feature-card"><h3 id="i-classfab-fa-r-project-aria-hiddentruei-r-package-github-dev"><i class="fab fa-r-project" aria-hidden="true"></i> R Package (GitHub Dev)</h3>
+<p>Install the latest development release directly from GitHub:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">install.packages</span><span class="p">(</span><span class="s">&#34;devtools&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">devtools</span><span class="o">::</span><span class="nf">install_github</span><span class="p">(</span><span class="s">&#34;konfound-project/konfound&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><a href="https://github.com/konfound-project/konfound/"  target="_blank" rel="noreferrer" class="markdown-btn">
+R Package Details →
+</a></div>
 
-
-
-  
-
-
-
-<a href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/"  target="_blank" rel="noreferrer" class="markdown-btn">Explore Benchmarks</a>
-
-<p>Explore sensitivity analyses calculated for the <a href="https://ies.ed.gov/ncee/wwc/">What Works Clearinghouse</a> through an interactive web app.</p>
 </div><div class="right">
 
-<p><img src="img/books.jpg" alt="Book Shelves"></p>
-
-
-
-  
-
-
-
-<a href="/page/faq"  target="_blank" rel="noreferrer" class="markdown-btn">Learn More</a>
-
-<p>Browse through a variety of resources and guides.</p>
-</div><div style="clear:both"></div></div>
-
-<hr>
-<div class="content-box"><div class="content-box-body">
-    <p><strong>Get the latest development version of the <em>konfound</em> package:</strong></p>
-<div class="splitbox"><div class="left">
-<p><a href="https://github.com/konfound-project/konfound/"  target="_blank" rel="noreferrer" class="markdown-btn">Download for R</a></p>
-<p><i class="fab fa-r-project"></i>
-Code to run for R development version:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="s2">&#34;devtools&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">devtools</span><span class="p">::</span><span class="n">install_github</span><span class="p">(</span>
-</span></span><span class="line"><span class="cl">  <span class="s2">&#34;konfound-project/konfound&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">)</span>
-</span></span></code></pre></div></div><div class="right">
-<p><a href="https://www.stata.com/"  target="_blank" rel="noreferrer" class="markdown-btn">Download for Stata</a></p>
-<p><i class="fab fa-stripe-s"></i>
-Code to run:</p>
+<div class="feature-card"><h3 id="i-classfab-fa-stripe-s-aria-hiddentruei-stata-package-ssc"><i class="fab fa-stripe-s" aria-hidden="true"></i> Stata Package (SSC)</h3>
+<p>Install the package and required dependencies directly from SSC:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssc install konfound, replace
 </span></span><span class="line"><span class="cl">ssc install indeplist, replace
 </span></span><span class="line"><span class="cl">ssc install moss, replace
 </span></span><span class="line"><span class="cl">ssc install matsort, replace
-</span></span></code></pre></div></div><div style="clear:both"></div></div>
+</span></span></code></pre></div><a href="https://doi.org/10.1177/1536867X19874223"  target="_blank" rel="noreferrer" class="markdown-btn">
+Stata Package Details →
+</a></div>
 
-  </div>
-</div>
+</div><div style="clear:both"></div></div>
 
 
           </div>

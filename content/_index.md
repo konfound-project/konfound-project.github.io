@@ -8,8 +8,9 @@ comments: false
 KonFound-It! provides interactive sensitivity analyses to help researchers, policy makers, and pragmatists evaluate the robustness of statistical inferences.
 
 {{< columns >}}
+
 {{< button href="https://konfound-project.shinyapps.io/konfound-it/" >}}
-  {{< awesome fas fa-calculator >}} Launch R Shiny App
+  {{< awesome fas fa-calculator >}} Explore with R Shiny App
 {{< /button >}}
 
 {{< column >}}
@@ -17,42 +18,91 @@ KonFound-It! provides interactive sensitivity analyses to help researchers, poli
 {{< button href="/page/videos" >}}
   {{< awesome fas fa-play-circle >}} Learn Sensitivity Analysis
 {{< /button >}}
+
 {{< endcolumns >}}
 {{< /hero-box >}}
 
+---
+
+{{< feature-card >}}
+
+## Why Sensitivity Analysis?
+
+> The assumptions underlying statistical analysis are rarely fully met. Pragmatists face the challenge of knowing when evidence is strong enough to justify action—and that is where **sensitivity analysis** helps by expressing the robustness of inferences relative to potential biases.
+
+KonFound-It! quantifies how much of an observed effect would need to be bias-driven to invalidate your research conclusions, bridging the gap between rigorous statistical theory and actionable real-world policy.
+
+### {{< awesome fas fa-lightbulb >}}  Examples:
+
+**Robustness of Inference to Replacement (RIR):** What proportion of our observed cases would we need to replace with "null effect" cases to change our minds?
+
+**Impact Threshold for a Confounding Variable (ITCV):** How strongly must an omitted variable be correlated with the focal predictor (e.g., retention) and the outcome (e.g., reading achievement) to nullify an inference of an effect of the focal predictor on the outcome (e.g., retention on achievement)?
+
+{{< /feature-card >}}
 
 
-The assumptions underlying statistical analysis are rarely fully met. Pragmatists face the challenge of knowing when evidence is strong enough to justify action, and that’s where **sensitivity analysis** helps by expressing the robustness of inferences relative to potential biases. For instance, sensitivity indices can quantify how much of the observed effect would need to be bias-driven to alter conclusions. We are building on these ideas by developing the methods and associated resources listed on this page.
 
 
 
 ---
 
-
-
-{{< awesome fas fa-paper-plane >}} Questions? Issues? Suggestions? Reach out through the [KonFound-It! Google Group](https://groups.google.com/g/konfound-it).
-
-
-
----
+## Explore the KonFound-It! Ecosystem
 
 {{< columns >}}
 
-![Working on a Computer](img/computer.jpg)
+{{< feature-card >}}
 
-{{< button href="https://konfound-project.shinyapps.io/konfound-it/" >}}Start KonFounding{{< /button >}}
+### {{< awesome fas fa-newspaper >}} Project News
+Read the latest release notes, upcoming workshop announcements, and research updates from the KonFound-It! team.
 
-Try out **KonFound-It!** to calculate sensitivity analyses through an interactive web app.
+{{< button href="/news" >}}
+  Read Latest News →
+{{< /button >}}
 
-
+{{< /feature-card >}}
 
 {{< column >}}
 
-![Newspapers on a News Stand](img/news-rectangle.jpg)
+{{< feature-card >}}
 
-{{< button href="/news" >}}KonFound-It! News{{< /button >}}
+### {{< awesome fas fa-book-reader >}} Guides & FAQ
+New to sensitivity analysis? Browse through our introductory tutorials, frequently asked questions, and practical research guides.
 
-Read the latest updates from the KonFound-It! team.
+{{< button href="/page/faq" >}}
+  Read the Guide →
+{{< /button >}}
+
+{{< /feature-card >}}
+
+{{< endcolumns >}}
+
+
+
+{{< columns >}}
+
+{{< feature-card >}}
+
+### {{< awesome fas fa-users >}} Community Forum
+Have questions about running a model or interpreting sensitivity indices? Connect with researchers and maintainers.
+
+{{< button href="https://groups.google.com/g/konfound-it" >}}
+  Join Google Group →
+{{< /button >}}
+
+{{< /feature-card >}}
+
+{{< column >}}
+
+{{< feature-card >}}
+
+### {{< awesome fas fa-chart-line >}} WWC Benchmarks  
+Explore sensitivity analyses calculated for the **What Works Clearinghouse (WWC)** through our dedicated interactive benchmark tool.
+
+{{< button href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/" >}}
+  Explore Benchmarks →
+{{< /button >}}
+
+{{< /feature-card >}}
 
 {{< endcolumns >}}
 
@@ -60,69 +110,49 @@ Read the latest updates from the KonFound-It! team.
 
 ---
 
-{{< columns >}}
+## Install Packages for R & Stata
 
-![Marks on wood](img/benchmarks.jpg)
-
-{{< button href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/" >}}Explore Benchmarks{{< /button >}}
-
-Explore sensitivity analyses calculated for the [What Works Clearinghouse](https://ies.ed.gov/ncee/wwc/) through an interactive web app.
-
-
-
-{{< column >}}
-
-![Book Shelves](img/books.jpg)
-
-{{< button href="/page/faq" >}}Learn More{{< /button >}}
-
-Browse through a variety of resources and guides.
-
-{{< endcolumns >}}
-
-
-
----
-
-
-
-{{< content-box >}}
-
-**Get the latest development version of the *konfound* package:**
-
-
+Prefer working directly in your statistical script? Get the latest development versions of the **konfound** package for your workflow:
 
 {{< columns >}}
 
-{{< button href="https://github.com/konfound-project/konfound/" >}}Download for R{{< /button >}}
+{{< feature-card >}}
 
-{{< awesome fab fa-r-project >}} Code to run for R development version:
+### {{< awesome fab fa-r-project >}} R Package (GitHub Dev)
+Install the latest development release directly from GitHub:
 
-```
+```r
 install.packages("devtools")
-devtools::install_github(
-  "konfound-project/konfound"
-)
+devtools::install_github("konfound-project/konfound")
 ```
+
+{{< button href="https://github.com/konfound-project/konfound/" >}}
+R Package Details →
+{{< /button >}}
+
+{{< /feature-card >}}
 
 
 
 {{< column >}}
 
-{{< button href="https://www.stata.com/" >}}Download for Stata{{< /button >}}
+{{< feature-card >}}
 
-{{< awesome fab fa-stripe-s >}} Code to run:
+### {{< awesome fab fa-stripe-s >}} Stata Package (SSC)
+Install the package and required dependencies directly from SSC:
 
-
-```
+```Stata
 ssc install konfound, replace
 ssc install indeplist, replace
 ssc install moss, replace
 ssc install matsort, replace
 ```
 
+{{< button href="https://doi.org/10.1177/1536867X19874223" >}}
+Stata Package Details →
+{{< /button >}}
+
+{{< /feature-card >}}
 
 
 {{< endcolumns >}}
-
-{{< /content-box >}}
