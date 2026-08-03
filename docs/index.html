@@ -12,7 +12,7 @@
 
       <title>KonFound-It!</title>
   
-  <meta name="description" content="The assumptions underlying statistical analysis are rarely fully met. Pragmatists face the challenge of knowing when evidence is strong enough to justify action, and that’s where sensitivity analysis helps by expressing the robustness of inferences relative to potential biases. For instance, sensitivity indices can quantify how much of the observed effect would need to be bias-driven to alter conclusions. We are building on these ideas by developing the methods and associated resources listed on this page."><script type="application/ld+json">
+  <meta name="description" content="Quantify the robustness of causal inferences"><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -33,15 +33,15 @@
 }
 </script>
 
-<meta property="og:title" content="KonFound-It! Home" />
-<meta property="og:description" content="The assumptions underlying statistical analysis are rarely fully met. Pragmatists face the challenge of knowing when evidence is strong enough to justify action, and that’s where sensitivity analysis helps by expressing the robustness of inferences relative to potential biases. For instance, sensitivity indices can quantify how much of the observed effect would need to be bias-driven to alter conclusions. We are building on these ideas by developing the methods and associated resources listed on this page.">
+<meta property="og:title" content="KonFound-It!" />
+<meta property="og:description" content="Quantify the robustness of causal inferences">
 <meta property="og:image" content="https://konfound-project.github.io/img/KonFoundit%21.png" />
 <meta property="og:url" content="https://konfound-project.github.io/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="KonFound-It!" />
 
-  <meta name="twitter:title" content="KonFound-It! Home" />
-  <meta name="twitter:description" content="The assumptions underlying statistical analysis are rarely fully met. Pragmatists face the challenge of knowing when evidence is strong enough to justify action, and that’s where sensitivity analysis …">
+  <meta name="twitter:title" content="KonFound-It!" />
+  <meta name="twitter:description" content="Quantify the robustness of causal inferences">
   <meta name="twitter:image" content="https://konfound-project.github.io/img/KonFoundit%21.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <link href='https://konfound-project.github.io/img/KonFoundit%21-mark.png' rel='icon' type='image/x-icon'/>
@@ -79,28 +79,6 @@
 
   </head>
   <body>
-    
-<div class="v-motion-bg-container">
-  <svg class="v-motion-symbol" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-    
-    <line x1="20" y1="165" x2="180" y2="165" stroke="#7f9f3d" stroke-width="8" stroke-linecap="round" />
-
-    
-    <g class="v-arrows" fill="none" stroke="#639dad" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
-
-      
-      <path class="flow-path-1" d="M 100,165 L 165,40" />
-      <polygon class="flow-head-1" points="137,60 165,40 165,74" fill="#639dad" stroke="none" />
-
-      
-      <path class="flow-path-2" d="M 100,165 L 35,40" />
-      <polygon class="flow-head-2" points="63,60 35,40 35,74" fill="#639dad" stroke="none" />
-
-    </g>
-  </svg>
-</div>
-
-
     <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -133,10 +111,6 @@
                 
                   <a href="/konfound/">R Package</a>
                 
-                  <a href="https://doi.org/10.21105/joss.05779">R Paper</a>
-                
-                  <a href="https://doi.org/10.1177/1536867X19874223">Stata Paper</a>
-                
                   <a href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/">WWC Benchmarks</a>
                 
               </div>
@@ -145,24 +119,46 @@
         
           
             <li class="navlinks-container">
-              <a class="navlinks-parent">Support</a>
+              <a class="navlinks-parent">Learn</a>
               <div class="navlinks-children">
                 
-                  <a href="/page/faq">FAQ</a>
+                  <a href="/page/videos">Introductory Videos</a>
+                
+                  <a href="/page/guide">Practical Guide</a>
+                
+                  <a href="/page/workshops">Workshops</a>
                 
                   <a href="/page/resources">Resource Overview</a>
                 
-                  <a href="/page/videos">Introductory Videos</a>
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Research</a>
+              <div class="navlinks-children">
                 
                   <a href="/page/publications">Publications</a>
                 
                   <a href="/page/talks">Talks</a>
                 
-                  <a href="/page/workshops">Workshops</a>
+                  <a href="https://doi.org/10.21105/joss.05779">R Paper (JOSS)</a>
                 
-                  <a href="/page/guide">Practical Guide</a>
+                  <a href="https://doi.org/10.1177/1536867X19874223">Stata Paper</a>
                 
-                  <a href="https://groups.google.com/g/konfound-it">Forum</a>
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Help</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/faq">FAQ</a>
+                
+                  <a href="https://groups.google.com/g/konfound-it">Google Group Forum</a>
                 
               </div>
             </li>
@@ -263,6 +259,26 @@
   
 
   <header class="header-section ">
+    <div class="v-motion-bg-container">
+  <svg class="v-motion-symbol" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    
+    <line x1="20" y1="165" x2="180" y2="165" stroke="#7f9f3d" stroke-width="8" stroke-linecap="round" />
+
+    
+    <g class="v-arrows" fill="none" stroke="#639dad" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+
+      
+      <path class="flow-path-1" d="M 100,165 L 165,40" />
+      <polygon class="flow-head-1" points="137,60 165,40 165,74" fill="#639dad" stroke="none" />
+
+      
+      <path class="flow-path-2" d="M 100,165 L 35,40" />
+      <polygon class="flow-head-2" points="63,60 35,40 35,74" fill="#639dad" stroke="none" />
+
+    </g>
+  </svg>
+</div>
+
     
     
     <div class="intro-header no-img">
@@ -297,7 +313,55 @@
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         
           <div class="well">
-            <p>The assumptions underlying statistical analysis are rarely fully met. Pragmatists face the challenge of knowing when evidence is strong enough to justify action, and that’s where <strong>sensitivity analysis</strong> helps by expressing the robustness of inferences relative to potential biases. For instance, sensitivity indices can quantify how much of the observed effect would need to be bias-driven to alter conclusions. We are building on these ideas by developing the methods and associated resources listed on this page.</p>
+            <div class="hero-box-container">
+  <div class="hero-box-content"><h3>How strong must bias be to invalidate your research conclusions?</h3>
+KonFound-It! provides interactive sensitivity analyses to help researchers, policy makers, and pragmatists evaluate the robustness of statistical inferences.
+
+<div class="splitbox"><div class="left">
+
+
+
+
+  
+
+
+
+<a href="https://konfound-project.shinyapps.io/konfound-it/"  target="_blank" rel="noreferrer" class="markdown-btn">
+  
+    
+    
+  
+    <i class="fas fa-calculator"></i>
+ Launch R Shiny App
+</a>
+
+
+</div><div class="right">
+
+
+
+
+
+  
+
+
+
+<a href="/page/videos"  target="_blank" rel="noreferrer" class="markdown-btn">
+  
+    
+    
+  
+    <i class="fas fa-play-circle"></i>
+ Learn Sensitivity Analysis
+</a>
+
+</div><div style="clear:both"></div></div>
+
+
+  </div>
+</div>
+
+<p>The assumptions underlying statistical analysis are rarely fully met. Pragmatists face the challenge of knowing when evidence is strong enough to justify action, and that’s where <strong>sensitivity analysis</strong> helps by expressing the robustness of inferences relative to potential biases. For instance, sensitivity indices can quantify how much of the observed effect would need to be bias-driven to alter conclusions. We are building on these ideas by developing the methods and associated resources listed on this page.</p>
 <hr>
 <p>
   
@@ -309,8 +373,6 @@
 <div class="splitbox"><div class="left">
 
 <p><img src="img/computer.jpg" alt="Working on a Computer"></p>
-<br>
-
 
 
 
@@ -318,16 +380,12 @@
 
 
 
-<a href="https://konfound-project.shinyapps.io/konfound-it/"   target="_blank" rel="noreferrer" class="markdown-btn">Start KonFounding</a>
-
-<br>
+<a href="https://konfound-project.shinyapps.io/konfound-it/"  target="_blank" rel="noreferrer" class="markdown-btn">Start KonFounding</a>
 
 <p>Try out <strong>KonFound-It!</strong> to calculate sensitivity analyses through an interactive web app.</p>
 </div><div class="right">
 
 <p><img src="img/news-rectangle.jpg" alt="Newspapers on a News Stand"></p>
-<br>
-
 
 
 
@@ -335,9 +393,7 @@
 
 
 
-<a href="/news"   target="_blank" rel="noreferrer" class="markdown-btn">KonFound-It! News</a>
-
-<br>
+<a href="/news"  target="_blank" rel="noreferrer" class="markdown-btn">KonFound-It! News</a>
 
 <p>Read the latest updates from the KonFound-It! team.</p>
 </div><div style="clear:both"></div></div>
@@ -346,8 +402,6 @@
 <div class="splitbox"><div class="left">
 
 <p><img src="img/benchmarks.jpg" alt="Marks on wood"></p>
-<br>
-
 
 
 
@@ -355,16 +409,12 @@
 
 
 
-<a href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/"   target="_blank" rel="noreferrer" class="markdown-btn">Explore Benchmarks</a>
-
-<br>
+<a href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/"  target="_blank" rel="noreferrer" class="markdown-btn">Explore Benchmarks</a>
 
 <p>Explore sensitivity analyses calculated for the <a href="https://ies.ed.gov/ncee/wwc/">What Works Clearinghouse</a> through an interactive web app.</p>
 </div><div class="right">
 
 <p><img src="img/books.jpg" alt="Book Shelves"></p>
-<br>
-
 
 
 
@@ -372,20 +422,16 @@
 
 
 
-<a href="/page/faq"   target="_blank" rel="noreferrer" class="markdown-btn">Learn More</a>
-
-<br>
+<a href="/page/faq"  target="_blank" rel="noreferrer" class="markdown-btn">Learn More</a>
 
 <p>Browse through a variety of resources and guides.</p>
 </div><div style="clear:both"></div></div>
 
 <hr>
-<div class="content-box">
-  <p><strong>Get the latest development version of the <em>konfound</em> package:</strong></p>
+<div class="content-box"><div class="content-box-body">
+    <p><strong>Get the latest development version of the <em>konfound</em> package:</strong></p>
 <div class="splitbox"><div class="left">
-<br>
-<p><a href="https://github.com/konfound-project/konfound/"   target="_blank" rel="noreferrer" class="markdown-btn">Download for R</a></p>
-<br>
+<p><a href="https://github.com/konfound-project/konfound/"  target="_blank" rel="noreferrer" class="markdown-btn">Download for R</a></p>
 <p><i class="fab fa-r-project"></i>
 Code to run for R development version:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="s2">&#34;devtools&#34;</span><span class="p">)</span>
@@ -393,9 +439,7 @@ Code to run for R development version:</p>
 </span></span><span class="line"><span class="cl">  <span class="s2">&#34;konfound-project/konfound&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="p">)</span>
 </span></span></code></pre></div></div><div class="right">
-<br>
-<p><a href="https://www.stata.com/"   target="_blank" rel="noreferrer" class="markdown-btn">Download for Stata</a></p>
-<br>
+<p><a href="https://www.stata.com/"  target="_blank" rel="noreferrer" class="markdown-btn">Download for Stata</a></p>
 <p><i class="fab fa-stripe-s"></i>
 Code to run:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssc install konfound, replace
@@ -404,6 +448,7 @@ Code to run:</p>
 </span></span><span class="line"><span class="cl">ssc install matsort, replace
 </span></span></code></pre></div></div><div style="clear:both"></div></div>
 
+  </div>
 </div>
 
 

@@ -1,7 +1,24 @@
 ---
-title: KonFound-It! Home
+title: KonFound-It!
+subtitle: Quantify the robustness of causal inferences
 comments: false
 ---
+
+{{< hero-box heading="How strong must bias be to invalidate your research conclusions?" >}}
+KonFound-It! provides interactive sensitivity analyses to help researchers, policy makers, and pragmatists evaluate the robustness of statistical inferences.
+
+{{< columns >}}
+{{< button href="https://konfound-project.shinyapps.io/konfound-it/" >}}
+  {{< awesome fas fa-calculator >}} Launch R Shiny App
+{{< /button >}}
+
+{{< column >}}
+
+{{< button href="/page/videos" >}}
+  {{< awesome fas fa-play-circle >}} Learn Sensitivity Analysis
+{{< /button >}}
+{{< endcolumns >}}
+{{< /hero-box >}}
 
 
 

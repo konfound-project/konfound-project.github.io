@@ -1,0 +1,8 @@
+<div class="hero-box-container">
+  <div class="hero-box-content">
+    {{- with .Get "heading" -}}
+      <h3>{{ . }}</h3>
+    {{- end -}}
+    {{ .Inner }}
+  </div>
+</div>

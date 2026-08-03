@@ -1,3 +1,8 @@
 <div class="content-box">
-  {{ .Inner | .Page.RenderString }}
+  {{- with .Get "title" -}}
+    <div class="content-box-header">{{ . }}</div>
+  {{- end -}}
+  <div class="content-box-body">
+    {{ .Inner | .Page.RenderString }}
+  </div>
 </div>

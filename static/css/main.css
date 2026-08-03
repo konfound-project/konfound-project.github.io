@@ -52,35 +52,26 @@ p a {
   }
 }
 
-title {
-  font-family: 'Raleway', serif;
-  font-style: normal;
-  font-size: 76px;
-  font-weight: 400;
-  color: #639dad;
-}
-
-h1 {
-  font-family: 'Raleway', serif;
-  font-style: normal;
-  font-size: 76px;
-  font-weight: 400;
-  color: #639dad;
+title, h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 44px; /* Scaled down from 76px */
+  font-weight: 700;
+  color: #2d3748;
+  line-height: 1.2;
 }
 
 h2 {
-  font-family: 'Raleway', serif;
-  font-style: normal;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
-  color: #7f9f3d;
+  color: #639dad;
 }
+
 
 h3 {
   font-family: 'Roboto', serif;
   font-style: italic;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 700;
   color: #639dad;
 }
 
@@ -164,27 +155,46 @@ hr.small {
 /* --------------------------------------------- */
 
 .markdown-btn {
-  display: block;
+  display: inline-block;
   width: 100%;
-  padding: 0.5em;
-  border: 2px solid #000;
-  border-radius: 10px;
-  background-color: #7f9f3d;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 6px;
+  background-color: #639dad;
   color: #fff;
-  font-size: 32px;
+  font-size: 18px;
+  font-weight: 600;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   text-decoration: none;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 .markdown-btn:hover,
-.markdown-btn:active {
-  background-color: #465723;
-  text-decoration: underline;
-  cursor: pointer;
+.markdown-btn:focus {
+  background-color: #4f8291;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px -2px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+/* --------------------------------------------- */
+/* --- Modern Hero Banner --- */
+.hero-box-container {
+  margin: 1.5em 0 3em 0;
+  padding: 36px 32px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-top: 6px solid #639dad;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  text-align: center;
 }
 
 
@@ -192,19 +202,37 @@ hr.small {
 
 
 /* --------------------------------------------- */
-
+/* --- Modern Content Box Card --- */
 .content-box {
-  padding: 20px;
-  margin-top: 2em;
-  margin-bottom: 2em;
-
-  /* Appearance */
-  background-color: #639dad;  /* A very light grey background */
-  border: 1px solid #e0e0e0;   /* A light border */
+  margin: 2em 0;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #639dad; /* Uses your slate-teal brand accent */
   border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
 
-  /* A subtle shadow */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+/* Style for optional title header */
+.content-box-header {
+  background-color: #f1f5f9;
+  padding: 12px 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #2d3748;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Inner padding for body text/code */
+.content-box-body {
+  padding: 24px;
+}
+
+/* Ensure code blocks inside content-box don't add awkward bottom margins */
+.content-box-body pre:last-child,
+.content-box-body p:last-child {
+  margin-bottom: 0;
 }
 
 

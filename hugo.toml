@@ -21,7 +21,7 @@ pygmentsCodefencesGuessSyntax = true
 
 
 [Params]
-  homeTitle = "KonFound-It!" # Set a different text for the header on the home page
+  homeTitle = "KonFound-It!"
   subtitle = "Quantify the Robustness of Causal Inferences"
   mainSections = [] # Define a page to show up below landing page (e.g., "post", "posts")
   logo = "img/KonFoundit!.png"
@@ -30,9 +30,9 @@ pygmentsCodefencesGuessSyntax = true
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
-  comments = true
-  readingTime = true
-  wordCount = true
+  comments = false
+  readingTime = false
+  wordCount = false
   useHLJS = true
   socialShare = true
   delayDisqus = true
@@ -98,11 +98,16 @@ pygmentsCodefencesGuessSyntax = true
 
 
 
+
+
+# --- 1. HOME ---
 [[menu.main]]
     name = "Home"
     url = ""
     weight = 1
 
+
+# --- 2. TOOLS (Software & Apps) ---
 [[menu.main]]
     identifier = "tools"
     name = "Tools"
@@ -122,84 +127,101 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     parent = "tools"
-    name = "R Paper"
+    name = "WWC Benchmarks"
+    url = "https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/"
+    weight = 3
+
+
+# --- 3. LEARN (Dedicated Education Hub) ---
+[[menu.main]]
+    identifier = "learn"
+    name = "Learn"
+    weight = 3
+
+[[menu.main]]
+    parent = "learn"
+    name = "Introductory Videos"
+    url = "page/videos"
+    weight = 1
+
+[[menu.main]]
+    parent = "learn"
+    name = "Practical Guide"
+    url = "page/guide"
+    weight = 2
+
+[[menu.main]]
+    parent = "learn"
+    name = "Workshops"
+    url = "page/workshops"
+    weight = 3
+
+[[menu.main]]
+    parent = "learn"
+    name = "Resource Overview"
+    url = "page/resources"
+    weight = 4
+
+
+# --- 4. RESEARCH (Academic Foundations) ---
+[[menu.main]]
+    identifier = "research"
+    name = "Research"
+    weight = 4
+
+[[menu.main]]
+    parent = "research"
+    name = "Publications"
+    url = "page/publications"
+    weight = 1
+
+[[menu.main]]
+    parent = "research"
+    name = "Talks"
+    url = "page/talks"
+    weight = 2
+
+[[menu.main]]
+    parent = "research"
+    name = "R Paper (JOSS)"
     url = "https://doi.org/10.21105/joss.05779"
     weight = 3
 
 [[menu.main]]
-    parent = "tools"
+    parent = "research"
     name = "Stata Paper"
     url = "https://doi.org/10.1177/1536867X19874223"
     weight = 4
 
+
+# --- 5. HELP & COMMUNITY ---
 [[menu.main]]
-    parent = "tools"
-    name = "WWC Benchmarks"
-    url = "https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/"
+    identifier = "help"
+    name = "Help"
     weight = 5
 
 [[menu.main]]
-    identifier = "support"
-    name = "Support"
-    weight = 3
-
-[[menu.main]]
-    parent = "support"
+    parent = "help"
     name = "FAQ"
     url = "page/faq"
     weight = 1
 
 [[menu.main]]
-    parent = "support"
-    name = "Resource Overview"
-    url = "page/resources"
+    parent = "help"
+    name = "Google Group Forum"
+    url = "https://groups.google.com/g/konfound-it"
     weight = 2
 
-[[menu.main]]
-    parent = "support"
-    name = "Introductory Videos"
-    url = "page/videos"
-    weight = 3
-
-[[menu.main]]
-    parent = "support"
-    name = "Publications"
-    url = "page/publications"
-    weight = 4
-
-[[menu.main]]
-    parent = "support"
-    name = "Talks"
-    url = "page/talks"
-    weight = 5
-
-[[menu.main]]
-    parent = "support"
-    name = "Workshops"
-    url = "page/workshops"
-    weight = 6
-
-[[menu.main]]
-    parent = "support"
-    name = "Practical Guide"
-    url = "page/guide"
-    weight = 7
-
-[[menu.main]]
-    parent = "support"
-    name = "Forum"
-    url = "https://groups.google.com/g/konfound-it"
-    weight = 8
-
+# --- 6. NEWS & ABOUT ---
 [[menu.main]]
     name = "News"
     url = "news/"
-    weight = 4
+    weight = 6
 
 [[menu.main]]
     name = "About"
     url = "about/"
-    weight = 5
+    weight = 7
 
 
 
