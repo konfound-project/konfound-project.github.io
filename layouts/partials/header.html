@@ -27,7 +27,6 @@
   {{ end }}
 
   <header class="header-section {{ if $bigimg }}has-img{{ end }}">
-    {{ partial "v-motion-bg.html" . }}
     {{ if $bigimg }}
       {{ $firstimg := index $bigimg 0 }}
       <div class="intro-header big-img" style="background-image: url('{{$firstimg.src}}');">

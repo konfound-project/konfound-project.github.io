@@ -375,6 +375,20 @@ hr, hr.small {
   .main-content {
     padding-top: 130px;
   }
+
+  .navbar-custom .navbar-collapse {
+    max-width: 45%;
+    float: right;
+    padding-right: 0;
+  }
+
+  /* Ensure links wrap gracefully aligned to the right if there are many items */
+  .navbar-custom .navbar-nav.navbar-right {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
 }
 
 .main-explain-area {
@@ -565,10 +579,12 @@ figure:not(.dark) img, img.white {
   position: absolute;
   -webkit-transition: visibility 0.5s, opacity 0.5s ease-in-out;
   -moz-transition: visibility 0.5s, opacity 0.5s ease-in-out;
-  transition: visibility 0.5s, opacity 0.5s ease-in-out;
   left: 50%;
   width: 50px;
-  margin-top: -25px;
+  top: auto;
+  margin-top: 0;
+  bottom: -25px;
+  transition: visibility 0.5s, opacity 0.5s ease-in-out;
 }
 
 .navbar-custom .avatar-container  .avatar-img-border {
@@ -603,7 +619,9 @@ figure:not(.dark) img, img.white {
 @media only screen and (min-width: 768px) {
   .navbar-custom .avatar-container {
     width: 100px;
-    margin-top: -50px;
+    top: auto;
+    margin-top: 0;
+    bottom: -50px;
   }
 
 /* Adds the spread of the shadow */
@@ -918,7 +936,7 @@ footer div.disclaimer {
 
 /* --- Post and page headers --- */
 .intro-header {
-  margin: 80px 0 20px;
+  margin: 140px 0 20px;
   position: relative;
 }
 .intro-header.big-img {
@@ -997,7 +1015,7 @@ footer div.disclaimer {
 }
 @media only screen and (min-width: 768px) {
   .intro-header {
-    margin-top: 130px;
+    margin-top: 185px;
   }
   .intro-header.big-img {
     margin-top: 91px;  /* Full navbar is small navbar + 20px padding on each side when expanded */
@@ -1348,7 +1366,8 @@ ul.share li:hover i {
 /* Anchored to the top-left of the page with 50px left margin */
 .v-motion-bg-container {
   position: absolute;
-  top: 0px;
+  top: auto;
+  bottom: -21px;
   left: 25%;
   width: 120px;
   height: 120px;
@@ -1410,3 +1429,64 @@ ul.share li:hover i {
 }
 
 
+
+
+
+/* --- Force Hamburger Menu Collapse Below 1024px to Prevent 3-Line Wrap --- */
+@media only screen and (max-width: 1024px) {
+  /* Show the hamburger toggle button */
+  .navbar-custom .navbar-header .navbar-toggle {
+    display: block;
+  }
+
+  /* Remove desktop floating so the header layout behaves like mobile */
+  .navbar-custom .navbar-header {
+    float: none;
+  }
+
+  /* Hide the expanded menu by default and let Bootstrap JS toggle '.in' */
+  .navbar-custom .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-custom .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+
+  /* Reset desktop width constraints and floats for the dropdown container */
+  .navbar-custom .navbar-collapse {
+    max-width: 100% !important;
+    float: none !important;
+    border-top: 1px solid #639dad;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  /* Format nav links for the vertical drawer */
+  .navbar-custom .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+    display: block !important;
+  }
+  .navbar-custom .navbar-nav > li {
+    float: none;
+  }
+  .navbar-custom .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/* --- Constrain Top Menu to 45% Width Only on Large Desktops (>1024px) --- */
+@media only screen and (min-width: 1025px) {
+  .navbar-custom .navbar-collapse {
+    max-width: 45%;
+    float: right;
+    padding-right: 0;
+  }
+
+  .navbar-custom .navbar-nav.navbar-right {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+}
