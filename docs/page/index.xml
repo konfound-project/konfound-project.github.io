@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on KonFound-It!</title>
-    <link>http://localhost:1313/page/</link>
+    <link>https://konfound-project.github.io/page/</link>
     <description>Recent content in Pages on KonFound-It!</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://konfound-project.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FAQs</title>
-      <link>http://localhost:1313/page/faq/</link>
+      <link>https://konfound-project.github.io/page/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/page/faq/</guid>
+      <guid>https://konfound-project.github.io/page/faq/</guid>
       <description>by Kenneth A. Frank, Qinyun Lin, Ran Xu, Spiro Maroulis, Guan Saw, &amp;amp; Josh Rosenberg&#xA;Last updated: 7/5/2024&#xA;FAQ Dev Version&#xA;Introduction This document addresses some frequently asked questions regarding KonFound. See the appendices for background readings and software. For quick reference, see:&#xA;Overview of all KonFound commands Main introductory slides for combined frameworks Background There are two basic frameworks for sensitivity analysis employed within KonFound. First is the Impact Threshold for a Confounding Variable (ITCV)—Frank (2000).</description>
     </item>
     <item>
       <title>Introductory Videos</title>
-      <link>http://localhost:1313/page/videos/</link>
+      <link>https://konfound-project.github.io/page/videos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/page/videos/</guid>
+      <guid>https://konfound-project.github.io/page/videos/</guid>
       <description>Introduction to Sensitivity Analysis * KonFound-It! * September 2025&#xA;Introduction to Two Frameworks for Sensitivity Analysis * KonFound-It! * October 2025&#xA;Calculating Impact Threshold of a Confounding Variable (ITCV) in Stata * KonFound-It! * January 2026&#xA;Quantifying Sensitivity in Causal Inference with Kenneth Frank * Statistical Horizons * March 2025&#xA;Robustness of Inference to Replacement &amp;amp; Fragility for Logistic Regression and Hazard Functions * Michigan State University - Epidemiology &amp;amp; Biostatistics * April 2024</description>
     </item>
     <item>
       <title>Practical Guide</title>
-      <link>http://localhost:1313/page/guide/</link>
+      <link>https://konfound-project.github.io/page/guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/page/guide/</guid>
+      <guid>https://konfound-project.github.io/page/guide/</guid>
       <description>PDF Download: Practical Guide (August 2025 version)&#xA;Citation: *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Maroulis, S. J., &amp;amp; Staudt Willet, K. B. (2025). A practical guide to impact threshold of a confounding variable (ITCV) and robustness of inference to replacement (RIR). Michigan State University.&#xA;* Co first authors.&#xA;Previous Next &amp;nbsp; &amp;nbsp; / [pdf] View the PDF file here. </description>
     </item>
     <item>
       <title>Publications</title>
-      <link>http://localhost:1313/page/publications/</link>
+      <link>https://konfound-project.github.io/page/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/page/publications/</guid>
+      <guid>https://konfound-project.github.io/page/publications/</guid>
       <description>2025 Frank, K. A. (2025). Sensitivity to attrition for inferences from an RCT. Paper presented at the Meeting of the Society for Causal Inference (Detroit, MI, May 2025). Web&#xA;Frank, K. A., Lin, Q., Maroulis, S. J. (2025). &amp;ldquo;Causal inferences from observational studies in education policy: Towards pragmatic social science.&amp;rdquo; In L. Cohen-Vogel, J. Scott, &amp;amp; P. Youngs (Eds.), Handbook on education policy research (2nd ed.). American Educational Research Association.</description>
     </item>
     <item>
       <title>Resource Overview</title>
-      <link>http://localhost:1313/page/resources/</link>
+      <link>https://konfound-project.github.io/page/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/page/resources/</guid>
+      <guid>https://konfound-project.github.io/page/resources/</guid>
       <description>Tools R package (CRAN version) R package (development version) R Shiny app Stata package Benchmarks: What Works Clearinghouse [BETA] Explanatory Resources FAQ Overview of KonFound techniques Overview of KonFound commands Quick examples Slides quantifying the robustness of causal inferences combined frameworks Slides for comparison of frameworks Resources for Publication Published empirical examples KonFound-It! spreadsheet for calculating indices Publications: Impact Threshold for a Confounding Variable Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient.</description>
     </item>
     <item>
       <title>Talks</title>
-      <link>http://localhost:1313/page/talks/</link>
+      <link>https://konfound-project.github.io/page/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/page/talks/</guid>
+      <guid>https://konfound-project.github.io/page/talks/</guid>
       <description>Upcoming Talks Check back again soon for news about more talks!&#xA;Past Talks Quantifying Sensitivity to Selection on Unobserved Covariates: Recasting the Coefficient of Proportionality within a Correlational Framework 2025 Joint Statistical Meetings, Multi-faceted Approaches to Sensitivity Analysis for Observational Studies&#xA;August 6, 2025 (10:30am–12:30pm Central time in Nashville, TN).&#xA;Paper&#xA;Presenters: Kenneth A. Frank, Qinyun Lin, &amp;amp; Spiro Maroulis&#xA;Abstract: Sensitivity analyses can inform evidence-based education policy by quantifying the hypothetical conditions necessary to change an inference.</description>
     </item>
     <item>
       <title>Workshops</title>
-      <link>http://localhost:1313/page/workshops/</link>
+      <link>https://konfound-project.github.io/page/workshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/page/workshops/</guid>
+      <guid>https://konfound-project.github.io/page/workshops/</guid>
       <description>Upcoming Workshops Inter-University Consortium for Political and Social Research (ICPSR) Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data&#xA;July 13–17, 2026 (10:00am–3:00pm Eastern time). Virtual.&#xA;Most social scientists need to consider the unobserved conditions that could change an inference. This workshop is about the statistical tools (R, Stata, or the konfound-it app) to do just that, quantifying the strength of evidence to inform policy, practice, or general social science.</description>
     </item>
   </channel>
