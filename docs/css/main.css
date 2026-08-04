@@ -66,7 +66,7 @@ title, h1 {
 h2 {
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
   color: #639dad;
   margin-top: 1.5em;
@@ -90,39 +90,6 @@ h3 {
   }
 }
 
-
-
-/* --- Feature Card Specific Heading Override --- */
-.feature-card h2 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 28px;
-  font-weight: 200;
-  font-style: normal;
-  color: #639dad;
-  line-height: 1.1;
-  margin-top: 0.5em;
-  margin-bottom: -0.5em;
-}
-
-.feature-card h3 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  font-style: normal;
-  color: #2d3748;
-  line-height: 1.1;
-  margin-top: 1.2em;
-  margin-bottom: 0.5em;
-}
-
-@media (prefers-color-scheme: dark) {
-  .feature-card h3 {
-    color: #f7fafc;
-  }
-}
-
-
-
 h4,h5,h6 {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -132,7 +99,7 @@ h4,h5,h6 {
 
 
 
-/* --------------------------------------------- */
+
 
 /* --- Code blocks --- */
 
@@ -143,9 +110,10 @@ code, pre code, .highlight code, .highlight pre code {
 }
 
 
+
+
+
 /* --------------------------------------------- */
-
-
 
 a, p a {
   color: #4f8291; /* Darker slate-teal for accessible contrast on white */
@@ -292,7 +260,7 @@ hr, hr.small {
 
 
 
-/* --- Modern Featured Card --- */
+/* --- Modern Feature Card --- */
 .feature-card {
   display: flex;
   flex-direction: column;
@@ -320,6 +288,71 @@ hr, hr.small {
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 8px;
+}
+
+
+.feature-card h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  font-style: normal;
+  color: #639dad;
+  line-height: 1.1;
+  margin-top: 0.5em;
+  margin-bottom: -0.5em;
+}
+.feature-card h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #2d3748;
+  line-height: 1.1;
+  margin-top: 0 !important;
+  margin-bottom: 0.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .feature-card h3 {
+    color: #f7fafc;
+  }
+}
+
+/* --- Match List Formatting to Body Text in Feature Cards --- */
+.feature-card ul,
+.feature-card ol,
+.feature-card li {
+  color: #4a5568;
+  font-size: 16px;   /* Matches your feature-card p font size */
+  line-height: 1.4;  /* Matches your feature-card p line height */
+}
+
+.feature-card ul,
+.feature-card ol {
+  margin-top: 4px;
+  margin-bottom: 12px;
+  padding-left: 20px; /* Keeps clean indentation for bullets */
+}
+
+.feature-card li {
+  margin-bottom: 6px; /* Space between list items */
+}
+
+/* --- Dark Mode Compatibility for Lists --- */
+@media (prefers-color-scheme: dark) {
+  .feature-card ul,
+  .feature-card ol,
+  .feature-card li {
+    color: #cbd5e0;
+  }
+}
+
+/* --- Dark Mode Compatibility --- */
+@media (prefers-color-scheme: dark) {
+  .feature-card h3,
+  .feature-card h4 {
+    color: #f7fafc;
+  }
 }
 
 /* Flexbox Magic: Pushes the button to the bottom edge regardless of text height */
@@ -1373,7 +1406,7 @@ ul.share li:hover i {
   height: 120px;
   z-index: 9999;
   pointer-events: none;
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 .v-motion-symbol {

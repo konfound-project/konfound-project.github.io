@@ -95,7 +95,7 @@ Have questions about running a model or interpreting sensitivity indices? Connec
 
 {{< feature-card >}}
 
-### {{< awesome fas fa-chart-line >}} WWC Benchmarks  
+### {{< awesome fas fa-warehouse >}} WWC Benchmarks  
 Explore sensitivity analyses calculated for the **What Works Clearinghouse (WWC)** through our dedicated interactive benchmark tool.
 
 {{< button href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/" >}}

@@ -3,6 +3,6 @@
     {{- with .Get "heading" -}}
       <h2>{{ . }}</h2>
     {{- end -}}
-    {{ .Inner }}
+    {{ .Inner | markdownify }} <!-- Added | markdownify here -->
   </div>
 </div>
