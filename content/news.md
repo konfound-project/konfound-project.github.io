@@ -4,167 +4,134 @@ subtitle: Latest Updates from the KonFound-It! Team
 comments: false
 ---
 
-
-
-## Latest News
-
 ![Newspapers on a News Stand](/img/news-wide.png)
 
 
 
 ---
 
+{{< feature-card >}}
+## {{< awesome fas fa-calendar-alt >}} Announcing Summer 2026 Workshop
 
+#### Posted: April 6, 2026
 
-### Announcing Summer 2026 Workshop (posted 04/06/26)
+We are excited to announce our upcoming topical workshop at the **ICPSR Summer Program in Quantitative Methods** (July 13–17, 2026):
 
-**Topical Workshop: [ICPSR Summer Program in Quantitative Methods](https://www.icpsr.umich.edu/web/pages/sumprog/)**, July 13&#8211;17, 2026, *[Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data](https://web.cvent.com/event/4ea180c8-1f25-4314-8da9-145297b14113/websitePage:17e8f24b-550c-4a09-a091-06ccd6f667d5?session=271f87c0-e192-4e2b-b873-c793487483b8&shareLink=true)*. Read more at https://konfound-it.org/page/workshops/
- 
+* **Workshop Title:** *Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data*
 
-
----
-
-
-
-### Announcing Summer 2025 Workshops and Conference Presentations (posted 04/07/25)
-
-
-**Conference Presentation: [Society for Causal Inference](https://sci-info.org/2025-meeting/)**, Friday May 16, 10:15-11:45am ET in Detroit, Michigan &#8212; *Multi-faceted Approaches to Sensitivity Analysis for Observational Studies*
-
-
-
-**Topical Workshop: [ICPSR Summer Program in Quantitative Methods](https://www.icpsr.umich.edu/web/pages/sumprog/)**, July 28-Aug 1 &#8212; *[Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data](https://web.cvent.com/event/ab4981a1-0309-42dc-aa29-4ea347e1f24b/websitePage:17e8f24b-550c-4a09-a091-06ccd6f667d5?session=0b9d63fd-a4d6-4707-bbfb-bbb32b41edff&shareLink=true)*
- 
-
-
-**Workshop: Society for Epidemiologic Research**, Tuesday, Aug 5, 12-4pm ET &#8212; *[What Would it Take to Change Your Inference? Quantifying the Discourse about Causal Inferences in Epidemiology](https://epiresearch.org/annual-meeting/2025-meeting/2025-workshops/)*
- 
- 
- 
-**Conference Presentation: [2025 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2025/), Multi-faceted Approaches to Sensitivity Analysis for Observational Studies**, Wednesday, Aug 6, 10:30am-12:30pm (CT) in Nashville, TN &#8212; *Quantifying Sensitivity to Selection on Unobserved Covariates: Recasting the Coefficient of Proportionality within a Correlational Framework* [[Link to paper](https://www.dropbox.com/scl/fi/s63onxsg6yoga5of9nd42/Quantifying-Sensitivity-to-Selection-on-Unobserved-Covariates-2024-distribute.pdf?rlkey=4yyxd9p3ej605n77vrbqq6pq3&e=1&st=3schtjqu&dl=0)]
- 
-Presenters: Kenneth A. Frank, Qinyun Lin, & Spiro Maroulis
- 
-Abstract: Sensitivity analyses can inform evidence-based education policy by quantifying the hypothetical conditions necessary to change an inference. Perhaps the most prevalent index used for sensitivity analyses is Oster’s (2019) Coefficient of Proportionality (COP). Oster’s COP leverages changes in estimated effects and R2 when observed covariates are added to a model to quantify how strong selection on unobserved covariates would have to be relative to on observed covariates to nullify an estimated effect.  In this paper, we reconceptualize the COP as a function of unobserved covariates’ correlations with the focal predictor (e.g., treatment) and with the outcome. Our correlation-based approach addresses recent critiques of Oster’s COP while preserving the comparison of selection on unobserved covariates to selection on observed covariates. As importantly, our expressions do not depend on an analyst’s subjective choice of covariates to include in a baseline model, are exact even in finite samples, and can be directly calculated from conventionally reported quantities (e.g., estimated effect, standard error) through the Konfound packages in R or Stata.  Thus, for most published studies in the social sciences our COP index can be easily applied and intuitively interpreted.
-
-
+{{< button href="https://konfound-it.org/page/workshops/" >}}
+  {{< awesome fas fa-info-circle >}} Read More About Workshops →
+{{< /button >}}
+{{< /feature-card >}}
 
 ---
 
+{{< feature-card >}}
+## {{< awesome fas fa-chalkboard-teacher >}} Summer 2025 Workshops & Conference Presentations
+#### Posted: April 7, 2025
 
+Join the KonFound-It! team at several major conferences and training workshops throughout Summer 2025:
 
-### Quantifying Sensitivity in Causal Inference with Kenneth Frank (posted 02/19/25)
+* **May 16, 2025 (Detroit, MI):** [Society for Causal Inference](https://sci-info.org/2025-meeting/) — *Multi-faceted Approaches to Sensitivity Analysis for Observational Studies* (10:15–11:45 AM ET).
+* **July 28 – August 1, 2025:** [ICPSR Summer Program in Quantitative Methods](https://web.cvent.com/event/ab4981a1-0309-42dc-aa29-4ea347e1f24b/websitePage:17e8f24b-550c-4a09-a091-06ccd6f667d5) — *Sensitivity Analysis: Quantifying the Robustness of Inferences to Alternative Factors or Data*.
+* **August 5, 2025 (Virtual/Hybrid):** [Society for Epidemiologic Research](https://epiresearch.org/annual-meeting/2025-meeting/2025-workshops/) — *What Would it Take to Change Your Inference? Quantifying the Discourse about Causal Inferences in Epidemiology* (12:00–4:00 PM ET).
+* **August 6, 2025 (Nashville, TN):** [2025 Joint Statistical Meetings (JSM)](https://ww2.amstat.org/meetings/jsm/2025/) — *Quantifying Sensitivity to Selection on Unobserved Covariates: Recasting the Coefficient of Proportionality within a Correlational Framework* (10:30 AM–12:30 PM CT).
+  * **Presenters:** Kenneth A. Frank, Qinyun Lin, & Spiro Maroulis.
 
-Watch Dr. Ken Frank give a one-hour introduction to sensitivity analysis as the opening of the upcoming "Sensitivity Analysis for Causal Inference" webinar for [Statistical Horizons](https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/) on March 5&#8211;6, 2025. Dr. Frank introduces key concepts and sets the foundation for exploring robust causal inference techniques.
+> **JSM Abstract:** Sensitivity analyses can inform evidence-based education policy by quantifying the hypothetical conditions necessary to change an inference. Perhaps the most prevalent index used for sensitivity analyses is Oster’s (2019) Coefficient of Proportionality (COP). In this paper, we reconceptualize the COP as a function of unobserved covariates’ correlations with the focal predictor (e.g., treatment) and with the outcome. Our correlation-based approach addresses recent critiques of Oster’s COP while preserving the comparison of selection on unobserved covariates to selection on observed covariates.
 
-{{< youtube id="cIEHaBQRUZk" autoplay="false" color="white" >}}
-
-
-
----
-
-
-
-### Next Workshop: Statistical Horizons (posted 01/13/25)
-
-[Sensitivity Analysis for Causal Inference: Two Key Techniques for Quantifying the Robustness of Causal Inferences](https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/) 
-
-**March 5&#8211;6, 2025** (10:30am&#8211;12:30pm and 1:00pm&#8211;3:00pm Eastern time both days). Virtual.
-
----
-
-#### An 8-hour livestream seminar taught by Kenneth Frank, Ph.D.
- 
-**To get more information and register, click [here](https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/).**
+{{< button href="https://www.dropbox.com/scl/fi/s63onxsg6yoga5of9nd42/Quantifying-Sensitivity-to-Selection-on-Unobserved-Covariates-2024-distribute.pdf?rlkey=4yyxd9p3ej605n77vrbqq6pq3&e=1&st=3schtjqu&dl=0" >}}
+  {{< awesome fas fa-file-pdf >}} Read the Working Paper →
+{{< /button >}}
+{{< /feature-card >}}
 
 ---
 
-*In just 8 hours (over 2 days), gain hands-on experience quantifying the sensitivity of a causal inference using two specialized techniques – Robustness of Inference to Replacement (RIR) and Impact Threshold for a Confounding Variable (ITCV)!*
- 
-Sensitivity analyses are a crucial tool for navigating the complexities of making inferences, especially when dealing with potential alternative explanations. Being able to quantify the impact of omitted variables or changes in data is key to robust and reliable research.
- 
-We will use RIR and ITCV to quantify the sensitivity of an inference. These techniques can be adapted to a range of analyses, including logistic regression, propensity-based approaches, and multilevel models.
- 
-**You will gain the skills to:**
-- Apply and understand techniques for quantifying the robustness of causal inferences.
-- Conduct sensitivity analyses in R or the on-line app https://konfound-project.shinyapps.io/konfound-it/ (Stata and Excel also available).
-- Develop a deeper understanding of statistical control and the counterfactual framework as well as how threats to internal and external validity compare against the strength of evidence.
-- Apply sensitivity analysis to a specific problem of interest that may require extensions or adaptations.
-- Craft statements like: "An omitted variable would need to be correlated at ___ with the predictor and outcome to shift the inference.” or "To challenge the inference, replace __% of the data with counterfactual cases—no treatment effect." 
-- Primary examples will be presented using the pkonfound command in R, but corresponding analyses can be done in Stata.
- 
-**Watch the [first hour](https://youtu.be/cIEHaBQRUZk?si=EqCIejRTi2r4sXGa) of this course on the Statistical Horizons YouTube channel!**
+{{< feature-card >}}
+## {{< awesome fas fa-video >}} Quantifying Sensitivity in Causal Inference with Kenneth Frank
+#### Posted: February 19, 2025
 
----
+Watch Dr. Ken Frank give a one-hour introduction to sensitivity analysis as the opening of the "Sensitivity Analysis for Causal Inference" webinar for Statistical Horizons. Dr. Frank introduces key concepts and sets the foundation for exploring robust causal inference techniques.
 
-#### What do former participants have to say?
- 
->The instructor really tried to simplify the concept/framework and make the course very practical. I loved the opportunity he gave us to actually bring our own projects and see how sensitivity analysis would play out.
+{{< /feature-card >}}
 
- ~ *Felly Chiteng Kot, American University of Sharjah*
- 
->I appreciated the clarity of exposition and the philosophy of the approach. I really liked that this course invited a conversation around causality.
+{{< youtube id="cIEHaBQRUZk" >}}
 
- ~ *Giovanni Russo, Cedefop*
-
----
-
-#### How does it work?
-
-This seminar includes live lectures, hands-on exercise assignments, and plenty of chances to ask questions. Although we recommend joining the seminar live, you can also watch the recorded Zoom sessions whenever it's convenient for you. 
- 
-**Daily Schedule:** *All sessions are held live via Zoom. All times are ET (New York time).*
-- 10:30am-12:30pm 
-- 1:00pm-3:00pm
- 
----
-
-#### Registration is now [open](https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/).
- 
-If you have specific questions, please email info@statisticalhorizons.com. If you can't attend yourself, please forward to a colleague.
-
-<br><br>
 
 
 
 ---
 
+{{< feature-card >}}
+## {{< awesome fas fa-laptop-house >}} Next Workshop: Statistical Horizons Seminar
+#### Posted: January 13, 2025
 
+We are offering an 8-hour livestream seminar taught by Kenneth Frank, Ph.D., focusing on hands-on experience with **Robustness of Inference to Replacement (RIR)** and **Impact Threshold for a Confounding Variable (ITCV)**.
 
-### Announcing the NEW AND IMPROVED KonFound-it app and upcoming workshops (posted 12/19/2024)
- 
-Happy holidays to you!
- 
-We have released new versions of the {{< awesome fas fa-box-open >}} **konfound package** in R (1.0.2) and in Stata. New and updated features include:
+* **Dates:** March 5–6, 2025 (10:30 AM–12:30 PM & 1:00 PM–3:00 PM ET both days)
+* **Format:** Virtual Livestream via Zoom (with recorded sessions available to registrants)
 
-- **Conditional Robustness of Inference for Replacement (CRIR)** in which there is no relationship between predictor and outcome in the replacement data conditional on other terms in the model (e.g., for use with interaction effects when models include main effects as applied in diff in diff).
-- **2x2 and logistic regression added to Stata** (already in R). 
-  - More options for Fragility index (e.g., `switch_trm`)
-- **Unconditional Impact Threshold for a Confounding Variable** is provided when possible.
-  - See Lonati, S., & Wulff, J. N. (2024). [Hic Sunt Dracones: On the risks of comparing the ITCV with control variable correlations](https://journals.sagepub.com/doi/pdf/10.1177/01492063241293126). *Journal of Management*. DOI: 10.1177/01492063241293126
-- [**Coefficient of Proportionality**](https://www.dropbox.com/scl/fi/s63onxsg6yoga5of9nd42/Quantifying-Sensitivity-to-Selection-on-Unobserved-Covariates-2024-distribute.pdf?rlkey=4yyxd9p3ej605n77vrbqq6pq3&e=1&dl=0) – how strong would selection on unobserved covariates have to be relative to observed covariates to nullify an estimated effect. `index = "COP"`
-- **Directly specify a threshold for inference** (other than statistical significance) via `eff_thr`
-- **Specify a non-zero null hypothesis** for significance testing via nu
-- **Application to What Works Clearinghouse** [**Benchmarks**](https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/) for educational research
-- All raw results provided (in R, `to_return = "raw"`, in Stata use `"return list"` after command)
-- Improved statements in print out
-- Improved [**KonFound-It app**](https://konfound-project.shinyapps.io/konfound-it/) interface: https://konfound-project.shinyapps.io/konfound-it/
+### What You Will Learn
+* Apply and understand techniques for quantifying the robustness of causal inferences.
+* Conduct sensitivity analyses using R, Stata, Excel, or the [KonFound-It! Shiny App](https://konfound-project.shinyapps.io/konfound-it/).
+* Craft statements like: *"An omitted variable would need to be correlated at ___ with the predictor and outcome to shift the inference."*
 
-Read an overview of the package at https://konfound-it.org/konfound/ and read through the [Introduction to konfound](https://konfound-it.org/konfound/articles/introduction-to-konfound.html) vignette.
+### Participant Testimonials
+> *"The instructor really tried to simplify the concept/framework and make the course very practical. I loved the opportunity he gave us to actually bring our own projects and see how sensitivity analysis would play out."*
+> — **Felly Chiteng Kot**, *American University of Sharjah*
 
+> *"I appreciated the clarity of exposition and the philosophy of the approach. I really liked that this course invited a conversation around causality."*
+> — **Giovanni Russo**, *Cedefop*
 
+{{< button href="https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/" >}}
+  {{< awesome fas fa-external-link-alt >}} Register at Statistical Horizons →
+{{< /button >}}
+{{< /feature-card >}}
 
 ---
 
+{{< feature-card >}}
+## {{< awesome fas fa-box-open >}} Announcing the New & Improved KonFound-It! App & Package Updates
+#### Posted: December 19, 2024
 
+We have released updated versions of the **konfound package** in R (v1.0.2) and Stata! Key new features and enhancements include:
 
-### Podcast on Sensitivity Analysis
+* **Conditional Robustness of Inference for Replacement (CRIR):** For use when models include main effects as applied in difference-in-differences or interaction models.
+* **Expanded Stata Capabilities:** Added 2x2 tables and logistic regression models directly to the Stata command.
+* **Unconditional ITCV:** Provided automatically when possible (see [Lonati & Wulff, 2024](https://journals.sagepub.com/doi/pdf/10.1177/01492063241293126)).
+* **Coefficient of Proportionality (COP):** Calculate how strong selection on unobserved covariates would have to be relative to observed covariates (`index = "COP"`).
+* **Custom Inference Thresholds:** Directly specify a threshold other than standard statistical significance via `eff_thr`, or specify a non-zero null hypothesis via `nu`.
+* **WWC Benchmarks Integration:** Apply analyses directly to [What Works Clearinghouse Benchmarks](https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/).
 
-{{< awesome fas fa-podcast >}} Also, be sure to check out an AI-generated podcast, 
-created by Google's [NotebookLM](https://notebooklm.google.com/), 
-discussing the KonFound-It! team's article "Quantifying the robustness of causal inferences: 
-Sensitivity analysis for pragmatic social science" in *Social Science Research* 
-([Frank, Lin, Xu, Maroulis, & Mueller, 2023](https://doi.org/10.1016/j.ssresearch.2022.102815)): 
+{{< columns >}}
+{{% feature-card %}}
+#### Read the Documentation
+Explore the full feature list and read our introductory vignette.
+
+[Read R Vignette →](https://konfound-it.org/konfound/articles/introduction-to-konfound.html)
+{{% /feature-card %}}
+
+{{< column >}}
+
+{{% feature-card %}}
+#### Try the Updated Web App
+Test out the redesigned interface in your browser.
+
+[Launch Web App →](https://konfound-project.shinyapps.io/konfound-it/)
+{{% /feature-card %}}
+{{< endcolumns >}}
+
+{{< /feature-card >}}
+
+---
+
+{{< feature-card >}}
+## {{< awesome fas fa-podcast >}} Podcast on Sensitivity Analysis
+#### Posted: September 30, 2024
+
+Listen to an AI-generated audio discussion created by Google's NotebookLM exploring our team's article, *"Quantifying the robustness of causal inferences: Sensitivity analysis for pragmatic social science"* (Frank et al., 2023, *Social Science Research*).
 
 {{< audio src="/audio/frank-et-al-2023-podcast.wav" >}}
 
+[Read Full Article (DOI) →](https://doi.org/10.1016/j.ssresearch.2022.102815)
+{{< /feature-card >}}

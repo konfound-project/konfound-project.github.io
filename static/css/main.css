@@ -75,7 +75,7 @@ h2 {
 
 h3 {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   color: #2d3748;
@@ -92,9 +92,10 @@ h3 {
 
 h4,h5,h6 {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  font-weight: 800;
+  font-size: 16px;
+  font-weight: 400;
   color: #639dad;
+  margin-top: 1.3em;
 }
 
 
@@ -301,6 +302,7 @@ hr, hr.small {
   margin-top: 0.5em;
   margin-bottom: -0.5em;
 }
+
 .feature-card h3 {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
