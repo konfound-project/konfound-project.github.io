@@ -317,9 +317,8 @@ Have a specific question about an application, package, or potential collaborati
 | R Package Maintenance | [Qinyun Lin](https://www.linkedin.com/in/qinyun-lin-b72763112/) | University of Gothenburg |
 | R Shiny Web App | [Joshua Rosenberg](https://joshuamrosenberg.com/) | University of Tennessee, Knoxville |
 | Stata Package Maintenance | [Ran Xu](https://sites.google.com/site/ranxupersonalweb/) | University of Connecticut |
-| Practical User Guide | [Guan Saw](https://www.cgu.edu/people/guan-saw/) | Claremont Graduate University |
+| Practical Guide | [Guan Saw](https://www.cgu.edu/people/guan-saw/) | Claremont Graduate University |
 | Website & Infrastructure | [Bret Staudt Willet](https://bretsw.com) | Florida State University |
-| User Guide | [Guan Saw](https://www.cgu.edu/people/guan-saw/) | Claremont Graduate University |
 | R Package Bug Reports | [GitHub Issues](https://github.com/konfound-project/konfound/issues) | KonFound-It! GitHub |
 | General Q&A & Support | [Google Group Forum](https://groups.google.com/g/konfound-it) | Community Forum |
 
