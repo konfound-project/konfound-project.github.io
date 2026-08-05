@@ -116,21 +116,27 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     parent = "tools"
+    name = "Resource Overview"
+    url = "page/resources"
+    weight = 1
+
+[[menu.main]]
+    parent = "tools"
     name = "Shiny App"
     url = "https://konfound-project.shinyapps.io/konfound-it/"
-    weight = 1
+    weight = 2
 
 [[menu.main]]
     parent = "tools"
     name = "R Package"
     url = "https://konfound-project.github.io/konfound/"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     parent = "tools"
     name = "WWC Benchmarks"
     url = "https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/"
-    weight = 3
+    weight = 4
 
 
 
@@ -142,8 +148,8 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     parent = "learn"
-    name = "Resource Overview"
-    url = "page/resources"
+    name = "Workshops"
+    url = "page/workshops"
     weight = 1
 
 [[menu.main]]
@@ -160,9 +166,21 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     parent = "learn"
-    name = "Workshops"
-    url = "page/workshops"
+    name = "Use Case 1 - RIR"
+    url = "page/case1-RIR"
     weight = 4
+
+[[menu.main]]
+    parent = "learn"
+    name = "Use Case 2 - Logistic"
+    url = "page/case2-log"
+    weight = 5
+
+[[menu.main]]
+    parent = "learn"
+    name = "Use Case 3 - ITCV"
+    url = "page/case3-ITCV"
+    weight = 5
 
 
 

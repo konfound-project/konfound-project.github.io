@@ -1,8 +1,7 @@
 ---
-title: Use Case 1 - RIR
-subtitle: Generalized Robustness of Inference to Replacement
+title: Use Case 1
+subtitle: Generalized Robustness of Inference to Replacement (RIR)
 comments: false
-math: true
 ---
 
 
@@ -52,7 +51,7 @@ In this specific case, Yeager et al. (2019, p. 366) found that the estimated eff
 
 Conducting sensitivity analysis on these findings produces **RIR = 2,603**, which can be interpreted as:
 
-> To nullify the inference that the estimated effect of the growth mindset intervention is 0.10 grade points, **41.19%** of the cases (or **2,603 students**) would have to be due to bias. In other words, to nullify the inference, one would expect to have to replace 41.19% of the observed students with students for whom the treatment effect is zero.
+> To nullify the inference that the estimated effect of the growth mindset intervention is 0.10 grade points, **41.2%** of the cases (or **2,603 students**) would have to be due to bias. In other words, to nullify the inference, one would expect to have to replace 41.2% of the observed students with students for whom the treatment effect is zero.
 
 {{< /feature-card >}}
 
@@ -87,7 +86,7 @@ With this insight from RIR, stakeholders can decide how confident they are to pr
 ```
 library(konfound)
 pkonfound(est_eff = 0.10, 
-          std_err = 0.03, 
+          std_err = 0.03,
           n_obs = 6320)
 ```
 
@@ -99,7 +98,7 @@ pkonfound(est_eff = 0.10,
 
 {{< feature-card >}}
 
-### For detailed, step-by-step instructions of this RIR use case, read [A Practical Guide](/page/guide) (pp. 36-45).
+### For detailed, step-by-step instructions of this RIR use case, read [A Practical Guide](/page/guide) (**pages 36-45**).
 
 {{< button href="/page/guide" >}}
   {{< awesome fas fa-book-reader >}} Follow the guide →
@@ -117,11 +116,11 @@ pkonfound(est_eff = 0.10,
 
 ### {{< awesome fas fa-book-open >}} Read Frank et al. (2013)
 
-**Frank, K. A., Maroulis, S. J., Duong, M. Q., & Kelcey, B. M. (2013).** What would it take to change an inference? Using Rubin’s causal model to interpret the robustness of causal inferences. *Educational Evaluation and Policy Analysis, 35*(4), 437-460. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.3102/0162373713493129) | [{{< awesome fas fa-file-pdf >}} Preprint](https://drive.google.com/file/d/1aGhxGjvMvEPVAgOA8rrxvA97uUO5TTMe/view)
+**Frank, K. A., Maroulis, S. J., Duong, M. Q., & Kelcey, B. M. (2013).** What would it take to change an inference? Using Rubin’s causal model to interpret the robustness of causal inferences. *Educational Evaluation and Policy Analysis, 35*(4), 437-460.
 
 {{< columns >}}
 
-{{< button href="hhttps://doi.org/10.3102/0162373713493129" >}}
+{{< button href="https://doi.org/10.3102/0162373713493129" >}}
   {{< awesome fas fa-globe >}} Read the web version →
 {{< /button >}}
 

@@ -50,11 +50,25 @@
       <description>Talks &amp;amp; PresentationsExplore academic presentations, conference talks, and slide decks from the KonFound-It! research team. Upcoming Talks More Talks Coming Soon Check back soon for upcoming conference presentations and invited academic seminars.&#xA;Recent Presentations Quantifying Sensitivity to Selection on Unobserved Covariates: Recasting the Coefficient of Proportionality Joint Statistical Meetings (JSM 2025) — Multi-faceted Approaches to Sensitivity Analysis for Observational Studies&#xA;Date: August 6, 2025 (10:30 AM – 12:30 PM CT) | Location: Nashville, TN</description>
     </item>
     <item>
-      <title>Use Case 1 - RIR</title>
+      <title>Use Case 1</title>
       <link>https://konfound-project.github.io/page/case1-rir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/case1-rir/</guid>
       <description>How believable are the effects of a growth mindset intervention? Background &amp;ldquo;A National Experiment Reveals Where a Growth Mindset Improves Achievement&amp;rdquo; (Yeager et al., 2019) Nature, Volume 573, pages 364–369&#xA;Abstract: A global priority for the behavioural sciences is to develop cost-effective, scalable interventions that could improve the academic outcomes of adolescents at a population level, but no such interventions have so far been evaluated in a population-generalizable sample. Here we show that a short (less than one hour), online growth mindset intervention—which teaches that intellectual abilities can be developed—improved grades among lower-achieving students and increased overall enrolment to advanced mathematics courses in a nationally representative sample of students in secondary education in the United States.</description>
+    </item>
+    <item>
+      <title>Use Case 2</title>
+      <link>https://konfound-project.github.io/page/case2-log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/case2-log/</guid>
+      <description>How convincing is the link between cohabitation and poverty? Background &amp;ldquo;Marriage, Work, and Racial Inequalities in Poverty: Evidence from the U.S&amp;rdquo; (Thiede et al., 2017) Journal of Marriage and Family, Volume 79, pages 1241–1257&#xA;Abstract: This paper explores recent racial and ethnic inequalities in poverty, estimating the share of racial poverty differentials that can be explained by variation in family structure and workforce participation. The authors use logistic regression to estimate the association between poverty and race, family structure, and workforce participation.</description>
+    </item>
+    <item>
+      <title>Use Case 3</title>
+      <link>https://konfound-project.github.io/page/case3-itcv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/case3-itcv/</guid>
+      <description>How robust is the link between a recent eviction and material hardship? Background &amp;ldquo;Eviction&amp;rsquo;s Fallout: Housing, Hardship, and Health&amp;rdquo; (Desmond &amp;amp; Kimbro, 2015) Social Forces, Volume 94, pages 295-324&#xA;Abstract: Millions of families across the United States are evicted each year. Yet, we know next to nothing about the impact eviction has on their lives. Focusing on low-income urban mothers, a population at high risk of eviction, this study is among the first to examine rigorously the consequences of involuntary displacement from housing.</description>
     </item>
     <item>
       <title>Workshops</title>
