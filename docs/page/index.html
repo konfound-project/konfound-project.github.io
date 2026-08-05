@@ -119,13 +119,13 @@
               <a class="navlinks-parent">Learn</a>
               <div class="navlinks-children">
                 
+                  <a href="/page/resources">Resource Overview</a>
+                
                   <a href="/page/videos">Introductory Videos</a>
                 
                   <a href="/page/guide">Practical Guide</a>
                 
                   <a href="/page/workshops">Workshops</a>
-                
-                  <a href="/page/resources">Resource Overview</a>
                 
               </div>
             </li>
@@ -136,9 +136,9 @@
               <a class="navlinks-parent">Research</a>
               <div class="navlinks-children">
                 
-                  <a href="/page/publications">Publications</a>
-                
                   <a href="/page/talks">Talks</a>
+                
+                  <a href="/page/publications">Publications</a>
                 
                   <a href="https://doi.org/10.21105/joss.05779">R Paper (JOSS)</a>
                 
@@ -422,262 +422,9 @@ Robustness of Inference to Replacement &amp; Fragility for Logistic Regression a
     </p>
     <div class="post-entry">
         
-        <h2 id="pdf-download">PDF Download:</h2>
-<p><a href="ITCV_RIR_PracticalGuide_August2025.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> Practical Guide (August 2025 version)</a></p>
-<hr>
-<h2 id="citation">Citation:</h2>
-<p>*Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Maroulis, S. J., &amp; Staudt Willet, K. B. (2025). <em>A practical guide to impact threshold of a confounding variable (ITCV) and robustness of inference to replacement (RIR)</em>. Michigan State University.</p>
-<p>* Co first authors.</p>
-<hr>
-<script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
-
-<style>
-  #embed-pdf-container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 20vh;
-     
-  }
-
-  .pdf-canvas {
-    border: 1px solid black;
-    direction: ltr;
-    width: 100%;
-    height: auto;
-    display: none;
-  }
-
-  #the-canvas {
-    border: 1px solid black;
-    direction: ltr;
-    width: 100%;
-    height: auto;
-    display: none;
-  }
-
-
-  .pdf-loadingWrapper {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 350px;
-  }
-
-  .pdf-loading {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border: 3px solid #d2d0d0;;
-    border-radius: 50%;
-    border-top-color: #383838;
-    animation: spin 1s ease-in-out infinite;
-    -webkit-animation: spin 1s ease-in-out infinite;
-  }
-
-  
-
-
-
-  #overlayText {
-    word-wrap: break-word;
-    display: grid;
-    justify-content: end;
-  }
-
-  #overlayText a {
-    position: relative;
-    top: 10px;
-    right: 4px;
-    color: #000;
-    margin: auto;
-    background-color: #eeeeee;
-    padding: 0.3em 1em;
-    border: solid 2px;
-    border-radius: 12px;
-    border-color: #00000030;
-    text-decoration: none;
-  }
-
-  #overlayText svg {
-    height: clamp(1em, 2vw, 1.4em);
-    width:  clamp(1em, 2vw, 1.4em);
-  }
-
-
-
-  @keyframes spin {
-    to { -webkit-transform: rotate(360deg); }
-  }
-  @-webkit-keyframes spin {
-    to { -webkit-transform: rotate(360deg); }
-  }
-  </style><div class="embed-pdf-container" id="embed-pdf-container-848afea5">
-    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-848afea5">
-        <div class="pdf-loading" id="pdf-loading-848afea5"></div>
-    </div>
-    <div id="overlayText">
-      <a href="ITCV_RIR_PracticalGuide_August2025.pdf" aria-label="Download" download>
-        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
-            <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
-        </svg>
-      </a>
-    </div>
-    <canvas class="pdf-canvas" id="pdf-canvas-848afea5"></canvas>
-</div>
-
-<div class="pdf-paginator" id="pdf-paginator-848afea5">
-    <button id="pdf-prev-848afea5">Previous</button>
-    <button id="pdf-next-848afea5">Next</button> &nbsp; &nbsp;
-    <span>
-      <span class="pdf-pagenum" id="pdf-pagenum-848afea5"></span> / <span class="pdf-pagecount" id="pdf-pagecount-848afea5"></span>
-    </span>
-    <a class="pdf-source" id="pdf-source-848afea5" href="ITCV_RIR_PracticalGuide_August2025.pdf">[pdf]</a>
-</div>
-
-<noscript>
-View the PDF file <a class="pdf-source" id="pdf-source-noscript-848afea5" href="ITCV_RIR_PracticalGuide_August2025.pdf">here</a>.
-</noscript>
-
-<script type="text/javascript">
-    (function(){
-    var url = 'ITCV_RIR_PracticalGuide_August2025.pdf';
-
-    var hidePaginator = "" === "true";
-    var hideLoader = "" === "true";
-    var selectedPageNum = parseInt("") || 1;
-
-    
-    var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-    
-    if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
-      pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/konfound-project.github.io\/" + 'js/pdf-js/build/pdf.worker.js';
-
-    
-    var pdfDoc = null,
-        pageNum = selectedPageNum,
-        pageRendering = false,
-        pageNumPending = null,
-        scale = 3,
-        canvas = document.getElementById('pdf-canvas-848afea5'),
-        ctx = canvas.getContext('2d'),
-        paginator = document.getElementById("pdf-paginator-848afea5"),
-        loadingWrapper = document.getElementById('pdf-loadingWrapper-848afea5');
-
-
-    
-    showPaginator();
-    showLoader();
-
-    
-
-    function renderPage(num) {
-      pageRendering = true;
-      
-      pdfDoc.getPage(num).then(function(page) {
-        var viewport = page.getViewport({scale: scale});
-        canvas.height = viewport.height;
-        canvas.width = viewport.width;
-
-        
-        var renderContext = {
-          canvasContext: ctx,
-          viewport: viewport
-        };
-        var renderTask = page.render(renderContext);
-
-        
-        renderTask.promise.then(function() {
-          pageRendering = false;
-          showContent();
-
-          if (pageNumPending !== null) {
-            
-            renderPage(pageNumPending);
-            pageNumPending = null;
-          }
-        });
-      });
-
-      
-      document.getElementById('pdf-pagenum-848afea5').textContent = num;
-    }
-
-    
-
-    function showContent() {
-      loadingWrapper.style.display = 'none';
-      canvas.style.display = 'block';
-    }
-
-    
-
-    function showLoader() {
-      if(hideLoader) return
-      loadingWrapper.style.display = 'flex';
-      canvas.style.display = 'none';
-    }
-
-    
-
-    function showPaginator() {
-      if(hidePaginator) return
-      paginator.style.display = 'block';
-    }
-
-    
-
-    function queueRenderPage(num) {
-      if (pageRendering) {
-        pageNumPending = num;
-      } else {
-        renderPage(num);
-      }
-    }
-
-    
-
-    function onPrevPage() {
-      if (pageNum <= 1) {
-        return;
-      }
-      pageNum--;
-      queueRenderPage(pageNum);
-    }
-    document.getElementById('pdf-prev-848afea5').addEventListener('click', onPrevPage);
-
-    
-
-    function onNextPage() {
-      if (pageNum >= pdfDoc.numPages) {
-        return;
-      }
-      pageNum++;
-      queueRenderPage(pageNum);
-    }
-    document.getElementById('pdf-next-848afea5').addEventListener('click', onNextPage);
-
-    
-
-    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-      pdfDoc = pdfDoc_;
-      var numPages = pdfDoc.numPages;
-      document.getElementById('pdf-pagecount-848afea5').textContent = numPages;
-
-      
-      if(pageNum > numPages) {
-        pageNum = numPages
-      }
-
-      
-      renderPage(pageNum);
-    });
-    })();
-</script>
-
-
+        A Practical Guide to ITCV and RIRThe document is intended to serve as a practical guide to implementing the Impact Threshold of a Confounding Variable (ITCV), a sensitivity analysis approach based on omitted variables, and Robustness of Inference to Replacement (RIR), a sensitivity analysis approach based on replacement of cases.
+Download the Practical Guide (August 2025 version) → Citation *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J.
+        <a href="https://konfound-project.github.io/page/guide/" class="post-read-more">[Read More]</a>
         
     </div>
 
@@ -713,8 +460,8 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-848afea5" href="
     </p>
     <div class="post-entry">
         
-        2025 Frank, K. A. (2025). Sensitivity to attrition for inferences from an RCT. Paper presented at the Meeting of the Society for Causal Inference (Detroit, MI, May 2025). Web
-Frank, K. A., Lin, Q., Maroulis, S. J. (2025). &ldquo;Causal inferences from observational studies in education policy: Towards pragmatic social science.&rdquo; In L. Cohen-Vogel, J. Scott, &amp; P. Youngs (Eds.), Handbook on education policy research (2nd ed.). American Educational Research Association.
+        Featured Publications Practical Guide (2025) *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Maroulis, S. J., &amp; Staudt Willet, K. B. (2025, August). A practical guide to impact threshold of a confounding variable (ITCV) and robustness of inference to replacement (RIR) (Version 2). Michigan State University. (* Co-first authors.) White paper. Web | PDF
+R Package (2024) Narvaiz, S., Lin, Q., Rosenberg, J. M., Frank, K.
         <a href="https://konfound-project.github.io/page/publications/" class="post-read-more">[Read More]</a>
         
     </div>
@@ -726,6 +473,10 @@ Frank, K. A., Lin, Q., Maroulis, S. J. (2025). &ldquo;Causal inferences from obs
             <article class="post-preview">
     <a href="https://konfound-project.github.io/page/resources/">
         <h2 class="post-title">Resource Overview</h2>
+        
+        <h3 class="post-subtitle">
+            Tools, Explanatory Documentation, &amp; Key Methodology Papers
+        </h3>
         
         
         
@@ -751,7 +502,7 @@ Frank, K. A., Lin, Q., Maroulis, S. J. (2025). &ldquo;Causal inferences from obs
     </p>
     <div class="post-entry">
         
-        Tools R package (CRAN version) R package (development version) R Shiny app Stata package Benchmarks: What Works Clearinghouse [BETA] Explanatory Resources FAQ Overview of KonFound techniques Overview of KonFound commands Quick examples Slides quantifying the robustness of causal inferences combined frameworks Slides for comparison of frameworks Resources for Publication Published empirical examples KonFound-It! spreadsheet for calculating indices Publications: Impact Threshold for a Confounding Variable Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient.
+        Resource DirectoryAccess our suite of statistical packages, interactive web apps, explanatory slide decks, and core methodological publications. Quick Access Tools &amp; Documentation Software &amp; Web Apps R Package (CRAN Version) R Package (Development GitHub) KonFound-It! Shiny Web App Stata Package (SJ Article) WWC Sensitivity Benchmarks Guides &amp; Slide Decks Frequently Asked Questions (FAQ) Overview of KonFound Techniques (PPTX) Overview of Commands &amp; Inputs (DOCX) Quick Usage Examples Guide (PDF) Combined Frameworks Slides (PPTX) Framework Comparison Slides (PPTX) Publication Resources Empirical Examples &amp; Calculators Published Empirical Application Examples (DOCX) — Real-world write-ups showing how to report KonFound results in peer-reviewed journals.
         <a href="https://konfound-project.github.io/page/resources/" class="post-read-more">[Read More]</a>
         
     </div>
@@ -796,6 +547,48 @@ Frank, K. A., Lin, Q., Maroulis, S. J. (2025). &ldquo;Causal inferences from obs
 Recent Presentations Quantifying Sensitivity to Selection on Unobserved Covariates: Recasting the Coefficient of Proportionality Joint Statistical Meetings (JSM 2025) — Multi-faceted Approaches to Sensitivity Analysis for Observational Studies
 Date: August 6, 2025 (10:30 AM – 12:30 PM CT) | Location: Nashville, TN
         <a href="https://konfound-project.github.io/page/talks/" class="post-read-more">[Read More]</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://konfound-project.github.io/page/case1-rir/">
+        <h2 class="post-title">Use Case 1 - RIR</h2>
+        
+        <h3 class="post-subtitle">
+            Generalized Robustness of Inference to Replacement
+        </h3>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on January 1, 0001
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        How believable are the effects of a growth mindset intervention? Background &ldquo;A National Experiment Reveals Where a Growth Mindset Improves Achievement&rdquo; (Yeager et al., 2019) Nature, Volume 573, pages 364–369
+Abstract: A global priority for the behavioural sciences is to develop cost-effective, scalable interventions that could improve the academic outcomes of adolescents at a population level, but no such interventions have so far been evaluated in a population-generalizable sample. Here we show that a short (less than one hour), online growth mindset intervention—which teaches that intellectual abilities can be developed—improved grades among lower-achieving students and increased overall enrolment to advanced mathematics courses in a nationally representative sample of students in secondary education in the United States.
+        <a href="https://konfound-project.github.io/page/case1-rir/" class="post-read-more">[Read More]</a>
         
     </div>
 

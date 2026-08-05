@@ -12,10 +12,8 @@
 
       <title>Practical Guide - KonFound-It!</title>
 
-  <meta name="description" content="PDF Download: Practical Guide (August 2025 version)
-Citation: *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Maroulis, S. J., &amp; Staudt Willet, K. B. (2025). A practical guide to impact threshold of a confounding variable (ITCV) and robustness of inference to replacement (RIR). Michigan State University.
-* Co first authors.
-Previous Next &nbsp; &nbsp; / [pdf] View the PDF file here. "><script type="application/ld+json">
+  <meta name="description" content="A Practical Guide to ITCV and RIRThe document is intended to serve as a practical guide to implementing the Impact Threshold of a Confounding Variable (ITCV), a sensitivity analysis approach based on omitted variables, and Robustness of Inference to Replacement (RIR), a sensitivity analysis approach based on replacement of cases.
+Download the Practical Guide (August 2025 version) → Citation *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J."><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -63,9 +61,9 @@ Previous Next &nbsp; &nbsp; / [pdf] View the PDF file here. "><script type="appl
     "name" : ""
   },
   "headline": "Practical Guide",
-  "description" : "PDF Download: Practical Guide (August 2025 version)\nCitation: *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Maroulis, S. J., \u0026amp; Staudt Willet, K. B. (2025). A practical guide to impact threshold of a confounding variable (ITCV) and robustness of inference to replacement (RIR). Michigan State University.\n* Co first authors.\nPrevious Next \u0026nbsp; \u0026nbsp; \/ [pdf] View the PDF file here. ",
+  "description" : "A Practical Guide to ITCV and RIRThe document is intended to serve as a practical guide to implementing the Impact Threshold of a Confounding Variable (ITCV), a sensitivity analysis approach based on omitted variables, and Robustness of Inference to Replacement (RIR), a sensitivity analysis approach based on replacement of cases.\nDownload the Practical Guide (August 2025 version) → Citation *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J.",
   "inLanguage" : "en",
-  "wordCount":  66 ,
+  "wordCount":  125 ,
   "datePublished" : "0001-01-01T00:00:00",
   "dateModified" : "0001-01-01T00:00:00",
   "image" : "https:\/\/konfound-project.github.io\/img\/KonFoundit%21.png",
@@ -85,18 +83,15 @@ Previous Next &nbsp; &nbsp; / [pdf] View the PDF file here. "><script type="appl
 </script>
 
 <meta property="og:title" content="Practical Guide" />
-<meta property="og:description" content="PDF Download: Practical Guide (August 2025 version)
-Citation: *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Maroulis, S. J., &amp; Staudt Willet, K. B. (2025). A practical guide to impact threshold of a confounding variable (ITCV) and robustness of inference to replacement (RIR). Michigan State University.
-* Co first authors.
-Previous Next &nbsp; &nbsp; / [pdf] View the PDF file here. ">
+<meta property="og:description" content="A Practical Guide to ITCV and RIRThe document is intended to serve as a practical guide to implementing the Impact Threshold of a Confounding Variable (ITCV), a sensitivity analysis approach based on omitted variables, and Robustness of Inference to Replacement (RIR), a sensitivity analysis approach based on replacement of cases.
+Download the Practical Guide (August 2025 version) → Citation *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J.">
 <meta property="og:image" content="https://konfound-project.github.io/img/KonFoundit%21.png" />
 <meta property="og:url" content="https://konfound-project.github.io/page/guide/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="KonFound-It!" />
 
   <meta name="twitter:title" content="Practical Guide" />
-  <meta name="twitter:description" content="PDF Download: Practical Guide (August 2025 version)
-Citation: *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Maroulis, S. J., &amp; Staudt Willet, K. B. (2025). A practical guide to …">
+  <meta name="twitter:description" content="A Practical Guide to ITCV and RIRThe document is intended to serve as a practical guide to implementing the Impact Threshold of a Confounding Variable (ITCV), a sensitivity analysis approach based on …">
   <meta name="twitter:image" content="https://konfound-project.github.io/img/KonFoundit%21.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <link href='https://konfound-project.github.io/img/KonFoundit%21-mark.png' rel='icon' type='image/x-icon'/>
@@ -177,13 +172,13 @@ Citation: *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Marouli
               <a class="navlinks-parent">Learn</a>
               <div class="navlinks-children">
                 
+                  <a href="/page/resources">Resource Overview</a>
+                
                   <a href="/page/videos">Introductory Videos</a>
                 
                   <a href="/page/guide">Practical Guide</a>
                 
                   <a href="/page/workshops">Workshops</a>
-                
-                  <a href="/page/resources">Resource Overview</a>
                 
               </div>
             </li>
@@ -194,9 +189,9 @@ Citation: *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Marouli
               <a class="navlinks-parent">Research</a>
               <div class="navlinks-children">
                 
-                  <a href="/page/publications">Publications</a>
-                
                   <a href="/page/talks">Talks</a>
+                
+                  <a href="/page/publications">Publications</a>
                 
                   <a href="https://doi.org/10.21105/joss.05779">R Paper (JOSS)</a>
                 
@@ -364,13 +359,19 @@ Citation: *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Marouli
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <h2 id="pdf-download">PDF Download:</h2>
-<p><a href="ITCV_RIR_PracticalGuide_August2025.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> Practical Guide (August 2025 version)</a></p>
-<hr>
-<h2 id="citation">Citation:</h2>
-<p>*Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Maroulis, S. J., &amp; Staudt Willet, K. B. (2025). <em>A practical guide to impact threshold of a confounding variable (ITCV) and robustness of inference to replacement (RIR)</em>. Michigan State University.</p>
-<p>* Co first authors.</p>
-<hr>
+        <div class="hero-box-container">
+  <div class="hero-box-content"><h2>A Practical Guide to ITCV and RIR</h2><p>The document is intended to serve as a practical guide to implementing the Impact Threshold of a Confounding Variable (<strong>ITCV</strong>), a sensitivity analysis approach based on omitted variables, and Robustness of Inference to Replacement (<strong>RIR</strong>), a sensitivity analysis approach based on replacement of cases.</p>
+<a href="ITCV_RIR_PracticalGuide_August2025.pdf"  target="_blank" rel="noreferrer" class="markdown-btn">
+  <i class="fas fa-file-pdf" aria-hidden="true"></i> Download the Practical Guide (August 2025 version) →
+</a> 
+  </div>
+</div>
+
+<div class="feature-card"><h3 id="i-classfas-fa-book-open-aria-hiddentruei-citation"><i class="fas fa-book-open" aria-hidden="true"></i> Citation</h3>
+<p><strong>*Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Maroulis, S. J., &amp; Staudt Willet, K. B. (2025, August).</strong> <em>A practical guide to impact threshold of a confounding variable (ITCV) and robustness of inference to replacement (RIR)</em> (Version 2). Michigan State University. <a href="ITCV_RIR_PracticalGuide_August2025.pdf">PDF Link</a> | <a href="https://doi.org/10.31234/osf.io/pdgbz_v2">DOI: 10.31234/osf.io/pdgbz_v2</a></p>
+<p>* Equal first authors.</p>
+</div>
+
 <script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
 
 <style>

@@ -45,6 +45,8 @@ Join the KonFound-It! team at several major conferences and training workshops t
 {{< /button >}}
 {{< /feature-card >}}
 
+
+
 ---
 
 {{< feature-card >}}
@@ -53,10 +55,13 @@ Join the KonFound-It! team at several major conferences and training workshops t
 
 Watch Dr. Ken Frank give a one-hour introduction to sensitivity analysis as the opening of the "Sensitivity Analysis for Causal Inference" webinar for Statistical Horizons. Dr. Frank introduces key concepts and sets the foundation for exploring robust causal inference techniques.
 
+Watch Dr. Ken Frank discuss methods for communicating sensitivity analyses and statistical robustness during public health crises.
+
+<div class="embed-responsive embed-responsive-16by9" style="margin-top: 15px;">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cIEHaBQRUZk" allowfullscreen></iframe>
+</div>
+
 {{< /feature-card >}}
-
-{{< youtube id="cIEHaBQRUZk" >}}
-
 
 
 

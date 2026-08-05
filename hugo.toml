@@ -107,6 +107,7 @@ pygmentsCodefencesGuessSyntax = true
     weight = 1
 
 
+
 # --- 2. TOOLS (Software & Apps) ---
 [[menu.main]]
     identifier = "tools"
@@ -132,6 +133,7 @@ pygmentsCodefencesGuessSyntax = true
     weight = 3
 
 
+
 # --- 3. LEARN (Dedicated Education Hub) ---
 [[menu.main]]
     identifier = "learn"
@@ -140,27 +142,28 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     parent = "learn"
+    name = "Resource Overview"
+    url = "page/resources"
+    weight = 1
+
+[[menu.main]]
+    parent = "learn"
     name = "Introductory Videos"
     url = "page/videos"
-    weight = 1
+    weight = 2
 
 [[menu.main]]
     parent = "learn"
     name = "Practical Guide"
     url = "page/guide"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     parent = "learn"
     name = "Workshops"
     url = "page/workshops"
-    weight = 3
-
-[[menu.main]]
-    parent = "learn"
-    name = "Resource Overview"
-    url = "page/resources"
     weight = 4
+
 
 
 # --- 4. RESEARCH (Academic Foundations) ---
@@ -171,14 +174,14 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     parent = "research"
-    name = "Publications"
-    url = "page/publications"
+    name = "Talks"
+    url = "page/talks"
     weight = 1
 
 [[menu.main]]
     parent = "research"
-    name = "Talks"
-    url = "page/talks"
+    name = "Publications"
+    url = "page/publications"
     weight = 2
 
 [[menu.main]]
@@ -192,6 +195,7 @@ pygmentsCodefencesGuessSyntax = true
     name = "Stata Paper"
     url = "https://doi.org/10.1177/1536867X19874223"
     weight = 4
+
 
 
 # --- 5. HELP & COMMUNITY ---
@@ -211,6 +215,8 @@ pygmentsCodefencesGuessSyntax = true
     name = "Google Group Forum"
     url = "https://groups.google.com/g/konfound-it"
     weight = 2
+
+
 
 # --- 6. NEWS & ABOUT ---
 [[menu.main]]

@@ -65,11 +65,11 @@ Read the latest release notes, upcoming workshop announcements, and research upd
 
 {{< feature-card >}}
 
-### {{< awesome fas fa-book-reader >}} Guides & FAQ
+### {{< awesome fas fa-book-reader >}} FAQ
 New to sensitivity analysis? Browse through our introductory tutorials, frequently asked questions, and practical research guides.
 
 {{< button href="/page/faq" >}}
-  Read the Guide →
+  Read the FAQ →
 {{< /button >}}
 
 {{< /feature-card >}}

@@ -76,21 +76,21 @@
       <link>https://konfound-project.github.io/page/guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/guide/</guid>
-      <description>PDF Download: Practical Guide (August 2025 version)&#xA;Citation: *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Maroulis, S. J., &amp;amp; Staudt Willet, K. B. (2025). A practical guide to impact threshold of a confounding variable (ITCV) and robustness of inference to replacement (RIR). Michigan State University.&#xA;* Co first authors.&#xA;Previous Next &amp;nbsp; &amp;nbsp; / [pdf] View the PDF file here. </description>
+      <description>A Practical Guide to ITCV and RIRThe document is intended to serve as a practical guide to implementing the Impact Threshold of a Confounding Variable (ITCV), a sensitivity analysis approach based on omitted variables, and Robustness of Inference to Replacement (RIR), a sensitivity analysis approach based on replacement of cases.&#xA;Download the Practical Guide (August 2025 version) → Citation *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J.</description>
     </item>
     <item>
       <title>Publications</title>
       <link>https://konfound-project.github.io/page/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/publications/</guid>
-      <description>2025 Frank, K. A. (2025). Sensitivity to attrition for inferences from an RCT. Paper presented at the Meeting of the Society for Causal Inference (Detroit, MI, May 2025). Web&#xA;Frank, K. A., Lin, Q., Maroulis, S. J. (2025). &amp;ldquo;Causal inferences from observational studies in education policy: Towards pragmatic social science.&amp;rdquo; In L. Cohen-Vogel, J. Scott, &amp;amp; P. Youngs (Eds.), Handbook on education policy research (2nd ed.). American Educational Research Association.</description>
+      <description>Featured Publications Practical Guide (2025) *Frank, K. A., *Saw, G. K., Lin, Q., Xu, R., Rosenberg, J. M., Maroulis, S. J., &amp;amp; Staudt Willet, K. B. (2025, August). A practical guide to impact threshold of a confounding variable (ITCV) and robustness of inference to replacement (RIR) (Version 2). Michigan State University. (* Co-first authors.) White paper. Web | PDF&#xA;R Package (2024) Narvaiz, S., Lin, Q., Rosenberg, J. M., Frank, K.</description>
     </item>
     <item>
       <title>Resource Overview</title>
       <link>https://konfound-project.github.io/page/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/resources/</guid>
-      <description>Tools R package (CRAN version) R package (development version) R Shiny app Stata package Benchmarks: What Works Clearinghouse [BETA] Explanatory Resources FAQ Overview of KonFound techniques Overview of KonFound commands Quick examples Slides quantifying the robustness of causal inferences combined frameworks Slides for comparison of frameworks Resources for Publication Published empirical examples KonFound-It! spreadsheet for calculating indices Publications: Impact Threshold for a Confounding Variable Frank, K. (2000). Impact of a confounding variable on the inference of a regression coefficient.</description>
+      <description>Resource DirectoryAccess our suite of statistical packages, interactive web apps, explanatory slide decks, and core methodological publications. Quick Access Tools &amp;amp; Documentation Software &amp;amp; Web Apps R Package (CRAN Version) R Package (Development GitHub) KonFound-It! Shiny Web App Stata Package (SJ Article) WWC Sensitivity Benchmarks Guides &amp;amp; Slide Decks Frequently Asked Questions (FAQ) Overview of KonFound Techniques (PPTX) Overview of Commands &amp;amp; Inputs (DOCX) Quick Usage Examples Guide (PDF) Combined Frameworks Slides (PPTX) Framework Comparison Slides (PPTX) Publication Resources Empirical Examples &amp;amp; Calculators Published Empirical Application Examples (DOCX) — Real-world write-ups showing how to report KonFound results in peer-reviewed journals.</description>
     </item>
     <item>
       <title>Talks</title>
@@ -98,6 +98,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://konfound-project.github.io/page/talks/</guid>
       <description>Talks &amp;amp; PresentationsExplore academic presentations, conference talks, and slide decks from the KonFound-It! research team. Upcoming Talks More Talks Coming Soon Check back soon for upcoming conference presentations and invited academic seminars.&#xA;Recent Presentations Quantifying Sensitivity to Selection on Unobserved Covariates: Recasting the Coefficient of Proportionality Joint Statistical Meetings (JSM 2025) — Multi-faceted Approaches to Sensitivity Analysis for Observational Studies&#xA;Date: August 6, 2025 (10:30 AM – 12:30 PM CT) | Location: Nashville, TN</description>
+    </item>
+    <item>
+      <title>Use Case 1 - RIR</title>
+      <link>https://konfound-project.github.io/page/case1-rir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://konfound-project.github.io/page/case1-rir/</guid>
+      <description>How believable are the effects of a growth mindset intervention? Background &amp;ldquo;A National Experiment Reveals Where a Growth Mindset Improves Achievement&amp;rdquo; (Yeager et al., 2019) Nature, Volume 573, pages 364–369&#xA;Abstract: A global priority for the behavioural sciences is to develop cost-effective, scalable interventions that could improve the academic outcomes of adolescents at a population level, but no such interventions have so far been evaluated in a population-generalizable sample. Here we show that a short (less than one hour), online growth mindset intervention—which teaches that intellectual abilities can be developed—improved grades among lower-achieving students and increased overall enrolment to advanced mathematics courses in a nationally representative sample of students in secondary education in the United States.</description>
     </item>
     <item>
       <title>Workshops</title>
