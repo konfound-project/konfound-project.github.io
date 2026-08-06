@@ -32,11 +32,29 @@ KonFound-It! provides interactive sensitivity analyses to help researchers, poli
 
 KonFound-It! quantifies how much of an observed effect would need to be bias-driven to invalidate your research conclusions, bridging the gap between rigorous statistical theory and actionable real-world policy.
 
-### {{< awesome fas fa-lightbulb >}}  Examples:
+{{< /feature-card >}}
 
-**Robustness of Inference to Replacement (RIR):** What proportion of our observed cases would we need to replace with "null effect" cases to change our minds?
 
-**Impact Threshold for a Confounding Variable (ITCV):** How strongly must an omitted variable be correlated with the focal predictor (e.g., retention) and the outcome (e.g., reading achievement) to nullify an inference of an effect of the focal predictor on the outcome (e.g., retention on achievement)?
+
+{{< feature-card >}}
+
+## {{< awesome fas fa-lightbulb >}}  Examples of Sensitivity Analysis:
+
+<br><br> 
+
+{{< columns >}}
+
+### {{< awesome fas fa-exchange-alt >}} Robustness of Inference to Replacement (RIR)
+
+What proportion of our observed cases would we need to replace with "null effect" cases to change our minds?
+
+{{< column >}}
+
+### {{< awesome fas fa-square-root-alt >}} Impact Threshold for a Confounding Variable (ITCV)
+
+How strongly must an omitted variable be correlated with the focal predictor (e.g., retention) and the outcome (e.g., reading achievement) to nullify an inference of an effect of the focal predictor on the outcome (e.g., retention on achievement)?
+
+{{< endcolumns >}}
 
 {{< /feature-card >}}
 

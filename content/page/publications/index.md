@@ -46,6 +46,13 @@ comments: false
 
 ---
 
+## 2026
+
+**Frank, K. A., Lin, Q., Maroulis, S., Dai, S., Choi, J., Jess, N., Lin, H.-C., Liu, Y., Maestrales, S., Searle, E., and Tait, J. (2026).** Quantifying sensitivity to selection on unobserved covariates: Recasting the coefficient of proportionality within a correlational framework. *Journal of Eduational and Behavioral Statistics*. [{{< awesome fas fa-globe >}} Web](https://doi.org/10.3102/10769986261422704)
+
+
+---
+
 ## 2025
 
 **Frank, K. A. (2025).** Sensitivity to attrition for inferences from an RCT. Paper presented at the Meeting of the Society for Causal Inference (Detroit, MI, May 2025). [{{< awesome fas fa-globe >}} Web](https://eric.ed.gov/?id=ED674562)

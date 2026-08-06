@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+      <title>Use Case 3 - KonFound-It!</title>
+
+  <meta name="description" content="Impact Threshold of a Confounding Variable (ITCV)"><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "KonFound-It!",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/page\/case3-cop\/",
+          "name": "Use case 3"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : ""
+  },
+  "headline": "Use Case 3",
+  "description" : "How robust is the link between a recent eviction and material hardship? Background \u0026ldquo;Eviction\u0026rsquo;s Fallout: Housing, Hardship, and Health\u0026rdquo; (Desmond \u0026amp; Kimbro, 2015) Social Forces, Volume 94, pages 295-324\nAbstract: Millions of families across the United States are evicted each year. Yet, we know next to nothing about the impact eviction has on their lives. Focusing on low-income urban mothers, a population at high risk of eviction, this study is among the first to examine rigorously the consequences of involuntary displacement from housing.",
+  "inLanguage" : "en",
+  "wordCount":  802 ,
+  "datePublished" : "0001-01-01T00:00:00",
+  "dateModified" : "0001-01-01T00:00:00",
+  "image" : "http:\/\/localhost:1313\/img\/KonFoundit%21.png",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/page\/case3-cop\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/img\/KonFoundit%21.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Use Case 3" />
+<meta property="og:description" content="Impact Threshold of a Confounding Variable (ITCV)">
+<meta property="og:image" content="http://localhost:1313/img/KonFoundit%21.png" />
+<meta property="og:url" content="http://localhost:1313/page/case3-cop/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="KonFound-It!" />
+
+  <meta name="twitter:title" content="Use Case 3" />
+  <meta name="twitter:description" content="Impact Threshold of a Confounding Variable (ITCV)">
+  <meta name="twitter:image" content="http://localhost:1313/img/KonFoundit%21.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='http://localhost:1313/img/KonFoundit%21-mark.png' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.125.7">
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="KonFound-It!">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="http://localhost:1313/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="http://localhost:1313/css/highlight.min.css" /><link rel="stylesheet" href="http://localhost:1313/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:1313/">
+        <img src="http://localhost:1313/img/KonFoundit%21.png" alt="KonFound-It!" class="navbar-logo">
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Home" href="/">Home</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Tools</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/resources">Resource Overview</a>
+                
+                  <a href="https://konfound-project.shinyapps.io/konfound-it/">Shiny App</a>
+                
+                  <a href="https://konfound-project.github.io/konfound/">R Package</a>
+                
+                  <a href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark/">WWC Benchmarks</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Learn</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/workshops">Workshops</a>
+                
+                  <a href="/page/videos">Introductory Videos</a>
+                
+                  <a href="/page/guide">Practical Guide</a>
+                
+                  <a href="/page/case1-RIR">Use Case 1 - RIR</a>
+                
+                  <a href="/page/case2-log">Use Case 2 - Logistic RIR</a>
+                
+                  <a href="/page/case3-ITCV">Use Case 3 - ITCV</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Research</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/talks">Talks</a>
+                
+                  <a href="/page/publications">Publications</a>
+                
+                  <a href="https://doi.org/10.21105/joss.05779">R Paper (JOSS)</a>
+                
+                  <a href="https://doi.org/10.1177/1536867X19874223">Stata Paper</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Help</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/faq">FAQ</a>
+                
+                  <a href="https://groups.google.com/g/konfound-it">Google Group Forum</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="News" href="/news/">News</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/about/">About</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="KonFound-It!" href="http://localhost:1313/">
+            <img class="avatar-img" src="http://localhost:1313/img/KonFoundit%21-mark.png" alt="KonFound-It!" />
+          </a>
+        </div>
+      </div>
+    
+
+    <div class="v-motion-bg-container">
+  <svg class="v-motion-symbol" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    
+    <line x1="20" y1="165" x2="180" y2="165" stroke="#7f9f3d" stroke-width="8" stroke-linecap="round" />
+
+    
+    <g class="v-arrows" fill="none" stroke="#639dad" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+
+      
+      <path class="flow-path-1" d="M 100,165 L 165,40" />
+      <polygon class="flow-head-1" points="137,60 165,40 165,74" fill="#639dad" stroke="none" />
+
+      
+      <path class="flow-path-2" d="M 100,165 L 35,40" />
+      <polygon class="flow-head-2" points="63,60 35,40 35,74" fill="#639dad" stroke="none" />
+
+    </g>
+  </svg>
+</div>
+
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              
+                <h1>Use Case 3</h1>
+              
+              
+                <hr class="small">
+              
+              
+                
+                  <span class="page-subheading">Impact Threshold of a Confounding Variable (ITCV)</span>
+                
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <div class="hero-box-container">
+  <div class="hero-box-content"><h2>How robust is the link between a recent eviction and material hardship?</h2><img src="/img/door.jpg" alt="Photo centered on a single, weather-worn apartment door set into a brick wall halfway up a metal staircase"> 
+  </div>
+</div>
+
+<h2 id="background">Background</h2>
+<div class="feature-card"><h3 id="evictions-fallout-housing-hardship-and-health-desmond--kimbro-2015">&ldquo;Eviction&rsquo;s Fallout: Housing, Hardship, and Health&rdquo; (Desmond &amp; Kimbro, 2015)</h3>
+<p><em>Social Forces, Volume 94</em>, pages 295-324</p>
+<blockquote>
+<p><strong>Abstract:</strong> Millions of families across the United States are evicted each year. Yet, we know next to nothing about the impact eviction has on their lives. Focusing on low-income urban mothers, a population at high risk of eviction, this study is among the first to examine rigorously the consequences of involuntary displacement from housing. Applying two methods of propensity score analyses to data from a national survey, we find that eviction has negative effects on mothers in multiple domains. Compared to matched mothers who were not evicted, mothers who were evicted in the previous year experienced more material hardship, were more likely to suffer from depression, reported worse health for themselves and their children, and reported more parenting stress. Some evidence suggests that at least two years after their eviction, mothers still experienced significantly higher rates of material hardship and depression than peers.</p>
+</blockquote>
+<a href="https://doi.org/10.1093/sf/sov044"  target="_blank" rel="noreferrer" class="markdown-btn">
+  <i class="fas fa-book-open" aria-hidden="true"></i> Read Desmond & Kimbro (2015) →
+</a>
+</div>
+
+<p>In this study, Desmond and Kimbro (2015) evaluated the consequences of involuntary housing displacement among low-income urban mothers. Millions of families across the United States experience eviction each year, yet empirical understanding of its aftermath has historically been limited. By applying propensity score analysis to national survey data, the authors examined whether eviction negatively affects mothers across multiple well-being domains.</p>
+<p>Across all models evaluated in the study, Desmond and Kimbro (2015) identified a large and robust relationship between a recent eviction and material hardship. Regardless of the estimation technique used, respondents who experienced an eviction in the previous year reported around one standard deviation higher material hardship compared to matched mothers who were not evicted.</p>
+<p>Because observational studies cannot randomly assign eviction, stakeholders and policymakers evaluating these findings might desire increased assurance that this strong relationship is not driven by an unobserved or omitted confounding variable.</p>
+<hr>
+<h2 id="how-sensitivity-analysis-helps">How Sensitivity Analysis Helps</h2>
+<p>Sensitivity analysis helps researchers, policymakers, and other stakeholders evaluate the robustness of statistical inferences against potential omitted variables. Specifically, the Impact Threshold of a Confounding Variable (ITCV) quantifies how strong the impact of an unmeasured confounder must be—in terms of its correlation with both the treatment and the outcome—to nullify a statistically significant inference.</p>
+<div class="feature-card"><p>In this specific case, Desmond and Kimbro (2015) found that the estimated effect of a <strong>recent eviction</strong> on women&rsquo;s <strong>material hardship</strong> using propensity score matching was 1.02 standard deviations (standard error = 0.29; <em>t</em> = 3.52; <em>p</em> &lt; 0.01; sample size = 122; number of covariates = 41), based on a threshold of 0.219 for statistical significance (alpha = 0.05).</p>
+<p>Conducting sensitivity analysis on these findings produces an <strong>ITCV impact of 0.191</strong> (derived from component correlations of 0.437 with the outcome and 0.437 with the predictor of interest), which can be interpreted as:</p>
+<blockquote>
+<p>To nullify the inference of the estimated effect of a recent eviction on material hardship, an omitted, confounding variable would have to be correlated at 0.439 with the eviction and at 0.439 with the material hardship. In other words, the impact of an omitted variable must be 0.191 (0.437 * 0.437 = 0.191) to reduce the estimate below the threshold effect of 0.219 for statistical significance at the level of alpha = 0.05. In other words, if the link between a recent eviction and material hardship is just a false alarm caused by some missing, unmeasured factor, that hidden factor would have to be very strongly tied to both eviction and material hardship.<br><br>
+Unless a powerful unobserved factor is simultaneously driving both the likelihood of eviction and the level of material hardship by a substantial amount, the conclusion that eviction increases material hardship remains statistically sound. In social science, a correlation of 0.437 is quite high, so it is unlikely that the researchers forgot to measure a single hidden variable that is so strongly connected to both eviction and hardship.</p>
+</blockquote>
+</div>
+
+<p>With these insights from the ITCV, stakeholders can see exactly how strong an unobserved confounding variable would need to be to convince them to overturn the conclusion that recent eviction increases material hardship. This in turn, can add confidence when moving from looking at research findings to making policy decisions.</p>
+<hr>
+<h2 id="explore-for-yourself">Explore for Yourself</h2>
+<div class="splitbox"><div class="left">
+
+<div class="feature-card"><h3 id="input-the-numbers-into-the-interactive-web-interface">Input the numbers into the interactive web interface:</h3>
+<a href="https://konfound-project.shinyapps.io/konfound-it/"  target="_blank" rel="noreferrer" class="markdown-btn">
+  <i class="fas fa-calculator" aria-hidden="true"></i> Use the R Shiny app →
+</a>
+</div>
+
+</div><div class="right">
+
+<div class="feature-card"><h3 id="or-run-the-code-directly-in-r">Or, run the code directly in R:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">library</span><span class="p">(</span><span class="n">konfound</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">pkonfound</span><span class="p">(</span><span class="n">est_eff</span> <span class="o">=</span> <span class="mf">1.02</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="n">std_err</span> <span class="o">=</span> <span class="mf">0.29</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="n">n_obs</span> <span class="o">=</span> <span class="mi">122</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="n">n_covariates</span> <span class="o">=</span> <span class="mi">41</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="n">index</span> <span class="o">=</span> <span class="s1">&#39;IT&#39;</span><span class="p">)</span>
+</span></span></code></pre></div></div>
+
+</div><div style="clear:both"></div></div>
+
+<div class="feature-card"><h3 id="for-detailed-step-by-step-instructions-of-this-rir-use-case-read-a-practical-guidepageguide-pages-11-27">For detailed, step-by-step instructions of this RIR use case, read <a href="/page/guide">A Practical Guide</a> (<strong>pages 11-27</strong>).</h3>
+<a href="/page/guide"  target="_blank" rel="noreferrer" class="markdown-btn">
+  <i class="fas fa-book-reader" aria-hidden="true"></i> Follow the guide →
+</a>
+</div>
+
+<hr>
+<h2 id="take-a-deeper-dive">Take a Deeper Dive</h2>
+<div class="feature-card"><h3 id="i-classfas-fa-book-open-aria-hiddentruei-read-frank-2000"><i class="fas fa-book-open" aria-hidden="true"></i> Read Frank (2000)</h3>
+<p><strong>Frank, K. (2000).</strong> Impact of a confounding variable on the inference of a regression coefficient. <em>Sociological Methods and Research, 29</em>(2), 147-194.</p>
+<div class="splitbox"><div class="left">
+<a href="https://doi.org/10.1177/0049124100029002001"  target="_blank" rel="noreferrer" class="markdown-btn">
+  <i class="fas fa-globe" aria-hidden="true"></i> Read the web version →
+</a>
+</div><div class="right">
+<a href="https://drive.google.com/file/d/1F7oGYZ8SS8hnZxSI3Dch_w65Qz6KIRdI/view"  target="_blank" rel="noreferrer" class="markdown-btn">
+  <i class="fas fa-file-pdf" aria-hidden="true"></i> Read the PDF version →
+</a>
+</div><div style="clear:both"></div></div></div>
+
+
+
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+
+<h5 class="share-title">Share this page:</h5>
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="https://bsky.app/intent/compose?url=http%3a%2f%2flocalhost%3a1313%2fpage%2fcase3-cop%2f&text=Use&#43;Case&#43;3" target="_blank" title="Share on Bluesky">
+          <i class="fa-brands fa-bluesky"></i>
+        </a>
+      </li>
+
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fpage%2fcase3-cop%2f" target="_blank" title="Share on Facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </li>
+
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fpage%2fcase3-cop%2f&amp;title=Use%20Case%203" target="_blank" title="Share on LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fpage%2fcase3-cop%2f&amp;description=Use%20Case%203" target="_blank" title="Share on Pinterest">
+          <i class="fa-brands fa-pinterest"></i>
+        </a>
+      </li>
+
+      
+      <li>
+        <a href="//reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fpage%2fcase3-cop%2f&amp;title=Use%20Case%203" target="_blank" title="Share on Reddit">
+          <i class="fa-brands fa-reddit"></i>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+
+          
+        
+      </article>
+
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+      
+    <div class="page-meta">
+  
+  
+  
+</div>
+
+
+  
+<footer>
+  <div class="container">
+    
+
+
+
+  <div class="container">
+    <div class="" style="text-align: center;">
+        <div class="" style="display: inline-block;">
+          <img src="/img/bitly-qr.png" alt="QR code to KonFound-It website" style="height:76px;">
+        </div>
+
+        <div class="" style="display: inline-block;">
+          <img src="/img/KonFoundit!.png" alt="KonFound-It logo" style="height:80px;">
+        </div>
+    </div>
+
+        <h4><div style="text-align: center;">
+          KonFound-It is supported by:
+          </div></h4>
+
+        <br>
+
+        <div class="" style="text-align: center;">
+            <img src="/img/ies-logo.jpg" alt="IES logo" style="height:80px;">
+            <a href="https://ies.ed.gov/funding/grantsearch/details.asp?ID=5723">IES Grant #R305D220022</a>&#8212;"Quantifying the Robustness of Causal Inferences: Extensions and Application to Existing Databases"
+            <br><hr><br>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/msu-logo.png" alt="Michigan State University logo" style="height:80px;">
+            </div>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/uk-logo.png" alt="University of Kentucky logo" style="height:80px;">
+            </div>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/gothenburg-logo.png" alt="University of Gothenburg logo" style="height:80px;">
+            </div>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/uconn-logo.png" alt="University of Connecticut logo" style="height:80px;">
+            </div>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/utk-logo.png" alt="University of Tennessee, Knoxville logo" style="height:80px;">
+            </div>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/cgu-logo.png" alt="Claremont Graduate University logo" style="height:80px;">
+            </div>
+
+            <div class="" style="display: inline-block;">
+              <img src="/img/fsu-logo.png" alt="Florida State University logo" style="height:80px;">
+            </div>
+
+         </div>
+  </div>
+
+
+<br><hr><br>
+
+
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="https://groups.google.com/forum/#!forum/konfound-it" title="Google Group Forum">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fa-solid fa-paper-plane fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://github.com/konfound-project" title="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fa-brands fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://cran.r-project.org/package=konfound" title="R Package">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fa-brands fa-r-project fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://doi.org/10.1177/1536867X19874223" title="Stata Package">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fa-brands fa-stripe-s fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://konfound-project.shinyapps.io/konfound-it" title="R Shiny App">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-calculator fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://konfound-project.shinyapps.io/wwc-sensitivity-benchmark" title="Benchmarks - What Works Clearinghouse">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-warehouse fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+
+<br>
+
+        <p class="credits copyright text-muted">
+          
+
+          &nbsp;&copy;
+          <script type="text/javascript">document.write( new Date().getFullYear() );</script>
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://localhost:1313/">KonFound-It!</a>
+          
+
+          <script src="https://tinylytics.app/embed/csTdm5dhpt3F4jLXaRDW.js" defer></script>
+
+        </p>
+
+<br>
+
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.125.7</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          , customized by <a href="https://bretsw.com">bretsw</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="http://localhost:1313/js/main.js"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://localhost:1313/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+
