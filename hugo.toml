@@ -167,7 +167,7 @@ pygmentsCodefencesGuessSyntax = true
 [[menu.main]]
     parent = "learn"
     name = "Use Case 1 - RIR"
-    url = "page/case1-RIR"
+    url = "page/case1-rir"
     weight = 4
 
 [[menu.main]]
@@ -179,13 +179,13 @@ pygmentsCodefencesGuessSyntax = true
 [[menu.main]]
     parent = "learn"
     name = "Use Case 3 - ITCV"
-    url = "page/case3-ITCV"
+    url = "page/case3-itcv"
     weight = 6
 
 [[menu.main]]
     parent = "learn"
     name = "Use Case 4 - CoP"
-    url = "page/case4-CoP"
+    url = "page/case4-cop"
     weight = 7
 
 
