@@ -38,7 +38,7 @@ KonFound-It! quantifies how much of an observed effect would need to be bias-dri
 
 {{< feature-card >}}
 
-## {{< awesome fas fa-lightbulb >}}  Examples of Sensitivity Analysis:
+## {{< awesome fas fa-lightbulb >}} Frameworks for Sensitivity Analysis:
 
 <br><br> 
 
