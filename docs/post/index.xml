@@ -1,47 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on KonFound-It!</title>
-    <link>https://konfound-project.github.io/post/</link>
-    <description>Recent content in Posts on KonFound-It!</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://konfound-project.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Quantifying Sensitivity in Causal Inference with Kenneth Frank</title>
-      <link>https://konfound-project.github.io/post/2024-12-20-statistical-horizons-workshop/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/post/2024-12-20-statistical-horizons-workshop/</guid>
-      <description>Learn more and register: https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/&#xA;Explore the first hour of Kenneth Frank&amp;rsquo;s seminar on &amp;ldquo;Sensitivity Analysis for Causal Inference,&amp;rdquo; where he introduces key concepts and sets the foundation for exploring robust causal inference techniques.&#xA;About this Seminar This seminar provides hands-on experience with two techniques for quantifying the sensitivity of causal inferences: Robustness of Inference to Replacement (RIR) and Impact Threshold for a Confounding Variable (ITCV). These techniques can be adapted to a range of analyses, including logistic regression, propensity-based approaches, and multilevel models.</description>
-    </item>
-    <item>
-      <title>Frequently Asked Questions About the Application of KonFound-It for Sensitivity</title>
-      <link>https://konfound-project.github.io/post/2023-08-13-faq/</link>
-      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/post/2023-08-13-faq/</guid>
-      <description>Introduction This document addresses some frequently asked questions regarding KonFound.&#xA;Questions? Issues? Suggestions? Reach out through the KounFound-It! Google Group.&#xA;See the appendices for background readings and software. For quick reference, visit:&#xA;[Development version of the FAQ](https://www.dropbox.com/s/9eymdekym5g50o7/frequently asked questions for application of konfound-it.docx) Overview of all KonFound commands Main introductory slides for combined frameworks Background There are two basic frameworks for sensitivity analysis employed within KonFound. First is the Impact Threshold for a Confounding Variable (ITCV)—Frank (2000).</description>
-    </item>
-    <item>
-      <title>Welcome!</title>
-      <link>https://konfound-project.github.io/post/2020-05-14-welcome/</link>
-      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/post/2020-05-14-welcome/</guid>
-      <description>Welcome to our space about sensitivity analysis. All of the assumptions of statistical analysis rarely hold. So the challenge for the pragmatist is to understand when evidence is strong enough to support action. That&amp;rsquo;s where sensitivity analysis comes in—so we can understand how robust our inferences are to challenges to our assumptions. One example is a statement such as:&#xA;XX% of the estimated effect would have to be due to bias to change your inference about the effect.</description>
-    </item>
-    <item>
-      <title>Why is robustness important for emerging COVID-19 studies?</title>
-      <link>https://konfound-project.github.io/post/2020-05-12-why-robustness/</link>
-      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/post/2020-05-12-why-robustness/</guid>
-      <description>As those who work in public policy and health, we seek to help a broad range of people, with a broad range of statistical backgrounds, interpret uncertainty about public health findings regarding COVID-19. We observe that currently, there is little common language for expressing uncertainty. Consider Anthony Fauci&amp;rsquo;s quote (as in Healio on April 29):&#xA;The trial, which began Feb. 21 this year, compared remdesivir with placebo in more than 1,000 patients.</description>
-    </item>
-    <item>
-      <title>A 15-minute talk</title>
-      <link>https://konfound-project.github.io/post/2020-05-01-presentation/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://konfound-project.github.io/post/2020-05-01-presentation/</guid>
-      <description>I summarized our current thinking on how robustness analysis can be applied to emerging COVID research in a brief presentation at an online conference entitled &amp;ldquo;COVID-19 and Public Policy and Management.&amp;rdquo; The conference was hosted by the Center on Technology, Data, and Society at Arizona State University, and a recording of the 15-minute talk, entitled &amp;ldquo;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates&amp;rdquo;, is available here.&#xA;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates </description>
-    </item>
-  </channel>
+	<channel>
+		<title>Posts on KonFound-It!</title>
+		<link>https://konfound-project.github.io/post/</link>
+		<description>Recent content in Posts on KonFound-It!</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://konfound-project.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Quantifying Sensitivity in Causal Inference with Kenneth Frank</title>
+				<link>https://konfound-project.github.io/post/2024-12-20-statistical-horizons-workshop/</link>
+				<pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+				<guid>https://konfound-project.github.io/post/2024-12-20-statistical-horizons-workshop/</guid>
+				<description>&lt;p&gt;Learn more and register: &lt;a href=&#34;https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/&#34;&gt;https://statisticalhorizons.com/seminars/sensitivity-analysis-causal-inference/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Explore the first hour of Kenneth Frank&amp;rsquo;s seminar on &amp;ldquo;Sensitivity Analysis for Causal Inference,&amp;rdquo; where he introduces key concepts and sets the foundation for exploring robust causal inference techniques.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/cIEHaBQRUZk?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;about-this-seminar&#34;&gt;About this Seminar&lt;/h3&gt;&#xA;&lt;p&gt;This seminar provides hands-on experience with two techniques for quantifying the sensitivity of causal inferences: Robustness of Inference to Replacement (RIR) and Impact Threshold for a Confounding Variable (ITCV). These techniques can be adapted to a range of analyses, including logistic regression, propensity-based approaches, and multilevel models. You&amp;rsquo;ll learn to apply and understand these techniques and conduct sensitivity analyses in R, Stata, or the on-line app &lt;a href=&#34;https://konfound-project.shinyapps.io/konfound-it/&#34;&gt;https://konfound-project.shinyapps.io/konfound-it/&lt;/a&gt;. Designed for researchers, policymakers, and clinicians, this seminar equips you with the skills to address challenges to an inference and strengthen discourse around causal evidence.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Frequently Asked Questions About the Application of KonFound-It for Sensitivity</title>
+				<link>https://konfound-project.github.io/post/2023-08-13-faq/</link>
+				<pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+				<guid>https://konfound-project.github.io/post/2023-08-13-faq/</guid>
+				<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This document addresses some frequently asked questions regarding KonFound.&lt;/p&gt;&#xA;&lt;p&gt;&lt;i class=&#34;fas fa-paper-plane&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Questions? Issues? Suggestions? Reach out through the &lt;a href=&#34;https://groups.google.com/g/konfound-it&#34;&gt;KounFound-It! Google Group&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;See the appendices for background readings and software. For quick reference, visit:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[Development version of the FAQ](&lt;a href=&#34;https://www.dropbox.com/s/9eymdekym5g50o7/frequently&#34;&gt;https://www.dropbox.com/s/9eymdekym5g50o7/frequently&lt;/a&gt; asked questions for application of konfound-it.docx)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/33zkk861g04hocf/Overview%20of%20KonFound%20commands%20with%20inputs%20and%20outputs.docx?dl=0&#34;&gt;Overview of all KonFound commands&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/scl/fi/jfhwfuim4d001usup81c8/quantifying-the-robustness-of-causal-inferences-combined-frameworks-for-stat-horizons-July-23.pptx?rlkey=32srefdir2q6r9pq5998i1q1b&amp;amp;dl=0&#34;&gt;Main introductory slides for combined frameworks&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;&#xA;&lt;p&gt;There are two basic frameworks for sensitivity analysis employed within KonFound. First is the &lt;em&gt;Impact Threshold for a Confounding Variable&lt;/em&gt; (ITCV)—&lt;a href=&#34;https://konfound-project.github.io/page/publications/frank-2000.pdf&#34;&gt;Frank (2000)&lt;/a&gt;. This generates statements such as &amp;ldquo;To invalidate an inference an omitted variable would have to be correlated at __ with the predictor of interest and with the outcome.&amp;rdquo;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Welcome!</title>
+				<link>https://konfound-project.github.io/post/2020-05-14-welcome/</link>
+				<pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+				<guid>https://konfound-project.github.io/post/2020-05-14-welcome/</guid>
+				<description>&lt;p&gt;Welcome to our space about &lt;strong&gt;sensitivity analysis&lt;/strong&gt;. All of the assumptions of statistical analysis rarely hold. So the challenge for the pragmatist is to understand when evidence is strong enough to support action. That&amp;rsquo;s where sensitivity analysis comes in—so we can understand how robust our inferences are to challenges to our assumptions. One example is a statement such as:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;XX% of the estimated effect would have to be due to bias to change your inference about the effect.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>Why is robustness important for emerging COVID-19 studies?</title>
+				<link>https://konfound-project.github.io/post/2020-05-12-why-robustness/</link>
+				<pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+				<guid>https://konfound-project.github.io/post/2020-05-12-why-robustness/</guid>
+				<description>&lt;p&gt;As those who work in public policy and health, we seek to help a broad range of people, with a broad range of statistical backgrounds, interpret uncertainty about public health findings regarding COVID-19. We observe that currently, there is little common language for expressing uncertainty. Consider Anthony Fauci&amp;rsquo;s quote (as in Healio on April 29):&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The trial, which began Feb. 21 this year, compared remdesivir with placebo in more than 1,000 patients. Remdesivir improved recovery from 15 days to 11 days, with a &lt;em&gt;p&lt;/em&gt;-value of 0.001. …We would have normally waited several more days. &lt;strong&gt;The data may change, but the conclusion won’t.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>A 15-minute talk</title>
+				<link>https://konfound-project.github.io/post/2020-05-01-presentation/</link>
+				<pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+				<guid>https://konfound-project.github.io/post/2020-05-01-presentation/</guid>
+				<description>&lt;p&gt;I summarized our current thinking on how robustness analysis can be applied to emerging COVID research in a brief presentation at an online conference entitled &amp;ldquo;COVID-19 and Public Policy and Management.&amp;rdquo; The conference was hosted by the &lt;a href=&#34;https://techdatasociety.asu.edu/&#34;&gt;Center on Technology, Data, and Society&lt;/a&gt; at Arizona State University, and a recording of the 15-minute talk, entitled &amp;ldquo;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates&amp;rdquo;, is available here.&lt;/p&gt;&#xA;&lt;h3 id=&#34;communicating-the-robustness-of-inferences-as-covid-19-evidence-accumulates&#34;&gt;Communicating the Robustness of Inferences as COVID-19 Evidence Accumulates&lt;/h3&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/3Djd0EmvL8Q?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;</description>
+			</item>
+	</channel>
 </rss>

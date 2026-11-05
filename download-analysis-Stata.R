@@ -3,7 +3,7 @@ library(jsonlite)
 library(scales)
 
 df <-
-  read_csv("download-data-stata-jan2026.csv") %>%
+  read_csv("download-data-stata-nov2026.csv") %>%
   rename(date = month,
          count = downloads) %>%
   mutate(date = ym(str_replace(date, "m", "-")),
@@ -32,7 +32,7 @@ write_json(package_download_metrics, "data/stata_package_downloads.json", auto_u
 
 ggplot(df, aes(x = date, y = cumulative)) +
   geom_line() +
-  scale_y_continuous(label = comma, limits = c(0, 20000)) +
+  scale_y_continuous(label = comma, limits = c(0, 25000)) +
   theme_bw() +
   labs(y = "Cumulative Downloads", x = "")
 

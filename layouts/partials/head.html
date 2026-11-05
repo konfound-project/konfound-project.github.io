@@ -20,7 +20,7 @@
   {{- $.Scratch.Set "Title" $title }}
 {{- else }}
   {{- $.Scratch.Set "Description" ( .Description | default .Params.subtitle | default .Summary ) }}
-  {{- $.Scratch.Set "Title" ( .Title | default .Site.Title ) }}
+  {{- $.Scratch.Set "Title" ( .Title | default site.Title ) }}
 {{- end }}
 
   <meta charset="utf-8" />
@@ -30,29 +30,30 @@
  <!-- Site Title, Description, Author, and Favicon -->
 
 {{ if .IsHome }}
-    {{- with .Site.Params.homeTitle }}
+    {{- with site.Params.homeTitle }}
       <title>{{ . }}</title>
     {{- end }}
   {{ else }}
     {{- with ($.Scratch.Get "Title") }}
-      <title>{{ . }} - {{ $.Site.Params.homeTitle }}</title>
+      <title>{{ . }} - {{ site.Params.homeTitle }}</title>
     {{- end }}
 {{ end }}
 
 {{- with ($.Scratch.Get "Description") }}
   <meta name="description" content="{{ . }}">
 {{- end }}
-{{- with .Site.Author.name }}
+
+{{- with site.Params.author.name }}
   <meta name="author" content="{{ . }}"/>
 {{- end }}
 {{- partial "seo/main.html" . }}
-{{- with .Site.Params.favicon }}
+{{- with site.Params.favicon }}
   <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
 {{- end -}}
 <!-- Hugo Version number -->
   {{ hugo.Generator -}}
 <!-- Links and stylesheets -->
-  <link rel="alternate" href="{{ "index.xml" | absLangURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
+  <link rel="alternate" href="{{ "index.xml" | absLangURL }}" type="application/rss+xml" title="{{ site.Title }}">
 
 
 
@@ -60,7 +61,7 @@
 
 
 
-  {{- if .Site.Params.selfHosted -}}
+  {{- if site.Params.selfHosted -}}
   <link rel="stylesheet" href="{{ "css/katex.min.css" | absURL }}" />
   <link rel="stylesheet" href="{{ "fontawesome/css/all.css" | absURL }}" />
   <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}" />
@@ -72,29 +73,29 @@
 
   <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
 
-  {{- if .Site.Params.staticman -}}
+  {{- if site.Params.staticman -}}
   <link rel="stylesheet" href="{{ "css/staticman.css" | absURL }}" />
   {{- end -}}
 
-  {{- if .Site.Params.selfHosted -}}
+  {{- if site.Params.selfHosted -}}
   <link rel="stylesheet" href="{{ "css/fonts.css" | absURL }}" />
   {{- else -}}
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
   {{- end -}}
 
-  {{- if .Site.Params.useHLJS }}
+  {{- if site.Params.useHLJS }}
   <link rel="stylesheet" href="{{ "css/highlight.min.css" | absURL }}" />
   {{- else -}}
   <link rel="stylesheet" href="{{ "css/syntax.css" | absURL }}" />
   {{- end -}}
   <link rel="stylesheet" href="{{ "css/codeblock.css" | absURL }}" />
 
-  {{- if .Site.Params.staticman.recaptcha -}}
+  {{- if site.Params.staticman.recaptcha -}}
   <script src='https://www.google.com/recaptcha/api.js'></script>
   {{- end -}}
 
-  {{- if .Site.Params.selfHosted -}}
+  {{- if site.Params.selfHosted -}}
   <link rel="stylesheet" href="{{ "css/photoswipe.min.css" | absURL }}" />
   <link rel="stylesheet" href="{{ "css/photoswipe.default-skin.min.css" | absURL }}" />
   {{- else -}}
@@ -103,6 +104,6 @@
   {{- end -}}
 
 {{- partial "head_custom.html" . }}
-{{- if not .Site.IsServer -}}
-  {{ template "_internal/google_analytics.html" . }}
+{{- if not hugo.IsServer -}}
+  {{ partial "google_analytics.html" . }}
 {{- end -}}

@@ -1,3 +1,4 @@
 {{ $url := "https://crandb.r-pkg.org/konfound" }}
-{{ $data := getJSON $url }}
+{{ $resource := resources.GetRemote $url }}
+{{ $data := $resource.Content | transform.Unmarshal }}
 {{ $data.Version }}

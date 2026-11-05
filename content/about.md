@@ -234,7 +234,7 @@ Command to quantify robustness of causal inferences in Stata.
 
 #### Download Metrics
 
-| Monthly Downloads | Total Downloads (Jan. 2026) |
+| Monthly Downloads | Total Downloads (Nov. 2026) |
 | :--- | :--- |
 | {{< stata_package_downloads "monthly_downloads" >}} | {{< stata_package_downloads "total_downloads" >}} |
 

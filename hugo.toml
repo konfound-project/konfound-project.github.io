@@ -12,7 +12,9 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
-#disqusShortname = "XXX"
+
+[services.disqus]
+#  shortname = "your_id"
 
 
 
@@ -23,6 +25,7 @@ pygmentsCodefencesGuessSyntax = true
 [Params]
   homeTitle = "KonFound-It!"
   subtitle = "Quantify the Robustness of Causal Inferences"
+  name = "KonFound-it Team"
   mainSections = [] # Define a page to show up below landing page (e.g., "post", "posts")
   logo = "img/KonFoundit!.png"
   mark = "img/KonFoundit!-mark.png" # Expecting square dimensions
@@ -56,10 +59,8 @@ pygmentsCodefencesGuessSyntax = true
 
 
 
-[Author]
-#  Customize social icons in >> themes >> beautifulhugo >> data >> beautifulhugo >> social.toml
-#  Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-#  name = "Some Person"
+[Params.author]
+  name = "KonFound-it Team"
   website = "konfound-it.org"
   group = "konfound-it"
 #  email = "youremail@domain.com"
